@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "trailingSlash": true,
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/industries/cpg/",
+      "permanent": true
+    }
+  ]
+}
