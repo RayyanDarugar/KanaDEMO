@@ -1,0 +1,12 @@
+{
+  "name": "kana-demo",
+  "version": "1.0.0",
+  "description": "Kana AI Marketing Platform - Industry Solutions Page Reusable Template",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js"
+  },
+  "keywords": [],
+  "author": "Antigravity",
+  "license": "ISC"
+}
