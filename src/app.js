@@ -168,17 +168,220 @@ export function renderApp(config) {
         </a>
         
         <nav class="nav-menu">
-          <div class="nav-item">
-            <button class="dropdown-toggle" id="industriesDropdownBtn" aria-expanded="false" aria-haspopup="true">
-              Industries
-              <svg width="12" height="8" viewBox="0 0 12 8" fill="none">
-                <path d="M1 1.5L6 6.5L11 1.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-            </button>
-            <div class="dropdown-menu" id="industriesDropdownMenu" role="menu">
-              ${industriesListHtml}
-            </div>
-          </div>
+          <ul class="nav-links-list">
+            <li class="nav-item">
+              <a href="../../index.html" class="nav-link-item">Home</a>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <button class="dropdown-toggle" id="solutionsDropdownBtn" aria-expanded="false" aria-haspopup="true">
+                Solutions
+                <svg width="10" height="6" viewBox="0 0 10 6" fill="none" style="margin-left: 4px;"><path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+              <div class="dropdown-menu megamenu solutions-megamenu" id="solutionsDropdownMenu" role="menu">
+                <div class="megamenu-header-band">
+                  <a href="/solutions" class="all-solutions-link">
+                    <span>All solutions</span>
+                    <svg width="14" height="10" viewBox="0 0 14 10" fill="none" style="margin-left: 6px;"><path d="M1 5H13M13 5L9 1M13 5L9 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                  </a>
+                </div>
+                <div class="megamenu-columns">
+                  <!-- Industries Column (Non-Obtrusive Integration!) -->
+                  <div class="megamenu-col industries-col">
+                    <div class="megamenu-col-title">By Industry</div>
+                    <div class="industries-menu-list">
+                      ${industriesListHtml}
+                    </div>
+                  </div>
+
+                  <!-- Platform Core -->
+                  <div class="megamenu-col">
+                    <div class="megamenu-col-title">Platform Core</div>
+                    <a href="/solutions/campaignmanagement" class="megamenu-link">
+                      <img src="https://cdn.prod.website-files.com/6938c88532164b75764d7ec5/69901757ec677b2ce290fcb4_Smarter%20Campaign%20Management.svg" class="megamenu-icon" alt=""/>
+                      <div class="megamenu-link-text">
+                        <div class="megamenu-link-name">Campaign Management</div>
+                      </div>
+                    </a>
+                    <a href="/solutions/marketingintel" class="megamenu-link">
+                      <img src="https://cdn.prod.website-files.com/6938c88532164b75764d7ec5/699017579f378c81f5094a40_Analytics.svg" class="megamenu-icon" alt=""/>
+                      <div class="megamenu-link-text">
+                        <div class="megamenu-link-name">Marketing Intelligence</div>
+                      </div>
+                    </a>
+                    <a href="/solutions/aeo" class="megamenu-link">
+                      <img src="https://cdn.prod.website-files.com/6938c88532164b75764d7ec5/69901758dc3503adabece211_Answer%20Engine%20Optimization.svg" class="megamenu-icon" alt=""/>
+                      <div class="megamenu-link-text">
+                        <div class="megamenu-link-name">Answer Engine Optimization</div>
+                      </div>
+                    </a>
+                    <a href="/solutions/category-intelligence-hub" class="megamenu-link">
+                      <img src="https://cdn.prod.website-files.com/6938c88532164b75764d7ec5/6a07370a2e3e29f5d03b13d9_Category%20Intelligence%20Hub.svg" class="megamenu-icon" alt=""/>
+                      <div class="megamenu-link-text">
+                        <div class="megamenu-link-name">Category Intelligence Hub</div>
+                      </div>
+                    </a>
+                  </div>
+                  
+                  <!-- Agent Services -->
+                  <div class="megamenu-col">
+                    <div class="megamenu-col-title">Agent Services</div>
+                    <a href="/solutions/customerengagement" class="megamenu-link">
+                      <img src="https://cdn.prod.website-files.com/6938c88532164b75764d7ec5/699017586c99f26d8f0a4085_Customer%20Engagement.svg" class="megamenu-icon" alt=""/>
+                      <div class="megamenu-link-text">
+                        <div class="megamenu-link-name">Customer Engagement</div>
+                      </div>
+                    </a>
+                    <a href="/solutions/syntheticdata" class="megamenu-link">
+                      <img src="https://cdn.prod.website-files.com/6938c88532164b75764d7ec5/69901757d8ab518db4cb3c52_Synthetic%20Data%20Generation.svg" class="megamenu-icon" alt=""/>
+                      <div class="megamenu-link-text">
+                        <div class="megamenu-link-name">Synthetic Data Generation</div>
+                      </div>
+                    </a>
+                    <a href="/solutions/mediaproposals" class="megamenu-link">
+                      <img src="https://cdn.prod.website-files.com/6938c88532164b75764d7ec5/69901757be05292281eee76e_Media%20Proposal%20Generation.svg" class="megamenu-icon" alt=""/>
+                      <div class="megamenu-link-text">
+                        <div class="megamenu-link-name">Media Proposal Generator</div>
+                      </div>
+                    </a>
+                    <a href="/solutions/audience-manager" class="megamenu-link">
+                      <img src="https://cdn.prod.website-files.com/6938c88532164b75764d7ec5/6a07370afa74e1a989f5eb11_Audience%20Manager.svg" class="megamenu-icon" alt=""/>
+                      <div class="megamenu-link-text">
+                        <div class="megamenu-link-name">Audience Manager</div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <button class="dropdown-toggle" id="resourcesDropdownBtn" aria-expanded="false" aria-haspopup="true">
+                Resources
+                <svg width="10" height="6" viewBox="0 0 10 6" fill="none" style="margin-left: 4px;"><path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+              <div class="dropdown-menu megamenu resources-megamenu" id="resourcesDropdownMenu" role="menu">
+                <div class="resources__grid">
+                  <!-- Left side: Newsroom & FAQ -->
+                  <div class="resources__coll">
+                    <div class="resources-item-block">
+                      <a href="/newsroom" class="resources-block-title">
+                        <div class="icon-wrapper news-icon">
+                          <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z" fill="currentColor"/></svg>
+                        </div>
+                        <span>Newsroom</span>
+                        <svg class="chevron-right" width="12" height="12" viewBox="0 0 24 24" fill="none" style="margin-left: 4px;"><path d="M9 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                      </a>
+                      <div class="featured-article-card">
+                        <div class="article-card-tag">LATEST ARTICLE</div>
+                        <a href="https://www.businesswire.com/news/home/20260326828346/en/Transparent-Partners-and-Kana-Announce-Strategic-Partnership-to-Deliver-Enterprise-Grade-Agentic-AI-for-Marketing" target="_blank" class="article-card-link">
+                          <div class="article-card-cover">
+                            <img src="https://cdn.prod.website-files.com/6985f304223445dc4a40285e/69c57c9b7edff6465930f1a0_Transparent%20Partners-1.avif" alt="Transparent Partners"/>
+                          </div>
+                          <div class="article-card-body">
+                            <div class="article-card-title" style="line-height:1.2; margin-bottom:4px;">Transparent Partners and Kana Strategic Partnership</div>
+                            <div class="article-card-desc">Delivering Enterprise-Grade Agentic AI for Marketing tech investments.</div>
+                            <span class="read-more-text">Read More &nbsp;›</span>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="resources-item-block">
+                      <a href="/faq" class="resources-block-title">
+                        <div class="icon-wrapper faq-icon">
+                          <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 16h-2v-2h2v2zm1.07-7.75l-.9.92C12.45 11.9 12 12.5 12 14h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H5c0-3.87 3.13-7 7-7s7 3.13 7 7c0 1.11-.45 2.12-1.17 2.85z" fill="currentColor"/></svg>
+                        </div>
+                        <span>FAQ</span>
+                        <svg class="chevron-right" width="12" height="12" viewBox="0 0 24 24" fill="none" style="margin-left: 4px;"><path d="M9 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                      </a>
+                    </div>
+                  </div>
+                  
+                  <!-- Right side: Content & Blog -->
+                  <div class="resources__coll">
+                    <div class="resources-item-block">
+                      <a href="/content" class="resources-block-title">
+                        <div class="icon-wrapper content-icon">
+                          <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6h-8l-2-2H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-6 10H6v-2h8v2zm4-4H6v-2h12v2z" fill="currentColor"/></svg>
+                        </div>
+                        <span>Content</span>
+                        <svg class="chevron-right" width="12" height="12" viewBox="0 0 24 24" fill="none" style="margin-left: 4px;"><path d="M9 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                      </a>
+                      <ul class="resources-content-links">
+                        <li><a href="/content?category=White+Papers" class="content-nav-sublink">White Papers</a></li>
+                        <li><a href="/content?category=Product+Materials" class="content-nav-sublink">Product Materials</a></li>
+                        <li><a href="/content?category=Video" class="content-nav-sublink">Video</a></li>
+                      </ul>
+                    </div>
+                    <div class="resources-item-block" style="margin-top: 8px;">
+                      <a href="/blog" class="resources-block-title">
+                        <div class="icon-wrapper blog-icon">
+                          <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z" fill="currentColor"/></svg>
+                        </div>
+                        <span>Blog</span>
+                        <svg class="chevron-right" width="12" height="12" viewBox="0 0 24 24" fill="none" style="margin-left: 4px;"><path d="M9 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="megamenu-substack-footer">
+                  <a href="https://www.tomisms.com/" target="_blank" class="substack-footer-link">
+                    <img src="https://cdn.prod.website-files.com/6938c88532164b75764d7ec5/6989c7707a282a65be10cfbc_9158d4d99cb920f8713a950358a9757c_Frame%202087330851.avif" alt=""/>
+                    <span>Tom Chavez's Substack</span>
+                  </a>
+                  <a href="https://www.problem-is.com/" target="_blank" class="substack-footer-link">
+                    <img src="https://cdn.prod.website-files.com/6938c88532164b75764d7ec5/6989c77076666dfa1c21ebef_Frame%202087330852.avif" alt=""/>
+                    <span>Vivek Vaidya's Substack</span>
+                  </a>
+                </div>
+              </div>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <button class="dropdown-toggle" id="companyDropdownBtn" aria-expanded="false" aria-haspopup="true">
+                Company
+                <svg width="10" height="6" viewBox="0 0 10 6" fill="none" style="margin-left: 4px;"><path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+              <div class="dropdown-menu company-dropdown" id="companyDropdownMenu" role="menu">
+                <a href="/about" class="company-dropdown-link">
+                  <div class="company-link-icon about-icon">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z" fill="currentColor"/></svg>
+                  </div>
+                  <span>About Kana</span>
+                </a>
+                <a href="/partners" class="company-dropdown-link">
+                  <div class="company-link-icon partners-icon">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M12.5 8c-1.65 0-3 1.35-3 3s1.35 3 3 3 3-1.35 3-3-1.35-3-3-3zm0 4c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm8.5-5H3c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2zm-1 12H4V9h17v10z" fill="currentColor"/></svg>
+                  </div>
+                  <span>Partners</span>
+                </a>
+                <a href="/investors" class="company-dropdown-link">
+                  <div class="company-link-icon investors-icon">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.2c-.07-2.01-1.42-3.66-3.7-4.13V3h-4v2.01c-2.43.51-4.14 2.13-4.14 4.41 0 2.82 2.26 4.24 5.7 5.08 2.51.6 3.1 1.38 3.1 2.33 0 1.09-1.01 1.85-2.7 1.85-2 0-2.83-.98-2.9-2.3H5c.07 2.42 1.94 4.09 4.5 4.62V21h4v-2.02c2.44-.49 4.5-2.11 4.5-4.49 0-3.39-2.93-4.01-6.2-4.59z" fill="currentColor"/></svg>
+                  </div>
+                  <span>Investors</span>
+                </a>
+                <a href="/events" class="company-dropdown-link">
+                  <div class="company-link-icon events-icon">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zm0-12H5V6h14v2zm-7 5h5v2h-5z" fill="currentColor"/></svg>
+                  </div>
+                  <span>Events</span>
+                </a>
+                <a href="/contact-us" class="company-dropdown-link">
+                  <div class="company-link-icon contact-icon">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" fill="currentColor"/></svg>
+                  </div>
+                  <span>Contact Us</span>
+                </a>
+                <a href="/legal" class="company-dropdown-link">
+                  <div class="company-link-icon legal-icon">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z" fill="currentColor"/></svg>
+                  </div>
+                  <span>Legal</span>
+                </a>
+              </div>
+            </li>
+          </ul>
         </nav>
         
         <a href="${config.nav.cta.href}" class="kana-bubble-btn compact dark-body">
@@ -455,21 +658,46 @@ export function renderApp(config) {
     }
   });
 
-  // 2. Navigation Industries Dropdown toggle
-  const dropdownBtn = document.getElementById('industriesDropdownBtn');
-  const dropdownMenu = document.getElementById('industriesDropdownMenu');
+  // 2. Navigation Megamenu Dropdown Manager
+  const dropdowns = [
+    { btnId: 'solutionsDropdownBtn', menuId: 'solutionsDropdownMenu' },
+    { btnId: 'resourcesDropdownBtn', menuId: 'resourcesDropdownMenu' },
+    { btnId: 'companyDropdownBtn', menuId: 'companyDropdownMenu' }
+  ];
 
-  dropdownBtn.addEventListener('click', (e) => {
-    e.stopPropagation();
-    const expanded = dropdownBtn.getAttribute('aria-expanded') === 'true';
-    dropdownBtn.setAttribute('aria-expanded', !expanded);
+  dropdowns.forEach(d => {
+    const btn = document.getElementById(d.btnId);
+    const menu = document.getElementById(d.menuId);
+    if (!btn || !menu) return;
+
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const expanded = btn.getAttribute('aria-expanded') === 'true';
+      
+      // Close all dropdowns
+      dropdowns.forEach(other => {
+        const otherBtn = document.getElementById(other.btnId);
+        if (otherBtn) {
+          otherBtn.setAttribute('aria-expanded', 'false');
+        }
+      });
+
+      // Toggle current
+      if (!expanded) {
+        btn.setAttribute('aria-expanded', 'true');
+      }
+    });
   });
 
   // Close dropdown when clicking outside
   document.addEventListener('click', (e) => {
-    if (!dropdownBtn.contains(e.target) && !dropdownMenu.contains(e.target)) {
-      dropdownBtn.setAttribute('aria-expanded', 'false');
-    }
+    dropdowns.forEach(d => {
+      const btn = document.getElementById(d.btnId);
+      const menu = document.getElementById(d.menuId);
+      if (btn && menu && !btn.contains(e.target) && !menu.contains(e.target)) {
+        btn.setAttribute('aria-expanded', 'false');
+      }
+    });
   });
 
   // 3. FAQ Accordion functionality
