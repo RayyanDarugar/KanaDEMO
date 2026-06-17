@@ -717,32 +717,15 @@ a {
 
 .pain-title {
   color: var(--color-midnight-blue);
+  font-size: clamp(24px, 3.2vw, 30px);
+  line-height: 1.2;
+  letter-spacing: -0.6px;
 }
 
 .pain-desc {
   color: var(--color-text-muted);
-  line-height: 1.45;
-}
-
-.pain-callout {
-  padding: 16px;
-  border-radius: 6px;
-  background: rgba(var(--color-accent-rgb), 0.06);
-  border-left: 3px solid var(--color-accent);
-  font-size: 13.5px;
-  line-height: 1.45;
-  color: var(--color-text-dark);
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-
-.pain-callout-header {
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 11px;
-  letter-spacing: 0.8px;
-  color: var(--color-accent);
+  font-size: 18px;
+  line-height: 1.55;
 }
 
 /* ============================================================
@@ -850,7 +833,8 @@ a {
 
 .solution-desc {
   color: var(--color-text-muted);
-  line-height: 1.45;
+  font-size: 18px;
+  line-height: 1.55;
 }
 
 .solution-visual-block {
@@ -1702,4 +1686,195 @@ a {
   color: var(--color-accent);
   background: rgba(var(--color-accent-rgb), 0.1);
 }
+
+/* ============================================================
+   PERSONA STRIP & ROLE CHIP STYLING
+   ============================================================ */
+
+/* Solution Role Chip */
+.solution-role-chip {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  background: rgba(var(--color-accent-rgb), 0.08);
+  border: 1px solid rgba(var(--color-accent-rgb), 0.2);
+  padding: 4px 10px;
+  border-radius: 4px;
+  letter-spacing: 0.5px;
+  align-self: flex-start;
+  margin-top: -8px;
+  margin-bottom: 4px;
+}
+
+/* Persona Strip Section */
+.persona-section {
+  background-color: var(--color-bg-light);
+  border-bottom: 1px solid var(--color-border-light);
+}
+
+.persona-subtext {
+  text-align: center;
+  color: var(--color-text-muted);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.persona-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 48px;
+  flex-wrap: wrap;
+}
+
+.persona-tab {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border-light);
+  color: var(--color-text-muted);
+  padding: 12px 24px;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: var(--transition-smooth);
+}
+
+.persona-tab:hover {
+  border-color: var(--color-accent);
+  color: var(--color-text-dark);
+}
+
+.persona-tab.active {
+  background-color: var(--color-accent);
+  color: var(--color-white);
+  border-color: var(--color-accent);
+  box-shadow: 0 4px 15px rgba(var(--color-accent-rgb), 0.25);
+}
+
+.persona-panel-content {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 48px;
+  align-items: start;
+}
+
+@media (max-width: 991px) {
+  .persona-panel-content {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
+
+.persona-pains-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.persona-pain-item {
+  display: flex;
+  gap: 16px;
+}
+
+.persona-pain-bullet {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--color-accent);
+  margin-top: 8px;
+  flex-shrink: 0;
+}
+
+.persona-pain-body {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.persona-pain-text {
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--color-text-dark);
+  line-height: 1.5;
+}
+
+.persona-solution-card {
+  padding: 36px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  transition: var(--transition-smooth);
+}
+
+.persona-solution-card:hover {
+  border-color: var(--color-accent);
+  transform: translateY(-4px);
+  box-shadow: 0 15px 35px rgba(8, 34, 73, 0.08), 0 0 20px rgba(var(--color-accent-rgb), 0.15);
+}
+
+.persona-sol-badge {
+  background: rgba(var(--color-accent-rgb), 0.08);
+  color: var(--color-accent);
+  border: 1px solid rgba(var(--color-accent-rgb), 0.2);
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 4px 8px;
+  border-radius: 4px;
+  display: inline-block;
+  letter-spacing: 0.5px;
+}
+
+.persona-sol-name {
+  color: var(--color-midnight-blue);
+}
+
+.persona-sol-desc {
+  color: var(--color-text-muted);
+  line-height: 1.55;
+  font-size: 16.5px;
+}
+
+.persona-sol-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  color: var(--color-accent);
+  transition: var(--transition-fast);
+}
+
+.persona-sol-link:hover {
+  color: var(--color-text-dark);
+}
+
+.persona-sol-chevron {
+  transition: transform 0.2s ease;
+}
+
+.persona-sol-link:hover .persona-sol-chevron {
+  transform: translateX(4px);
+}
+
+/* Inline Blog Backlinks */
+.pain-blog-link, .solution-blog-link {
+  display: inline-block;
+  color: var(--color-accent);
+  font-weight: 600;
+  margin-left: 6px;
+  font-size: inherit;
+  transition: var(--transition-fast);
+  border-bottom: 1px dashed rgba(var(--color-accent-rgb), 0.4);
+  text-decoration: none;
+}
+
+.pain-blog-link:hover, .solution-blog-link:hover {
+  color: var(--color-text-dark);
+  border-bottom-color: var(--color-text-dark);
+}
+
 

@@ -419,15 +419,14 @@ export function renderApp(config) {
 
   // ── 3. PAIN POINTS SECTION RENDER ──
   const painCardsHtml = config.painPoints.map((pain, index) => {
+    const blogLinkHtml = pain.blog 
+      ? ` <a href="${pain.blog.href}" class="pain-blog-link">${pain.blog.text} &nbsp;›</a>` 
+      : '';
     return `
       <div class="pain-card glass">
         <div class="pain-card-top">
           <h3 class="type-heading pain-title">${pain.title}</h3>
-          <p class="type-body pain-desc">${pain.description}</p>
-        </div>
-        <div class="pain-callout">
-          <span class="pain-callout-header">Research Fact (KAN-24)</span>
-          <span>${pain.stat}</span>
+          <p class="type-body pain-desc">${pain.description}${blogLinkHtml}</p>
         </div>
       </div>
     `;
@@ -452,6 +451,9 @@ export function renderApp(config) {
     const mediaHtml = hasVideo 
       ? resolveAsset(sol.video, 'video', `${sol.feature} Demo Video`)
       : resolveAsset(sol.image, 'solution-image', `${sol.feature} Preview`);
+    const blogLinkHtml = sol.blog 
+      ? ` <a href="${sol.blog.href}" class="solution-blog-link">${sol.blog.text} &nbsp;›</a>` 
+      : '';
 
     return `
       <div class="solution-row" id="solution-row-${index}" style="background-image: url('${sol.bg}');">
@@ -460,8 +462,9 @@ export function renderApp(config) {
             <img src="${sol.icon}" class="solution-icon" alt="" onerror="this.outerHTML='<svg class=&quot;solution-icon&quot; viewBox=&quot;0 0 24 24&quot;><path d=&quot;M12 2L2 22h20L12 2z&quot;></path></svg>'">
           </div>
           <span class="type-small-body solution-label">${sol.feature}</span>
+          ${sol.roleLabel ? `<span class="solution-role-chip">${sol.roleLabel}</span>` : ''}
           <h3 class="type-large-title solution-title">${sol.title}</h3>
-          <p class="type-body solution-desc">${sol.description}</p>
+          <p class="type-body solution-desc">${sol.description}${blogLinkHtml}</p>
         </div>
         <div class="solution-visual-block">
           ${mediaHtml}
@@ -482,6 +485,87 @@ export function renderApp(config) {
       </div>
     </section>
   `;
+
+  // ── 4.5 PERSONAS SECTION RENDER ──
+  let personasHtml = '';
+  if (config.personas && config.personas.length > 0) {
+    const personaTabsHtml = config.personas.map((persona, index) => {
+      const isActive = index === 0;
+      return `
+        <button role="tab" 
+                aria-selected="${isActive ? 'true' : 'false'}" 
+                aria-controls="persona-panel-${index}" 
+                id="persona-tab-${index}" 
+                class="persona-tab ${isActive ? 'active' : ''}" 
+                data-target="persona-panel-${index}">
+          ${persona.role}
+        </button>
+      `;
+    }).join('');
+
+    const personaPanelsHtml = config.personas.map((persona, index) => {
+      const isActive = index === 0;
+      const painPointsListHtml = persona.painPoints.map(pain => {
+        const blogLinkHtml = pain.blog 
+          ? ` <a href="${pain.blog.href}" class="pain-blog-link">${pain.blog.text} &nbsp;›</a>` 
+          : '';
+        return `
+          <div class="persona-pain-item">
+            <div class="persona-pain-bullet"></div>
+            <div class="persona-pain-body">
+              <p class="type-body persona-pain-text">${pain.text}${blogLinkHtml}</p>
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      return `
+        <div role="tabpanel" 
+             id="persona-panel-${index}" 
+             aria-labelledby="persona-tab-${index}" 
+             class="persona-panel-content" 
+             style="display: ${isActive ? 'grid' : 'none'};">
+           <div class="persona-pains-list">
+             ${painPointsListHtml}
+           </div>
+           <div class="persona-solution-card-wrapper">
+             <div class="persona-solution-card glass">
+               <div class="persona-sol-tag-row">
+                 <span class="persona-sol-badge">Kana Solution</span>
+               </div>
+               <h4 class="type-heading persona-sol-name">${persona.solution.name}</h4>
+               <p class="type-body persona-sol-desc">${persona.solution.description}</p>
+               <a href="${persona.solution.linkHref}" class="persona-sol-link">
+                 <span>${persona.solution.linkLabel}</span>
+                 <svg width="14" height="10" viewBox="0 0 14 10" fill="none" class="persona-sol-chevron">
+                   <path d="M1 5H13M13 5L9 1M13 5L9 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                 </svg>
+               </a>
+             </div>
+           </div>
+         </div>
+       `;
+    }).join('');
+
+    personasHtml = `
+      <section class="persona-section section-padding" id="personas">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="type-h2 section-title">Which of these is you?</h2>
+            <p class="type-body persona-subtext">Select your role to see the problems Kana was built to solve for it.</p>
+          </div>
+          
+          <div role="tablist" class="persona-tabs">
+            ${personaTabsHtml}
+          </div>
+          
+          <div class="persona-panel-wrapper">
+             ${personaPanelsHtml}
+          </div>
+        </div>
+      </section>
+    `;
+  }
 
   // ── 5. STATS BAR SECTION RENDER ──
   const statsColsHtml = config.stats.map(st => {
@@ -637,6 +721,7 @@ export function renderApp(config) {
     <main>
       ${heroHtml}
       ${painPointsHtml}
+      ${personasHtml}
       ${solutionsHtml}
       ${statsBarHtml}
       ${testimonialHtml}
@@ -739,6 +824,34 @@ export function renderApp(config) {
           behavior: 'smooth'
         });
       }
+    });
+  });
+
+  // 5. Persona selector logic
+  const personaTabs = document.querySelectorAll('.persona-tab');
+  const personaPanels = document.querySelectorAll('.persona-panel-content');
+  
+  personaTabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      // Deactivate all tabs
+      personaTabs.forEach(t => {
+        t.classList.remove('active');
+        t.setAttribute('aria-selected', 'false');
+      });
+      
+      // Activate clicked tab
+      tab.classList.add('active');
+      tab.setAttribute('aria-selected', 'true');
+      
+      const targetId = tab.getAttribute('data-target');
+      // Hide all panels, show target
+      personaPanels.forEach(panel => {
+        if (panel.id === targetId) {
+          panel.style.display = 'grid';
+        } else {
+          panel.style.display = 'none';
+        }
+      });
     });
   });
 }

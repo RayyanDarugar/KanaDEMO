@@ -4,8 +4,7 @@
 // brand-assets/ folder must be at the root of the repo.
 // To add a vertical: copy this file, rename, swap values, set accent.
 // Layout reads ONLY from this object. Zero layout edits per vertical.
-// Pain points + stats: real research (KAN-24, May 2026).
-// Hero/solution/FAQ copy: scaffolding — will be finalized before launch.
+// Hero/solution/FAQ copy: finalized CPG copy.
 // ============================================================
 
 export const industryConfig = {
@@ -54,78 +53,120 @@ export const industryConfig = {
   // ── HERO ───────────────────────────────────────────────────
   hero: {
     headline:     "The AI Marketing Platform <em>Built for CPG Brands</em>",
-    subheadline:  "Your budget is fragmented across 200+ retailer platforms, your shelf data is trapped, and AI search is rewriting discovery. Kana unifies all three.",
+    subheadline:  "Stop running campaigns with stale data. Ingest real-time scan and POS feeds, model omnichannel programmatic saturation, and walk into buyer meetings with live category intelligence. Kana connects ad spend directly to shelf velocity.",
     primaryCta:   { text: "Book a Demo",      href: "/demo" },
     secondaryCta: { text: "See how it works", href: "#solutions" },
     image:        "../../brand-assets/AVIF/6a0738509e86699ed6c6bd9e_Solutions-1.avif",
   },
 
-  // ── PAIN POINTS — real KAN-24 research ─────────────────────
+  // ── PAIN POINTS ─────────────────────
   painPoints: [
     {
-      title:       "Fragmented Across 200+ Platforms",
-      description: "CPG brands now spend 39% of ad budgets on retail media, but manage it across 8+ disconnected platforms — and by the time underdelivery shows in a post-campaign report, the budget is gone.",
-      stat:        "CPG brands allocate 39% of ad budgets to retail media yet operate across 8+ platforms that each report success differently (Skai; Adtelligent, 2026)",
+      title:       "Category intelligence is a week behind the shelf",
+      description: "CPG category teams rely on weekly or bi-weekly syndicated data drops, processed manually into spreadsheets. By the time reports reach category managers, shelf conditions have already shifted—meaning you enter buyer meetings with outdated views.",
+      blog: {
+        text: "How to unify retail POS feeds in real time",
+        href: "/blog/cpg-real-time-pos-data"
+      }
     },
     {
-      title:       "Your Data Doesn't Reach the Decision",
-      description: "POS data lives in retailer portals, shipment data in your ERP, consumer data in your CRM. Category managers walk into buyer meetings with data that's days old.",
-      stat:        "CPG companies waste 20+ hours weekly stitching data into Excel; only 23% of retailers share data in real time (SR Analytics; Skai, 2026)",
+      title:       "Programmatic media budgets waste 56% of ad spend",
+      description: "CPG brands allocate major budgets to retail media, but without channel saturation curves, waste compounds. Benchmark research shows only $439 of every $1,000 spent programmatically actually reaches real consumers due to ad fraud and bid shading.",
+      blog: {
+        text: "A guide to programmatic saturation curves",
+        href: "/blog/programmatic-saturation-curves"
+      }
     },
     {
-      title:       "Your Brand Isn't the Answer Anymore",
-      description: "Shoppers are moving discovery from Google to ChatGPT, Perplexity, and Gemini. Legacy CPG brands that win on shelf are losing the AI citation race.",
-      stat:        "Only 35% of global CPG launches in early 2024 were genuinely new — a 30-year low — while AI Overviews suppress organic CTR by up to 61% (NetSuite; McKinsey, 2026)",
+      title:       "Audience briefs lose fidelity during platform translation",
+      description: "When data teams translate creative briefs into active ad segments, strategic nuance is lost. Over 42% of marketers report audience mismatch as their most costly mistake, wasting billions annually on poorly targeted ads with no traceability back to the brief.",
+      blog: {
+        text: "Why campaign ops teams struggle with audience translation",
+        href: "/blog/audience-mismatch-briefs"
+      }
     },
   ],
 
-  // ── SOLUTIONS — 4 CPG-native Kana products ─────────────────
-  // video: non-null path = render as autoplay muted loop <video>. Null = use image.
+  // ── SOLUTIONS — 5 CPG-native Kana products ─────────────────
   solutions: [
     {
-      feature:     "Campaign Management",
-      title:       "Catch waste while campaigns run",
-      description: "Campaign Management catches underdelivery and waste across every retail media platform in-flight — not in the post-mortem.",
-      icon:        "../../brand-assets/SVG/69901757ec677b2ce290fcb4_Smarter Campaign Management.svg",
-      image:       "../../brand-assets/WEBP/69fb34a37abc32670956d9d8_22a3b8e403e4a9722e6b5bc578c29054_solutions_01_2x.webp",
-      bg:          "../../brand-assets/JPG/6a073cc04b820e89c641b48b_solution-bg__1.jpg",
-      video:       null,
-    },
-    {
-      feature:     "Marketing Intelligence",
-      title:       "Chat with all your data",
-      description: "Marketing Intelligence unifies fragmented regional and retailer data into one live view, so cross-region learning actually happens.",
-      icon:        "../../brand-assets/SVG/699017579f378c81f5094a40_Analytics.svg",
-      image:       "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp",
-      bg:          "../../brand-assets/JPG/6a073cc0a301e7e98b87934a_solution-bg__4.jpg",
-      video:       "../../brand-assets/MP4/Marketing Intelligence_x1.5.mp4",
-    },
-    {
       feature:     "Category Intelligence Hub",
-      title:       "Shelf signals in seconds",
-      description: "The Category Intelligence Hub ingests scan/POS and external category signals and answers in seconds, not days — built for VP Category roles at CPG companies.",
+      roleLabel:   "Built for Category Managers",
+      title:       "Shelf signals in seconds, not days",
+      description: "The Category Intelligence Hub ingests scan data, POS feeds, and external category signals and answers category questions in seconds. Category managers stop spending time compiling data and start spending it on the strategic decisions that actually move share.",
       icon:        "../../brand-assets/SVG/6a07370a2e3e29f5d03b13d9_Category Intelligence Hub.svg",
       image:       "../../brand-assets/WEBP/69fb34a309b57c2ab7a2437c_f3e2b3b11b80faf9ae6c49a500d8353c_solutions_03_2x.webp",
       bg:          "../../brand-assets/JPG/6a073cc03bbf9cc8a6b457ff_solution-bg__3.jpg",
       video:       null,
+      blog: {
+        text: "How Category Intelligence drives SKU velocity",
+        href: "/blog/category-intelligence-sku-velocity"
+      }
     },
     {
-      feature:     "AEO (Answer Engine Optimization)",
-      title:       "Win the AI citation race",
-      description: "AEO controls how your brand appears in ChatGPT, Perplexity, and Gemini — the discovery layer that's replacing traditional search.",
-      icon:        "../../brand-assets/SVG/69901758dc3503adabece211_Answer Engine Optimization.svg",
-      image:       "../../brand-assets/WEBP/69fb34a3244de10cf3d7a9a5_5b797b2c34c52d464bce0b2b1d520ea3_solutions_04_2x.webp",
-      bg:          "../../brand-assets/JPG/6a073cc05e660038226b085c_solution-bg__5.jpg",
+      feature:     "Omni-Channel Media Planner",
+      roleLabel:   "Built for VP Media & Performance Teams",
+      title:       "Stop optimizing with last year's channel mix",
+      description: "The Omni-Channel Media Planner models saturation curves against your own campaign data and maps brief targeting parameters to platform-specific configurations across Meta, YouTube, The Trade Desk, and DV360. Budget allocation stops being driven by habit and starts being driven by modeled ROAS.",
+      icon:        "../../brand-assets/SVG/69901757be05292281eee76e_Media Proposal Generation.svg",
+      image:       "../../brand-assets/WEBP/69fb34a37abc32670956d9d8_22a3b8e403e4a9722e6b5bc578c29054_solutions_01_2x.webp",
+      bg:          "../../brand-assets/JPG/6a073cc04b820e89c641b48b_solution-bg__1.jpg",
       video:       null,
+      blog: {
+        text: "Modeling media mix models for CPG",
+        href: "/blog/cpg-mmm-modeling"
+      }
+    },
+    {
+      feature:     "Audience Manager",
+      roleLabel:   "Built for Campaign Ops & Marketing Ops",
+      title:       "Brief to live segment without an engineering ticket",
+      description: "Audience Manager lets campaign teams build, validate, and activate audience segments in plain language — no SQL, no data engineering queue. Every segment is traceable back to the original brief, so when a campaign underperforms, you can actually answer why.",
+      icon:        "../../brand-assets/SVG/6a07370afa74e1a989f5eb11_Audience Manager.svg",
+      image:       "../../brand-assets/WEBP/69fb34a3693f25a94988df0e_5897b8bc1884f86278bb63a02dc23207_solutions_05_2x.webp",
+      bg:          "../../brand-assets/JPG/6a073cc05e660038226b085c_solution-bg__5.jpg",
+      video:       "../../brand-assets/MP4/Audience Manager_tiny.mp4",
+      blog: {
+        text: "How to bypass SQL for audience segment builds",
+        href: "/blog/bypass-sql-audiences"
+      }
+    },
+    {
+      feature:     "Marketing Intelligence",
+      roleLabel:   "Built for VP Analytics & CMOs",
+      title:       "Chat with all your data — retailer, ERP, CRM",
+      description: "Marketing Intelligence unifies fragmented data sources into one live view and connects digital campaign performance to actual in-store sales lift. Marketing stops defending proxies to commercial leadership and starts showing the direct line from spend to revenue.",
+      icon:        "../../brand-assets/SVG/699017579f378c81f5094a40_Analytics.svg",
+      image:       "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp",
+      bg:          "../../brand-assets/JPG/6a073cc0a301e7e98b87934a_solution-bg__4.jpg",
+      video:       "../../brand-assets/MP4/Marketing Intelligence_x1.5.mp4",
+      blog: {
+        text: "Closing the offline retail attribution loop",
+        href: "/blog/closing-offline-attribution-loop"
+      }
+    },
+    {
+      feature:     "Synthetic Data Generation",
+      roleLabel:   "Built for Data & Audience Strategy",
+      title:       "Launch campaigns before the data exists",
+      description: "Synthetic Data Generation creates statistically valid audience models for new SKU launches, new category entries, and new markets — without waiting for first-party data to accumulate. CPG brands stop running broad, inefficient launch campaigns and start targeting on day one.",
+      icon:        "../../brand-assets/SVG/69901757d8ab518db4cb3c52_Synthetic Data Generation.svg",
+      image:       "../../brand-assets/WEBP/69fb34a30469825a78728f33_bbf22870ed50f2db542dcc3757717812_solutions_06_2x.webp",
+      bg:          "../../brand-assets/JPG/6a073cc0a1e61a380ab0e29e_solution-bg__2.jpg",
+      video:       "../../brand-assets/MP4/Synthetic Data Generation_x1.5.mp4",
+      blog: {
+        text: "Lookalike modeling in a cookieless world",
+        href: "/blog/lookalike-modeling-cookieless"
+      }
     },
   ],
 
-  // ── STATS BAR — real KAN-24 figures ────────────────────────
+  // ── STATS BAR ────────────────────────
   stats: [
-    { number: "39%",     label: "of CPG ad budgets now go to retail media" },
-    { number: "20+ hrs", label: "wasted weekly stitching data into Excel" },
-    { number: "26%",     label: "of marketing budgets wasted in 2026" },
-    { number: "61%",     label: "organic CTR suppression from AI Overviews" },
+    { number: "$439",     label: "of every $1,000 in programmatic spend actually reaches consumers (ANA Benchmark)" },
+    { number: "45%",      label: "of marketing data used for decisions is incomplete or outdated (Adverity Survey)" },
+    { number: "64%",      label: "faster time-to-insight with unified AI-assisted analytics layers (Improvado Trend Report)" },
+    { number: "$12.9M",   label: "average annual cost of poor data quality per organization (Gartner Study)" },
   ],
 
   // ── SOCIAL PROOF ───────────────────────────────────────────
@@ -138,12 +179,154 @@ export const industryConfig = {
 
   // ── FAQ ────────────────────────────────────────────────────
   faq: [
-    { q: "How does Kana connect to our retail media platforms?",            a: "[PLACEHOLDER]" },
-    { q: "How does Kana unify data across retailers, ERP, and CRM?",        a: "[PLACEHOLDER]" },
-    { q: "How fast can a CPG team get live on Kana?",                       a: "[PLACEHOLDER]" },
-    { q: "How does AEO get our brand cited in AI search?",                  a: "[PLACEHOLDER]" },
-    { q: "Can it work across multiple brands and regions?",                 a: "[PLACEHOLDER]" },
-    { q: "How does Kana handle our existing martech and agency workflows?",  a: "[PLACEHOLDER]" },
+    {
+      q: "How does Kana connect to our retail media platforms?",
+      a: "Kana's Campaign Management and Marketing Intelligence layers integrate with the major retail media platforms — including Walmart Connect, Amazon DSP, Kroger Precision Marketing, and others — via API. Data from each platform flows into a unified view, so your team stops toggling between dashboards and starts seeing cross-platform performance in one place. Setup is handled by Kana's solutions team and typically takes 2–4 weeks depending on the number of platforms."
+    },
+    {
+      q: "How does Kana unify data across retailers, ERP, and CRM?",
+      a: "Marketing Intelligence acts as the intelligence layer that sits across your existing data sources — retailer portals, your ERP, your CRM, and your internal BI tools. It does not require a data warehouse migration. Kana connects to your systems, normalizes the data into a shared schema, and surfaces it through a natural language interface. Category managers, analytics teams, and CMOs can query across all sources without writing SQL or waiting for analyst reports."
+    },
+    {
+      q: "How fast can a CPG team get live on Kana?",
+      a: "Most CPG teams are seeing value within the first 30 days. The initial onboarding focuses on connecting your top 3–5 data sources and configuring the Category Intelligence Hub and Marketing Intelligence layers to your specific retailer mix and reporting needs. The Audience Manager and Synthetic Data Generation capabilities layer in after core data connections are stable. Kana's forward-deployed solutions team works directly with your team throughout."
+    },
+    {
+      q: "How does AEO get our brand cited in AI search?",
+      a: "Kana's AEO Platform audits how your brand currently appears in responses from ChatGPT, Perplexity, Gemini, and other answer engines. It identifies the content and schema gaps that cause AI systems to cite competitors instead of you, and activates structured content updates — including direct CMS writes — to close those gaps. For CPG brands, this is especially critical in categories where AI search is replacing traditional shelf discovery."
+    },
+    {
+      q: "Can it work across multiple brands and regions?",
+      a: "Yes. Kana is built for multi-brand, multi-region CPG environments. Each brand can be configured with its own retailer connections, category definitions, and audience segments, while leadership retains a cross-portfolio view. Regional data isolation is configurable for privacy compliance requirements across markets."
+    },
+    {
+      q: "How does Kana handle our existing martech and agency workflows?",
+      a: "Kana operates as a layer above your existing martech stack — it does not replace your DSPs, your CRM, or your agency platforms. For CPG brands working with AOR or specialist agencies, Kana provides a shared intelligence layer that both the internal team and agency partners can query. Brief-to-activation traceability in the Audience Manager also creates a documented handoff record between brand and agency, closing one of the most common audit gaps in CPG campaign ops."
+    },
+  ],
+
+  // ── PERSONAS ───────────────────────────────────────────────
+  personas: [
+    {
+      role: "Category Manager",
+      painPoints: [
+        {
+          text: "Syndicated category drops arrive weeks late, forcing category managers to prepare client reports manually with outdated information.",
+          blog: {
+            text: "Read: Overcoming CPG Category data lag",
+            href: "/blog/cpg-overcoming-category-data-lag"
+          }
+        },
+        {
+          text: "POS feeds are not cross-referenced against external category signals, leaving stock anomalies undetected until key buyer meetings.",
+        },
+        {
+          text: "Compiling spreadsheet reports consumes 20+ hours weekly, leaving category teams with no time for strategic shelf planning.",
+        }
+      ],
+      solution: {
+        name: "Category Intelligence Hub",
+        description: "Ingests scan data, POS feeds, and external category signals. Answers category questions in seconds, not days. Built specifically for VP Category and Senior Category Manager roles at CPG companies.",
+        linkLabel: "See Category Intelligence Hub",
+        linkHref: "#solution-row-0"
+      }
+    },
+    {
+      role: "VP Media & Performance",
+      painPoints: [
+        {
+          text: "Only $439 of every $1,000 spent programmatically reaches consumers due to intermediate fees, bid shading, and lack of saturation scoring.",
+          blog: {
+            text: "Read: Eliminating programmatic waste in CPG",
+            href: "/blog/cpg-eliminating-programmatic-waste"
+          }
+        },
+        {
+          text: "Audience definitions drift between strategic briefs and active platform campaigns, altering targeting parameters.",
+        },
+        {
+          text: "Ad spends are allocated on static historical budgets, ignoring dynamic channel saturation thresholds and modeled marginal ROAS.",
+        }
+      ],
+      solution: {
+        name: "Omni-Channel Media Planner",
+        description: "Models saturation curves against your own campaign data. Maps brief targeting parameters to platform-specific configurations across Meta, YouTube, The Trade Desk, and DV360. Allocation decisions stop being driven by habit and start being driven by modeled ROAS.",
+        linkLabel: "See Omni-Channel Media Planner",
+        linkHref: "#solution-row-1"
+      }
+    },
+    {
+      role: "Director of Marketing Ops",
+      painPoints: [
+        {
+          text: "Data engineering queues delay audience segment creation by weeks, blocking fast campaign activation windows.",
+          blog: {
+            text: "Read: Streamlining GTM data activation",
+            href: "/blog/streamline-gtm-data-activation"
+          }
+        },
+        {
+          text: "Activated segments mismatch campaign briefs, leading to ad-targeting errors and budget underperformance.",
+        },
+        {
+          text: "There is no documented link between creative briefs and active platform segments, making post-campaign optimization impossible.",
+        }
+      ],
+      solution: {
+        name: "Audience Manager",
+        description: "Plain-language audience building with brief-to-activation traceability. No SQL, no data engineering queue. Every segment is documented back to the original brief, so post-campaign analysis can actually answer why.",
+        linkLabel: "See Audience Manager",
+        linkHref: "#solution-row-2"
+      }
+    },
+    {
+      role: "VP Analytics / CMO",
+      painPoints: [
+        {
+          text: "More than 80% of retail transactions take place offline, leaving digital campaign conversions completely unattributed.",
+          blog: {
+            text: "Read: Closing the offline retail loop",
+            href: "/blog/close-offline-retail-loop"
+          }
+        },
+        {
+          text: "Manual analytics assemblies take days or weeks, forcing teams to optimize campaigns after they have already ended.",
+        },
+        {
+          text: "Marketing is treated as a cost center by commercial leadership due to a lack of direct correlation between spend and SKU velocity.",
+        }
+      ],
+      solution: {
+        name: "Marketing Intelligence",
+        description: "Unifies fragmented regional and retailer data into one live view. Connects digital campaign performance to actual in-store sales lift. Gives marketing the direct path from spend to revenue that commercial leadership actually needs to see.",
+        linkLabel: "See Marketing Intelligence",
+        linkHref: "#solution-row-3"
+      }
+    },
+    {
+      role: "VP Data & Audience Strategy",
+      painPoints: [
+        {
+          text: "Launching new SKUs without local customer data history increases launch-phase media acquisition costs by up to 50%.",
+          blog: {
+            text: "Read: SKU launch strategies without cookies",
+            href: "/blog/sku-launch-cookieless-strategies"
+          }
+        },
+        {
+          text: "Low match rates across retail media networks reduce ad targeting precision, increasing relative CPM costs.",
+        },
+        {
+          text: "Cookie deprecation is rapidly reducing the accuracy of traditional third-party audience data providers.",
+        }
+      ],
+      solution: {
+        name: "Synthetic Data Generation",
+        description: "Creates statistically valid audience models for new SKU launches, new category entries, and new markets — without waiting for first-party data to accumulate. CPG brands stop running broad, inefficient launch campaigns and start targeting on day one.",
+        linkLabel: "See Synthetic Data Generation",
+        linkHref: "#solution-row-4"
+      }
+    }
   ],
 
   // ── FINAL CTA ──────────────────────────────────────────────
