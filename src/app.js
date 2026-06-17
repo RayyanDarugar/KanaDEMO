@@ -82,6 +82,58 @@ function resolveCopy(text, fallbackLabel = "Draft Content") {
   return text;
 }
 
+function initScrollAnimations() {
+  const els = document.querySelectorAll('.reveal, .reveal-left, .reveal-right');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.08, rootMargin: '0px 0px -50px 0px' });
+  els.forEach(el => observer.observe(el));
+}
+
+function parseAndAnimateStat(el) {
+  const original = el.textContent.trim();
+  if (original.includes('–') || original.includes('/')) {
+    el.style.opacity = '0';
+    el.style.transition = 'opacity 0.9s ease';
+    requestAnimationFrame(() => requestAnimationFrame(() => { el.style.opacity = ''; }));
+    return;
+  }
+  const prefix = (original.match(/^[$€£¥]/) || [''])[0];
+  const suffix = (original.match(/[%KMBkmb]+$/) || [''])[0];
+  const numStr = original.slice(prefix.length, suffix ? -suffix.length : undefined);
+  const target = parseFloat(numStr);
+  if (isNaN(target)) return;
+  const decimals = (numStr.split('.')[1] || '').length;
+  const duration = 1400;
+  const start = performance.now();
+  const step = (now) => {
+    const t = Math.min((now - start) / duration, 1);
+    const ease = 1 - Math.pow(1 - t, 3);
+    el.textContent = prefix + (ease * target).toFixed(decimals) + suffix;
+    if (t < 1) requestAnimationFrame(step);
+    else el.textContent = original;
+  };
+  requestAnimationFrame(step);
+}
+
+function initStatsCounter() {
+  const statEls = document.querySelectorAll('.stat-number');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        parseAndAnimateStat(entry.target);
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.5 });
+  statEls.forEach(el => observer.observe(el));
+}
+
 /**
  * Main application renderer
  * @param {Object} config - The vertical industryConfig object
@@ -406,6 +458,7 @@ export function renderApp(config) {
               <span class="btn-body">${config.hero.primaryCta.text}</span>
               <span class="btn-leaf"></span>
             </a>
+            ${config.hero.secondaryCta ? `<a href="${config.hero.secondaryCta.href}" class="btn-ghost">${config.hero.secondaryCta.text}<svg width="14" height="10" viewBox="0 0 14 10" fill="none" style="margin-left:4px;flex-shrink:0;"><path d="M1 5H13M13 5L9 1M13 5L9 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>` : ''}
           </div>
         </div>
         <div class="hero-right">
@@ -419,11 +472,11 @@ export function renderApp(config) {
 
   // ── 3. PAIN POINTS SECTION RENDER ──
   const painCardsHtml = config.painPoints.map((pain, index) => {
-    const blogLinkHtml = pain.blog 
-      ? ` <a href="${pain.blog.href}" class="pain-blog-link">${pain.blog.text} &nbsp;›</a>` 
+    const blogLinkHtml = pain.blog
+      ? ` <a href="${pain.blog.href}" class="pain-blog-link">${pain.blog.text} &nbsp;›</a>`
       : '';
     return `
-      <div class="pain-card glass">
+      <div class="pain-card glass reveal" data-delay="${index + 1}">
         <div class="pain-card-top">
           <h3 class="type-heading pain-title">${pain.title}</h3>
           <p class="type-body pain-desc">${pain.description}${blogLinkHtml}</p>
@@ -433,10 +486,10 @@ export function renderApp(config) {
   }).join('');
 
   const painPointsHtml = `
-    <section class="pain-section section-padding" id="pain-points">
+    <section class="pain-section section-padding dot-grid-bg" id="pain-points">
       <div class="container">
-        <div class="section-header">
-          <h2 class="type-h2 section-title">Why this matters to you</h2>
+        <div class="section-header reveal">
+          <h2 class="type-h2 section-title">The gaps your competitors are closing</h2>
         </div>
         <div class="pain-grid">
           ${painCardsHtml}
@@ -456,7 +509,7 @@ export function renderApp(config) {
       : '';
 
     return `
-      <div class="solution-row" id="solution-row-${index}" style="background-image: url('${sol.bg}');">
+      <div class="solution-row reveal" id="solution-row-${index}" style="background-image: url('${sol.bg}');">
         <div class="solution-text-block">
           <div class="solution-icon-wrapper">
             <img src="${sol.icon}" class="solution-icon" alt="" onerror="this.outerHTML='<svg class=&quot;solution-icon&quot; viewBox=&quot;0 0 24 24&quot;><path d=&quot;M12 2L2 22h20L12 2z&quot;></path></svg>'">
@@ -476,8 +529,8 @@ export function renderApp(config) {
   const solutionsHtml = `
     <section class="solutions-section section-padding" id="solutions">
       <div class="container">
-        <div class="section-header">
-          <h2 class="type-h2 section-title">Orchestrated AI Solutions</h2>
+        <div class="section-header reveal">
+          <h2 class="type-h2 section-title">How Kana fixes it</h2>
         </div>
         <div class="solutions-list">
           ${solutionsRowsHtml}
@@ -548,14 +601,14 @@ export function renderApp(config) {
     }).join('');
 
     personasHtml = `
-      <section class="persona-section section-padding" id="personas">
+      <section class="persona-section section-padding dot-grid-bg" id="personas">
         <div class="container">
-          <div class="section-header">
-            <h2 class="type-h2 section-title">Which of these is you?</h2>
-            <p class="type-body persona-subtext">Select your role to see the problems Kana was built to solve for it.</p>
+          <div class="section-header reveal">
+            <h2 class="type-h2 section-title">Built for every role on your team</h2>
+            <p class="type-body persona-subtext">Your role. Your challenges. The Kana solution built for it.</p>
           </div>
-          
-          <div role="tablist" class="persona-tabs">
+
+          <div role="tablist" class="persona-tabs reveal">
             ${personaTabsHtml}
           </div>
           
@@ -568,9 +621,9 @@ export function renderApp(config) {
   }
 
   // ── 5. STATS BAR SECTION RENDER ──
-  const statsColsHtml = config.stats.map(st => {
+  const statsColsHtml = config.stats.map((st, index) => {
     return `
-      <div class="stat-item">
+      <div class="stat-item reveal" data-delay="${index + 1}">
         <span class="type-h2 stat-number">${st.number}</span>
         <span class="type-body stat-label">${st.label}</span>
       </div>
@@ -586,9 +639,10 @@ export function renderApp(config) {
   `;
 
   // ── 6. SOCIAL PROOF & TESTIMONIAL RENDER ──
-  const logosHtml = config.assets.partnerLogos.map(path => {
-    return resolveAsset(path, 'partner-logo', 'Partner Logo');
-  }).join('');
+  const logoSet = config.assets.partnerLogos.map(path =>
+    resolveAsset(path, 'partner-logo', 'Partner Logo')
+  ).join('');
+  const logosHtml = logoSet + logoSet;
 
   // Handle testimonial scaffolding / placeholders
   const isQuotePlaceholder = config.testimonial.quote.startsWith("[PLACEHOLDER");
@@ -608,7 +662,7 @@ export function renderApp(config) {
         </div>
         
         <div class="testimonial-block">
-          <div class="testimonial-card ${isQuotePlaceholder ? 'copy-placeholder-box' : ''}">
+          <div class="testimonial-card reveal ${isQuotePlaceholder ? 'copy-placeholder-box' : ''}">
             ${testLogoHtml}
             <p class="testimonial-quote">
               “${resolveCopy(config.testimonial.quote, "Draft Testimonial Scenario Placeholder")}”
@@ -629,7 +683,7 @@ export function renderApp(config) {
     const isAnswerPlaceholder = faq.a.startsWith("[PLACEHOLDER");
     const faqId = `faq-item-${index}`;
     return `
-      <div class="faq-item" id="${faqId}">
+      <div class="faq-item reveal" id="${faqId}">
         <button class="faq-trigger" aria-expanded="false" aria-controls="faq-panel-${index}">
           <h3 class="type-heading faq-question">${faq.q}</h3>
           <svg class="faq-arrow" width="12" height="8" viewBox="0 0 12 8" fill="none">
@@ -648,8 +702,8 @@ export function renderApp(config) {
   const faqHtml = `
     <section class="faq-section section-padding" id="faq">
       <div class="container">
-        <div class="section-header">
-          <h2 class="type-h2 section-title">Frequently Asked Questions</h2>
+        <div class="section-header reveal">
+          <h2 class="type-h2 section-title">Common questions</h2>
         </div>
         <div class="faq-list">
           ${faqItemsHtml}
@@ -663,7 +717,7 @@ export function renderApp(config) {
   const finalCtaHtml = `
     <section class="final-cta-band section-padding" id="cta" style="background-image: url('${config.assets.ctaBg}');">
       <div class="final-cta-overlay"></div>
-      <div class="container final-cta-content">
+      <div class="container final-cta-content reveal">
         <h2 class="type-h2" style="color: var(--color-midnight-blue); max-width: 800px; line-height: 1.1;">
           ${config.finalCta.headline}
         </h2>
@@ -671,6 +725,7 @@ export function renderApp(config) {
           <span class="btn-body" style="font-size: 18px; padding: 16px 36px;">${config.finalCta.cta.text}</span>
           <span class="btn-leaf"></span>
         </a>
+        <p class="final-cta-sublabel">30-minute demo &nbsp;·&nbsp; No commitment required</p>
       </div>
       <div class="soc2-badge-wrapper">
         ${soc2Html}
@@ -854,4 +909,10 @@ export function renderApp(config) {
       });
     });
   });
+
+  // 6. Scroll reveal animations
+  initScrollAnimations();
+
+  // 7. Animated stats counter
+  initStatsCounter();
 }

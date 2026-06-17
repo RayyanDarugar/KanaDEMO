@@ -53,7 +53,7 @@ export const industryConfig = {
   // ── HERO ───────────────────────────────────────────────────
   hero: {
     headline:     "The AI Marketing Platform <em>Built for CPG Brands</em>",
-    subheadline:  "Stop running campaigns with stale data. Ingest real-time scan and POS feeds, model omnichannel programmatic saturation, and walk into buyer meetings with live category intelligence. Kana connects ad spend directly to shelf velocity.",
+    subheadline:  "Your syndicated data is already a week old. Programmatic spend leaks at scale. Audience segments lose the brief in translation. Kana gives CPG teams real-time category intelligence, modeled media allocation, and audiences that trace back to the original brief — all connected to shelf velocity.",
     primaryCta:   { text: "Book a Demo",      href: "/demo" },
     secondaryCta: { text: "See how it works", href: "#solutions" },
     image:        "../../brand-assets/AVIF/6a0738509e86699ed6c6bd9e_Solutions-1.avif",
@@ -331,7 +331,7 @@ export const industryConfig = {
 
   // ── FINAL CTA ──────────────────────────────────────────────
   finalCta: {
-    headline: "See what Kana can do for your CPG brand",
+    headline: "The category doesn't wait. Neither should you.",
     cta:      { text: "Book a Demo", href: "/demo" },
   },
 };

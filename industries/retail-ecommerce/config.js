@@ -50,7 +50,7 @@ export const industryConfig = {
   // ── HERO ───────────────────────────────────────────────────
   hero: {
     headline:     "The AI Marketing Platform <em>Built for Retail & E-Commerce</em>",
-    subheadline:  "Close the gap between digital campaigns and in-store conversions. Build and activate warehouse-scale audiences across all channels simultaneously, detect churn signals weeks before customers slip, and prove the direct revenue impact of marketing.",
+    subheadline:  "Over 80% of retail revenue still happens in stores your digital campaigns can't see. Churn signals appear weeks before any report flags them. Audiences take days to build and run on stale data. Kana closes the attribution gap, catches churn signals before customers slip, and connects digital spend directly to in-store revenue.",
     primaryCta:   { text: "Book a Demo",      href: "/demo" },
     secondaryCta: { text: "See how it works", href: "#solutions" },
     image:        "../../brand-assets/AVIF/6a073850eee60cd0e1af591d_Solutions.avif",
@@ -307,7 +307,7 @@ export const industryConfig = {
 
   // ── FINAL CTA ──────────────────────────────────────────────
   finalCta: {
-    headline: "See what Kana can do for your Retail & E-Commerce brand",
+    headline: "The margin gap widens every quarter you wait.",
     cta:      { text: "Book a Demo", href: "/demo" },
   },
 };

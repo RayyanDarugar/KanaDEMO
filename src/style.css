@@ -1877,4 +1877,191 @@ a {
   border-bottom-color: var(--color-text-dark);
 }
 
+/* ============================================================
+   SCROLL REVEAL ANIMATION SYSTEM
+   ============================================================ */
+.reveal,
+.reveal-left,
+.reveal-right {
+  transition: opacity 0.65s cubic-bezier(0.22, 0.61, 0.36, 1),
+              transform 0.65s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+}
+
+.reveal-left {
+  opacity: 0;
+  transform: translateX(-32px);
+}
+
+.reveal-right {
+  opacity: 0;
+  transform: translateX(32px);
+}
+
+.reveal.visible,
+.reveal-left.visible,
+.reveal-right.visible {
+  opacity: 1;
+  transform: none;
+}
+
+[data-delay="1"] { transition-delay: 0.08s; }
+[data-delay="2"] { transition-delay: 0.18s; }
+[data-delay="3"] { transition-delay: 0.28s; }
+[data-delay="4"] { transition-delay: 0.38s; }
+
+/* ============================================================
+   LOGO MARQUEE
+   ============================================================ */
+.logo-strip-wrapper {
+  mask-image: linear-gradient(to right, transparent 0%, black 8%, black 92%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 8%, black 92%, transparent 100%);
+}
+
+.logo-strip {
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  width: max-content;
+  animation: logo-marquee 42s linear infinite;
+}
+
+.logo-strip:hover {
+  animation-play-state: paused;
+}
+
+@keyframes logo-marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+/* ============================================================
+   HERO IMAGE — FLOATING ANIMATION & LARGER SIZE
+   ============================================================ */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-10px); }
+}
+
+.hero-img-wrapper {
+  max-width: 520px;
+  animation: float 7s ease-in-out infinite;
+}
+
+.hero-img-wrapper:hover {
+  transform: none;
+  animation-play-state: paused;
+  box-shadow: 0 30px 60px rgba(9, 30, 58, 0.18), 0 0 30px rgba(var(--color-accent-rgb), 0.12);
+  border-color: rgba(8, 34, 73, 0.15);
+}
+
+/* ============================================================
+   GRADIENT EM TEXT IN HERO HEADLINES
+   ============================================================ */
+.hero-headline em {
+  background: linear-gradient(
+    135deg,
+    var(--color-accent) 0%,
+    color-mix(in oklch, var(--color-accent) 55%, #c026d3) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-style: normal;
+}
+
+/* ============================================================
+   NUMBERED PAIN CARDS
+   ============================================================ */
+.pain-grid {
+  counter-reset: pain-counter;
+}
+
+.pain-card {
+  counter-increment: pain-counter;
+  overflow: hidden;
+  position: relative;
+}
+
+.pain-card::before {
+  content: counter(pain-counter, decimal-leading-zero);
+  position: absolute;
+  top: -12px;
+  right: 12px;
+  font-size: 96px;
+  font-weight: 900;
+  line-height: 1;
+  font-family: var(--font-sans);
+  color: rgba(var(--color-accent-rgb), 0.07);
+  pointer-events: none;
+  user-select: none;
+  letter-spacing: -4px;
+  transition: color 0.3s ease;
+}
+
+.pain-card:hover::before {
+  color: rgba(var(--color-accent-rgb), 0.13);
+}
+
+/* ============================================================
+   DOT GRID BACKGROUND TEXTURE
+   ============================================================ */
+.dot-grid-bg {
+  background-image: radial-gradient(circle, rgba(9, 30, 58, 0.05) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+/* ============================================================
+   STAT NUMBERS — GRADIENT TREATMENT
+   ============================================================ */
+.stat-number {
+  background: linear-gradient(
+    135deg,
+    var(--color-accent) 0%,
+    color-mix(in oklch, var(--color-accent) 70%, white) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ============================================================
+   GHOST BUTTON (HERO SECONDARY CTA)
+   ============================================================ */
+.btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--color-text-dark);
+  border: 1px solid rgba(9, 30, 58, 0.14);
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  transition: var(--transition-smooth);
+}
+
+.btn-ghost:hover {
+  background: rgba(255, 255, 255, 0.92);
+  border-color: rgba(8, 34, 73, 0.22);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(9, 30, 58, 0.07);
+}
+
+/* ============================================================
+   FINAL CTA SUB-LABEL
+   ============================================================ */
+.final-cta-sublabel {
+  font-size: 14px;
+  color: var(--color-text-muted);
+  margin-top: -12px;
+  letter-spacing: 0.01em;
+}
+
 
