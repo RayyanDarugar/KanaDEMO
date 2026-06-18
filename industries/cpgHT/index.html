@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kana for CPG - AI Marketing Orchestration (Hightouch Layout)</title>
+  <meta name="description" content="The secure, warehouse-native AI marketing platform for CPG brands. Connect POS sales velocity feeds directly to Walmart Connect, Kroger Precision, and Meta to drive incremental sales lift.">
+  
+  <!-- SEO Meta Tags -->
+  <meta property="og:title" content="Kana for CPG - AI Marketing Orchestration">
+  <meta property="og:description" content="Warehouse-native marketing automation connecting real-time retail shelf velocity directly to media execution.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="/industries/cpgHT/">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==========================================
+       1. STICKY HEADER & NAV
+       ========================================== -->
+  <header class="sticky-header" id="mainHeader">
+    <div class="container nav-container">
+      <a href="../../index.html" class="logo-link">
+        <img src="../../brand-assets/SVG/logo__img.svg" alt="Kana" class="logo-img">
+      </a>
+
+      <nav class="nav-menu">
+        <div class="nav-item">
+          <a href="../../index.html" class="nav-link-item">Home</a>
+        </div>
+        <div class="nav-item">
+          <button class="dropdown-toggle" id="solutionsDropdownBtn" aria-expanded="false">
+            Solutions
+            <svg width="10" height="6" viewBox="0 0 10 6" fill="none" style="margin-left: 2px;"><path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="dropdown-menu" id="solutionsDropdownMenu">
+            <div class="dropdown-col-title">By Industry</div>
+            <a href="../cpg/index.html" class="dropdown-item-link">
+              <span class="dropdown-item-name">CPG (Baseline)</span>
+              <span class="dropdown-item-desc">Standard template vertical page</span>
+            </a>
+            <a href="index.html" class="dropdown-item-link">
+              <span class="dropdown-item-name">CPG (Hightouch Layout)</span>
+              <span class="dropdown-item-desc">Advanced conversion structure</span>
+            </a>
+            <a href="../retail-ecommerce/index.html" class="dropdown-item-link">
+              <span class="dropdown-item-name">Retail & E-Commerce</span>
+              <span class="dropdown-item-desc">Direct-to-consumer activation</span>
+            </a>
+            <a href="../financial-services/index.html" class="dropdown-item-link">
+              <span class="dropdown-item-name">Financial Services</span>
+              <span class="dropdown-item-desc">Secure marketing orchestration</span>
+            </a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="/pricing" class="nav-link-item">Pricing</a>
+        </div>
+        <div class="nav-item">
+          <a href="/blog" class="nav-link-item">Resources</a>
+        </div>
+        <div class="nav-item">
+          <a href="/login" class="nav-link-item">Log In</a>
+        </div>
+      </nav>
+
+      <a href="/demo" class="nav-cta-btn">Book a Demo</a>
+    </div>
+  </header>
+
+  <!-- ==========================================
+       2. HERO SECTION
+       ========================================== -->
+  <section class="hero-section" id="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-left">
+          <div class="hero-tag">
+            <div class="hero-tag-pill"></div>
+            <span>CPG Solution</span>
+          </div>
+          <h1 class="hero-title">Drive CPG share and unlock <em>retail media revenue</em></h1>
+          <p class="hero-desc">
+            Traditional CDPs silo your shopper data and take months to implement. Kana connects directly to your cloud data warehouse to query real-time POS scan feeds, allocate budgets across channels, and activate plain-language audience briefs directly to ad platforms.
+          </p>
+          <form class="hero-form" onsubmit="event.preventDefault(); alert('Demo request submitted!');">
+            <input type="email" placeholder="Enter your business email" class="hero-input" required id="heroEmailInput">
+            <button type="submit" class="hero-submit" id="heroSubmitBtn">Get a demo</button>
+          </form>
+        </div>
+        <div class="hero-visual-wrapper">
+          <img src="../../brand-assets/AVIF/6a0738509e86699ed6c6bd9e_Solutions-1.avif" alt="Kana CPG Analytics Dashboard" class="hero-visual" id="heroVisualImg">
+        </div>
+      </div>
+      
+      <!-- Stats Strip -->
+      <div class="hero-stats">
+        <div class="hero-stat-item">
+          <span class="hero-stat-num" id="stat1">+14.2%</span>
+          <span class="hero-stat-label">Average sales lift across retailer campaigns</span>
+        </div>
+        <div class="hero-stat-item">
+          <span class="hero-stat-num" id="stat2">$2.1M</span>
+          <span class="hero-stat-label">Incremental revenue generated for top brands</span>
+        </div>
+        <div class="hero-stat-item">
+          <span class="hero-stat-num" id="stat3">3.5x</span>
+          <span class="hero-stat-label">Average promotional campaign ROI</span>
+        </div>
+        <div class="hero-stat-item">
+          <span class="hero-stat-num" id="stat4">+52%</span>
+          <span class="hero-stat-label">Programmatic campaign acquisition boost</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       3. LOGO STRIP SECTION
+       ========================================== -->
+  <section class="logo-strip-section" id="logos">
+    <h4 class="logo-strip-title">Trusted by Leading Global Brands</h4>
+    <div class="logo-marquee-container">
+      <div class="logo-marquee">
+        <img src="../../brand-assets/SVG/69b97816348ad5bc6570826d_logo__partner--01.svg" alt="Partner" class="marquee-logo">
+        <img src="../../brand-assets/SVG/69b978162d56501c2d723beb_logo__partner--02.svg" alt="Partner" class="marquee-logo">
+        <img src="../../brand-assets/SVG/69b97816bb693354c46bcfcb_logo__partner--03.svg" alt="Partner" class="marquee-logo">
+        <img src="../../brand-assets/SVG/69b97816e64bdf68ba5fec38_logo__partner--04.svg" alt="Partner" class="marquee-logo">
+        <img src="../../brand-assets/SVG/69b978161b8778c609625300_logo__partner--05.svg" alt="Partner" class="marquee-logo">
+        <img src="../../brand-assets/SVG/69b97816b4dbdbf258121188_logo__partner--06.svg" alt="Partner" class="marquee-logo">
+        <img src="../../brand-assets/SVG/69b97816ec64cd9a7bf9d349_logo__partner--07.svg" alt="Partner" class="marquee-logo">
+        <img src="../../brand-assets/SVG/69b97816262b30d077fba720_logo__partner--08.svg" alt="Partner" class="marquee-logo">
+        <img src="../../brand-assets/SVG/69b9781623e9b90fb5f2a8d2_logo__partner--09.svg" alt="Partner" class="marquee-logo">
+        <img src="../../brand-assets/SVG/69b978161f64f294213b1a64_logo__partner--10.svg" alt="Partner" class="marquee-logo">
+        <!-- Repeat set for seamless loop -->
+        <img src="../../brand-assets/SVG/69b97816348ad5bc6570826d_logo__partner--01.svg" alt="Partner" class="marquee-logo">
+        <img src="../../brand-assets/SVG/69b978162d56501c2d723beb_logo__partner--02.svg" alt="Partner" class="marquee-logo">
+        <img src="../../brand-assets/SVG/69b97816bb693354c46bcfcb_logo__partner--03.svg" alt="Partner" class="marquee-logo">
+        <img src="../../brand-assets/SVG/69b97816e64bdf68ba5fec38_logo__partner--04.svg" alt="Partner" class="marquee-logo">
+        <img src="../../brand-assets/SVG/69b978161b8778c609625300_logo__partner--05.svg" alt="Partner" class="marquee-logo">
+        <img src="../../brand-assets/SVG/69b97816b4dbdbf258121188_logo__partner--06.svg" alt="Partner" class="marquee-logo">
+        <img src="../../brand-assets/SVG/69b97816ec64cd9a7bf9d349_logo__partner--07.svg" alt="Partner" class="marquee-logo">
+        <img src="../../brand-assets/SVG/69b97816262b30d077fba720_logo__partner--08.svg" alt="Partner" class="marquee-logo">
+        <img src="../../brand-assets/SVG/69b9781623e9b90fb5f2a8d2_logo__partner--09.svg" alt="Partner" class="marquee-logo">
+        <img src="../../brand-assets/SVG/69b978161f64f294213b1a64_logo__partner--10.svg" alt="Partner" class="marquee-logo">
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       4. USE CASES TABS SECTION (LIGHT)
+       ========================================== -->
+  <section class="section-padding" id="use-cases" style="background: var(--bg-light);">
+    <div class="container">
+      <h2 class="section-title-center">Better access to data for marketers, better outcomes for brands</h2>
+      <p class="section-desc-center">
+        Kana translates your CPG marketing strategy into live campaigns and loops shelf velocity data back into automated budget adjustments.
+      </p>
+      
+      <div class="tabs-container">
+        <div class="tabs-list" role="tablist">
+          <button class="tab-btn active" id="tabBtn1" data-target="panel1" role="tab" aria-selected="true">Omni-channel advertising</button>
+          <button class="tab-btn" id="tabBtn2" data-target="panel2" role="tab" aria-selected="false">Category planning</button>
+          <button class="tab-btn" id="tabBtn3" data-target="panel3" role="tab" aria-selected="false">Campaign activation</button>
+        </div>
+        
+        <!-- Tab Panel 1: Omni-channel -->
+        <div class="tab-panel active" id="panel1" role="tabpanel">
+          <div class="card">
+            <h3 class="card-title">Calibrate bids for store velocity to maximize margins</h3>
+            <p class="card-desc">Align your bidding budget with real-time inventory levels. Boost spend when SKU velocity drops, and pull back to avoid out-of-stock waste.</p>
+            <a href="/solutions/omnichannel" class="card-link">Learn more &nbsp;→</a>
+          </div>
+          <div class="card">
+            <h3 class="card-title">Increase ROAS by switching from pixels to Conversions API</h3>
+            <p class="card-desc">Sync offline retail scan feeds directly with Meta Conversions API and Google Ads for higher match rates that drive better AI attribution.</p>
+            <a href="/solutions/conversions-api" class="card-link">Learn more &nbsp;→</a>
+          </div>
+          <div class="card">
+            <h3 class="card-title">Deliver relevant remarketing with real-time retail feeds</h3>
+            <p class="card-desc">Retarget shoppers with localized offers based on recent regional purchase trends, competitor promotions, and store level stock.</p>
+            <a href="/solutions/remarketing" class="card-link">Learn more &nbsp;→</a>
+          </div>
+        </div>
+        
+        <!-- Tab Panel 2: Category planning -->
+        <div class="tab-panel" id="panel2" role="tabpanel">
+          <div class="card">
+            <h3 class="card-title">Track shelf signals in seconds, not weeks</h3>
+            <p class="card-desc">Ingest POS scan data and syndicated loops to get live category intelligence. Prep for retailer buyer meetings with real-time share stats.</p>
+            <a href="/solutions/category-intelligence" class="card-link">Learn more &nbsp;→</a>
+          </div>
+          <div class="card">
+            <h3 class="card-title">Unify data across retailers, ERP, and CRM</h3>
+            <p class="card-desc">Link retailer portals (Walmart Luminate, Kroger 84.51) and internal ERP data into one single natural-language query view.</p>
+            <a href="/solutions/data-unification" class="card-link">Learn more &nbsp;→</a>
+          </div>
+          <div class="card">
+            <h3 class="card-title">Automate SKU velocity triggers</h3>
+            <p class="card-desc">Set automated alerts that fire when competitor SKU shares increase or your velocity slips in key regions.</p>
+            <a href="/solutions/velocity-triggers" class="card-link">Learn more &nbsp;→</a>
+          </div>
+        </div>
+        
+        <!-- Tab Panel 3: Campaign activation -->
+        <div class="tab-panel" id="panel3" role="tabpanel">
+          <div class="card">
+            <h3 class="card-title">Generate plain-language briefs in seconds</h3>
+            <p class="card-desc">Tell the platform: "Build an audience of organic yogurt buyers in California with declining purchase frequency" and see it live.</p>
+            <a href="/solutions/audience-builder" class="card-link">Learn more &nbsp;→</a>
+          </div>
+          <div class="card">
+            <h3 class="card-title">Deploy mock audience models before launch</h3>
+            <p class="card-desc">Generate statistically valid synthetic audiences for new SKU launches without waiting for first-party data drops.</p>
+            <a href="/solutions/synthetic-data" class="card-link">Learn more &nbsp;→</a>
+          </div>
+          <div class="card">
+            <h3 class="card-title">Trace active segments back to the brief</h3>
+            <p class="card-desc">Ensure ad ops targeting maps exactly to creative parameters. Eliminate segment mismatch, bid shading, and intermediate data fees.</p>
+            <a href="/solutions/attribution" class="card-link">Learn more &nbsp;→</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       5. TESTIMONIAL SECTION
+       ========================================== -->
+  <section class="section-padding testimonial-section" id="testimonial">
+    <div class="container">
+      <div class="testimonial-card">
+        <span style="font-size: 22px; font-weight: 900; color: #111; letter-spacing: -0.05em; opacity:0.8;">HEINEKEN</span>
+        <p class="testimonial-quote">
+          “We're getting <strong>statistically robust campaign answers</strong> in minutes instead of weeks — and catching the <strong>tagging anomalies</strong> that were quietly skewing our performance data without anyone knowing.”
+        </p>
+        <div class="testimonial-author">
+          <span class="author-name">Jasper van den Berg</span>
+          <span class="author-title">Head of Marketing Intelligence, Heineken</span>
+        </div>
+        <a href="/customers/heineken" class="testimonial-cta">Read the story &nbsp;›</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       6. FEATURE SPLIT SECTION (CUSTOMER STUDIO)
+       ========================================== -->
+  <section class="section-padding feature-split-section" id="studio">
+    <div class="container">
+      <h2 class="section-title-center">Power personalization and velocity with a platform built for CPG</h2>
+      <p class="section-desc-center">The building blocks you need to activate, monetize, and measure highly targeted campaigns using POS feeds in your warehouse.</p>
+      
+      <div class="split-grid">
+        <div class="split-left">
+          <!-- Item 1 (Active) -->
+          <button class="split-cap-item active" data-target="capPanel1" id="capItem1">
+            <h3 class="split-cap-title">1. Build and test any audience</h3>
+            <p class="split-cap-desc">Explore, manage, and validate CPG segments with a no-code plain language interface. Skip the engineering queues and SQL queries.</p>
+          </button>
+          
+          <!-- Item 2 -->
+          <button class="split-cap-item" data-target="capPanel2" id="capItem2">
+            <h3 class="split-cap-title">2. Automate customer journeys</h3>
+            <p class="split-cap-desc">Send the right message across 50+ channels at the perfect moment triggered by retail POS velocity data.</p>
+          </button>
+          
+          <!-- Item 3 -->
+          <button class="split-cap-item" data-target="capPanel3" id="capItem3">
+            <h3 class="split-cap-title">3. Measure campaign performance</h3>
+            <p class="split-cap-desc">Measure incremental sales lift, attribution curves, and ROAS by linking digital ad spend directly to retailer scan feeds.</p>
+          </button>
+        </div>
+        
+        <div class="split-right">
+          <!-- Panel 1 (Active) -->
+          <div class="split-visual-panel active" id="capPanel1">
+            <img src="../../brand-assets/WEBP/69fb34a309b57c2ab7a2437c_f3e2b3b11b80faf9ae6c49a500d8353c_solutions_03_2x.webp" alt="Audience Segment Builder Interface" class="split-image">
+          </div>
+          <!-- Panel 2 -->
+          <div class="split-visual-panel" id="capPanel2">
+            <img src="../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp" alt="Orchestration Journey Builder Interface" class="split-image">
+          </div>
+          <!-- Panel 3 -->
+          <div class="split-visual-panel" id="capPanel3">
+            <img src="../../brand-assets/WEBP/69fb34a37abc32670956d9d8_22a3b8e403e4a9722e6b5bc578c29054_solutions_01_2x.webp" alt="Performance Attribution Dashboard" class="split-image">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       7. ACCORDION USE CASES
+       ========================================== -->
+  <section class="section-padding accordion-usecases-section" id="details">
+    <div class="container">
+      <h2 class="section-title-center" style="margin-bottom: 40px;">CPG-Native Activation Capabilities</h2>
+      <div class="accordions-container">
+        <!-- Item 1 -->
+        <div class="accordion-item" id="accordionItem1">
+          <button class="accordion-header" aria-expanded="false" id="accordionToggle1">
+            <span class="accordion-title">
+              <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+              Enable POS targeting on any data point
+            </span>
+            <svg width="12" height="8" viewBox="0 0 12 8" fill="none"><path d="M1 1.5L6 6.5L11 1.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="accordion-body">
+            <div class="accordion-content">
+              Activate real-time scan data, retail inventory logs, regional velocity metrics, and household loyalty segments directly into active campaigns. Automatically ramp budgets up in underperforming stores or pull back when stock runs thin to eliminate wasted ad dollars.
+            </div>
+          </div>
+        </div>
+        
+        <!-- Item 2 -->
+        <div class="accordion-item" id="accordionItem2">
+          <button class="accordion-header" aria-expanded="false" id="accordionToggle2">
+            <span class="accordion-title">
+              <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"/></svg>
+              Expand to 50+ offsite and retail channels
+            </span>
+            <svg width="12" height="8" viewBox="0 0 12 8" fill="none"><path d="M1 1.5L6 6.5L11 1.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="accordion-body">
+            <div class="accordion-content">
+              Push custom audiences directly to retail media networks (Walmart Connect, Kroger Precision Marketing, Target Roundel, Amazon DSP) and primary advertising platforms (The Trade Desk, DV360, Meta Ads, Google Search, TikTok, Pinterest). No more CSV uploads or manual target exports.
+            </div>
+          </div>
+        </div>
+        
+        <!-- Item 3 -->
+        <div class="accordion-item" id="accordionItem3">
+          <button class="accordion-header" aria-expanded="false" id="accordionToggle3">
+            <span class="accordion-title">
+              <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
+              Close the loop with attribution and incrementality testing
+            </span>
+            <svg width="12" height="8" viewBox="0 0 12 8" fill="none"><path d="M1 1.5L6 6.5L11 1.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="accordion-body">
+            <div class="accordion-content">
+              Measure true business impact by linking digital campaign exposures directly to store register scan data. Bypass unreliable cookies and last-click attribution models to run real-world holdout lift campaigns and optimize spend based on incremental volume.
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div style="max-width: 800px; margin: 40px auto 0 auto; text-align: center; border-left: 4px solid var(--color-coral); padding-left: 20px;">
+        <p style="font-style: italic; font-size: 16px; color: var(--text-light-secondary); text-align: left;">
+          “Kana has completely unlocked how we deliver relevancy to users across retail media networks, but there’s also huge potential for us to monetize users outside of our domain.”
+        </p>
+        <p style="font-weight: 700; font-size: 14px; text-align: left; margin-top: 8px; color: var(--text-light-primary);">
+          Kai Kickuth, Sr. Product Manager at Bol.com
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       8. GUIDE CALLOUT SECTION
+       ========================================== -->
+  <section class="section-padding guide-section" id="guide">
+    <div class="container">
+      <div class="guide-box">
+        <div>
+          <span class="guide-badge">WHITE PAPER</span>
+          <h2 class="guide-title">Get the Ultimate Guide to CPG AI Marketing Orchestration</h2>
+          <p class="guide-desc">
+            Discover global attribution trends, actionable CPG use cases, and real-life examples of enterprise brands automating retail media allocation directly from their database.
+          </p>
+          <button class="guide-cta" onclick="alert('Whitepaper download started!');" id="guideDownloadBtn">Read the whitepaper</button>
+        </div>
+        <div class="guide-visual-container">
+          <img src="../../brand-assets/AVIF/6a073850eee60cd0e1af591d_Solutions.avif" alt="The Ultimate Guide to CPG AI Marketing Orchestration" class="guide-cover-img" id="guideCoverImg">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       9. COMPARISON GRID SECTION
+       ========================================== -->
+  <section class="section-padding comparison-section" id="comparison">
+    <div class="container">
+      <h2 class="section-title-center">The only comprehensive Customer Data Platform for CPG brands</h2>
+      <p class="section-desc-center">Don't put yourself through a long, painful database integration. Get started with your existing data infrastructure today.</p>
+      
+      <div class="comparison-grid">
+        <!-- Card 1: Traditional -->
+        <div class="comp-card" id="traditionalCdpCard">
+          <div class="comp-card-header">
+            <h3 class="comp-card-title">Traditional CDP</h3>
+            <span class="comp-badge red">Rigid & Slow</span>
+          </div>
+          <ul class="comp-list">
+            <li class="comp-item">
+              <span class="comp-item-icon" style="color: #EF4444;">✕</span>
+              <div class="comp-item-text-wrapper">
+                <span class="comp-item-title">Siloed customer databases</span>
+                <span class="comp-item-desc">Traditional CDPs only store basic profile identities and events, ignoring POS velocity and inventory schemas.</span>
+              </div>
+            </li>
+            <li class="comp-item">
+              <span class="comp-item-icon" style="color: #EF4444;">✕</span>
+              <div class="comp-item-text-wrapper">
+                <span class="comp-item-title">Duplicative data storage</span>
+                <span class="comp-item-desc">Requires copying huge lists of data to their warehouse and yours, leading to synchronization drift and security holes.</span>
+              </div>
+            </li>
+            <li class="comp-item">
+              <span class="comp-item-icon" style="color: #EF4444;">✕</span>
+              <div class="comp-item-text-wrapper">
+                <span class="comp-item-title">6-9 month implementation</span>
+                <span class="comp-item-desc">Requires manual engineering pipelines and rigid pre-defined layouts before you can sync a single segment.</span>
+              </div>
+            </li>
+            <li class="comp-item">
+              <span class="comp-item-icon" style="color: #EF4444;">✕</span>
+              <div class="comp-item-text-wrapper">
+                <span class="comp-item-title">Real-time limitations</span>
+                <span class="comp-item-desc">Rate limits and strict payload structures prevent campaigns from triggering dynamically off regional POS fluctuations.</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+        
+        <!-- Card 2: Composable -->
+        <div class="comp-card highlight" id="composableCdpCard">
+          <div class="comp-card-header">
+            <h3 class="comp-card-title">Kana Composable CDP</h3>
+            <span class="comp-badge green">Warehouse Native</span>
+          </div>
+          <ul class="comp-list">
+            <li class="comp-item">
+              <span class="comp-item-icon" style="color: #10B981;">✓</span>
+              <div class="comp-item-text-wrapper">
+                <span class="comp-item-title">Unlimited data flexibility</span>
+                <span class="comp-item-desc">Sync any CPG schema: retail scan feeds, ERP inventories, CRM registries, product catalogs, and custom velocity models.</span>
+              </div>
+            </li>
+            <li class="comp-item">
+              <span class="comp-item-icon" style="color: #10B981;">✓</span>
+              <div class="comp-item-text-wrapper">
+                <span class="comp-item-title">Single source-of-truth</span>
+                <span class="comp-item-desc">Keeps ad networks, CRM, and dashboards synchronized by acting directly on your central data cloud.</span>
+              </div>
+            </li>
+            <li class="comp-item">
+              <span class="comp-item-icon" style="color: #10B981;">✓</span>
+              <div class="comp-item-text-wrapper">
+                <span class="comp-item-title">Setup in days or weeks</span>
+                <span class="comp-item-desc">Bypasses complex schemas. Normalizes data directly from Snowflake or Databricks databases without duplication.</span>
+              </div>
+            </li>
+            <li class="comp-item">
+              <span class="comp-item-icon" style="color: #10B981;">✓</span>
+              <div class="comp-item-text-wrapper">
+                <span class="comp-item-title">Sub-second POS triggers</span>
+                <span class="comp-item-desc">Deploy automated campaigns instantly when regional shelf velocity falls or competitor spend increases.</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       10. SECURITY SECTION (DARK)
+       ========================================== -->
+  <section class="section-padding security-section" id="security">
+    <div class="container">
+      <div class="security-grid">
+        <div>
+          <h2 class="sec-title">Warehouse-native architecture is more secure</h2>
+          <p class="sec-desc">
+            Kana operates on a zero-copy data paradigm. We don't store your customer data or POS logs. We simply query directly from your existing data warehouse where it remains under your strict administrative control.
+          </p>
+          <ul class="sec-list">
+            <li class="sec-item">
+              <svg class="sec-item-icon" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+              <span class="sec-item-text">SOC 2 Type II and ISO 27001 Certified governance.</span>
+            </li>
+            <li class="sec-item">
+              <svg class="sec-item-icon" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+              <span class="sec-item-text">Zero-copy architecture ensures customer data never leaves your environment.</span>
+            </li>
+            <li class="sec-item">
+              <svg class="sec-item-icon" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+              <span class="sec-item-text">Read-only access: Kana queries Snowflake or Databricks without database write capabilities.</span>
+            </li>
+          </ul>
+        </div>
+        <div class="sec-visual-container">
+          <img src="../../brand-assets/WEBP/69fb34a3244de10cf3d7a9a5_5b797b2c34c52d464bce0b2b1d520ea3_solutions_04_2x.webp" alt="Kana Secure Data Architecture" class="sec-visual" id="secVisualImg">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       11. FAQ ACCORDION SECTION
+       ========================================== -->
+  <section class="section-padding faq-section" id="faq">
+    <div class="container">
+      <h2 class="section-title-center">Frequently asked questions</h2>
+      <p class="section-desc-center">Everything you need to know about the warehouse-native platform.</p>
+      
+      <div class="accordions-container" style="max-width: 800px; margin: 40px auto 0 auto;">
+        <!-- FAQ 1 -->
+        <div class="accordion-item" id="faqItem1">
+          <button class="accordion-header" aria-expanded="false" id="faqToggle1">
+            <span class="accordion-title">How does Kana connect to retail media networks?</span>
+            <svg width="12" height="8" viewBox="0 0 12 8" fill="none"><path d="M1 1.5L6 6.5L11 1.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="accordion-body">
+            <div class="accordion-content">
+              Kana connects directly to retail media network APIs (Walmart Connect, Kroger Precision Marketing, Target Roundel, Amazon DSP) and programmatic platforms. Audiences and campaigns are pushed automatically based on POS velocity triggers. Setup is completely API-driven and takes less than 3 weeks.
+            </div>
+          </div>
+        </div>
+        
+        <!-- FAQ 2 -->
+        <div class="accordion-item" id="faqItem2">
+          <button class="accordion-header" aria-expanded="false" id="faqToggle2">
+            <span class="accordion-title">Does Kana support multi-brand and multi-region setups?</span>
+            <svg width="12" height="8" viewBox="0 0 12 8" fill="none"><path d="M1 1.5L6 6.5L11 1.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="accordion-body">
+            <div class="accordion-content">
+              Yes. Kana is architected for enterprise CPG holding companies. You can manage data isolation, compliance policies, regional controls, and tool integrations across multiple brands and regions in a single unified dashboard view.
+            </div>
+          </div>
+        </div>
+        
+        <!-- FAQ 3 -->
+        <div class="accordion-item" id="faqItem3">
+          <button class="accordion-header" aria-expanded="false" id="faqToggle3">
+            <span class="accordion-title">How does Kana attribute offline retail sales lift?</span>
+            <svg width="12" height="8" viewBox="0 0 12 8" fill="none"><path d="M1 1.5L6 6.5L11 1.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="accordion-body">
+            <div class="accordion-content">
+              Our Marketing Intelligence layer ingests POS scan feeds from retail portals daily, normalizes dates and geographic regions, and maps them to digital campaign exposures. This links real-time in-store lift directly to online programmatic campaigns without using third-party cookies.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       12. AWARD STRIP SECTION
+       ========================================== -->
+  <section class="award-section" id="awards">
+    <div class="container">
+      <div class="award-grid">
+        <div class="award-card" id="awardCard1">
+          <span style="font-size: 24px; font-weight:800; color:var(--color-coral);">Databricks</span>
+          <span class="award-title">Technology Partner of the Year</span>
+          <span class="award-desc">Recognized for warehouse integration</span>
+        </div>
+        <div class="award-card" id="awardCard2">
+          <span style="font-size: 24px; font-weight:800; color:var(--color-coral);">Forrester</span>
+          <span class="award-title">Strong Performer Rating</span>
+          <span class="award-desc">Evaluated in the CDP Wave Report</span>
+        </div>
+        <div class="award-card" id="awardCard3">
+          <span style="font-size: 24px; font-weight:800; color:var(--color-coral);">Gartner</span>
+          <span class="award-title">Magic Quadrant Leader</span>
+          <span class="award-desc">Ranked top for Composable CDP</span>
+        </div>
+        <div class="award-card" id="awardCard4">
+          <span style="font-size: 24px; font-weight:800; color:var(--color-coral);">SOC 2</span>
+          <span class="award-title">Type II Certified Secure</span>
+          <span class="award-desc">Fully audited governance and trust</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       13. INTEGRATIONS SECTION
+       ========================================== -->
+  <section class="section-padding integrations-section" id="integrations">
+    <div class="container">
+      <h2 class="section-title-center">Connect to any media platform</h2>
+      <p class="section-desc-center">Instantly sync CPG audiences and velocity data to any network you run campaigns in.</p>
+      
+      <div class="int-grid">
+        <div class="int-logo-card"><span style="font-weight: 700; color: #111;">Meta</span></div>
+        <div class="int-logo-card"><span style="font-weight: 700; color: #111;">Google Ads</span></div>
+        <div class="int-logo-card"><span style="font-weight: 700; color: #111;">Walmart Connect</span></div>
+        <div class="int-logo-card"><span style="font-weight: 700; color: #111;">Trade Desk</span></div>
+        <div class="int-logo-card"><span style="font-weight: 700; color: #111;">Amazon Ads</span></div>
+        <div class="int-logo-card"><span style="font-weight: 700; color: #111;">Kroger Precision</span></div>
+        <div class="int-logo-card"><span style="font-weight: 700; color: #111;">TikTok</span></div>
+        <div class="int-logo-card"><span style="font-weight: 700; color: #111;">Pinterest</span></div>
+        <div class="int-logo-card"><span style="font-weight: 700; color: #111;">YouTube</span></div>
+        <div class="int-logo-card"><span style="font-weight: 700; color: #111;">Snowflake</span></div>
+        <div class="int-logo-card"><span style="font-weight: 700; color: #111;">Databricks</span></div>
+        <div class="int-logo-card"><span style="font-weight: 700; color: #111;">Shopify</span></div>
+      </div>
+      
+      <a href="/integrations" class="int-link" id="allIntegrationsLink">See all retail integrations &nbsp;→</a>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       14. FINAL CTA & FOOTER
+       ========================================== -->
+  <section class="final-cta-section" id="cta">
+    <div class="container">
+      <h2 class="cta-title">Get a personalized demo</h2>
+      <p class="cta-desc">Talk to a CPG solutions expert and discover how to automate media mix models and shelf velocity triggers in under 30 minutes.</p>
+      <button class="nav-cta-btn" style="padding: 16px 36px; font-size: 16px;" onclick="location.href='/demo';" id="ctaBookDemoBtn">Book a Demo</button>
+    </div>
+  </section>
+
+  <footer class="footer-section">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="../../index.html" class="logo-link">
+            <img src="../../brand-assets/SVG/logo__img.svg" alt="Kana" class="logo-img" style="filter: brightness(0) invert(1);">
+          </a>
+          <p class="footer-desc">
+            The warehouse-native marketing automation platform built specifically for enterprise CPG and Retail.
+          </p>
+        </div>
+        <div class="footer-nav-col">
+          <h5 class="footer-nav-title">Platform</h5>
+          <ul class="footer-links-list">
+            <li><a href="#studio" class="footer-link">Customer Studio</a></li>
+            <li><a href="#comparison" class="footer-link">Composable CDP</a></li>
+            <li><a href="#security" class="footer-link">Security & Zero-Copy</a></li>
+          </ul>
+        </div>
+        <div class="footer-nav-col">
+          <h5 class="footer-nav-title">Solutions</h5>
+          <ul class="footer-links-list">
+            <li><a href="../cpg/index.html" class="footer-link">CPG baseline</a></li>
+            <li><a href="#" class="footer-link">CPG HT version</a></li>
+            <li><a href="../retail-ecommerce/index.html" class="footer-link">Retail ecommerce</a></li>
+          </ul>
+        </div>
+        <div class="footer-nav-col">
+          <h5 class="footer-nav-title">Resources</h5>
+          <ul class="footer-links-list">
+            <li><a href="/docs" class="footer-link">Docs</a></li>
+            <li><a href="/blog" class="footer-link">Blog</a></li>
+            <li><a href="/playbooks" class="footer-link">Playbooks</a></li>
+          </ul>
+        </div>
+        <div class="footer-nav-col">
+          <h5 class="footer-nav-title">Company</h5>
+          <ul class="footer-links-list">
+            <li><a href="/about" class="footer-link">About Us</a></li>
+            <li><a href="/careers" class="footer-link">Careers</a></li>
+            <li><a href="/partners" class="footer-link">Partners</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <span>&copy; 2026 Kana Technologies, Inc. All rights reserved.</span>
+        <span>SOC 2 Type II Certified Marketing Automation</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
