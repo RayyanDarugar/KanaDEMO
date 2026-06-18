@@ -476,13 +476,14 @@ export function renderApp(config) {
   // ── 3. PAIN POINTS SECTION RENDER ──
   const painCardsHtml = config.painPoints.map((pain, index) => {
     const blogLinkHtml = pain.blog
-      ? ` <a href="${pain.blog.href}" class="pain-blog-link">${pain.blog.text} &nbsp;›</a>`
+      ? `<a href="${pain.blog.href}" class="pain-blog-link">${pain.blog.text} &nbsp;›</a>`
       : '';
     return `
       <div class="pain-card glass reveal" data-delay="${index + 1}">
         <div class="pain-card-top">
           <h3 class="type-heading pain-title">${pain.title}</h3>
-          <p class="type-body pain-desc">${pain.description}${blogLinkHtml}</p>
+          <p class="type-body pain-desc">${pain.description}</p>
+          ${blogLinkHtml}
         </div>
       </div>
     `;
@@ -514,11 +515,7 @@ export function renderApp(config) {
     return `
       <div class="solution-row reveal" id="solution-row-${index}" style="background-image: url('${sol.bg}');">
         <div class="solution-text-block">
-          <div class="solution-icon-wrapper">
-            <img src="${sol.icon}" class="solution-icon" alt="" onerror="this.outerHTML='<svg class=&quot;solution-icon&quot; viewBox=&quot;0 0 24 24&quot;><path d=&quot;M12 2L2 22h20L12 2z&quot;></path></svg>'">
-          </div>
           <span class="type-small-body solution-label">${sol.feature}</span>
-          ${sol.roleLabel ? `<span class="solution-role-chip">${sol.roleLabel}</span>` : ''}
           <h3 class="type-large-title solution-title">${sol.title}</h3>
           <p class="type-body solution-desc">${sol.description}${blogLinkHtml}</p>
         </div>
@@ -586,9 +583,6 @@ export function renderApp(config) {
            </div>
            <div class="persona-solution-card-wrapper">
              <div class="persona-solution-card glass">
-               <div class="persona-sol-tag-row">
-                 <span class="persona-sol-badge">Kana Solution</span>
-               </div>
                <h4 class="type-heading persona-sol-name">${persona.solution.name}</h4>
                <p class="type-body persona-sol-desc">${persona.solution.description}</p>
                <a href="${persona.solution.linkHref}" class="persona-sol-link">
@@ -617,6 +611,113 @@ export function renderApp(config) {
           
           <div class="persona-panel-wrapper">
              ${personaPanelsHtml}
+          </div>
+        </div>
+      </section>
+    `;
+  }
+
+  // ── 4.6 INTERACTIVE SHOWCASE SECTION RENDER ──
+  let showcaseHtml = '';
+  if (config.showcase) {
+    const panelsHtml = config.showcase.columns.map((col, index) => {
+      const isActive = index === 0;
+      return `
+        <div class="showcase-panel ${isActive ? 'active' : ''}" id="showcase-panel-${index}">
+          <img src="${col.image}" class="showcase-img" alt="${col.title} visual" onerror="this.outerHTML='<div class=&quot;asset-placeholder&quot;><div>[Failed to load Image]</div></div>'">
+        </div>
+      `;
+    }).join('');
+
+    const triggersHtml = config.showcase.columns.map((col, index) => {
+      const isActive = index === 0;
+      return `
+        <div class="showcase-trigger ${isActive ? 'active' : ''}" data-target="showcase-panel-${index}" id="showcase-trigger-${index}">
+          <div class="showcase-indicator-line"><div class="showcase-indicator-fill"></div></div>
+          <h3 class="showcase-col-title">${col.title}</h3>
+          <p class="showcase-col-desc">${col.description}</p>
+          <a href="${col.linkHref}" class="showcase-col-link">
+            <span>${col.linkLabel}</span>
+            <div class="showcase-arrow-btn">
+              <svg width="14" height="10" viewBox="0 0 14 10" fill="none"><path d="M1 5H13M13 5L9 1M13 5L9 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+          </a>
+        </div>
+      `;
+    }).join('');
+
+    showcaseHtml = `
+      <section class="showcase-section section-padding reveal" id="showcase">
+        <div class="container">
+          <h2 class="showcase-headline">${config.showcase.headline}</h2>
+          
+          <div class="showcase-visual-card">
+            <div class="showcase-panels-wrapper">
+              ${panelsHtml}
+            </div>
+          </div>
+
+          <div class="showcase-triggers-grid">
+            ${triggersHtml}
+          </div>
+        </div>
+      </section>
+    `;
+  }
+
+  // ── 4.7 INTERACTIVE STACK SHOWCASE SECTION RENDER ──
+  let stackShowcaseHtml = '';
+  if (config.stackShowcase) {
+    const panelsHtml = config.stackShowcase.columns.map((col, index) => {
+      const isActive = index === 0;
+      return `
+        <div class="stack-panel ${isActive ? 'active' : ''}" id="stack-panel-${index}">
+          <img src="${col.image}" class="stack-img" alt="${col.title} visual" onerror="this.outerHTML='<div class=&quot;asset-placeholder&quot;><div>[Failed to load Image]</div></div>'">
+        </div>
+      `;
+    }).join('');
+
+    const accordionItemsHtml = config.stackShowcase.columns.map((col, index) => {
+      const isActive = index === 0;
+      return `
+        <div class="stack-accordion-item ${isActive ? 'active' : ''}" data-target="stack-panel-${index}" id="stack-accordion-${index}">
+          <button class="stack-accordion-header" aria-expanded="${isActive ? 'true' : 'false'}">
+            <h3 class="stack-accordion-title">${col.title}</h3>
+            <div class="stack-circle-btn">
+              <svg width="12" height="8" viewBox="0 0 12 8" fill="none"><path d="M1 1.5L6 6.5L11 1.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+          </button>
+          <div class="stack-accordion-body" style="max-height: ${isActive ? '250px' : '0px'}; opacity: ${isActive ? '1' : '0'};">
+            <p class="stack-accordion-desc">${col.description}</p>
+          </div>
+        </div>
+      `;
+    }).join('');
+
+    stackShowcaseHtml = `
+      <section class="stack-showcase-section section-padding reveal" id="stack-showcase">
+        <div class="container">
+          <h2 class="stack-headline">
+            Kana works on<br>
+            top of <span class="rotating-word color-snowflake" id="rotatingStackWord">Snowflake</span><br>
+            not instead of it.
+          </h2>
+          <p class="stack-subtitle">${config.stackShowcase.subtitle}</p>
+
+          <div class="stack-showcase-grid">
+            <div class="stack-showcase-left">
+              <div class="stack-visual-card">
+                <div class="stack-panels-wrapper">
+                  ${panelsHtml}
+                </div>
+              </div>
+            </div>
+
+            <div class="stack-showcase-right">
+              <div class="stack-accordions-list">
+                ${accordionItemsHtml}
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -706,7 +807,7 @@ export function renderApp(config) {
     <section class="faq-section section-padding" id="faq">
       <div class="container">
         <div class="section-header reveal">
-          <h2 class="type-h2 section-title">Common questions</h2>
+          <h2 class="type-h2 section-title">Frequently Asked Questions</h2>
         </div>
         <div class="faq-list">
           ${faqItemsHtml}
@@ -779,6 +880,8 @@ export function renderApp(config) {
     <main>
       ${heroHtml}
       ${painPointsHtml}
+      ${showcaseHtml}
+      ${stackShowcaseHtml}
       ${personasHtml}
       ${solutionsHtml}
       ${statsBarHtml}
@@ -918,4 +1021,144 @@ export function renderApp(config) {
 
   // 7. Animated stats counter
   initStatsCounter();
+
+  // 8. Showcase Section tab switching interactivity with auto-transition
+  if (config.showcase) {
+    const showcaseTriggers = document.querySelectorAll('.showcase-trigger');
+    const showcasePanels = document.querySelectorAll('.showcase-panel');
+    let autoTransitionInterval = null;
+    const intervalTime = 12000; // 12 seconds auto-transition
+
+    function activateShowcaseTab(index) {
+      const trigger = showcaseTriggers[index];
+      if (!trigger) return;
+      const targetId = trigger.getAttribute('data-target');
+
+      // Deactivate all triggers
+      showcaseTriggers.forEach(t => t.classList.remove('active'));
+      // Activate target trigger
+      trigger.classList.add('active');
+
+      // Hide all panels
+      showcasePanels.forEach(p => p.classList.remove('active'));
+      // Show target panel
+      const targetPanel = document.getElementById(targetId);
+      if (targetPanel) {
+        targetPanel.classList.add('active');
+      }
+    }
+
+    function startShowcaseTimer() {
+      if (autoTransitionInterval) {
+        clearInterval(autoTransitionInterval);
+      }
+      autoTransitionInterval = setInterval(() => {
+        let activeIndex = 0;
+        showcaseTriggers.forEach((t, idx) => {
+          if (t.classList.contains('active')) {
+            activeIndex = idx;
+          }
+        });
+        const nextIndex = (activeIndex + 1) % showcaseTriggers.length;
+        activateShowcaseTab(nextIndex);
+      }, intervalTime);
+    }
+
+    showcaseTriggers.forEach((trigger, idx) => {
+      trigger.addEventListener('click', () => {
+        activateShowcaseTab(idx);
+        // Restart the timer so the user has full intervalTime to read the manually selected tab
+        startShowcaseTimer();
+      });
+    });
+
+    // Start auto transition initially
+    startShowcaseTimer();
+  }
+
+  // ── 9. STACK SHOWCASE SECTION INTERACTIVITY & ROTATION ──
+  if (config.stackShowcase) {
+    const stackTriggers = document.querySelectorAll('.stack-accordion-item');
+    const stackPanels = document.querySelectorAll('.stack-panel');
+    const rotatingWordEl = document.getElementById('rotatingStackWord');
+
+    // Add inline styling helper for opacity animations
+    if (rotatingWordEl) {
+      rotatingWordEl.style.transition = 'opacity 0.4s cubic-bezier(0.4, 0, 0.2, 1), color 0.4s ease';
+    }
+
+    // Rotation variables
+    const stackRotations = [
+      { text: 'Snowflake', className: 'color-snowflake' },
+      { text: 'Databricks', className: 'color-databricks' },
+      { text: 'BigQuery', className: 'color-bigquery' },
+      { text: 'Salesforce', className: 'color-salesforce' },
+      { text: 'Marketo', className: 'color-marketo' },
+      { text: 'your stack', className: 'color-kana' }
+    ];
+    let rotationIndex = 0;
+
+    // Start text rotation interval
+    setInterval(() => {
+      if (!rotatingWordEl) return;
+      rotationIndex = (rotationIndex + 1) % stackRotations.length;
+      const current = stackRotations[rotationIndex];
+      
+      // Update text with transition fade
+      rotatingWordEl.style.opacity = '0';
+      setTimeout(() => {
+        rotatingWordEl.textContent = current.text;
+        
+        // Remove all previous color classes
+        stackRotations.forEach(r => rotatingWordEl.classList.remove(r.className));
+        // Add current color class
+        rotatingWordEl.classList.add(current.className);
+        
+        rotatingWordEl.style.opacity = '1';
+      }, 400);
+    }, 3000);
+
+    // Accordion expand/collapse & visual swap logic
+    stackTriggers.forEach(trigger => {
+      const headerBtn = trigger.querySelector('.stack-accordion-header');
+      const bodyPanel = trigger.querySelector('.stack-accordion-body');
+
+      headerBtn.addEventListener('click', () => {
+        const isActive = trigger.classList.contains('active');
+
+        // Deactivate all accordions
+        stackTriggers.forEach(t => {
+          t.classList.remove('active');
+          t.querySelector('.stack-accordion-header').setAttribute('aria-expanded', 'false');
+          t.querySelector('.stack-accordion-body').style.maxHeight = '0px';
+          t.querySelector('.stack-accordion-body').style.opacity = '0';
+        });
+
+        // Swap visual panel mockup
+        stackPanels.forEach(p => p.classList.remove('active'));
+
+        if (!isActive) {
+          trigger.classList.add('active');
+          headerBtn.setAttribute('aria-expanded', 'true');
+          bodyPanel.style.maxHeight = bodyPanel.scrollHeight + 'px';
+          bodyPanel.style.opacity = '1';
+
+          // Active panel
+          const targetId = trigger.getAttribute('data-target');
+          const targetPanel = document.getElementById(targetId);
+          if (targetPanel) {
+            targetPanel.classList.add('active');
+          }
+        } else {
+          // Default back to showing stack-panel-0 when all accordions are collapsed
+          const firstPanel = document.getElementById('stack-panel-0');
+          if (firstPanel) {
+            firstPanel.classList.add('active');
+          }
+        }
+      });
+    });
+  }
 }
+
+
