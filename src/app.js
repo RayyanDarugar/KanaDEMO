@@ -633,7 +633,6 @@ export function renderApp(config) {
       const isActive = index === 0;
       return `
         <div class="showcase-trigger ${isActive ? 'active' : ''}" data-target="showcase-panel-${index}" id="showcase-trigger-${index}">
-          <div class="showcase-indicator-line"><div class="showcase-indicator-fill"></div></div>
           <h3 class="showcase-col-title">${col.title}</h3>
           <p class="showcase-col-desc">${col.description}</p>
           <a href="${col.linkHref}" class="showcase-col-link">
@@ -651,14 +650,22 @@ export function renderApp(config) {
         <div class="container">
           <h2 class="showcase-headline">${config.showcase.headline}</h2>
           
-          <div class="showcase-visual-card">
-            <div class="showcase-panels-wrapper">
-              ${panelsHtml}
+          <div class="showcase-layout-grid">
+            <!-- Left column: Steppers triggers list -->
+            <div class="showcase-steppers-col">
+              <div class="showcase-triggers-list">
+                ${triggersHtml}
+              </div>
             </div>
-          </div>
-
-          <div class="showcase-triggers-grid">
-            ${triggersHtml}
+            
+            <!-- Right column: Mockup Display -->
+            <div class="showcase-visual-col">
+              <div class="showcase-visual-card">
+                <div class="showcase-panels-wrapper">
+                  ${panelsHtml}
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -677,19 +684,12 @@ export function renderApp(config) {
       `;
     }).join('');
 
-    const accordionItemsHtml = config.stackShowcase.columns.map((col, index) => {
+    const stackCardsHtml = config.stackShowcase.columns.map((col, index) => {
       const isActive = index === 0;
       return `
-        <div class="stack-accordion-item ${isActive ? 'active' : ''}" data-target="stack-panel-${index}" id="stack-accordion-${index}">
-          <button class="stack-accordion-header" aria-expanded="${isActive ? 'true' : 'false'}">
-            <h3 class="stack-accordion-title">${col.title}</h3>
-            <div class="stack-circle-btn">
-              <svg width="12" height="8" viewBox="0 0 12 8" fill="none"><path d="M1 1.5L6 6.5L11 1.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </div>
-          </button>
-          <div class="stack-accordion-body" style="max-height: ${isActive ? '250px' : '0px'}; opacity: ${isActive ? '1' : '0'};">
-            <p class="stack-accordion-desc">${col.description}</p>
-          </div>
+        <div class="stack-card-item ${isActive ? 'active' : ''}" data-index="${index}" id="stack-card-${index}">
+          <h3 class="stack-card-title">${col.title}</h3>
+          <p class="stack-card-desc">${col.description}</p>
         </div>
       `;
     }).join('');
@@ -714,8 +714,8 @@ export function renderApp(config) {
             </div>
 
             <div class="stack-showcase-right">
-              <div class="stack-accordions-list">
-                ${accordionItemsHtml}
+              <div class="stack-cards-list">
+                ${stackCardsHtml}
               </div>
             </div>
           </div>
@@ -1036,8 +1036,6 @@ export function renderApp(config) {
 
       // Deactivate all triggers
       showcaseTriggers.forEach(t => t.classList.remove('active'));
-      // Activate target trigger
-      trigger.classList.add('active');
 
       // Hide all panels
       showcasePanels.forEach(p => p.classList.remove('active'));
@@ -1046,6 +1044,10 @@ export function renderApp(config) {
       if (targetPanel) {
         targetPanel.classList.add('active');
       }
+
+      // Force layout reflow on target to ensure the vertical bar animation restarts
+      trigger.offsetHeight;
+      trigger.classList.add('active');
     }
 
     function startShowcaseTimer() {
@@ -1078,8 +1080,7 @@ export function renderApp(config) {
 
   // ── 9. STACK SHOWCASE SECTION INTERACTIVITY & ROTATION ──
   if (config.stackShowcase) {
-    const stackTriggers = document.querySelectorAll('.stack-accordion-item');
-    const stackPanels = document.querySelectorAll('.stack-panel');
+    const stackTriggers = document.querySelectorAll('.stack-card-item');
     const rotatingWordEl = document.getElementById('rotatingStackWord');
 
     // Add inline styling helper for opacity animations
@@ -1115,46 +1116,23 @@ export function renderApp(config) {
         rotatingWordEl.classList.add(current.className);
         
         rotatingWordEl.style.opacity = '1';
+
       }, 400);
     }, 3000);
 
-    // Accordion expand/collapse & visual swap logic
-    stackTriggers.forEach(trigger => {
-      const headerBtn = trigger.querySelector('.stack-accordion-header');
-      const bodyPanel = trigger.querySelector('.stack-accordion-body');
+    const stackPanels = document.querySelectorAll('.stack-panel');
+    // Card selection interactive logic
+    stackTriggers.forEach((trigger, idx) => {
+      trigger.addEventListener('click', () => {
+        // Toggle active card state
+        stackTriggers.forEach(t => t.classList.remove('active'));
+        trigger.classList.add('active');
 
-      headerBtn.addEventListener('click', () => {
-        const isActive = trigger.classList.contains('active');
-
-        // Deactivate all accordions
-        stackTriggers.forEach(t => {
-          t.classList.remove('active');
-          t.querySelector('.stack-accordion-header').setAttribute('aria-expanded', 'false');
-          t.querySelector('.stack-accordion-body').style.maxHeight = '0px';
-          t.querySelector('.stack-accordion-body').style.opacity = '0';
-        });
-
-        // Swap visual panel mockup
+        // Toggle active mockup image panel
         stackPanels.forEach(p => p.classList.remove('active'));
-
-        if (!isActive) {
-          trigger.classList.add('active');
-          headerBtn.setAttribute('aria-expanded', 'true');
-          bodyPanel.style.maxHeight = bodyPanel.scrollHeight + 'px';
-          bodyPanel.style.opacity = '1';
-
-          // Active panel
-          const targetId = trigger.getAttribute('data-target');
-          const targetPanel = document.getElementById(targetId);
-          if (targetPanel) {
-            targetPanel.classList.add('active');
-          }
-        } else {
-          // Default back to showing stack-panel-0 when all accordions are collapsed
-          const firstPanel = document.getElementById('stack-panel-0');
-          if (firstPanel) {
-            firstPanel.classList.add('active');
-          }
+        const targetPanel = document.getElementById(`stack-panel-${idx}`);
+        if (targetPanel) {
+          targetPanel.classList.add('active');
         }
       });
     });
