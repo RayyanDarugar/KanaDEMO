@@ -97,7 +97,7 @@ export const industryConfig = {
       icon:        "../../brand-assets/SVG/6a07370a2e3e29f5d03b13d9_Category Intelligence Hub.svg",
       image:       "../../brand-assets/WEBP/69fb34a309b57c2ab7a2437c_f3e2b3b11b80faf9ae6c49a500d8353c_solutions_03_2x.webp",
       bg:          "../../brand-assets/JPG/6a073cc03bbf9cc8a6b457ff_solution-bg__3.jpg",
-      video:       null,
+      video:       '<div style="position: relative; width: 100%; height: 100%;"><iframe src="https://www.loom.com/embed/008db7fcebf246b7bdea0c7575fc4dc0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>',
       blog: {
         text: "How Category Intelligence drives SKU velocity",
         href: "/blog/category-intelligence-sku-velocity"

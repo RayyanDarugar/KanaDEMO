@@ -34,6 +34,9 @@ function resolveAsset(path, type, label = "Visual Asset") {
   }
 
   if (type === 'video') {
+    if (path.trim().startsWith('<')) {
+      return path;
+    }
     return `
       <video src="${path}" class="solution-media" autoplay muted loop playsinline 
              onerror="this.outerHTML='<div class=&quot;asset-placeholder&quot;><div>[Failed to load Video: ${filename}]</div></div>'">
@@ -530,7 +533,7 @@ export function renderApp(config) {
     <section class="solutions-section section-padding" id="solutions">
       <div class="container">
         <div class="section-header reveal">
-          <h2 class="type-h2 section-title">How Kana fixes it</h2>
+          <h2 class="type-h2 section-title">Purpose-Built Agentic Solutions</h2>
         </div>
         <div class="solutions-list">
           ${solutionsRowsHtml}
@@ -604,8 +607,8 @@ export function renderApp(config) {
       <section class="persona-section section-padding dot-grid-bg" id="personas">
         <div class="container">
           <div class="section-header reveal">
-            <h2 class="type-h2 section-title">Built for every role on your team</h2>
-            <p class="type-body persona-subtext">Your role. Your challenges. The Kana solution built for it.</p>
+            <h2 class="type-h2 section-title">We build solutions to support your team roles</h2>
+            <p class="type-body persona-subtext">Tailored capabilities designed to address role-specific challenges and achieve your business goals.</p>
           </div>
 
           <div role="tablist" class="persona-tabs reveal">
