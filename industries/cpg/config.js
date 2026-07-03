@@ -53,7 +53,7 @@ export const industryConfig = {
   // ── HERO ───────────────────────────────────────────────────
   hero: {
     headline: "The AI Marketing Platform <em>Built for CPG Brands</em>",
-    subheadline: "Your syndicated data is already a week old. Programmatic spend leaks at scale. Audience segments lose the brief in translation. Kana gives CPG teams real-time category intelligence, modeled media allocation, and audiences that trace back to the original brief — all connected to shelf velocity.",
+    subheadline: "Your syndicated data is already a week old. Programmatic spend leaks at scale. And audience briefs rarely run as written. Kana gives CPG teams real-time category intelligence, media spend modeled on real performance, and audiences that trace back to the original brief.",
     primaryCta: { text: "Book a Demo", href: "/demo" },
     secondaryCta: { text: "See how it works", href: "#solutions" },
     image: "../../brand-assets/AVIF/6a0738509e86699ed6c6bd9e_Solutions-1.avif",
@@ -63,23 +63,23 @@ export const industryConfig = {
   painPoints: [
     {
       title: "Category intelligence is a week behind the shelf",
-      description: "CPG category teams process syndicated data drops weekly, manually. By the time reports reach the team, the category has already moved — leaving category managers in buyer meetings with a view that's already stale.",
+      description: "CPG category teams process syndicated data drops weekly, by hand. By the time reports reach the team, the category has already moved — and buyer meetings start with numbers that are already stale.",
       blog: {
         text: "How to unify retail POS feeds in real time",
         href: "/blog/cpg-real-time-pos-data"
       }
     },
     {
-      title: "Programmatic media budgets waste 56% of ad spend",
-      description: "Only $439 of every $1,000 in programmatic spend actually reaches consumers. Without saturation modeling built into planning, waste compounds silently — and most CPG media teams have no tooling to catch it in time.",
+      title: "Less than half your ad budget reaches shoppers",
+      description: "For every $1,000 spent programmatically, only $439 actually reaches consumers. Without saturation modeling built into planning, the waste compounds silently — and most CPG media teams have no way to catch it before the budget's spent.",
       blog: {
         text: "A guide to programmatic saturation curves",
         href: "/blog/programmatic-saturation-curves"
       }
     },
     {
-      title: "Audience briefs lose fidelity during platform translation",
-      description: "When data engineers translate a brief into a segment, persona intent collapses into available filters. The segment may technically run — but there's no clear link between what was briefed and what activated.",
+      title: "What you brief and what actually runs are rarely the same",
+      description: "Translating a brief into a live segment means converting plain-language intent into whatever filters the platform happens to offer. The segment runs — but there's no way to check it against what was actually requested.",
       blog: {
         text: "Audience translation for campaigns",
         href: "/blog/audience-mismatch-briefs"
@@ -107,7 +107,7 @@ export const industryConfig = {
       feature: "Omni-Channel Media Planner",
       roleLabel: "Built for VP Media & Performance Teams",
       title: "Stop optimizing with last year's channel mix",
-      description: "The Omni-Channel Media Planner models saturation curves against your own campaign data and maps brief targeting parameters to platform-specific configurations across Meta, YouTube, The Trade Desk, and DV360. Budget allocation stops being driven by habit and starts being driven by modeled ROAS.",
+      description: "The Omni-Channel Media Planner models saturation curves against your own campaign data and turns a brief straight into the right targeting setup on Meta, YouTube, The Trade Desk, and DV360. Budget allocation stops being driven by habit and starts being driven by modeled ROAS.",
       icon: "../../brand-assets/SVG/69901757be05292281eee76e_Media Proposal Generation.svg",
       image: "../../brand-assets/WEBP/69fb34a37abc32670956d9d8_22a3b8e403e4a9722e6b5bc578c29054_solutions_01_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc04b820e89c641b48b_solution-bg__1.jpg",
@@ -134,8 +134,8 @@ export const industryConfig = {
     {
       feature: "Marketing Intelligence",
       roleLabel: "Built for VP Analytics & CMOs",
-      title: "Chat with all your data — retailer, ERP, CRM",
-      description: "Marketing Intelligence unifies fragmented data sources into one live view and connects digital campaign performance to actual in-store sales lift. Marketing stops defending proxies to commercial leadership and starts showing the direct line from spend to revenue.",
+      title: "See what your ad spend actually sold in stores",
+      description: "Marketing Intelligence connects your ad platforms, retailer portals, and CRM into one live view, and ties digital campaign performance to real in-store sales lift. Marketing stops defending impressions to a CFO who wants revenue — and starts showing the number commercial leadership has been asking for.",
       icon: "../../brand-assets/SVG/699017579f378c81f5094a40_Analytics.svg",
       image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc0a301e7e98b87934a_solution-bg__4.jpg",
@@ -181,27 +181,27 @@ export const industryConfig = {
   faq: [
     {
       q: "How does Kana connect to our retail media platforms?",
-      a: "Kana's Campaign Management and Marketing Intelligence layers integrate with the major retail media platforms — including Walmart Connect, Amazon DSP, Kroger Precision Marketing, and others — via API. Data from each platform flows into a unified view, so your team stops toggling between dashboards and starts seeing cross-platform performance in one place. Setup is handled by Kana's solutions team and typically takes 2–4 weeks depending on the number of platforms."
+      a: "Via API. Kana connects to Walmart Connect, Amazon DSP, Kroger Precision Marketing, and other retail media platforms, pulling performance data into one unified view instead of a dozen separate dashboards. Kana's solutions team handles setup, typically in 2–4 weeks depending on how many platforms you're connecting."
     },
     {
       q: "How does Kana unify data across retailers, ERP, and CRM?",
-      a: "Marketing Intelligence acts as the intelligence layer that sits across your existing data sources — retailer portals, your ERP, your CRM, and your internal BI tools. It does not require a data warehouse migration. Kana connects to your systems, normalizes the data into a shared schema, and surfaces it through a natural language interface. Category managers, analytics teams, and CMOs can query across all sources without writing SQL or waiting for analyst reports."
+      a: "Marketing Intelligence sits on top of your existing systems — retailer portals, ERP, CRM, internal BI tools — with no data warehouse migration required. Kana connects to what you already have, normalizes it, and lets you ask questions in plain language. No SQL, no analyst queue."
     },
     {
       q: "How fast can a CPG team get live on Kana?",
-      a: "Most CPG teams are seeing value within the first 30 days. The initial onboarding focuses on connecting your top 3–5 data sources and configuring the Category Intelligence Hub and Marketing Intelligence layers to your specific retailer mix and reporting needs. The Audience Manager and Synthetic Data Generation capabilities layer in after core data connections are stable. Kana's forward-deployed solutions team works directly with your team throughout."
+      a: "Most CPG teams see value within the first 30 days. Onboarding starts by connecting your top 3–5 data sources and configuring Category Intelligence Hub and Marketing Intelligence to your retailer mix. Audience Manager and Synthetic Data Generation layer in once those core connections are stable — Kana's solutions team works with you throughout."
     },
     {
       q: "How does AEO get our brand cited in AI search?",
-      a: "Kana's AEO Platform audits how your brand currently appears in responses from ChatGPT, Perplexity, Gemini, and other answer engines. It identifies the content and schema gaps that cause AI systems to cite competitors instead of you, and activates structured content updates — including direct CMS writes — to close those gaps. For CPG brands, this is especially critical in categories where AI search is replacing traditional shelf discovery."
+      a: "Kana audits how your brand shows up in answers from ChatGPT, Perplexity, and Gemini, then closes the content gaps causing AI to cite competitors instead of you — including direct updates to your CMS. For CPG brands, this matters most in categories where shoppers are starting their search in AI, not on a shelf."
     },
     {
       q: "Can it work across multiple brands and regions?",
-      a: "Yes. Kana is built for multi-brand, multi-region CPG environments. Each brand can be configured with its own retailer connections, category definitions, and audience segments, while leadership retains a cross-portfolio view. Regional data isolation is configurable for privacy compliance requirements across markets."
+      a: "Yes. Each brand gets its own retailer connections, category definitions, and audience segments, while leadership keeps a single cross-portfolio view. Regional data can stay isolated to meet local privacy requirements."
     },
     {
       q: "How does Kana handle our existing martech and agency workflows?",
-      a: "Kana operates as a layer above your existing martech stack — it does not replace your DSPs, your CRM, or your agency platforms. For CPG brands working with AOR or specialist agencies, Kana provides a shared intelligence layer that both the internal team and agency partners can query. Brief-to-activation traceability in the Audience Manager also creates a documented handoff record between brand and agency, closing one of the most common audit gaps in CPG campaign ops."
+      a: "Kana sits on top of your existing stack — it doesn't replace your DSPs, CRM, or agency platforms. Internal teams and agency partners query the same shared intelligence layer, and Audience Manager's brief-to-activation trail gives you a documented handoff record between brand and agency — closing one of the most common audit gaps in CPG campaign ops."
     },
   ],
 
@@ -342,7 +342,7 @@ export const industryConfig = {
       },
       {
         title: "Run the brief you actually wrote",
-        description: "Build precise audience segments from plain-language briefs — no SQL, no tickets. Monitor every live campaign against the original intent across Meta, YouTube, and TradeDesk with a real-time Audience Integrity Score.",
+        description: "Build precise audience segments from plain-language briefs — no SQL, no tickets. Monitor every live campaign against the original brief across Meta, YouTube, and The Trade Desk, in real time.",
         linkLabel: "Learn more about Audience Manager",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a3693f25a94988df0e_5897b8bc1884f86278bb63a02dc23207_solutions_05_2x.webp"
@@ -359,7 +359,7 @@ export const industryConfig = {
 
   // ── STACK SHOWCASE ─────────────────────────────────────────
   stackShowcase: {
-    subtitle: "A symphony of loosely coupled agents that connect your POS data, retailer portals, CRM, and media platforms — without migration, rip-and-replace, or new governance gaps.",
+    subtitle: "Connects to your POS data, retailer portals, CRM, and media platforms — without migration, rip-and-replace, or new governance gaps.",
     columns: [
       {
         title: "Unify your customer data without moving a single record",
