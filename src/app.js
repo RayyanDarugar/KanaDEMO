@@ -255,7 +255,7 @@ export function renderApp(config) {
                     <a href="/solutions/campaignmanagement" class="megamenu-link">
                       <img src="https://cdn.prod.website-files.com/6938c88532164b75764d7ec5/69901757ec677b2ce290fcb4_Smarter%20Campaign%20Management.svg" class="megamenu-icon" alt=""/>
                       <div class="megamenu-link-text">
-                        <div class="megamenu-link-name">Campaign Management</div>
+                        <div class="megamenu-link-name">Campaign Orchestrator</div>
                       </div>
                     </a>
                     <a href="/solutions/marketingintel" class="megamenu-link">
@@ -273,7 +273,7 @@ export function renderApp(config) {
                     <a href="/solutions/category-intelligence-hub" class="megamenu-link">
                       <img src="https://cdn.prod.website-files.com/6938c88532164b75764d7ec5/6a07370a2e3e29f5d03b13d9_Category%20Intelligence%20Hub.svg" class="megamenu-icon" alt=""/>
                       <div class="megamenu-link-text">
-                        <div class="megamenu-link-name">Category Intelligence Hub</div>
+                        <div class="megamenu-link-name">Category Intelligence</div>
                       </div>
                     </a>
                   </div>
@@ -287,12 +287,6 @@ export function renderApp(config) {
                         <div class="megamenu-link-name">Customer Engagement</div>
                       </div>
                     </a>
-                    <a href="/solutions/syntheticdata" class="megamenu-link">
-                      <img src="https://cdn.prod.website-files.com/6938c88532164b75764d7ec5/69901757d8ab518db4cb3c52_Synthetic%20Data%20Generation.svg" class="megamenu-icon" alt=""/>
-                      <div class="megamenu-link-text">
-                        <div class="megamenu-link-name">Synthetic Data Generation</div>
-                      </div>
-                    </a>
                     <a href="/solutions/mediaproposals" class="megamenu-link">
                       <img src="https://cdn.prod.website-files.com/6938c88532164b75764d7ec5/69901757be05292281eee76e_Media%20Proposal%20Generation.svg" class="megamenu-icon" alt=""/>
                       <div class="megamenu-link-text">
@@ -302,7 +296,7 @@ export function renderApp(config) {
                     <a href="/solutions/audience-manager" class="megamenu-link">
                       <img src="https://cdn.prod.website-files.com/6938c88532164b75764d7ec5/6a07370afa74e1a989f5eb11_Audience%20Manager.svg" class="megamenu-icon" alt=""/>
                       <div class="megamenu-link-text">
-                        <div class="megamenu-link-name">Audience Manager</div>
+                        <div class="megamenu-link-name">Audience Builder</div>
                       </div>
                     </a>
                   </div>
@@ -530,7 +524,7 @@ export function renderApp(config) {
     <section class="solutions-section section-padding" id="solutions">
       <div class="container">
         <div class="section-header reveal">
-          <h2 class="type-h2 section-title">Purpose-Built Agentic Solutions</h2>
+          <h2 class="type-h2 section-title">${config.solutionsTitle || "Build agentic applications that support your entire team"}</h2>
         </div>
         <div class="solutions-list">
           ${solutionsRowsHtml}
@@ -672,6 +666,34 @@ export function renderApp(config) {
     `;
   }
 
+  // ── 4.65 FEATURED CONTENT BAND RENDER ──
+  let featuredContentHtml = '';
+  if (config.featuredContent) {
+    const fc = config.featuredContent;
+    const fcImageHtml = fc.image
+      ? `<div class="featured-content-media"><img src="${fc.image}" alt="${fc.title}" onerror="this.closest('.featured-content-media').style.display='none';"></div>`
+      : '';
+    const fcCtaHtml = fc.cta
+      ? `<a href="${fc.cta.href}" class="featured-content-link">${fc.cta.text}<svg width="14" height="10" viewBox="0 0 14 10" fill="none" style="margin-left:6px;"><path d="M1 5H13M13 5L9 1M13 5L9 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>`
+      : '';
+    featuredContentHtml = `
+      <section class="featured-content-section reveal" id="featured-content">
+        <div class="container">
+          <div class="featured-content-card">
+            <div class="featured-content-body">
+              ${fc.heading ? `<span class="featured-content-heading">${fc.heading}</span>` : ''}
+              ${fc.type ? `<span class="featured-content-type">${fc.type}</span>` : ''}
+              <h3 class="featured-content-title">${fc.title}</h3>
+              ${fc.description ? `<p class="featured-content-desc">${fc.description}</p>` : ''}
+              ${fcCtaHtml}
+            </div>
+            ${fcImageHtml}
+          </div>
+        </div>
+      </section>
+    `;
+  }
+
   // ── 4.7 INTERACTIVE STACK SHOWCASE SECTION RENDER ──
   let stackShowcaseHtml = '';
   if (config.stackShowcase) {
@@ -758,7 +780,7 @@ export function renderApp(config) {
   const testimonialHtml = `
     <section class="social-proof-section section-padding" id="social-proof">
       <div class="container">
-        <h4 class="logo-strip-title">Trusted by Leading Global Enterprises</h4>
+        <h4 class="logo-strip-title">${config.logoStripTitle || "Integrates with the platforms you already run"}</h4>
         <div class="logo-strip-wrapper">
           <div class="logo-strip">
             ${logosHtml}
@@ -882,6 +904,7 @@ export function renderApp(config) {
       ${painPointsHtml}
       ${showcaseHtml}
       ${stackShowcaseHtml}
+      ${featuredContentHtml}
       ${personasHtml}
       ${solutionsHtml}
       ${statsBarHtml}
