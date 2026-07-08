@@ -695,6 +695,18 @@ export function renderApp(config) {
   }
 
   // ── 4.7 INTERACTIVE STACK SHOWCASE SECTION RENDER ──
+  // Rotating "works on top of ___" words; verticals may override via
+  // config.stackShowcase.rotations = [{ text, className }, ...]
+  const defaultStackRotations = [
+    { text: 'Snowflake', className: 'color-snowflake' },
+    { text: 'Databricks', className: 'color-databricks' },
+    { text: 'BigQuery', className: 'color-bigquery' },
+    { text: 'Salesforce', className: 'color-salesforce' },
+    { text: 'Marketo', className: 'color-marketo' },
+    { text: 'your stack', className: 'color-kana' }
+  ];
+  const stackRotations = (config.stackShowcase && config.stackShowcase.rotations) || defaultStackRotations;
+
   let stackShowcaseHtml = '';
   if (config.stackShowcase) {
     const panelsHtml = config.stackShowcase.columns.map((col, index) => {
@@ -721,7 +733,7 @@ export function renderApp(config) {
         <div class="container">
           <h2 class="stack-headline">
             Kana works on<br>
-            top of <span class="rotating-word color-snowflake" id="rotatingStackWord">Snowflake</span><br>
+            top of <span class="rotating-word ${stackRotations[0].className}" id="rotatingStackWord">${stackRotations[0].text}</span><br>
             not instead of it.
           </h2>
           <p class="stack-subtitle">${config.stackShowcase.subtitle}</p>
@@ -1111,8 +1123,8 @@ export function renderApp(config) {
       rotatingWordEl.style.transition = 'opacity 0.4s cubic-bezier(0.4, 0, 0.2, 1), color 0.4s ease';
     }
 
-    // Rotation variables
-    const stackRotations = [
+    // Rotation variables (config-driven; same fallback as the render block)
+    const stackRotations = (config.stackShowcase && config.stackShowcase.rotations) || [
       { text: 'Snowflake', className: 'color-snowflake' },
       { text: 'Databricks', className: 'color-databricks' },
       { text: 'BigQuery', className: 'color-bigquery' },
