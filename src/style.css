@@ -1346,7 +1346,7 @@ a {
 }
 
 .solutions-megamenu {
-  width: 960px; /* Made slightly wider to fit larger text */
+  width: 1120px; /* Fits 3 suite columns + industries column */
   right: -200px;
   left: auto;
   transform: translateY(10px);
@@ -1404,7 +1404,7 @@ a {
 
 .megamenu-columns {
   display: grid;
-  grid-template-columns: 1fr 1.15fr 1.15fr; /* Shifted grid space: left-side Industry, right products */
+  grid-template-columns: 1.15fr 1.15fr 1.15fr 1fr; /* Left: 3 suite columns, right: Industry */
   gap: 32px;
   padding: 36px;
 }
@@ -1450,16 +1450,31 @@ a {
   color: var(--color-text-dark);
 }
 
-/* Industries Menu Column special accent styling (now leftmost!) */
+/* Industries Menu Column special accent styling (now rightmost) */
 .industries-col {
   background: rgba(var(--color-accent-rgb), 0.03);
-  border-right: 1px solid var(--color-border-light); /* Changed to right border! */
-  border-left: none; /* Removed left border */
-  padding-right: 24px;
-  padding-left: 12px;
+  border-left: 1px solid var(--color-border-light);
+  border-right: none;
+  padding-left: 24px;
+  padding-right: 12px;
   margin: -16px 0;
   padding-top: 16px;
   padding-bottom: 16px;
+}
+
+/* Suite group labels inside the industries column */
+.industries-group-label {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: var(--color-text-muted);
+  opacity: 0.7;
+  margin: 10px 12px 2px;
+}
+
+.industries-menu-list .industries-group-label:first-child {
+  margin-top: 0;
 }
 
 .industries-menu-list {
@@ -2476,6 +2491,16 @@ a {
 .color-cloudflare {
   color: #F6821F;
   text-shadow: 0 0 15px rgba(246, 130, 31, 0.25);
+}
+
+.color-shopify {
+  color: #96BF48;
+  text-shadow: 0 0 15px rgba(150, 191, 72, 0.25);
+}
+
+.color-klaviyo {
+  color: #D2FF28;
+  text-shadow: 0 0 15px rgba(210, 255, 40, 0.2);
 }
 
 /* ============================================================

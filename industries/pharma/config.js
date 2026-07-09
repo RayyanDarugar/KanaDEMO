@@ -42,6 +42,7 @@ export const industryConfig = {
       "Financial Services",
       "Pharma",
       "Travel & Hospitality",
+      "Publishers",
     ],
     cta: { text: "Book a Demo", href: "/demo" },
   },

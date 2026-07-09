@@ -209,10 +209,69 @@ export function renderApp(config) {
     return `../${slugMap[vertical] || vertical.toLowerCase().replace(/[^a-z0-9]+/g, '-')}/index.html`;
   };
 
-  const industriesListHtml = config.nav.industries.map(ind => {
-    const isActive = ind.toLowerCase() === activeVertical.toLowerCase();
-    const activeClass = isActive ? 'active' : '';
-    return `<a href="${getVerticalUrl(ind)}" class="dropdown-item ${activeClass}">${ind}</a>`;
+  // ── Suites: products per suite (left side of the Solutions megamenu) ──
+  const solutionProducts = {
+    "Campaign Orchestrator":       { href: "/solutions/campaignmanagement",       icon: "https://cdn.prod.website-files.com/6938c88532164b75764d7ec5/69901757ec677b2ce290fcb4_Smarter%20Campaign%20Management.svg" },
+    "Media Proposal Generator":    { href: "/solutions/mediaproposals",           icon: "https://cdn.prod.website-files.com/6938c88532164b75764d7ec5/69901757be05292281eee76e_Media%20Proposal%20Generation.svg" },
+    "LLM Command Center":          { href: "/solutions/llmcommandcenter",         icon: "https://cdn.prod.website-files.com/6938c88532164b75764d7ec5/69901758dc3503adabece211_Answer%20Engine%20Optimization.svg" },
+    "Audience Builder":            { href: "/solutions/audience-manager",         icon: "https://cdn.prod.website-files.com/6938c88532164b75764d7ec5/6a07370afa74e1a989f5eb11_Audience%20Manager.svg" },
+    "Category Intelligence":       { href: "/solutions/category-intelligence-hub", icon: "https://cdn.prod.website-files.com/6938c88532164b75764d7ec5/6a07370a2e3e29f5d03b13d9_Category%20Intelligence%20Hub.svg" },
+    "Omni-Channel Media Planner":  { href: "/solutions/mediaplanner",             icon: "https://cdn.prod.website-files.com/6938c88532164b75764d7ec5/69901757be05292281eee76e_Media%20Proposal%20Generation.svg" },
+    "Marketing Intelligence":      { href: "/solutions/marketingintel",           icon: "https://cdn.prod.website-files.com/6938c88532164b75764d7ec5/699017579f378c81f5094a40_Analytics.svg" },
+    "Customer Engagement":         { href: "/solutions/customerengagement",       icon: "https://cdn.prod.website-files.com/6938c88532164b75764d7ec5/699017586c99f26d8f0a4085_Customer%20Engagement.svg" },
+    "Answer Engine Optimization":  { href: "/solutions/aeo",                      icon: "https://cdn.prod.website-files.com/6938c88532164b75764d7ec5/69901758dc3503adabece211_Answer%20Engine%20Optimization.svg" },
+  };
+
+  // Suite composition per Industry GTM Assets mapping (KFM / KFP / KFA)
+  const suites = [
+    { name: "Kana for Marketers",   products: ["Category Intelligence", "Omni-Channel Media Planner", "Audience Builder", "Customer Engagement", "Marketing Intelligence", "Answer Engine Optimization"] },
+    { name: "Kana for Publishers",  products: ["Campaign Orchestrator", "Media Proposal Generator", "LLM Command Center", "Audience Builder"] },
+    { name: "Kana for Advertisers", products: ["Omni-Channel Media Planner", "Campaign Orchestrator", "Audience Builder", "Marketing Intelligence"] },
+  ];
+
+  const suiteColumnsHtml = suites.map(suite => {
+    const linksHtml = suite.products.map(name => {
+      const p = solutionProducts[name];
+      return `
+        <a href="${p.href}" class="megamenu-link">
+          <img src="${p.icon}" class="megamenu-icon" alt=""/>
+          <div class="megamenu-link-text">
+            <div class="megamenu-link-name">${name}</div>
+          </div>
+        </a>`;
+    }).join('');
+    return `
+      <div class="megamenu-col">
+        <div class="megamenu-col-title">${suite.name}</div>
+        ${linksHtml}
+      </div>`;
+  }).join('');
+
+  // ── Industries grouped by suite (right side of the Solutions megamenu) ──
+  const industrySuiteMap = {
+    "CPG": "Kana for Marketers",
+    "Retail & E-Commerce": "Kana for Marketers",
+    "Manufacturing": "Kana for Marketers",
+    "Financial Services": "Kana for Marketers",
+    "Pharma": "Kana for Marketers",
+    "Travel & Hospitality": "Kana for Marketers",
+    "Publishers": "Kana for Publishers",
+    "Media & Advertisers": "Kana for Advertisers",
+  };
+
+  const industriesListHtml = suites.map(suite => {
+    const groupItems = config.nav.industries.filter(ind =>
+      (industrySuiteMap[ind] || "Kana for Marketers") === suite.name
+    );
+    if (groupItems.length === 0) return '';
+    const linksHtml = groupItems.map(ind => {
+      const isActive = ind.toLowerCase() === activeVertical.toLowerCase();
+      const activeClass = isActive ? 'active' : '';
+      return `<a href="${getVerticalUrl(ind)}" class="dropdown-item ${activeClass}">${ind}</a>`;
+    }).join('');
+    return `
+      <div class="industries-group-label">${suite.name}</div>
+      ${linksHtml}`;
   }).join('');
 
   const headerHtml = `
@@ -241,64 +300,15 @@ export function renderApp(config) {
                   </a>
                 </div>
                 <div class="megamenu-columns">
-                  <!-- Industries Column (Non-Obtrusive Integration!) -->
+                  <!-- Left: Kana suites with their products -->
+                  ${suiteColumnsHtml}
+
+                  <!-- Right: Industries grouped by suite -->
                   <div class="megamenu-col industries-col">
                     <div class="megamenu-col-title">By Industry</div>
                     <div class="industries-menu-list">
                       ${industriesListHtml}
                     </div>
-                  </div>
-
-                  <!-- Platform Core -->
-                  <div class="megamenu-col">
-                    <div class="megamenu-col-title">Platform Core</div>
-                    <a href="/solutions/campaignmanagement" class="megamenu-link">
-                      <img src="https://cdn.prod.website-files.com/6938c88532164b75764d7ec5/69901757ec677b2ce290fcb4_Smarter%20Campaign%20Management.svg" class="megamenu-icon" alt=""/>
-                      <div class="megamenu-link-text">
-                        <div class="megamenu-link-name">Campaign Orchestrator</div>
-                      </div>
-                    </a>
-                    <a href="/solutions/marketingintel" class="megamenu-link">
-                      <img src="https://cdn.prod.website-files.com/6938c88532164b75764d7ec5/699017579f378c81f5094a40_Analytics.svg" class="megamenu-icon" alt=""/>
-                      <div class="megamenu-link-text">
-                        <div class="megamenu-link-name">Marketing Intelligence</div>
-                      </div>
-                    </a>
-                    <a href="/solutions/aeo" class="megamenu-link">
-                      <img src="https://cdn.prod.website-files.com/6938c88532164b75764d7ec5/69901758dc3503adabece211_Answer%20Engine%20Optimization.svg" class="megamenu-icon" alt=""/>
-                      <div class="megamenu-link-text">
-                        <div class="megamenu-link-name">Answer Engine Optimization</div>
-                      </div>
-                    </a>
-                    <a href="/solutions/category-intelligence-hub" class="megamenu-link">
-                      <img src="https://cdn.prod.website-files.com/6938c88532164b75764d7ec5/6a07370a2e3e29f5d03b13d9_Category%20Intelligence%20Hub.svg" class="megamenu-icon" alt=""/>
-                      <div class="megamenu-link-text">
-                        <div class="megamenu-link-name">Category Intelligence</div>
-                      </div>
-                    </a>
-                  </div>
-                  
-                  <!-- Agent Services -->
-                  <div class="megamenu-col">
-                    <div class="megamenu-col-title">Agent Services</div>
-                    <a href="/solutions/customerengagement" class="megamenu-link">
-                      <img src="https://cdn.prod.website-files.com/6938c88532164b75764d7ec5/699017586c99f26d8f0a4085_Customer%20Engagement.svg" class="megamenu-icon" alt=""/>
-                      <div class="megamenu-link-text">
-                        <div class="megamenu-link-name">Customer Engagement</div>
-                      </div>
-                    </a>
-                    <a href="/solutions/mediaproposals" class="megamenu-link">
-                      <img src="https://cdn.prod.website-files.com/6938c88532164b75764d7ec5/69901757be05292281eee76e_Media%20Proposal%20Generation.svg" class="megamenu-icon" alt=""/>
-                      <div class="megamenu-link-text">
-                        <div class="megamenu-link-name">Media Proposal Generator</div>
-                      </div>
-                    </a>
-                    <a href="/solutions/audience-manager" class="megamenu-link">
-                      <img src="https://cdn.prod.website-files.com/6938c88532164b75764d7ec5/6a07370afa74e1a989f5eb11_Audience%20Manager.svg" class="megamenu-icon" alt=""/>
-                      <div class="megamenu-link-text">
-                        <div class="megamenu-link-name">Audience Builder</div>
-                      </div>
-                    </a>
                   </div>
                 </div>
               </div>
