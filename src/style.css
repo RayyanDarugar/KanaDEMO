@@ -2503,6 +2503,51 @@ a {
   text-shadow: 0 0 15px rgba(210, 255, 40, 0.2);
 }
 
+.color-toast {
+  color: #FF4C00;
+  text-shadow: 0 0 15px rgba(255, 76, 0, 0.25);
+}
+
+.color-punchh {
+  color: #E4002B;
+  text-shadow: 0 0 15px rgba(228, 0, 43, 0.25);
+}
+
+.color-olo {
+  color: #0073E6;
+  text-shadow: 0 0 15px rgba(0, 115, 230, 0.2);
+}
+
+.color-braze {
+  color: #B03DF2;
+  text-shadow: 0 0 15px rgba(176, 61, 242, 0.25);
+}
+
+.color-adobe {
+  color: #FA0F00;
+  text-shadow: 0 0 15px rgba(250, 15, 0, 0.25);
+}
+
+.color-opera {
+  color: #C74634;
+  text-shadow: 0 0 15px rgba(199, 70, 52, 0.25);
+}
+
+.color-duetto {
+  color: #00BFB3;
+  text-shadow: 0 0 15px rgba(0, 191, 179, 0.25);
+}
+
+.color-amplitude {
+  color: #2D7FF9;
+  text-shadow: 0 0 15px rgba(45, 127, 249, 0.2);
+}
+
+.color-epic {
+  color: #CE0E2D;
+  text-shadow: 0 0 15px rgba(206, 14, 45, 0.25);
+}
+
 /* ============================================================
    FEATURED CONTENT BAND
    Narrow, light band that sits between the two dark showcase

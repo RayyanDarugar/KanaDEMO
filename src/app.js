@@ -201,6 +201,7 @@ export function renderApp(config) {
       "CPG": "cpg",
       "Retail & E-Commerce": "retail-ecommerce",
       "Media & Advertisers": "media-advertisers",
+      "Media & Entertainment": "media-advertisers",
       "Manufacturing": "manufacturing",
       "Financial Services": "financial-services",
       "Pharma": "pharma",
@@ -226,7 +227,7 @@ export function renderApp(config) {
   const suites = [
     { name: "Kana for Marketers",   products: ["Category Intelligence", "Omni-Channel Media Planner", "Audience Builder", "Customer Engagement", "Marketing Intelligence", "Answer Engine Optimization"] },
     { name: "Kana for Publishers",  products: ["Campaign Orchestrator", "Media Proposal Generator", "LLM Command Center", "Audience Builder"] },
-    { name: "Kana for Advertisers", products: ["Omni-Channel Media Planner", "Campaign Orchestrator", "Audience Builder", "Marketing Intelligence"] },
+    { name: "Kana for Agencies", products: ["Omni-Channel Media Planner", "Campaign Orchestrator", "Audience Builder", "Marketing Intelligence"] },
   ];
 
   const suiteColumnsHtml = suites.map(suite => {
@@ -251,12 +252,14 @@ export function renderApp(config) {
   const industrySuiteMap = {
     "CPG": "Kana for Marketers",
     "Retail & E-Commerce": "Kana for Marketers",
+    "QSR": "Kana for Marketers",
     "Manufacturing": "Kana for Marketers",
     "Financial Services": "Kana for Marketers",
     "Pharma": "Kana for Marketers",
     "Travel & Hospitality": "Kana for Marketers",
     "Publishers": "Kana for Publishers",
-    "Media & Advertisers": "Kana for Advertisers",
+    "Media & Entertainment": "Kana for Marketers",
+    "Healthcare": "Kana for Marketers",
   };
 
   const industriesListHtml = suites.map(suite => {
