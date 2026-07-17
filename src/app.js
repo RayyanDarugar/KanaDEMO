@@ -221,12 +221,14 @@ export function renderApp(config) {
     "Marketing Intelligence":      { href: "/solutions/marketingintel",           icon: "https://cdn.prod.website-files.com/6938c88532164b75764d7ec5/699017579f378c81f5094a40_Analytics.svg" },
     "Customer Engagement":         { href: "/solutions/customerengagement",       icon: "https://cdn.prod.website-files.com/6938c88532164b75764d7ec5/699017586c99f26d8f0a4085_Customer%20Engagement.svg" },
     "Answer Engine Optimization":  { href: "/solutions/aeo",                      icon: "https://cdn.prod.website-files.com/6938c88532164b75764d7ec5/69901758dc3503adabece211_Answer%20Engine%20Optimization.svg" },
+    "Sales Intelligence":          { href: "/solutions/salesintelligence",        icon: "https://cdn.prod.website-files.com/6938c88532164b75764d7ec5/699017579f378c81f5094a40_Analytics.svg" },
+    "Personalization":             { href: "/solutions/personalization",          icon: "https://cdn.prod.website-files.com/6938c88532164b75764d7ec5/699017586c99f26d8f0a4085_Customer%20Engagement.svg" },
   };
 
   // Suite composition per Industry GTM Assets mapping (KFM / KFP / KFA)
   const suites = [
     { name: "Kana for Marketers",   products: ["Category Intelligence", "Omni-Channel Media Planner", "Audience Builder", "Customer Engagement", "Marketing Intelligence", "Answer Engine Optimization"] },
-    { name: "Kana for Publishers",  products: ["Campaign Orchestrator", "Media Proposal Generator", "LLM Command Center", "Audience Builder"] },
+    { name: "Kana for Publishers",  products: ["Sales Intelligence", "Campaign Orchestrator", "Media Proposal Generator", "Audience Builder", "LLM Command Center"] },
     { name: "Kana for Agencies", products: ["Omni-Channel Media Planner", "Campaign Orchestrator", "Audience Builder", "Marketing Intelligence"] },
   ];
 
@@ -257,7 +259,9 @@ export function renderApp(config) {
     "Financial Services": "Kana for Marketers",
     "Pharma": "Kana for Marketers",
     "Travel & Hospitality": "Kana for Marketers",
-    "Publishers": "Kana for Publishers",
+    "Media Networks": "Kana for Publishers",
+    "Print / Digital / Audio": "Kana for Publishers",
+    "Streaming & Video": "Kana for Publishers",
     "Media & Entertainment": "Kana for Marketers",
     "Healthcare": "Kana for Marketers",
   };
