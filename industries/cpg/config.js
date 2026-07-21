@@ -62,7 +62,7 @@ export const industryConfig = {
   // ── HERO ───────────────────────────────────────────────────
   hero: {
     headline: "The AI Marketing Platform <em>Built for CPG Brands</em>",
-    subheadline: "Your syndicated data is already a week old and programmatic spend leaks at every step. Kana gives CPG teams real-time category intelligence, media modeled on your own performance, and audiences that trace straight back to the brief.",
+    subheadline: "Your syndicated data is already a week old and programmatic spend leaks at every step. Kana gives CPG teams real-time category intelligence, a clear line from ad spend to shelf lift, and audiences that trace straight back to the brief.",
     primaryCta: { text: "Book a Demo", href: "/demo" },
     secondaryCta: { text: "See how it works", href: "#solutions" },
     image: "../../brand-assets/AVIF/6a0738509e86699ed6c6bd9e_Solutions-1.avif",
@@ -72,15 +72,15 @@ export const industryConfig = {
   painPoints: [
     {
       title: "Category intelligence is a week behind the shelf",
-      description: "CPG category teams process syndicated data drops weekly, by hand. By the time reports reach the team, the category has already moved — and buyer meetings start with numbers that are already stale.",
+      description: "CPG category teams process syndicated data drops weekly, by hand. By the time reports reach the team, the category has already moved, and buyer meetings start with numbers that are already stale.",
     },
     {
       title: "Less than half your ad budget reaches shoppers",
-      description: "For every $1,000 spent programmatically, only $439 actually reaches consumers. Without saturation modeling built into planning, the waste compounds silently — and most CPG media teams have no way to catch it before the budget's spent.",
+      description: "For every $1,000 spent programmatically, only $439 actually reaches consumers. Without saturation modeling built into planning, the waste compounds silently, and most CPG media teams have no way to catch it before the budget's spent.",
     },
     {
-      title: "What you brief and what actually runs are rarely the same",
-      description: "Translating a brief into a live segment means converting plain-language intent into whatever filters the platform happens to offer. The segment runs — but there's no way to check it against what was actually requested.",
+      title: "What's in the brief and what actually runs aren't the same",
+      description: "Translating a brief into a live segment means converting plain-language intent into whatever filters the platform happens to offer. The segment runs, but there's no way to check it against what was actually requested.",
     },
   ],
 
@@ -110,7 +110,7 @@ export const industryConfig = {
       feature: "Audience Builder",
       roleLabel: "Built for Campaign Ops & Marketing Ops",
       title: "Brief to live segment without an engineering ticket",
-      description: "Audience Builder lets campaign teams build, validate, and activate audience segments in plain language — no SQL, no data engineering queue. Every segment traces back to the original brief, and built-in synthetic audiences let you launch into new SKUs and new markets before first-party data exists. When a campaign underperforms, you can actually answer why.",
+      description: "Audience Builder lets campaign teams build, validate, and activate audience segments in plain language, no SQL, no data engineering queue. Every segment traces back to the original brief, and built-in synthetic audiences let you launch into new SKUs and new markets before first-party data exists.",
       icon: "../../brand-assets/SVG/6a07370afa74e1a989f5eb11_Audience Manager.svg",
       image: "../../brand-assets/WEBP/69fb34a3693f25a94988df0e_5897b8bc1884f86278bb63a02dc23207_solutions_05_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc05e660038226b085c_solution-bg__5.jpg",
@@ -120,7 +120,7 @@ export const industryConfig = {
       feature: "Marketing Intelligence",
       roleLabel: "Built for VP Analytics & CMOs",
       title: "See what your ad spend actually sold in stores",
-      description: "Marketing Intelligence connects your ad platforms, retailer portals, and CRM into one live view, and ties digital campaign performance to real in-store sales lift. Marketing stops defending impressions to a CFO who wants revenue — and starts showing the number commercial leadership has been asking for.",
+      description: "Marketing Intelligence connects your ad platforms, retailer portals, and CRM into one live view, so you can query performance in plain language instead of waiting on an analyst. Marketing spends less time defending impressions and more time showing commercial leadership how digital activity tracks with in-store lift.",
       icon: "../../brand-assets/SVG/699017579f378c81f5094a40_Analytics.svg",
       image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc0a301e7e98b87934a_solution-bg__4.jpg",
@@ -138,7 +138,7 @@ export const industryConfig = {
 
   // ── SOCIAL PROOF ───────────────────────────────────────────
   testimonial: {
-    quote: "We're getting <strong>statistically robust campaign answers</strong> in minutes instead of weeks — and catching the <strong>tagging anomalies</strong> that were quietly skewing our performance data without anyone knowing.",
+    quote: "We're getting <strong>statistically robust campaign answers</strong> in minutes instead of weeks, and catching the <strong>tagging anomalies</strong> that were quietly skewing our performance data without anyone knowing.",
     name: "Jasper van den Berg",
     title: "Head of Marketing Intelligence, Heineken",
     logo: "../../brand-assets/SVG/heineken_logo.png",
@@ -151,12 +151,12 @@ export const industryConfig = {
       a: "Via API. Kana connects to Walmart Connect, Amazon DSP, Kroger Precision Marketing, and other retail media platforms, pulling performance data into one unified view instead of a dozen separate dashboards. Kana's solutions team handles setup, typically in 2–4 weeks depending on how many platforms you're connecting."
     },
     {
-      q: "How does Kana unify data across retailers, ERP, and CRM?",
-      a: "Marketing Intelligence sits on top of your existing systems — retailer portals, ERP, CRM, internal BI tools — with no data warehouse migration required. Kana connects to what you already have, normalizes it, and lets you ask questions in plain language. No SQL, no analyst queue."
+      q: "Does Category Intelligence replace our Nielsen or Circana subscription?",
+      a: "No, it sits on top of them. Category Intelligence ingests your existing Nielsen, Circana, and other syndicated data feeds alongside your own POS and scan data, so you keep your current data subscriptions and get a faster, unified way to query across all of them. Most teams don't drop a syndicated data provider when they add Kana, they just stop waiting on the weekly export to ask a question."
     },
     {
       q: "How fast can a CPG team get live on Kana?",
-      a: "Most CPG teams see value within the first 30 days. Onboarding starts by connecting your top 3–5 data sources and configuring Category Intelligence and Marketing Intelligence to your retailer mix. Audience Builder layers in once those core connections are stable — Kana's solutions team works with you throughout."
+      a: "Most CPG teams see value within the first 30 days. Onboarding starts by connecting your top 3–5 data sources and configuring Category Intelligence and Marketing Intelligence to your retailer mix. Audience Builder layers in once those core connections are stable. Kana's solutions team works with you throughout."
     },
   ],
 
@@ -217,7 +217,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Audience Builder",
-        description: "Plain-language audience building with brief-to-activation traceability. No SQL, no data engineering queue. Every segment is documented back to the original brief, so post-campaign analysis can actually answer why.",
+        description: "Plain-language audience building with brief-to-activation traceability. No SQL, no data engineering queue. Every segment is documented back to the original brief, so post-campaign analysis has a paper trail to work from.",
         linkLabel: "See Audience Builder",
         linkHref: "#solution-row-2"
       }
@@ -226,7 +226,7 @@ export const industryConfig = {
       role: "VP Analytics / CMO",
       painPoints: [
         {
-          text: "More than 80% of retail transactions take place offline, leaving digital campaign conversions completely unattributed.",
+          text: "84% of US retail sales still close in-store, leaving digital campaign conversions largely unattributed (US Census Bureau).",
         },
         {
           text: "Manual analytics assemblies take days or weeks, forcing teams to optimize campaigns after they have already ended.",
@@ -237,7 +237,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Marketing Intelligence",
-        description: "Unifies fragmented regional and retailer data into one live view. Connects digital campaign performance to actual in-store sales lift. Gives marketing the direct path from spend to revenue that commercial leadership actually needs to see.",
+        description: "Unifies fragmented regional and retailer data into one live view, queryable in plain language. Shows how digital campaign performance tracks with in-store sales lift, giving marketing a defensible answer for commercial leadership instead of a proxy metric.",
         linkLabel: "See Marketing Intelligence",
         linkHref: "#solution-row-3"
       }
@@ -246,7 +246,7 @@ export const industryConfig = {
       role: "VP Data & Audience Strategy",
       painPoints: [
         {
-          text: "Launching new SKUs without local customer data history increases launch-phase media acquisition costs by up to 50%.",
+          text: "Launching new SKUs without local customer data history sends launch-phase media costs sharply higher, with no benchmark to plan against.",
         },
         {
           text: "Low match rates across retail media networks reduce ad targeting precision, increasing relative CPM costs.",
@@ -257,7 +257,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Audience Builder",
-        description: "Built-in synthetic audiences create statistically valid models for new SKU launches, new category entries, and new markets — without waiting for first-party data to accumulate. CPG brands stop running broad, inefficient launch campaigns and start targeting on day one.",
+        description: "Built-in synthetic audiences create statistically valid models for new SKU launches, new category entries, and new markets, without waiting for first-party data to accumulate. CPG brands stop running broad, inefficient launch campaigns and start targeting on day one.",
         linkLabel: "See Audience Builder",
         linkHref: "#solution-row-2"
       }
@@ -270,21 +270,21 @@ export const industryConfig = {
     columns: [
       {
         title: "Catch the trend before it hits POS",
-        description: "Cross-reference external signals — analyst reports, trade publications, search trends — against your own scan data automatically. Surface leading indicators 6–10 weeks before movement shows in your numbers.",
+        description: "Cross-reference external signals (analyst reports, Grocery Dive, and Google Trends) against your own scan data automatically. Surface leading indicators 6–10 weeks before movement shows in your numbers.",
         linkLabel: "Learn more about Category Intelligence",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a309b57c2ab7a2437c_f3e2b3b11b80faf9ae6c49a500d8353c_solutions_03_2x.webp"
       },
       {
         title: "Run the brief you actually wrote",
-        description: "Build precise audience segments from plain-language briefs — no SQL, no tickets. Monitor every live campaign against the original brief across Meta, YouTube, and The Trade Desk, in real time.",
+        description: "Build precise audience segments from plain-language briefs, no SQL, no tickets. Monitor every live campaign against the original brief across Meta, YouTube, and The Trade Desk, in real time.",
         linkLabel: "Learn more about Audience Builder",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a3693f25a94988df0e_5897b8bc1884f86278bb63a02dc23207_solutions_05_2x.webp"
       },
       {
         title: "Prove what moved the category",
-        description: "Connect every campaign dollar to POS velocity, volume lift, and share movement — not just digital proxies. Give commercial leadership the attribution proof they've been asking for.",
+        description: "Connect every campaign dollar to POS velocity, volume lift, and share movement, not just digital proxies. Give commercial leadership the attribution proof they've been asking for.",
         linkLabel: "Learn more about Marketing Intelligence",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp"
@@ -297,30 +297,30 @@ export const industryConfig = {
   // webcast, or case study. Omit this key to hide the section.
   featuredContent: {
     heading: "Read our latest content for CPGs",
-    type: "White Paper",
-    title: "The real-time category playbook for CPG teams",
-    description: "How leading CPG brands are replacing week-old syndicated reports with live category intelligence — and what it changes for shelf strategy.",
-    cta: { text: "Read now", href: "/content" },
+    type: "Blog",
+    title: "POS Data Is a Rearview Mirror. Here's the Windshield.",
+    description: "Every category manager knows the Monday morning ritual: pull POS data, see what already happened. How leading CPG teams are getting a preview of the road ahead instead.",
+    cta: { text: "Read now", href: "/blog" },
     image: "../../brand-assets/WEBP/69fb34a309b57c2ab7a2437c_f3e2b3b11b80faf9ae6c49a500d8353c_solutions_03_2x.webp",
   },
 
   // ── STACK SHOWCASE ─────────────────────────────────────────
   stackShowcase: {
-    subtitle: "Connects to your POS data, retailer portals, CRM, media platforms, and category data sources like Nielsen and Circana — without migration, rip-and-replace, or new governance gaps.",
+    subtitle: "By acting as the marketing operating layer, Kana connects to your POS data, retailer portals, CRM, media platforms, and category data sources like Nielsen and Circana, without migration, rip-and-replace, or new governance gaps.",
     columns: [
       {
         title: "Unify your customer data without moving a single record",
-        description: "Zero-copy architecture sits on top of Salesforce, Marketo, your data warehouse, and your retailer portals. Kana resolves identities and deduplicates contacts across every system you already use — without migration, duplication, or new governance overhead.",
+        description: "Zero-copy architecture sits on top of Salesforce, Marketo, your data warehouse, and your retailer portals. Kana resolves identities and deduplicates contacts across every system you already use, without migration, duplication, or new governance overhead.",
         image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp"
       },
       {
         title: "Launch new markets on data your competitors have never seen before",
-        description: "Audience Builder — when a new SKU or new geography means you have no first-party seed data, Kana builds high-fidelity synthetic audiences from public signals. 80%+ overlap with Acxiom and Experian quality, at a fraction of the cost.",
+        description: "Audience Builder: when a new SKU or new geography means you have no first-party seed data, Kana builds high-fidelity synthetic audiences from public signals. 80%+ overlap with Acxiom and Experian quality, at a fraction of the cost.",
         image: "../../brand-assets/WEBP/69fb34a30469825a78728f33_bbf22870ed50f2db542dcc3757717812_solutions_06_2x.webp"
       },
       {
-        title: "Know which channels have hit diminishing returns before you set next year's budget",
-        description: "Omni-Channel Media Planner — saturation curves built from your own historical campaign data, not industry benchmarks. Scenario plan at -20%, baseline, and +20% budget so you walk into the planning cycle with a model, not an opinion.",
+        title: "Know which channels have hit diminishing returns before you set your next budget",
+        description: "Omni-Channel Media Planner: saturation curves built from your own historical campaign data, not industry benchmarks. Scenario plan at -20%, baseline, and +20% budget so you walk into the planning cycle with a model, not an opinion.",
         image: "../../brand-assets/WEBP/69fb34a37abc32670956d9d8_22a3b8e403e4a9722e6b5bc578c29054_solutions_01_2x.webp"
       }
     ]
@@ -328,7 +328,7 @@ export const industryConfig = {
 
   // ── FINAL CTA ──────────────────────────────────────────────
   finalCta: {
-    headline: "The category doesn't wait. Neither should you.",
+    headline: "Category Intelligence Should Do More Than Report. It Should Help Predict.",
     cta: { text: "Book a Demo", href: "/demo" },
   },
 };

@@ -62,8 +62,8 @@ export const industryConfig = {
 
   // ── HERO ───────────────────────────────────────────────────
   hero: {
-    headline: "Travel Brands Are Losing Revenue <em>to Reactive Marketing</em>",
-    subheadline: "Yield management systems optimize price in real time, but marketing systems still run on batch workflows. The result: pricing moves faster than offers, and loyalty members receive generic messages that ignore their real-time intent signals. Kana connects your revenue strategy to your campaign layer — so marketing moves at the speed of your pricing.",
+    headline: "Travel Marketing Can Finally <em>Move as Fast as Your Pricing</em>",
+    subheadline: "Yield management systems optimize price by the hour, and travel marketing can finally keep pace. Kana gives your team real-time competitive rate alerts, loyalty offers tuned to each member in the moment, and guest outreach timed to when someone's actually ready to book again.",
     primaryCta: { text: "Book a Demo", href: "/demo" },
     secondaryCta: { text: "See how it works", href: "#solutions" },
     image: "../../brand-assets/AVIF/6a073850eee60cd0e1af591d_Solutions.avif",
@@ -72,36 +72,35 @@ export const industryConfig = {
   // ── PAIN POINTS ─────────────────────
   painPoints: [
     {
-      title: "Revenue management and marketing speak different languages",
-      description: "Yield and pricing signals never reach the marketing layer in time to adjust offers, suppress discounts on high-demand routes, or personalize urgency messaging. The two functions share a weekly meeting — not a data layer — and fewer than 1 in 4 hotels have their core systems integrated enough to support a unified guest profile.",
+      title: "Guest outreach runs on a fixed calendar, not the guest's actual booking window",
+      description: "Post-stay sequences fire at checkout-plus-two and checkout-plus-seven regardless of when a guest is actually ready to book again, and win-back campaigns launch on the anniversary date instead of the moment intent signals show up. CRM-acquired guests already rebook far more often than OTA-acquired ones; the timing is leaving that advantage on the table.",
     },
     {
       title: "Loyalty personalization is limited to batch email segments",
-      description: "High-value loyalty members receive the same promotional email as new subscribers — because the personalization layer has no access to real-time behavioral intent. Loyalty program costs are outrunning room revenue, and batch segments can't prove the incremental revenue CFOs are asking for.",
+      description: "High-value loyalty members receive the same promotional email as new subscribers, because the personalization layer has no access to real-time behavioral intent. Loyalty program costs are outrunning room revenue, and batch segments can't prove the incremental revenue CFOs are asking for.",
     },
     {
       title: "Competitive rate changes require manual monitoring and response",
-      description: "When a competitor drops rates on a key route or destination, the marketing team finds out from sales — hours or days too late to respond effectively. The rate shopper alerted the revenue team at 6am; marketing heard about it Thursday.",
+      description: "When a competitor drops rates on a key route or destination, the marketing team finds out from sales, hours or days too late to respond effectively. The rate shopper alerted the revenue team at 6am; marketing heard about it Thursday.",
     },
   ],
 
-  // ── SOLUTIONS — 5 T&H-native Kana products ─────────────────
+  // ── SOLUTIONS — 4 T&H-native Kana products ─────────────────
   solutions: [
     {
-      feature: "Agentic Data Platform",
-      roleLabel: "Built for Revenue Management & Marketing Teams",
-      title: "Your revenue strategy, finally in your campaigns",
-      description: "The Agentic Data Platform connects pricing and availability signals to the campaign layer — enabling offers that dynamically reflect real-time revenue strategy. Discounts suppress themselves on high-demand dates, urgency messaging follows actual availability, and the weekly revenue meeting stops being the only place pricing and marketing sync.",
-      icon: "../../brand-assets/SVG/69901757d8ab518db4cb3c52_Synthetic Data Generation.svg",
-      image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp",
-      bg: "../../brand-assets/JPG/6a073cc04b820e89c641b48b_solution-bg__1.jpg",
-      video: "../../brand-assets/MP4/Synthetic Data Generation_x1.5.mp4",
+      feature: "Personalization",
+      roleLabel: "Built for Loyalty Teams",
+      title: "Real-time offers for members who earned better than batch",
+      description: "Personalization monitors loyalty member activity signals and triggers contextually relevant offers across email, app, and web in real time. Your highest-value members stop receiving the same promotional email as new subscribers, and loyalty spend starts producing the incremental revenue the program was built for.",
+      icon: "../../brand-assets/SVG/699017586c99f26d8f0a4085_Customer Engagement.svg",
+      image: "../../brand-assets/WEBP/69fb34a3244de10cf3d7a9a5_5b797b2c34c52d464bce0b2b1d520ea3_solutions_04_2x.webp",
+      bg: "../../brand-assets/JPG/6a073cc06860bd14e53863fb_solution-bg__7.jpg",
     },
     {
       feature: "Category Intelligence",
       roleLabel: "Built for E-Commerce & Digital Strategy Teams",
       title: "Know the competitor's rate move before sales does",
-      description: "Category Intelligence monitors competitive pricing signals continuously and surfaces alerts with recommended messaging and audience responses. When a competitor drops rates on a key route or destination, marketing gets the alert with a suggested play — not a secondhand report days later. Your rate shopper watches prices for the revenue team; this watches them for marketers.",
+      description: "Category Intelligence monitors competitive pricing signals continuously and surfaces alerts with recommended messaging and audience responses. When a competitor drops rates on a key route or destination, marketing gets the alert with a suggested play, not a secondhand report days later. Your rate shopper watches prices for the revenue team; this watches them for marketers.",
       icon: "../../brand-assets/SVG/6a07370a2e3e29f5d03b13d9_Category Intelligence Hub.svg",
       image: "../../brand-assets/WEBP/69fb34a309b57c2ab7a2437c_f3e2b3b11b80faf9ae6c49a500d8353c_solutions_03_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc03bbf9cc8a6b457ff_solution-bg__3.jpg",
@@ -111,7 +110,7 @@ export const industryConfig = {
       feature: "Audience Builder",
       roleLabel: "Built for Loyalty & CRM Teams",
       title: "Re-engage on the guest's booking window, not the calendar",
-      description: "Audience Builder works together with the Campaign Orchestrator to identify re-engagement windows based on behavioral signals and support personalized outreach. Win-back and anniversary campaigns stop firing on fixed schedules and start landing when a guest's next booking window is actually opening — informed by travel intent signals and membership tier dynamics.",
+      description: "Audience Builder works together with the Campaign Orchestrator to identify re-engagement windows based on behavioral signals and support personalized outreach. Win-back and anniversary campaigns stop firing on fixed schedules and start landing when a guest's next booking window is actually opening, informed by travel intent signals and membership tier dynamics.",
       icon: "../../brand-assets/SVG/6a07370afa74e1a989f5eb11_Audience Manager.svg",
       image: "../../brand-assets/WEBP/69fb34a3693f25a94988df0e_5897b8bc1884f86278bb63a02dc23207_solutions_05_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc05e660038226b085c_solution-bg__5.jpg",
@@ -121,19 +120,10 @@ export const industryConfig = {
       feature: "Campaign Orchestrator",
       roleLabel: "Built for Lifecycle & Campaign Teams",
       title: "Outreach triggered at the optimal moment",
-      description: "The Campaign Orchestrator works together with the Audience Builder to use behavioral insights and trigger personalized outreach at the optimal moment — across email, app, and paid channels. The post-stay sequence stops running on checkout-plus-seven timers and starts responding to what each guest actually signals.",
+      description: "The Campaign Orchestrator works together with the Audience Builder to use behavioral insights and trigger personalized outreach at the optimal moment, across email, app, and paid channels. The post-stay sequence stops running on checkout-plus-seven timers and starts responding to what each guest actually signals.",
       icon: "../../brand-assets/SVG/69901757ec677b2ce290fcb4_Smarter Campaign Management.svg",
       image: "../../brand-assets/WEBP/69fb34a37abc32670956d9d8_22a3b8e403e4a9722e6b5bc578c29054_solutions_01_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc0a301e7e98b87934a_solution-bg__4.jpg",
-    },
-    {
-      feature: "Personalization",
-      roleLabel: "Coming Soon — Built for Loyalty Teams",
-      title: "Real-time offers for members who earned better than batch",
-      description: "Personalization monitors loyalty member activity signals and triggers contextually relevant offers across email, app, and web in real time. Your highest-value members stop receiving the same promotional email as new subscribers — and loyalty spend starts producing the incremental revenue the program was built for. Coming soon to the Kana platform.",
-      icon: "../../brand-assets/SVG/699017586c99f26d8f0a4085_Customer Engagement.svg",
-      image: "../../brand-assets/WEBP/69fb34a3244de10cf3d7a9a5_5b797b2c34c52d464bce0b2b1d520ea3_solutions_04_2x.webp",
-      bg: "../../brand-assets/JPG/6a073cc06860bd14e53863fb_solution-bg__7.jpg",
     },
   ],
 
@@ -141,13 +131,13 @@ export const industryConfig = {
   stats: [
     { number: "1 in 4", label: "hotels (fewer than) have PMS, RMS, loyalty, and CRM integrated enough for a unified guest profile (Apptad)" },
     { number: "15–25%", label: "OTA commission paid on every booking your direct channel doesn't win (StayInsiders)" },
-    { number: "33%", label: "rebooking rate for CRM-acquired guests — versus 6% for OTA-acquired guests (StayInsiders)" },
+    { number: "33%", label: "rebooking rate for CRM-acquired guests, versus 6% for OTA-acquired guests (StayInsiders)" },
     { number: "58%", label: "of active US travelers now use AI tools in their travel planning (Arival)" },
   ],
 
   // ── SOCIAL PROOF ───────────────────────────────────────────
   testimonial: {
-    quote: "[PLACEHOLDER — Testimonial from a leading travel brand on connecting revenue strategy to marketing]",
+    quote: "[PLACEHOLDER: Testimonial from a leading travel brand on Personalization increasing loyalty-attributed revenue]",
     name: "[Name]",
     title: "[Title], [Travel & Hospitality Brand]",
   },
@@ -156,45 +146,49 @@ export const industryConfig = {
   faq: [
     {
       q: "How does Kana connect to our hospitality stack?",
-      a: "Via API. Kana sits on top of your PMS, RMS, CRS, loyalty platform, and booking engine — Opera, Duetto, IDeaS, Salesforce, and more — with no rip-and-replace and no migration. Kana's solutions team handles setup, typically in 2–4 weeks depending on how many systems you're connecting."
+      a: "Via API. Kana sits on top of your PMS, RMS, CRS, loyalty platform, and booking engine (Opera, Duetto, IDeaS, Salesforce, and more) with no rip-and-replace and no migration. Kana's solutions team handles setup, typically in 2–4 weeks depending on how many systems you're connecting."
     },
     {
-      q: "How does the Agentic Data Platform use our revenue management signals?",
-      a: "It connects pricing and availability signals to your campaign logic. Offers adjust to reflect real-time revenue strategy — suppressing discounts on high-demand dates, matching urgency messaging to actual availability, and keeping promotions aligned with the rate posture your revenue team is holding. Every rule runs with your team's oversight."
+      q: "How does Personalization decide which offer to send a loyalty member?",
+      a: "It reads real-time activity signals (browsing, app opens, recent stays, tier status) and matches them against contextually relevant offers, so a top-tier member and a first-time subscriber never get the same email. Every offer runs within your loyalty program's existing rules and approval workflow."
     },
     {
-      q: "When will Personalization be available?",
-      a: "Personalization is coming soon. It builds on the same foundation as Audience Builder and the Agentic Data Platform, so teams deploying those today are positioned to activate real-time loyalty offers the moment it ships. Book a demo to see the roadmap and get early access."
+      q: "How is Personalization different from Audience Builder and Campaign Orchestrator?",
+      a: "Audience Builder and Campaign Orchestrator decide who to reach and when a guest's re-engagement window is actually open. Personalization decides what to offer them once they're there, calibrated to the member, the moment, and the tier. Most teams run all three together."
+    },
+    {
+      q: "How fast can a travel or hospitality team get live on Kana?",
+      a: "Most travel and hospitality teams see value within the first 30 days. Onboarding starts by connecting your top 3–5 data sources and configuring Personalization and Category Intelligence to your loyalty and rate data. Audience Builder and Campaign Orchestrator layer in once those core connections are stable. Kana's solutions team works with you throughout."
     },
   ],
 
   // ── PERSONAS ───────────────────────────────────────────────
   personas: [
     {
-      role: "Director of Revenue Management",
+      role: "Marketing Automation Manager",
       painPoints: [
         {
-          text: "Pricing and availability move by the hour, but the only bridge to marketing is the weekly revenue meeting pack.",
+          text: "Post-stay sequences fire on a fixed timer (checkout-plus-two, checkout-plus-seven) regardless of what the guest actually does next.",
         },
         {
-          text: "Marketing runs deep-discount promotions on dates the revenue strategy is trying to hold rate on.",
+          text: "Coordinating outreach across email, app, and paid for a single guest journey means stitching three separate tools together by hand.",
         },
         {
-          text: "Pickup and forecast insights inform campaign timing in theory — in practice they arrive as slides, not signals.",
+          text: "The team knows which moments convert best per guest segment, but there's no way to trigger outreach at that moment instead of the scheduled one.",
         }
       ],
       solution: {
-        name: "Agentic Data Platform",
-        description: "Connects pricing and availability signals directly to the campaign layer, so offers dynamically reflect real-time revenue strategy. The discount that would have undercut your rate posture never ships.",
-        linkLabel: "See the Agentic Data Platform",
-        linkHref: "#solution-row-0"
+        name: "Campaign Orchestrator",
+        description: "Works together with Audience Builder to trigger personalized outreach at the optimal moment, across email, app, and paid channels, instead of a fixed post-stay timer. One system replaces the manual handoff between channels for a single guest journey.",
+        linkLabel: "See Campaign Orchestrator",
+        linkHref: "#solution-row-3"
       }
     },
     {
       role: "E-Commerce / Digital Strategy Manager",
       painPoints: [
         {
-          text: "Competitor rate drops on key routes and destinations reach marketing through sales — hours or days too late to respond.",
+          text: "Competitor rate drops on key routes and destinations reach marketing through sales, hours or days too late to respond.",
         },
         {
           text: "The rate shopper alerts the revenue team, but there's no equivalent that tells marketing what to say and to whom.",
@@ -205,27 +199,27 @@ export const industryConfig = {
       ],
       solution: {
         name: "Category Intelligence",
-        description: "Monitors competitive pricing signals continuously and surfaces alerts with recommended messaging and audience responses — so marketing reacts in the same news cycle as the rate change, not the one after.",
+        description: "Monitors competitive pricing signals continuously and surfaces alerts with recommended messaging and audience responses, so marketing reacts in the same news cycle as the rate change, not the one after.",
         linkLabel: "See Category Intelligence",
         linkHref: "#solution-row-1"
       }
     },
     {
-      role: "CRM & Lifecycle Marketing Manager",
+      role: "Lifecycle Marketing Manager",
       painPoints: [
         {
-          text: "Post-stay and win-back sequences run on fixed timers — checkout-plus-seven, anniversary-minus-thirty — regardless of when the guest actually books next.",
+          text: "Post-stay and win-back sequences run on fixed timers (checkout-plus-seven, anniversary-minus-thirty) regardless of when the guest actually books next.",
         },
         {
           text: "Travel intent signals and membership tier dynamics never reach the campaign logic that's supposed to act on them.",
         },
         {
-          text: "CRM-acquired guests rebook at 33% versus 6% for OTA-acquired — the list is gold and the timing wastes it.",
+          text: "CRM-acquired guests rebook at 33% versus 6% for OTA-acquired: the list is gold and the timing wastes it.",
         }
       ],
       solution: {
         name: "Audience Builder",
-        description: "Works with the Campaign Orchestrator to identify each guest's real re-engagement window from behavioral signals, and trigger personalized outreach at the optimal moment — not the scheduled one.",
+        description: "Works with the Campaign Orchestrator to identify each guest's real re-engagement window from behavioral signals, and trigger personalized outreach at the optimal moment, not the scheduled one.",
         linkLabel: "See Audience Builder",
         linkHref: "#solution-row-2"
       }
@@ -237,36 +231,36 @@ export const industryConfig = {
           text: "High-value loyalty members receive the same promotional email as brand-new subscribers.",
         },
         {
-          text: "Program costs have grown 53.6% since 2022 while room revenue grew 44.1% — and batch segments can't prove incrementality.",
+          text: "Program costs have grown 53.6% since 2022 while room revenue grew 44.1%, and batch segments can't prove incrementality.",
         },
         {
           text: "AI-personalization adopters report 23% more loyalty-attributed revenue; the current stack has no path to join them.",
         }
       ],
       solution: {
-        name: "Personalization (Coming Soon)",
-        description: "Monitors loyalty member activity signals and triggers contextually relevant offers across email, app, and web in real time — offers calibrated to the member, the moment, and the tier. Built on the Audience Builder and Agentic Data Platform foundation.",
+        name: "Personalization",
+        description: "Monitors loyalty member activity signals and triggers contextually relevant offers across email, app, and web in real time, calibrated to the member, the moment, and the tier. Built on the Audience Builder foundation, so it activates on data teams already have flowing.",
         linkLabel: "See Personalization",
-        linkHref: "#solution-row-4"
+        linkHref: "#solution-row-0"
       }
     },
     {
       role: "VP Commercial / Director of Marketing",
       painPoints: [
         {
-          text: "Fewer than 1 in 4 hotels have core systems integrated enough for a unified guest profile — and yours isn't one of them.",
+          text: "58% of travelers now plan with AI tools, and the board wants an AI-personalization story while loyalty campaigns still run on one-size-fits-all batches (Arival).",
         },
         {
-          text: "58% of travelers now plan with AI tools, and the board wants an AI answer while campaigns still ship in batches.",
+          text: "Guests who redeem a real-time, personalized offer are worth more over the relationship, but the current stack can only prove that after the campaign, not while it's running.",
         },
         {
-          text: "The marketing performance readout is presented alongside revenue management every month — assembled by hand from systems that don't share data.",
+          text: "The commercial team wants growth from the guests already in the loyalty program, not just new-guest acquisition, and the tooling to make that case still isn't there.",
         }
       ],
       solution: {
-        name: "Agentic Data Platform",
-        description: "The platform anchor: one governed data layer connecting PMS, RMS, loyalty, and campaign systems — so 'commercial alignment' becomes an architecture, not a meeting. Marketing finally moves at the speed of pricing.",
-        linkLabel: "See the Agentic Data Platform",
+        name: "Personalization",
+        description: "The platform anchor: real-time, tier-aware offers that turn the loyalty program's existing guest data into an active growth channel, not a once-a-quarter batch send. 'AI-personalized' becomes something the guest actually experiences, not just a board slide.",
+        linkLabel: "See Personalization",
         linkHref: "#solution-row-0"
       }
     }
@@ -277,22 +271,22 @@ export const industryConfig = {
     headline: "Your pricing moves by the hour.<br>Kana makes your marketing keep up.",
     columns: [
       {
-        title: "Offers that respect the rate strategy",
-        description: "Pricing and availability signals flow into campaign logic — discounts suppress on high-demand dates, urgency messaging follows real inventory, and promotions stop undercutting the revenue plan.",
-        linkLabel: "Learn more about the Agentic Data Platform",
+        title: "Offers tuned to the guest, not the segment",
+        description: "Real-time loyalty signals feed straight into the offer a guest sees, so your highest-tier member and a first-time subscriber never get the same email.",
+        linkLabel: "Learn more about Personalization",
         linkHref: "#solutions",
-        image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp"
+        image: "../../brand-assets/WEBP/69fb34a3244de10cf3d7a9a5_5b797b2c34c52d464bce0b2b1d520ea3_solutions_04_2x.webp"
       },
       {
         title: "Answer the rate drop the same day",
-        description: "Continuous competitive-rate monitoring with recommended messaging and audience responses — marketing hears it from the signal, not from sales.",
+        description: "Continuous competitive-rate monitoring with recommended messaging and audience responses, so marketing hears it from the signal, not from sales.",
         linkLabel: "Learn more about Category Intelligence",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a309b57c2ab7a2437c_f3e2b3b11b80faf9ae6c49a500d8353c_solutions_03_2x.webp"
       },
       {
         title: "Catch the booking window while it's open",
-        description: "Behavioral signals reveal when each guest's next trip is forming — so win-back and anniversary outreach lands in the booking window, not on the calendar date.",
+        description: "Behavioral signals reveal when each guest's next trip is forming, so win-back and anniversary outreach lands in the booking window, not on the calendar date.",
         linkLabel: "Learn more about Audience Builder",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a3693f25a94988df0e_5897b8bc1884f86278bb63a02dc23207_solutions_05_2x.webp"
@@ -305,11 +299,11 @@ export const industryConfig = {
   // webcast, or case study. Omit this key to hide the section.
   featuredContent: {
     heading: "Read our latest content for travel & hospitality teams",
-    type: "White Paper",
-    title: "Marketing at the speed of your pricing",
-    description: "Hotels run the most sophisticated real-time pricing in any industry — and market it with batch emails. How leading travel brands are connecting revenue strategy to the campaign layer and winning back direct share.",
-    cta: { text: "Read now", href: "/content" },
-    image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp",
+    type: "Blog",
+    title: "The Booking Window Playbook",
+    description: "Every hotel marketing automation stack runs on the same fixed timers: checkout-plus-two, checkout-plus-seven, anniversary-minus-thirty. How leading travel brands are re-engaging guests on their own timeline instead.",
+    cta: { text: "Read now", href: "/blog" },
+    image: "../../brand-assets/WEBP/69fb34a3693f25a94988df0e_5897b8bc1884f86278bb63a02dc23207_solutions_05_2x.webp",
   },
 
   // ── STACK SHOWCASE ─────────────────────────────────────────
@@ -323,21 +317,21 @@ export const industryConfig = {
       { text: "Snowflake", className: "color-snowflake" },
       { text: "your stack", className: "color-kana" },
     ],
-    subtitle: "Connects to your PMS, RMS, CRS, loyalty platform, and booking engine — Opera, Duetto, IDeaS, Salesforce, and more — no rip-and-replace, no migration, no new governance gaps.",
+    subtitle: "By acting as the marketing operating layer, Kana connects to your PMS, RMS, CRS, loyalty platform, and booking engine: Opera, Duetto, IDeaS, Salesforce, and more, no rip-and-replace, no migration, no new governance gaps.",
     columns: [
       {
-        title: "Bridge revenue management and marketing without replacing either",
-        description: "Agentic Data Platform — pricing and availability signals flow from the systems your revenue team already runs into the campaign tools your marketers already use. The weekly meeting becomes a data feed.",
-        image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp"
+        title: "Turn the loyalty database into a live channel",
+        description: "Personalization: monitors member activity signals and triggers contextually relevant offers across email, app, and web in real time, so your highest-tier members stop receiving the same email as a first-time subscriber.",
+        image: "../../brand-assets/WEBP/69fb34a3244de10cf3d7a9a5_5b797b2c34c52d464bce0b2b1d520ea3_solutions_04_2x.webp"
       },
       {
         title: "Give marketing its own rate shopper",
-        description: "Category Intelligence — continuous competitive-rate monitoring that answers with marketing moves: the alert, the recommended message, and the audience to send it to, in one motion.",
+        description: "Category Intelligence: continuous competitive-rate monitoring that answers with marketing moves: the alert, the recommended message, and the audience to send it to, in one motion.",
         image: "../../brand-assets/WEBP/69fb34a309b57c2ab7a2437c_f3e2b3b11b80faf9ae6c49a500d8353c_solutions_03_2x.webp"
       },
       {
         title: "Time every journey to the guest, not the template",
-        description: "Audience Builder — behavioral re-engagement windows replace fixed post-stay timers, so the guests who rebook at 33% through your CRM hear from you when their next trip is forming.",
+        description: "Audience Builder: behavioral re-engagement windows replace fixed post-stay timers, so the guests who rebook at 33% through your CRM hear from you when their next trip is forming.",
         image: "../../brand-assets/WEBP/69fb34a30469825a78728f33_bbf22870ed50f2db542dcc3757717812_solutions_06_2x.webp"
       }
     ]

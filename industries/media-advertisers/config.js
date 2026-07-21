@@ -63,8 +63,8 @@ export const industryConfig = {
 
   // ── HERO ───────────────────────────────────────────────────
   hero: {
-    headline: "Subscription Brands Are Losing <em>Members They Could Have Kept</em>",
-    subheadline: "Streaming services, digital publications, and subscription commerce businesses share a common enemy: churn. The data to predict it exists — the problem is connecting it to real-time marketing action. Kana wires your churn models, win-back windows, and offer tests directly into the campaigns that act on them.",
+    headline: "Subscription Growth Runs on <em>Signals Your Campaigns Aren't Using Yet</em>",
+    subheadline: "Streaming services, digital publications, and subscription commerce businesses all sit on the signals that keep subscribers engaged: watch history, win-back windows, pricing response. Kana turns those signals into recommendations that stay current, offer tests that run in days instead of quarters, and win-back campaigns timed to when a subscriber is actually ready to return.",
     primaryCta: { text: "Book a Demo", href: "/demo" },
     secondaryCta: { text: "See how it works", href: "#solutions" },
     image: "../../brand-assets/AVIF/6a073850eee60cd0e1af591d_Solutions.avif",
@@ -73,36 +73,35 @@ export const industryConfig = {
   // ── PAIN POINTS ─────────────────────
   painPoints: [
     {
-      title: "Churn prediction models aren't connected to real-time intervention",
-      description: "Data science teams build churn models that score members monthly. By the time the scores reach a campaign, the at-risk subscriber has already cancelled — probabilities nobody acted on, in an industry averaging 4.6% monthly churn.",
+      title: "Recommendations run on last quarter's preferences, not last night's session",
+      description: "Recommendation engines retrain on a cycle measured in weeks, while what a subscriber watched or read last night is the strongest signal for what keeps them coming back. By the time the model catches up, the moment to show them something worth staying for has already passed.",
     },
     {
       title: "Win-back campaigns reach churned subscribers too late",
-      description: "Re-engagement sequences typically launch 30–60 days post-churn, after subscriber intent to return has collapsed. The best win-back window is often within the first 7 days — and a quarter of cancelled subscribers resubscribe within six months anyway, if someone asks in time.",
+      description: "Re-engagement sequences typically launch 30–60 days post-churn, after subscriber intent to return has collapsed. The best win-back window is often within the first 7 days, and a quarter of cancelled subscribers resubscribe within six months anyway, if someone asks in time.",
     },
     {
       title: "Bundle and pricing test cycles are slow and manual",
-      description: "Testing new bundle configurations, promotional pricing, or plan upgrade offers requires significant cross-functional effort — creating months-long feedback loops while competitors ship bundles that cut churn by a third.",
+      description: "Testing new bundle configurations, promotional pricing, or plan upgrade offers requires significant cross-functional effort, creating months-long feedback loops while competitors ship bundles that cut churn by a third.",
     },
   ],
 
-  // ── SOLUTIONS — 4 M&E-native Kana products ─────────────────
+  // ── SOLUTIONS — 3 M&E-native Kana products ─────────────────
   solutions: [
     {
-      feature: "Agentic Data Platform",
-      roleLabel: "Built for Retention & Data Science Teams",
-      title: "The risk score fires the offer, not a monthly report",
-      description: "The Agentic Data Platform connects your churn model outputs to the Kana Campaign Orchestrator application, which triggers personalized retention offers the moment a risk score crosses threshold. Your data science team's models stop producing probabilities nobody acts on — and the intervention reaches the subscriber while they're still deciding.",
-      icon: "../../brand-assets/SVG/69901757d8ab518db4cb3c52_Synthetic Data Generation.svg",
-      image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp",
-      bg: "../../brand-assets/JPG/6a073cc04b820e89c641b48b_solution-bg__1.jpg",
-      video: "../../brand-assets/MP4/Synthetic Data Generation_x1.5.mp4",
+      feature: "Personalization",
+      roleLabel: "Built for Growth & Product Teams",
+      title: "Recommendations that know what they watched last night",
+      description: "Personalization incorporates recency-weighted behavioral signals directly into your recommendation logic, so every subscriber sees content matched to what they engaged with most recently, not a static profile from months ago. Session depth goes up, dormancy goes down, and the engine keeps learning with every session instead of waiting for the next model refresh.",
+      icon: "../../brand-assets/SVG/699017586c99f26d8f0a4085_Customer Engagement.svg",
+      image: "../../brand-assets/WEBP/69fb34a3244de10cf3d7a9a5_5b797b2c34c52d464bce0b2b1d520ea3_solutions_04_2x.webp",
+      bg: "../../brand-assets/JPG/6a073cc03bbf9cc8a6b457ff_solution-bg__3.jpg",
     },
     {
       feature: "Audience Builder",
       roleLabel: "Built for Growth & Win-Back Teams",
       title: "Win them back inside the window that converts",
-      description: "Audience Builder identifies the optimal win-back window by subscriber cohort and triggers personalized re-engagement offers within the highest-conversion timeframe. Sequences stop launching 30–60 days after the cancel — when intent to return has collapsed — and start reaching each cohort in the days when a comeback is actually likely.",
+      description: "Audience Builder identifies the optimal win-back window by subscriber cohort and triggers personalized re-engagement offers within the highest-conversion timeframe. Sequences stop launching 30–60 days after the cancel, when intent to return has collapsed, and start reaching each cohort in the days when a comeback is actually likely.",
       icon: "../../brand-assets/SVG/6a07370afa74e1a989f5eb11_Audience Manager.svg",
       image: "../../brand-assets/WEBP/69fb34a3693f25a94988df0e_5897b8bc1884f86278bb63a02dc23207_solutions_05_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc05e660038226b085c_solution-bg__5.jpg",
@@ -112,33 +111,24 @@ export const industryConfig = {
       feature: "Campaign Orchestrator",
       roleLabel: "Built for Pricing & Packaging Teams",
       title: "Test the bundle this month, not this roadmap cycle",
-      description: "The Campaign Orchestrator enables rapid, automated offer testing across subscriber cohorts, with the Kana Marketing Intelligence application surfacing test results in real time. New bundle configurations, promotional pricing, and plan upgrade offers stop requiring months of cross-functional effort — the feedback loop shrinks from quarters to days.",
+      description: "The Campaign Orchestrator enables rapid, automated offer testing across subscriber cohorts, with the Kana Marketing Intelligence application surfacing test results in real time. New bundle configurations, promotional pricing, and plan upgrade offers stop requiring months of cross-functional effort, and the feedback loop shrinks from quarters to days.",
       icon: "../../brand-assets/SVG/69901757ec677b2ce290fcb4_Smarter Campaign Management.svg",
       image: "../../brand-assets/WEBP/69fb34a37abc32670956d9d8_22a3b8e403e4a9722e6b5bc578c29054_solutions_01_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc0a301e7e98b87934a_solution-bg__4.jpg",
-    },
-    {
-      feature: "Personalization",
-      roleLabel: "Coming Soon — Built for Content & Product Teams",
-      title: "Recommendations that know what they watched last night",
-      description: "Personalization incorporates recency-weighted behavioral signals into content recommendation logic — increasing session depth and reducing subscriber dormancy. Engines stop operating on historical preferences alone and start catching the recency signals that most strongly predict what a subscriber wants to watch or read next. Coming soon to the Kana platform.",
-      icon: "../../brand-assets/SVG/699017586c99f26d8f0a4085_Customer Engagement.svg",
-      image: "../../brand-assets/WEBP/69fb34a3244de10cf3d7a9a5_5b797b2c34c52d464bce0b2b1d520ea3_solutions_04_2x.webp",
-      bg: "../../brand-assets/JPG/6a073cc03bbf9cc8a6b457ff_solution-bg__3.jpg",
     },
   ],
 
   // ── STATS BAR ────────────────────────
   stats: [
-    { number: "4.6%", label: "average monthly churn for premium streaming services — over half the base annualized (Antenna)" },
+    { number: "4.6%", label: "average monthly churn for premium streaming services, over half the base annualized (Antenna)" },
     { number: "23%", label: "of the US streaming audience are serial churners, cancelling 3+ services within two years (Antenna)" },
-    { number: "24%", label: "of consumers cancel and resubscribe to the same service within six months — 40% for Gen Z (Antenna)" },
-    { number: "7 days", label: "the win-back window that converts — while typical sequences launch 30–60 days post-churn (industry research)" },
+    { number: "24%", label: "of consumers cancel and resubscribe to the same service within six months, 40% for Gen Z (Antenna)" },
+    { number: "7 days", label: "the win-back window that converts, while typical sequences launch 30–60 days post-churn (industry research)" },
   ],
 
   // ── SOCIAL PROOF ───────────────────────────────────────────
   testimonial: {
-    quote: "[PLACEHOLDER — Testimonial from a leading subscription brand on connecting churn prediction to real-time intervention]",
+    quote: "[PLACEHOLDER: Testimonial from a leading subscription brand on Personalization increasing session depth]",
     name: "[Name]",
     title: "[Title], [Media & Entertainment Brand]",
   },
@@ -147,56 +137,60 @@ export const industryConfig = {
   faq: [
     {
       q: "How does Kana connect to our subscription stack?",
-      a: "Via API. Kana sits on top of your data warehouse, billing platform, and messaging stack — Snowflake, Databricks, Braze, Recurly, Zuora, and more — with no rip-and-replace and no migration. Kana's solutions team handles setup, typically in 2–4 weeks depending on how many systems you're connecting."
+      a: "Via API. Kana sits on top of your data warehouse, billing platform, and messaging stack (Snowflake, Databricks, Braze, Recurly, Zuora, and more) with no rip-and-replace and no migration. Kana's solutions team handles setup, typically in 2–4 weeks depending on how many systems you're connecting."
     },
     {
-      q: "Does Kana replace our churn models?",
-      a: "No — it activates them. Your data science team's models keep scoring exactly as they do today; the Agentic Data Platform connects those outputs to the Campaign Orchestrator, which triggers the retention offer the moment a risk score crosses threshold. Every intervention runs with your team's oversight and rules."
+      q: "Does Personalization replace our existing recommendation engine?",
+      a: "No, it strengthens it. Personalization layers recency-weighted behavioral signals on top of whatever recommendation logic you already run, so the existing engine gets sharper instead of replaced. Most teams see the biggest lift in the signal a static model misses: what a subscriber did in the last day or two."
     },
     {
-      q: "When will Personalization be available?",
-      a: "Personalization is coming soon. It builds on the same foundation as Audience Builder and the Agentic Data Platform, so teams deploying those today are positioned to activate recency-weighted recommendations the moment it ships. Book a demo to see the roadmap and get early access."
+      q: "How is Personalization different from Audience Builder?",
+      a: "Audience Builder decides who to reach and when their re-engagement window is actually open. Personalization decides what to show them once they're back, recommendations weighted to what they've watched or read most recently. Most teams run both together: Audience Builder times the outreach, Personalization makes the content in it worth returning for."
+    },
+    {
+      q: "How fast can a subscription team get live on Kana?",
+      a: "Most subscription teams see value within the first 30 days. Onboarding starts by connecting your top 3–5 data sources and configuring Personalization and Audience Builder to your subscriber engagement data. Campaign Orchestrator layers in once those core connections are stable. Kana's solutions team works with you throughout."
     },
   ],
 
   // ── PERSONAS ───────────────────────────────────────────────
   personas: [
     {
-      role: "Director, Lifecycle Marketing — Retention",
+      role: "Director, Lifecycle Marketing (Retention)",
       painPoints: [
         {
-          text: "The churn model scores members monthly — cancel-save and passive-churn programs run on segments that were stale before the campaign shipped.",
+          text: "Testing a new save offer, pause option, or win-back incentive means waiting on a cross-functional test calendar, not the retention team's own timeline.",
         },
         {
-          text: "The retention experimentation roadmap is a budgeted mandate, but every experiment waits on batch scoring and hand-built segments.",
+          text: "By the time a retention experiment reads out, the cohort that inspired it has already cycled through several billing periods.",
         },
         {
-          text: "Save rates and LTV improvements are the job description, and the tooling measures them after the fact instead of moving them in the moment.",
+          text: "Save rates and LTV improvements are the job description, and the team can design offers faster than the org can currently test them.",
         }
       ],
       solution: {
-        name: "Agentic Data Platform",
-        description: "Connects churn model outputs to the Campaign Orchestrator, triggering personalized retention offers the moment a risk score crosses threshold. Active churn, passive churn, and payment risk get interventions timed to the signal — not to the next scoring run.",
-        linkLabel: "See the Agentic Data Platform",
-        linkHref: "#solution-row-0"
+        name: "Campaign Orchestrator",
+        description: "Rapid, automated offer testing across subscriber cohorts, with Marketing Intelligence surfacing results in real time. Save offers, pause options, and win-back incentives move from a quarterly test calendar to a standing experiment the retention team runs itself.",
+        linkLabel: "See Campaign Orchestrator",
+        linkHref: "#solution-row-2"
       }
     },
     {
       role: "Growth Marketing Manager (Win-Back)",
       painPoints: [
         {
-          text: "Re-engagement sequences launch 30–60 days post-churn — after subscriber intent to return has collapsed.",
+          text: "Re-engagement sequences launch 30–60 days post-churn, after subscriber intent to return has collapsed.",
         },
         {
-          text: "24% of cancelled subscribers resubscribe within six months, but the lapsed-list pull and fixed-schedule sequence miss the window where they decide.",
+          text: "24% of cancelled subscribers resubscribe within six months, but the lapsed-list pull and fixed-schedule sequence miss the window where they decide (Antenna).",
         },
         {
-          text: "Win-back defaults to discounts — and discount-acquired resubscribers stay a fraction as long as those recovered on timing and relevance.",
+          text: "Win-back defaults to discounts, and discount-acquired resubscribers stay a fraction as long as those recovered on timing and relevance.",
         }
       ],
       solution: {
         name: "Audience Builder",
-        description: "Identifies the optimal win-back window by subscriber cohort and triggers personalized re-engagement offers within the highest-conversion timeframe — often the first seven days, not the second month.",
+        description: "Identifies the optimal win-back window by subscriber cohort and triggers personalized re-engagement offers within the highest-conversion timeframe, often the first seven days, not the second month.",
         linkLabel: "See Audience Builder",
         linkHref: "#solution-row-1"
       }
@@ -225,7 +219,7 @@ export const industryConfig = {
       role: "Head of Product, Recommendations",
       painPoints: [
         {
-          text: "Recommendation engines operate on historical preferences — missing the recency signals that most strongly predict what a subscriber wants next.",
+          text: "Recommendation engines operate on historical preferences, missing the recency signals that most strongly predict what a subscriber wants next.",
         },
         {
           text: "Content library exhaustion drives 34% of cancellations, and dormant subscribers rarely announce themselves before they lapse.",
@@ -235,29 +229,29 @@ export const industryConfig = {
         }
       ],
       solution: {
-        name: "Personalization (Coming Soon)",
-        description: "Incorporates recency-weighted behavioral signals into content recommendation logic — increasing session depth and reducing subscriber dormancy. Built on the Audience Builder and Agentic Data Platform foundation.",
+        name: "Personalization",
+        description: "Incorporates recency-weighted behavioral signals into content recommendation logic, increasing session depth and reducing subscriber dormancy. Built on top of the Audience Builder foundation, so it activates on data teams already have flowing.",
         linkLabel: "See Personalization",
-        linkHref: "#solution-row-3"
+        linkHref: "#solution-row-0"
       }
     },
     {
       role: "CMO / Head of Subscriber Growth",
       painPoints: [
         {
-          text: "The streaming wars ended with a new headline metric — profitability — and churn is the biggest lever the marketing org owns.",
+          text: "The streaming wars ended with a new headline metric: profitability. Engagement is the lever the marketing org actually owns.",
         },
         {
-          text: "23% of the audience are serial churners timing subscriptions around releases; content spend alone can't hold them.",
+          text: "23% of the audience are serial churners timing subscriptions around releases; content spend alone can't hold them (Antenna).",
         },
         {
-          text: "The prediction layer the company spent years building still reaches subscribers through monthly batches and fixed-schedule sequences.",
+          text: "Content spend keeps growing, but the personalization layer meant to make each dollar go further still runs on historical preferences instead of what subscribers are doing right now.",
         }
       ],
       solution: {
-        name: "Agentic Data Platform",
-        description: "The platform anchor: churn models, win-back windows, and offer tests wired directly into campaign execution. The retention war is won by whoever connects prediction to action first.",
-        linkLabel: "See the Agentic Data Platform",
+        name: "Personalization",
+        description: "The platform anchor: recency-weighted recommendations that keep every subscriber's experience current with what they're actually watching or reading, not a profile that's months stale. Retention and growth both run through the same signal.",
+        linkLabel: "See Personalization",
         linkHref: "#solution-row-0"
       }
     }
@@ -265,25 +259,25 @@ export const industryConfig = {
 
   // ── INTERACTIVE SHOWCASE ──────────────────────────────────
   showcase: {
-    headline: "Your models already know who's leaving.<br>Kana acts before they do.",
+    headline: "Your subscribers are telling you what keeps them.<br>Kana makes sure every campaign hears it.",
     columns: [
       {
-        title: "Score crosses threshold, offer goes out",
-        description: "Churn model outputs flow straight into campaign triggers — the retention offer reaches the at-risk subscriber while they're still deciding, not after the next monthly scoring run.",
-        linkLabel: "Learn more about the Agentic Data Platform",
+        title: "Every recommendation reflects this week, not last quarter",
+        description: "Recency-weighted signals feed straight into your recommendation logic, so what a subscriber sees matches what they engaged with recently, not a profile trained months ago.",
+        linkLabel: "Learn more about Personalization",
         linkHref: "#solutions",
-        image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp"
+        image: "../../brand-assets/WEBP/69fb34a3244de10cf3d7a9a5_5b797b2c34c52d464bce0b2b1d520ea3_solutions_04_2x.webp"
       },
       {
         title: "Catch the comeback while it's possible",
-        description: "Optimal win-back windows identified per cohort, with personalized re-engagement offers triggered inside the highest-conversion timeframe — days after the cancel, not months.",
+        description: "Optimal win-back windows identified per cohort, with personalized re-engagement offers triggered inside the highest-conversion timeframe, days after the cancel, not months.",
         linkLabel: "Learn more about Audience Builder",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a3693f25a94988df0e_5897b8bc1884f86278bb63a02dc23207_solutions_05_2x.webp"
       },
       {
         title: "Run the pricing test in days, not quarters",
-        description: "Automated offer testing across subscriber cohorts with results surfacing in real time — bundles, promos, and upgrade paths iterate at experiment speed.",
+        description: "Automated offer testing across subscriber cohorts with results surfacing in real time, bundles, promos, and upgrade paths iterate at experiment speed.",
         linkLabel: "Learn more about Campaign Orchestrator",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a37abc32670956d9d8_22a3b8e403e4a9722e6b5bc578c29054_solutions_01_2x.webp"
@@ -296,11 +290,11 @@ export const industryConfig = {
   // webcast, or case study. Omit this key to hide the section.
   featuredContent: {
     heading: "Read our latest content for media & entertainment teams",
-    type: "White Paper",
-    title: "The retention war: connecting prediction to action",
-    description: "Subscription brands spent a decade building churn models, rec engines, and cohort analytics — and still lose members the data saw coming. How the efficiency era's winners are closing the gap between the score and the save.",
-    cta: { text: "Read now", href: "/content" },
-    image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp",
+    type: "Blog",
+    title: "The Score-to-Action Audit: Is Your Churn Model Actually Stopping Cancellations?",
+    description: "Somewhere in your data warehouse right now is a subscriber your model correctly flagged as high-risk. How leading subscription teams are closing the gap between what the model knows and what the campaign does.",
+    cta: { text: "Read now", href: "/blog" },
+    image: "../../brand-assets/WEBP/69fb34a3244de10cf3d7a9a5_5b797b2c34c52d464bce0b2b1d520ea3_solutions_04_2x.webp",
   },
 
   // ── STACK SHOWCASE ─────────────────────────────────────────
@@ -314,21 +308,21 @@ export const industryConfig = {
       { text: "Salesforce", className: "color-salesforce" },
       { text: "your stack", className: "color-kana" },
     ],
-    subtitle: "Connects to your data warehouse, billing platform, and messaging stack — Snowflake, Databricks, Braze, Recurly, Zuora, and more — no rip-and-replace, no migration, no new governance gaps.",
+    subtitle: "By acting as the marketing operating layer, Kana connects to your data warehouse, billing platform, and messaging stack: Snowflake, Databricks, Braze, Recurly, Zuora, and more, no rip-and-replace, no migration, no new governance gaps.",
     columns: [
       {
-        title: "Activate the models your team already built",
-        description: "Agentic Data Platform — your churn and propensity models keep running where they run today; their outputs connect to campaign triggers the moment a score crosses threshold. The under-resourced last mile of every data science program, handled.",
-        image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp"
+        title: "Make every recommendation current, not just personalized",
+        description: "Personalization: recency-weighted signals feed straight into your existing recommendation engine, so what a subscriber sees reflects what they did this week, not a profile trained months ago.",
+        image: "../../brand-assets/WEBP/69fb34a3244de10cf3d7a9a5_5b797b2c34c52d464bce0b2b1d520ea3_solutions_04_2x.webp"
       },
       {
         title: "Time every cohort's win-back to its own window",
-        description: "Audience Builder — behavioral signals identify when each subscriber cohort is most likely to return, and re-engagement offers fire inside that window instead of on the 60-day timer.",
+        description: "Audience Builder: behavioral signals identify when each subscriber cohort is most likely to return, and re-engagement offers fire inside that window instead of on the 60-day timer.",
         image: "../../brand-assets/WEBP/69fb34a3693f25a94988df0e_5897b8bc1884f86278bb63a02dc23207_solutions_05_2x.webp"
       },
       {
         title: "Make pricing a cadence, not a council",
-        description: "Campaign Orchestrator — automated offer tests across cohorts with Marketing Intelligence reading results in real time. The bundle experiment that took a quarter of cross-functional effort ships in a sprint.",
+        description: "Campaign Orchestrator: automated offer tests across cohorts with Marketing Intelligence reading results in real time. The bundle experiment that took a quarter of cross-functional effort ships in a sprint.",
         image: "../../brand-assets/WEBP/69fb34a30469825a78728f33_bbf22870ed50f2db542dcc3757717812_solutions_06_2x.webp"
       }
     ]
@@ -336,7 +330,7 @@ export const industryConfig = {
 
   // ── FINAL CTA ──────────────────────────────────────────────
   finalCta: {
-    headline: "Stop losing members you could have kept.",
+    headline: "Turn every signal your team already has into growth.",
     cta: { text: "Book a Demo", href: "/demo" },
   },
 };

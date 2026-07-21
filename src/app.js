@@ -799,13 +799,8 @@ export function renderApp(config) {
   ).join('');
   const logosHtml = logoSet + logoSet;
 
-  // Handle testimonial scaffolding / placeholders
-  const isQuotePlaceholder = config.testimonial.quote.startsWith("[PLACEHOLDER");
-  
-  const testLogoHtml = config.testimonial.logo 
-    ? `<img src="${config.testimonial.logo}" class="testimonial-brand-logo" alt="${config.testimonial.name}'s company logo" onerror="this.style.display='none';">`
-    : '';
-
+  // Testimonial block is suppressed site-wide for now (per Jess's 2026-07 feedback
+  // round) while keeping config.testimonial data intact for a quick re-enable later.
   const testimonialHtml = `
     <section class="social-proof-section section-padding" id="social-proof">
       <div class="container">
@@ -813,20 +808,6 @@ export function renderApp(config) {
         <div class="logo-strip-wrapper">
           <div class="logo-strip">
             ${logosHtml}
-          </div>
-        </div>
-        
-        <div class="testimonial-block">
-          <div class="testimonial-card reveal ${isQuotePlaceholder ? 'copy-placeholder-box' : ''}">
-            ${testLogoHtml}
-            <p class="testimonial-quote">
-              “${resolveCopy(config.testimonial.quote, "Draft Testimonial Scenario Placeholder")}”
-            </p>
-            <div class="testimonial-author">
-              <span class="author-name">${isQuotePlaceholder ? '[Customer Name]' : config.testimonial.name}</span>
-              <span class="author-title">${isQuotePlaceholder ? '[Job Title], [Brand]' : config.testimonial.title}</span>
-            </div>
-            <a href="#demo" class="btn-testimonial-story">Read the story &nbsp;›</a>
           </div>
         </div>
       </div>
