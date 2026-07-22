@@ -62,7 +62,7 @@ export const industryConfig = {
   // ── HERO ───────────────────────────────────────────────────
   hero: {
     headline: "The AI Marketing Platform <em>Built for CPG Brands</em>",
-    subheadline: "Your syndicated data is already a week old and programmatic spend leaks at every step. Kana gives CPG teams real-time category intelligence, a clear line from ad spend to shelf lift, and audiences that trace straight back to the brief.",
+    subheadline: "Kana gives CPG teams real-time category intelligence, a clear line from ad spend to shelf lift, and audiences that trace straight back to the brief — turning this week's shelf data into next week's advantage.",
     primaryCta: { text: "Book a Demo", href: "/demo" },
     secondaryCta: { text: "See how it works", href: "#solutions" },
     image: "../../brand-assets/AVIF/6a0738509e86699ed6c6bd9e_Solutions-1.avif",
@@ -71,16 +71,16 @@ export const industryConfig = {
   // ── PAIN POINTS ─────────────────────
   painPoints: [
     {
-      title: "Category intelligence is a week behind the shelf",
-      description: "CPG category teams process syndicated data drops weekly, by hand. By the time reports reach the team, the category has already moved, and buyer meetings start with numbers that are already stale.",
+      title: "Catch the category shift while you can still act on it",
+      description: "Category Intelligence reads scan data, POS feeds, and category signals as they land, so category managers walk into buyer meetings with this week's numbers instead of last week's export, and spend the saved hours on the calls that actually move share.",
     },
     {
-      title: "Less than half your ad budget reaches shoppers",
-      description: "For every $1,000 spent programmatically, only $439 actually reaches consumers. Without saturation modeling built into planning, the waste compounds silently, and most CPG media teams have no way to catch it before the budget's spent.",
+      title: "Put more of every media dollar in front of a shopper",
+      description: "Saturation modeling built into planning shows exactly where spend still has room to work and where it's plateaued, so CPG media teams can shift budget toward the channels compounding return before the quarter closes.",
     },
     {
-      title: "What's in the brief and what actually runs aren't the same",
-      description: "Translating a brief into a live segment means converting plain-language intent into whatever filters the platform happens to offer. The segment runs, but there's no way to check it against what was actually requested.",
+      title: "Every segment runs exactly what the brief asked for",
+      description: "Audience Builder turns plain-language intent directly into the live segment, and keeps a visible line back to the original brief, so campaign teams can verify targeting matches intent before the campaign launches.",
     },
   ],
 
@@ -130,9 +130,9 @@ export const industryConfig = {
 
   // ── STATS BAR ────────────────────────
   stats: [
+    { number: "64%", label: "faster time-to-insight with unified AI-assisted analytics layers (Improvado Trend Report)" },
     { number: "$439", label: "of every $1,000 in programmatic spend actually reaches consumers (ANA Benchmark)" },
     { number: "45%", label: "of marketing data used for decisions is incomplete or outdated (Adverity Survey)" },
-    { number: "64%", label: "faster time-to-insight with unified AI-assisted analytics layers (Improvado Trend Report)" },
     { number: "$12.9M", label: "average annual cost of poor data quality per organization (Gartner Study)" },
   ],
 
@@ -328,7 +328,7 @@ export const industryConfig = {
 
   // ── FINAL CTA ──────────────────────────────────────────────
   finalCta: {
-    headline: "Category Intelligence Should Do More Than Report. It Should Help Predict.",
+    headline: "Give Your Category Team the Predictive Edge, Not Just the Report.",
     cta: { text: "Book a Demo", href: "/demo" },
   },
 };

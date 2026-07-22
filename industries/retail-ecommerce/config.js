@@ -62,7 +62,7 @@ export const industryConfig = {
   // ── HERO ───────────────────────────────────────────────────
   hero: {
     headline: "The AI Marketing Platform <em>Built for Retail & E-Commerce</em>",
-    subheadline: "Your retention report names the customers you already lost, and 84% of your revenue closes in stores your attribution can't see. Kana gives retail teams early churn signals, trade-meeting answers in seconds, and a straight line from digital spend to register revenue.",
+    subheadline: "Kana gives retail teams early churn signals, trade-meeting answers in seconds, and a straight line from digital spend to register revenue — so the team is always acting on a customer earlier than the report can name one.",
     primaryCta: { text: "Book a Demo", href: "/demo" },
     secondaryCta: { text: "See how it works", href: "#solutions" },
     image: "../../brand-assets/AVIF/6a073850eee60cd0e1af591d_Solutions.avif",
@@ -71,16 +71,16 @@ export const industryConfig = {
   // ── PAIN POINTS ─────────────────────
   painPoints: [
     {
-      title: "The retention report is a record of customers you already lost",
-      description: "70–77% of first-time e-commerce customers never come back, and churn only surfaces as a lagging line in the monthly cohort report. By then the win-back discount is the only lever left, and it burns margin on shoppers who were returning anyway.",
+      title: "Catch the customer while they're still yours to keep",
+      description: "70–77% of first-time e-commerce customers never come back, and churn typically only surfaces as a lagging line in the monthly cohort report. Personalization reads declining frequency, shrinking baskets, and fading engagement in real time, so retention teams can act weeks before it would show up as a churn statistic.",
     },
     {
-      title: "The register and the ad platform don't speak",
-      description: "Roughly 84% of US retail sales still close in-store, invisible to digital attribution, while every ad platform grades its own homework. Meta reports 4,000 conversions, your analytics finds 1,200, and the CFO wants to know which number built the budget.",
+      title: "One number the whole room agrees on",
+      description: "Roughly 84% of US retail sales still close in-store, and every ad platform reports its own conversion count. Marketing Intelligence connects ad platforms, POS, and analytics into a single live view, so the CFO conversation starts from one trusted number instead of three competing ones.",
     },
     {
-      title: "Promo windows are measured in hours. Segment queues are measured in days.",
-      description: "Every audience request waits on a data-team SQL queue, and batch pipelines take days to refresh a segment. In compressed retail windows like BFCM, back-to-school, and clearance, the campaign either launches on a stale list or misses the window entirely.",
+      title: "Launch inside the promo window, every time",
+      description: "Audience Builder turns a plain-language brief into a live segment in minutes, no data-team SQL queue, no multi-day batch refresh. BFCM, back-to-school, and clearance campaigns launch on the list built for that moment.",
     },
   ],
 
@@ -140,10 +140,10 @@ export const industryConfig = {
 
   // ── STATS BAR ────────────────────────
   stats: [
-    { number: "84%", label: "of US retail sales still close in-store, where digital attribution can't see them (US Census Bureau)" },
+    { number: "84%", label: "of retail revenue closes in-store — Kana connects it back to the campaign that drove it (US Census Bureau)" },
     { number: "+60%", label: "rise in average e-commerce customer acquisition cost over five years (LoyaltyLion)" },
-    { number: "39%", label: "of consumers say they've become more loyal to brands, while 89% of executives assume they have (NIQ)" },
-    { number: "52%", label: "increase in CFO pressure on marketing to prove ROI (The CMO Survey)" },
+    { number: "39%", label: "of consumers say they've become more loyal to brands this year (NIQ)" },
+    { number: "52%", label: "more scrutiny on marketing ROI — teams with a live spend-to-register view walk in with the answer already there (The CMO Survey)" },
   ],
 
   // ── SOCIAL PROOF ───────────────────────────────────────────
@@ -346,7 +346,7 @@ export const industryConfig = {
 
   // ── FINAL CTA ──────────────────────────────────────────────
   finalCta: {
-    headline: "The retailers growing fastest aren't guessing anymore.",
+    headline: "The fastest-growing retailers already know which customer to save and which dollar to spend next.",
     cta: { text: "Book a Demo", href: "/demo" },
   },
 };

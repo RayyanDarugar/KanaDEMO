@@ -776,6 +776,10 @@ export function renderApp(config) {
   }
 
   // ── 5. STATS BAR SECTION RENDER ──
+  // Stats bar is suppressed site-wide for now (2026-07-21: mostly generic
+  // industry benchmarks, redundant with pain-point/persona copy, inconsistent
+  // stat formats) while keeping config.stats data intact per vertical for a
+  // quick re-enable later. To bring back: uncomment ${statsBarHtml} below.
   const statsColsHtml = config.stats.map((st, index) => {
     return `
       <div class="stat-item reveal" data-delay="${index + 1}">
@@ -917,7 +921,6 @@ export function renderApp(config) {
       ${featuredContentHtml}
       ${personasHtml}
       ${solutionsHtml}
-      ${statsBarHtml}
       ${testimonialHtml}
       ${faqHtml}
       ${finalCtaHtml}

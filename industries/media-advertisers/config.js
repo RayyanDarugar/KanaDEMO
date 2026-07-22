@@ -63,8 +63,8 @@ export const industryConfig = {
 
   // ── HERO ───────────────────────────────────────────────────
   hero: {
-    headline: "Subscription Growth Runs on <em>Signals Your Campaigns Aren't Using Yet</em>",
-    subheadline: "Streaming services, digital publications, and subscription commerce businesses all sit on the signals that keep subscribers engaged: watch history, win-back windows, pricing response. Kana turns those signals into recommendations that stay current, offer tests that run in days instead of quarters, and win-back campaigns timed to when a subscriber is actually ready to return.",
+    headline: "Your Signals Already Point to <em>Subscription Growth</em>",
+    subheadline: "The best signal for what a subscriber wants next is what they did last night. Kana turns that into sharper recommendations, faster offer tests, and better-timed win-back campaigns.",
     primaryCta: { text: "Book a Demo", href: "/demo" },
     secondaryCta: { text: "See how it works", href: "#solutions" },
     image: "../../brand-assets/AVIF/6a073850eee60cd0e1af591d_Solutions.avif",
@@ -77,8 +77,8 @@ export const industryConfig = {
       description: "Recommendation engines retrain on a cycle measured in weeks, while what a subscriber watched or read last night is the strongest signal for what keeps them coming back. By the time the model catches up, the moment to show them something worth staying for has already passed.",
     },
     {
-      title: "Win-back campaigns reach churned subscribers too late",
-      description: "Re-engagement sequences typically launch 30–60 days post-churn, after subscriber intent to return has collapsed. The best win-back window is often within the first 7 days, and a quarter of cancelled subscribers resubscribe within six months anyway, if someone asks in time.",
+      title: "Reach a subscriber in the window they're most likely to come back",
+      description: "The best win-back window is often within the first 7 days, and a quarter of cancelled subscribers resubscribe within six months anyway, if someone asks in time. Audience Builder times the outreach to launch inside that window instead of the typical 30–60 days post-churn.",
     },
     {
       title: "Bundle and pricing test cycles are slow and manual",
@@ -120,8 +120,8 @@ export const industryConfig = {
 
   // ── STATS BAR ────────────────────────
   stats: [
-    { number: "4.6%", label: "average monthly churn for premium streaming services, over half the base annualized (Antenna)" },
-    { number: "23%", label: "of the US streaming audience are serial churners, cancelling 3+ services within two years (Antenna)" },
+    { number: "4.6%", label: "average monthly churn for premium streaming services (Antenna)" },
+    { number: "77%", label: "of streaming subscribers aren't serial churners — personalization decides who avoids joining the other 23% (Antenna)" },
     { number: "24%", label: "of consumers cancel and resubscribe to the same service within six months, 40% for Gen Z (Antenna)" },
     { number: "7 days", label: "the win-back window that converts, while typical sequences launch 30–60 days post-churn (industry research)" },
   ],
