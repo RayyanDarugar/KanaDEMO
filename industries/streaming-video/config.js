@@ -89,7 +89,7 @@ export const industryConfig = {
       feature: "Personalization",
       roleLabel: "Built for Lifecycle & Retention Teams",
       title: "Retention action at the moment of the churn signal",
-      description: "Personalization triggers tailored retention offers and content recommendations the moment behavioral churn signals cross a risk threshold — automating the intervention that prevents cancellations before they happen. The gap between your data science team's churn model and your engagement platform's campaign send collapses to zero: signal in, tailored action out, same session.",
+      description: "Personalization flags tailored retention offers and content recommendations the moment behavioral churn signals cross a risk threshold — for your team to approve before the intervention goes out. The gap between your data science team's churn model and your engagement platform's campaign send collapses to a single review-and-approve step: signal in, tailored action ready, same session.",
       icon: "../../brand-assets/SVG/699017586c99f26d8f0a4085_Customer Engagement.svg",
       image: "../../brand-assets/WEBP/69fb34a3244de10cf3d7a9a5_5b797b2c34c52d464bce0b2b1d520ea3_solutions_04_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc04b820e89c641b48b_solution-bg__1.jpg",
@@ -124,8 +124,8 @@ export const industryConfig = {
     {
       feature: "LLM Command Center",
       roleLabel: "Built for Content Marketing & Distribution Leads",
-      title: "When viewers ask an AI what to watch, be the answer",
-      description: "Consumers increasingly ask AI assistants to find shows and content — and platforms that don't actively manage their presence in AI-generated recommendations risk losing organic discovery to competitors who do. The LLM Command Center monitors and optimizes how your streaming content appears across AI discovery environments, turning a passive distribution risk into an active, manageable competitive advantage.",
+      title: "When AI crawlers take your content for free, get paid or get out of the way",
+      description: "The LLM Command Center gives you visibility into every AI bot crawling your streaming library and lets you set the terms — what's fully accessible, what's summary-only, what's off-limits — turning an invisible traffic drain into a licensing conversation you control.",
       icon: "../../brand-assets/SVG/69901758dc3503adabece211_Answer Engine Optimization.svg",
       image: "../../brand-assets/WEBP/69fb34a309b57c2ab7a2437c_f3e2b3b11b80faf9ae6c49a500d8353c_solutions_03_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc0a1e61a380ab0e29e_solution-bg__2.jpg",
@@ -151,7 +151,7 @@ export const industryConfig = {
   faq: [
     {
       q: "We already have churn models. What does Personalization add?",
-      a: "The action layer. Most platforms' churn scores land in a warehouse table and wait for a batch export before marketing can respond — and by then, at-risk subscribers have often already cancelled. Personalization connects the behavioral signal directly to the intervention: the moment a risk threshold is crossed, the tailored offer or content recommendation fires, automatically."
+      a: "The action layer. Most platforms' churn scores land in a warehouse table and wait for a batch export before marketing can respond — and by then, at-risk subscribers have often already cancelled. Personalization connects the behavioral signal directly to a ready-to-send intervention: the moment a risk threshold is crossed, the tailored offer or content recommendation is drafted and waiting for your team to approve and launch."
     },
     {
       q: "Does Campaign Orchestrator replace our ad server?",
@@ -180,7 +180,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Personalization",
-        description: "Real-time behavioral monitoring with automated, tailored interventions — retention offers and content recommendations that fire the moment risk crosses threshold, not after the batch job.",
+        description: "Real-time behavioral monitoring with tailored interventions ready to approve — retention offers and content recommendations prepared the moment risk crosses threshold, so your team can launch same-day instead of after the batch job.",
         linkLabel: "See Personalization",
         linkHref: "#solution-row-0"
       }
@@ -253,7 +253,7 @@ export const industryConfig = {
     columns: [
       {
         title: "Intervene before the cancellation, not after",
-        description: "Behavioral churn signals trigger tailored offers and recommendations automatically — the retention infrastructure your churn model has been waiting for.",
+        description: "Behavioral churn signals surface tailored offers and recommendations ready to approve — the retention infrastructure your churn model has been waiting for.",
         linkLabel: "Learn more about Personalization",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a3244de10cf3d7a9a5_5b797b2c34c52d464bce0b2b1d520ea3_solutions_04_2x.webp"

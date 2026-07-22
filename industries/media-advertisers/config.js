@@ -78,7 +78,7 @@ export const industryConfig = {
     },
     {
       title: "Reach a subscriber in the window they're most likely to come back",
-      description: "The best win-back window is often within the first 7 days, and a quarter of cancelled subscribers resubscribe within six months anyway, if someone asks in time. Audience Builder times the outreach to launch inside that window instead of the typical 30–60 days post-churn.",
+      description: "The best win-back window is often within the first 7 days, and a quarter of cancelled subscribers resubscribe within six months anyway, if someone asks in time. Audience Builder builds and activates that segment in minutes instead of the typical 30–60-day lag, so the ask can go out while the window's still open.",
     },
     {
       title: "Bundle and pricing test cycles are slow and manual",
@@ -91,8 +91,8 @@ export const industryConfig = {
     {
       feature: "Personalization",
       roleLabel: "Built for Growth & Product Teams",
-      title: "Recommendations that know what they watched last night",
-      description: "Personalization incorporates recency-weighted behavioral signals directly into your recommendation logic, so every subscriber sees content matched to what they engaged with most recently, not a static profile from months ago. Session depth goes up, dormancy goes down, and the engine keeps learning with every session instead of waiting for the next model refresh.",
+      title: "Retention offers that know what they watched last night",
+      description: "Personalization scores every subscriber's churn risk from recency-weighted behavioral signals and decides the next offer, channel, and moment to reach them, not a static profile from months ago. Every decision comes with a plain-language reason, and nothing goes out without your team's approval.",
       icon: "../../brand-assets/SVG/699017586c99f26d8f0a4085_Customer Engagement.svg",
       image: "../../brand-assets/WEBP/69fb34a3244de10cf3d7a9a5_5b797b2c34c52d464bce0b2b1d520ea3_solutions_04_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc03bbf9cc8a6b457ff_solution-bg__3.jpg",
@@ -101,7 +101,7 @@ export const industryConfig = {
       feature: "Audience Builder",
       roleLabel: "Built for Growth & Win-Back Teams",
       title: "Win them back inside the window that converts",
-      description: "Audience Builder identifies the optimal win-back window by subscriber cohort and triggers personalized re-engagement offers within the highest-conversion timeframe. Sequences stop launching 30–60 days after the cancel, when intent to return has collapsed, and start reaching each cohort in the days when a comeback is actually likely.",
+      description: "Audience Builder builds and activates the lapsed-subscriber segment in minutes, not the usual 30–60-day lag, with recent purchasers and opt-outs suppressed automatically. Cohorts stop waiting on a data-team ticket and start reaching the door while intent to come back is still there.",
       icon: "../../brand-assets/SVG/6a07370afa74e1a989f5eb11_Audience Manager.svg",
       image: "../../brand-assets/WEBP/69fb34a3693f25a94988df0e_5897b8bc1884f86278bb63a02dc23207_solutions_05_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc05e660038226b085c_solution-bg__5.jpg",
@@ -111,7 +111,7 @@ export const industryConfig = {
       feature: "Campaign Orchestrator",
       roleLabel: "Built for Pricing & Packaging Teams",
       title: "Test the bundle this month, not this roadmap cycle",
-      description: "The Campaign Orchestrator enables rapid, automated offer testing across subscriber cohorts, with the Kana Marketing Intelligence application surfacing test results in real time. New bundle configurations, promotional pricing, and plan upgrade offers stop requiring months of cross-functional effort, and the feedback loop shrinks from quarters to days.",
+      description: "The Campaign Orchestrator enables rapid, automated offer testing across subscriber cohorts, with the Kana Marketing Intelligence application surfacing test results in real time. New bundle configurations, promotional pricing, and plan upgrade offers stop requiring months of cross-functional effort, and the feedback loop shrinks from quarters to weeks.",
       icon: "../../brand-assets/SVG/69901757ec677b2ce290fcb4_Smarter Campaign Management.svg",
       image: "../../brand-assets/WEBP/69fb34a37abc32670956d9d8_22a3b8e403e4a9722e6b5bc578c29054_solutions_01_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc0a301e7e98b87934a_solution-bg__4.jpg",
@@ -121,7 +121,7 @@ export const industryConfig = {
   // ── STATS BAR ────────────────────────
   stats: [
     { number: "4.6%", label: "average monthly churn for premium streaming services (Antenna)" },
-    { number: "77%", label: "of streaming subscribers aren't serial churners — personalization decides who avoids joining the other 23% (Antenna)" },
+    { number: "77%", label: "of streaming subscribers aren't serial churners — the other 23% are exactly who a sharper win-back and retention motion is built to reach (Antenna)" },
     { number: "24%", label: "of consumers cancel and resubscribe to the same service within six months, 40% for Gen Z (Antenna)" },
     { number: "7 days", label: "the win-back window that converts, while typical sequences launch 30–60 days post-churn (industry research)" },
   ],
@@ -140,12 +140,12 @@ export const industryConfig = {
       a: "Via API. Kana sits on top of your data warehouse, billing platform, and messaging stack (Snowflake, Databricks, Braze, Recurly, Zuora, and more) with no rip-and-replace and no migration. Kana's solutions team handles setup, typically in 2–4 weeks depending on how many systems you're connecting."
     },
     {
-      q: "Does Personalization replace our existing recommendation engine?",
-      a: "No, it strengthens it. Personalization layers recency-weighted behavioral signals on top of whatever recommendation logic you already run, so the existing engine gets sharper instead of replaced. Most teams see the biggest lift in the signal a static model misses: what a subscriber did in the last day or two."
+      q: "Does Personalization replace our lifecycle or retention marketing tools?",
+      a: "No, it strengthens them. Personalization scores churn risk and decides the next offer, channel, and send time from recency-weighted behavioral signals, then hands off to whatever marketing platform you already send from. Most teams see the biggest lift in the signal a static model misses: what a subscriber did in the last day or two."
     },
     {
       q: "How is Personalization different from Audience Builder?",
-      a: "Audience Builder decides who to reach and when their re-engagement window is actually open. Personalization decides what to show them once they're back, recommendations weighted to what they've watched or read most recently. Most teams run both together: Audience Builder times the outreach, Personalization makes the content in it worth returning for."
+      a: "Audience Builder builds and activates the audience: who's lapsed, who's suppressed, who's ready for outreach. Personalization decides what happens next for each of them — the offer, channel, and moment most likely to bring them back — weighted to what they've done most recently. Most teams run both together: Audience Builder gets the list built and activated fast, Personalization decides what each person on it sees."
     },
     {
       q: "How fast can a subscription team get live on Kana?",
@@ -190,7 +190,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Audience Builder",
-        description: "Identifies the optimal win-back window by subscriber cohort and triggers personalized re-engagement offers within the highest-conversion timeframe, often the first seven days, not the second month.",
+        description: "Builds and activates the lapsed-subscriber segment by cohort in minutes, with recent purchasers and opt-outs suppressed automatically, so outreach can go out in the first seven days instead of the second month.",
         linkLabel: "See Audience Builder",
         linkHref: "#solution-row-1"
       }
@@ -230,7 +230,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Personalization",
-        description: "Incorporates recency-weighted behavioral signals into content recommendation logic, increasing session depth and reducing subscriber dormancy. Built on top of the Audience Builder foundation, so it activates on data teams already have flowing.",
+        description: "Scores churn risk and decides the next offer, channel, and moment from recency-weighted behavioral signals instead of a stale profile, with a reason behind every decision. Built on top of the Audience Builder foundation, so it activates on data teams already have flowing.",
         linkLabel: "See Personalization",
         linkHref: "#solution-row-0"
       }
@@ -250,7 +250,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Personalization",
-        description: "The platform anchor: recency-weighted recommendations that keep every subscriber's experience current with what they're actually watching or reading, not a profile that's months stale. Retention and growth both run through the same signal.",
+        description: "The platform anchor: recency-weighted retention decisions that stay current with what each subscriber is actually doing, not a profile that's months stale. Retention and growth both run through the same signal.",
         linkLabel: "See Personalization",
         linkHref: "#solution-row-0"
       }
@@ -263,20 +263,20 @@ export const industryConfig = {
     columns: [
       {
         title: "Every recommendation reflects this week, not last quarter",
-        description: "Recency-weighted signals feed straight into your recommendation logic, so what a subscriber sees matches what they engaged with recently, not a profile trained months ago.",
+        description: "Recency-weighted signals feed straight into every retention decision, so the offer and channel match what a subscriber engaged with recently, not a profile trained months ago.",
         linkLabel: "Learn more about Personalization",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a3244de10cf3d7a9a5_5b797b2c34c52d464bce0b2b1d520ea3_solutions_04_2x.webp"
       },
       {
         title: "Catch the comeback while it's possible",
-        description: "Optimal win-back windows identified per cohort, with personalized re-engagement offers triggered inside the highest-conversion timeframe, days after the cancel, not months.",
+        description: "Lapsed-subscriber segments built and activated per cohort in minutes, suppression logic built in, so outreach can launch days after the cancel, not months.",
         linkLabel: "Learn more about Audience Builder",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a3693f25a94988df0e_5897b8bc1884f86278bb63a02dc23207_solutions_05_2x.webp"
       },
       {
-        title: "Run the pricing test in days, not quarters",
+        title: "Run the pricing test in weeks, not quarters",
         description: "Automated offer testing across subscriber cohorts with results surfacing in real time, bundles, promos, and upgrade paths iterate at experiment speed.",
         linkLabel: "Learn more about Campaign Orchestrator",
         linkHref: "#solutions",
@@ -312,12 +312,12 @@ export const industryConfig = {
     columns: [
       {
         title: "Make every recommendation current, not just personalized",
-        description: "Personalization: recency-weighted signals feed straight into your existing recommendation engine, so what a subscriber sees reflects what they did this week, not a profile trained months ago.",
+        description: "Personalization: recency-weighted signals feed straight into every retention decision, so the offer a subscriber gets reflects what they did this week, not a profile trained months ago.",
         image: "../../brand-assets/WEBP/69fb34a3244de10cf3d7a9a5_5b797b2c34c52d464bce0b2b1d520ea3_solutions_04_2x.webp"
       },
       {
         title: "Time every cohort's win-back to its own window",
-        description: "Audience Builder: behavioral signals identify when each subscriber cohort is most likely to return, and re-engagement offers fire inside that window instead of on the 60-day timer.",
+        description: "Audience Builder: build and activate the lapsed-subscriber segment by cohort in minutes, suppression built in, so re-engagement can launch days after the cancel instead of on the 60-day timer.",
         image: "../../brand-assets/WEBP/69fb34a3693f25a94988df0e_5897b8bc1884f86278bb63a02dc23207_solutions_05_2x.webp"
       },
       {

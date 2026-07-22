@@ -91,7 +91,7 @@ export const industryConfig = {
       feature: "Campaign Orchestrator",
       roleLabel: "Built for Field & Franchise Marketing Teams",
       title: "Spend that follows the market, not the national average",
-      description: "Campaign Orchestrator enables location-aware audience and budget optimization — adjusting spend automatically by market performance signal. Instead of one national plan applied to thousands of different trade areas, each market's traffic patterns, competitive set, and menu preferences shape where the next dollar goes. The weekly comp readout stops being a record of stores the calendar left behind.",
+      description: "Campaign Orchestrator enables location-aware audience and budget optimization — surfacing where spend should shift by market performance signal, with your team approving every move before it ships. Instead of one national plan applied to thousands of different trade areas, each market's traffic patterns, competitive set, and menu preferences shape where the next dollar goes. The weekly comp readout stops being a record of stores the calendar left behind.",
       icon: "../../brand-assets/SVG/69901757ec677b2ce290fcb4_Smarter Campaign Management.svg",
       image: "../../brand-assets/WEBP/69fb34a37abc32670956d9d8_22a3b8e403e4a9722e6b5bc578c29054_solutions_01_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc04b820e89c641b48b_solution-bg__1.jpg",
@@ -100,7 +100,7 @@ export const industryConfig = {
       feature: "Agentic Data Platform",
       roleLabel: "Built for CRM & Lifecycle Teams",
       title: "Offers that check the kitchen before they send",
-      description: "The Agentic Data Platform connects your operational data feeds to campaign logic — suppressing or adjusting offers based on real-time kitchen and inventory conditions. When an item gets 86'd or the line is at capacity, the push that would have promoted it pauses or pivots automatically. Marketing stops promising what operations can't serve.",
+      description: "The Agentic Data Platform keeps your campaign tools working from the same operational picture as your stores — so when an item gets 86'd or the line is at capacity, your team can catch and adjust the offer that would have promoted it before it goes out, instead of finding out from a guest complaint. Marketing stops promising what operations can't serve.",
       icon: "../../brand-assets/SVG/69901757d8ab518db4cb3c52_Synthetic Data Generation.svg",
       image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc0a301e7e98b87934a_solution-bg__4.jpg",
@@ -109,8 +109,8 @@ export const industryConfig = {
     {
       feature: "Audience Builder",
       roleLabel: "Built for Media & Campaign Teams",
-      title: "Day-parts that flex with demand, not the calendar",
-      description: "Audience Builder works together with the Campaign Orchestrator to ingest external demand signals — weather, events, traffic, competitive promotions — and support optimized day-part targeting and offer timing across digital and local channels. Breakfast, lunch, and dinner campaigns respond to what's shifting demand this morning instead of running the schedule set last month.",
+      title: "Audiences that are ready the moment demand shifts",
+      description: "Audience Builder builds precise, sized segments straight from your CRM and loyalty data — with suppression logic built in, so recent purchasers and opt-outs are automatically excluded. Instead of a two-week ticket to the data team, breakfast, lunch, and dinner segments are ready in minutes, so the offer goes out while the moment is still there.",
       icon: "../../brand-assets/SVG/6a07370afa74e1a989f5eb11_Audience Manager.svg",
       image: "../../brand-assets/WEBP/69fb34a3693f25a94988df0e_5897b8bc1884f86278bb63a02dc23207_solutions_05_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc05e660038226b085c_solution-bg__5.jpg",
@@ -146,11 +146,11 @@ export const industryConfig = {
   faq: [
     {
       q: "How does Kana connect to our restaurant stack?",
-      a: "Via API. Kana sits on top of your POS (Toast, Brink, Oracle Simphony), loyalty platform (Punchh, Paytronix), ordering system (Olo), and ad platforms — no rip-and-replace, no warehouse migration. Kana's solutions team handles setup, typically in 2–4 weeks depending on how many systems you're connecting."
+      a: "Via API. Kana sits on top of your POS (Toast, Brink, Oracle Simphony), loyalty platform (Punchh, Paytronix), ordering system (Olo), and ad platforms — no rip-and-replace, no warehouse migration. Kana's solutions team handles setup, with timelines depending on how many systems you're connecting."
     },
     {
       q: "How does the Agentic Data Platform know what's happening in the kitchen?",
-      a: "It reads the operational feeds your stores already produce — inventory and 86'd-item status, order volume, kitchen capacity signals from your POS and ordering systems — and wires them into campaign logic. Offers pause or adjust automatically when conditions change, and every rule runs with your team's oversight."
+      a: "It's built to work from the same operational signals your stores already produce — inventory and 86'd-item status, order volume, kitchen capacity — so offer decisions can reflect current conditions instead of a calendar set weeks ago. Every rule runs with your team's review before an offer goes out."
     },
     {
       q: "When will Personalization be available?",
@@ -175,7 +175,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Campaign Orchestrator",
-        description: "Location-aware audience and budget optimization that adjusts spend automatically by market performance signal. Every store's trade area gets a plan shaped by its own traffic patterns and competitive set — and the franchisee conversation starts from their numbers.",
+        description: "Location-aware audience and budget optimization that surfaces where spend should shift by market performance signal, with your team approving every move before it ships. Every store's trade area gets a plan shaped by its own traffic patterns and competitive set — and the franchisee conversation starts from their numbers.",
         linkLabel: "See Campaign Orchestrator",
         linkHref: "#solution-row-0"
       }
@@ -195,7 +195,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Agentic Data Platform",
-        description: "Connects operational data feeds to campaign logic, suppressing or adjusting offers on real-time kitchen and inventory conditions. The push calendar stops promising what the store can't serve.",
+        description: "Keeps your campaign tools working from the same operational picture as your stores, so your team can catch and adjust an offer before it sends. The push calendar stops promising what the store can't serve.",
         linkLabel: "See Agentic Data Platform",
         linkHref: "#solution-row-1"
       }
@@ -215,7 +215,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Audience Builder",
-        description: "Ingests external demand signals — weather, events, traffic, competitive promotions — and works with the Campaign Orchestrator to optimize day-part targeting and offer timing across digital and local channels, market by market.",
+        description: "Builds sized, suppressed audiences straight from your CRM and loyalty data in minutes instead of weeks — so day-part campaigns launch from a current segment instead of a stale export, market by market.",
         linkLabel: "See Audience Builder",
         linkHref: "#solution-row-2"
       }
@@ -268,21 +268,21 @@ export const industryConfig = {
     columns: [
       {
         title: "Spend follows the market, not the average",
-        description: "Location-aware budget optimization adjusts spend automatically by market performance signal — so high-variance markets get plans built for their trade area, not the national mean.",
+        description: "Location-aware budget optimization surfaces where spend should shift by market performance signal, with every reallocation reviewed and approved by your team — so high-variance markets get plans built for their trade area, not the national mean.",
         linkLabel: "Learn more about Campaign Orchestrator",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a37abc32670956d9d8_22a3b8e403e4a9722e6b5bc578c29054_solutions_01_2x.webp"
       },
       {
         title: "Offers that check the 86 board first",
-        description: "Operational feeds gate campaign logic in real time. When the kitchen is slammed or an item is out, the offer pauses or pivots — before the guest finds out at the counter.",
+        description: "Kana keeps your campaign tools working from the same operational picture as your stores, so your team can catch and adjust an offer before it goes out — before the guest finds out at the counter.",
         linkLabel: "Learn more about the Agentic Data Platform",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp"
       },
       {
-        title: "Day-parts that flex with the weather",
-        description: "External demand signals — weather, events, traffic, competitor promos — reshape day-part targeting and offer timing across digital and local channels while the demand is still there.",
+        title: "Segments that are ready before the moment passes",
+        description: "Audiences build straight from your CRM and loyalty data in minutes, not weeks — with suppression built in — so day-part campaigns launch from a current segment while the demand is still there.",
         linkLabel: "Learn more about Audience Builder",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a3693f25a94988df0e_5897b8bc1884f86278bb63a02dc23207_solutions_05_2x.webp"
@@ -317,17 +317,17 @@ export const industryConfig = {
     columns: [
       {
         title: "Give every location its own plan without hiring a planner per market",
-        description: "Campaign Orchestrator — market performance signals drive location-aware budget and audience optimization across thousands of trade areas. The stores the pooled fund used to leave behind get plans shaped by their own demand.",
+        description: "Campaign Orchestrator — market performance signals drive location-aware budget optimization across thousands of trade areas. The stores the pooled fund used to leave behind get plans shaped by their own demand.",
         image: "../../brand-assets/WEBP/69fb34a37abc32670956d9d8_22a3b8e403e4a9722e6b5bc578c29054_solutions_01_2x.webp"
       },
       {
-        title: "Wire the kitchen into campaign logic",
-        description: "Agentic Data Platform — operational feeds from your POS and ordering systems gate every offer on real-time inventory and kitchen conditions. Marketing and operations stop finding out about each other from guest complaints.",
+        title: "Keep campaigns honest about what the kitchen can deliver",
+        description: "Agentic Data Platform — keeps your campaign tools working from the same operational picture as your stores, so offers can be caught and adjusted before they go out. Marketing and operations stop finding out about each other from guest complaints.",
         image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp"
       },
       {
-        title: "Target the day-part, not just the demographic",
-        description: "Audience Builder — external demand signals reshape targeting and offer timing by day-part and market. Proximity, trade area, and time-of-day drive QSR visits; your campaigns finally act like it.",
+        title: "Build the segment, not just the demographic",
+        description: "Audience Builder — sized, suppressed segments build straight from your CRM and loyalty data in minutes. Proximity, trade area, and visit timing live in your data; your campaigns finally act on it fast enough to matter.",
         image: "../../brand-assets/WEBP/69fb34a30469825a78728f33_bbf22870ed50f2db542dcc3757717812_solutions_06_2x.webp"
       }
     ]

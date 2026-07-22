@@ -63,7 +63,7 @@ export const industryConfig = {
   // ── HERO ───────────────────────────────────────────────────
   hero: {
     headline: "Financial Services Marketers Can't Act on <em>the Signals They Already Have</em>",
-    subheadline: "Banks, insurers, and wealth managers are sitting on extraordinarily rich customer data — but compliance constraints, legacy systems, and siloed channels prevent that data from ever powering real-time, relevant marketing. Kana gives you compliance-ready content velocity, propensity-driven cross-sell, and a bridge from digital intent to the branch.",
+    subheadline: "Banks, insurers, and wealth managers are sitting on extraordinarily rich customer data — but compliance constraints, legacy systems, and siloed channels prevent that data from ever powering real-time, relevant marketing. Kana gives you compliance-ready content velocity, propensity-driven cross-sell, and one governed customer view connecting digital intent to the branch.",
     primaryCta: { text: "Book a Demo", href: "/demo" },
     secondaryCta: { text: "See how it works", href: "#solutions" },
     image: "../../brand-assets/AVIF/6a073850eee60cd0e1af591d_Solutions.avif",
@@ -90,8 +90,8 @@ export const industryConfig = {
     {
       feature: "Marketing Intelligence",
       roleLabel: "Built for Marketing Ops & Compliance Teams",
-      title: "Cut the compliance cycle without cutting the compliance",
-      description: "Marketing Intelligence manages pre-approved content libraries and flags compliance risks before creative goes to review — cutting cycle times dramatically. Submissions arrive cleaner, revision loops shrink, and every approval carries its audit trail: reviewer, timestamp, version. Principal sign-off stays exactly where regulators require it; the three-week queue in front of it doesn't.",
+      title: "Turn campaign performance into answers your team can act on",
+      description: "Marketing Intelligence lets marketing ops ask plain-language questions about campaign performance and get grounded answers in seconds, plus weekly narratives your team reviews and approves before they go out. Every suggested action comes with the evidence behind it, and nothing ships without a human sign-off — insight-to-action drops from weeks to hours.",
       icon: "../../brand-assets/SVG/699017579f378c81f5094a40_Analytics.svg",
       image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc0a301e7e98b87934a_solution-bg__4.jpg",
@@ -111,7 +111,7 @@ export const industryConfig = {
       feature: "Agentic Data Platform",
       roleLabel: "Built for Retail Network & Branch Experience Teams",
       title: "The mortgage they researched Tuesday reaches the banker by Wednesday",
-      description: "The Agentic Data Platform bridges digital intent signals and branch CRM systems, giving customer-facing teams the context to have more relevant conversations. When a customer researches mortgages in the app and books a branch appointment, the relationship banker opens a record that knows it — not a static lead list from last week's export.",
+      description: "The Agentic Data Platform connects your digital channels and CRM into one governed customer view, so the apps your teams already use can surface what a customer has been exploring — instead of relationship bankers working from a lead list that's already out of date.",
       icon: "../../brand-assets/SVG/69901757d8ab518db4cb3c52_Synthetic Data Generation.svg",
       image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc04b820e89c641b48b_solution-bg__1.jpg",
@@ -120,8 +120,8 @@ export const industryConfig = {
     {
       feature: "Personalization",
       roleLabel: "Coming Soon — Built for Lifecycle & CRM Teams",
-      title: "Offers triggered by the moment, not the quarter",
-      description: "Personalization monitors behavioral and transactional signals to trigger contextually relevant product offers at the precise moment of highest intent. The customer who just changed employers or made a large transfer gets a tailored offer within hours — instead of surfacing on the next quarterly campaign list after the moment has passed. Coming soon to the Kana platform.",
+      title: "Offers built around the customer, not the calendar",
+      description: "Personalization scores every customer's next-best offer — channel, content, timing, frequency — from their real behavior and account activity, with a plain-language reason behind each one, for your team to review and send. The customer who just changed employers or made a large transfer gets matched to a tailored offer within hours of approval — instead of surfacing on the next quarterly campaign list after the moment has passed.",
       icon: "../../brand-assets/SVG/699017586c99f26d8f0a4085_Customer Engagement.svg",
       image: "../../brand-assets/WEBP/69fb34a3244de10cf3d7a9a5_5b797b2c34c52d464bce0b2b1d520ea3_solutions_04_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc03bbf9cc8a6b457ff_solution-bg__3.jpg",
@@ -147,7 +147,7 @@ export const industryConfig = {
   faq: [
     {
       q: "How does Kana fit into our compliance review process?",
-      a: "It works ahead of it, not around it. Marketing Intelligence maintains pre-approved content libraries and flags compliance risks before creative reaches your reviewers, so submissions arrive cleaner and revision cycles shrink. Principal sign-off and your existing approval authority stay exactly as they are — with a complete audit trail (reviewer, timestamp, version) on every asset."
+      a: "Marketing Intelligence doesn't sit inside your compliance workflow today — it sits upstream, giving marketing ops plain-language answers on campaign performance and narratives that go through your team's review and approval before anyone sees them."
     },
     {
       q: "How does Kana handle model risk and AI governance?",
@@ -176,7 +176,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Personalization (Coming Soon)",
-        description: "Monitors behavioral and transactional signals to trigger contextually relevant product offers at the precise moment of highest intent — hours after the life event, not months. Built on the Audience Builder and Agentic Data Platform foundation, so current deployments activate it the moment it ships.",
+        description: "Scores every customer's next-best offer — content, timing, channel — from behavioral and transactional signals, with a reason behind every decision, for your team to approve and send. Life-event-driven offers reach the customer within hours of approval, not months later on the next quarterly list. Built on the Audience Builder and Agentic Data Platform foundation, so current deployments activate it the moment it ships.",
         linkLabel: "See Personalization",
         linkHref: "#solution-row-3"
       }
@@ -196,7 +196,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Marketing Intelligence",
-        description: "Pre-approved content libraries and pre-review risk flagging cut cycle times dramatically, while every approval carries its audit trail automatically — reviewer, timestamp, version. The compliance desk gets cleaner submissions; marketing gets its calendar back.",
+        description: "Plain-language answers on campaign performance and narratives that go through your team's review before distribution — no export-and-reconcile cycle. Marketing Ops gets decision-grade reporting in seconds instead of days.",
         linkLabel: "See Marketing Intelligence",
         linkHref: "#solution-row-0"
       }
@@ -236,7 +236,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Agentic Data Platform",
-        description: "Bridges digital intent signals and branch CRM systems, giving customer-facing teams the context to have more relevant conversations. The banker opens the appointment already knowing what the customer has been exploring.",
+        description: "Connects digital channels and CRM into one governed customer view, so the apps your relationship bankers already use can surface what a customer has been exploring — not a static lead list from last week's export.",
         linkLabel: "See Agentic Data Platform",
         linkHref: "#solution-row-2"
       }
@@ -268,8 +268,8 @@ export const industryConfig = {
     headline: "The signals are already in your systems.<br>Kana lets you act on them.",
     columns: [
       {
-        title: "Ship in days what used to take weeks",
-        description: "Pre-approved content libraries and pre-review risk flagging compress the compliance cycle — with the audit trail regulators expect built into every approval.",
+        title: "Get answers in seconds, not days",
+        description: "Plain-language questions over your campaign data get grounded answers in seconds, with narratives your team reviews and approves before anyone else sees them.",
         linkLabel: "Learn more about Marketing Intelligence",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp"
@@ -282,8 +282,8 @@ export const industryConfig = {
         image: "../../brand-assets/WEBP/69fb34a3693f25a94988df0e_5897b8bc1884f86278bb63a02dc23207_solutions_05_2x.webp"
       },
       {
-        title: "Walk the digital signal into the branch",
-        description: "Digital intent flows into the banker's CRM before the appointment, so the branch conversation starts where the customer's research left off.",
+        title: "Give the branch what the app already knows",
+        description: "Digital and CRM data connect into one governed customer view, so the tools your branch teams use can start the conversation where the customer's research left off.",
         linkLabel: "Learn more about the Agentic Data Platform",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a3244de10cf3d7a9a5_5b797b2c34c52d464bce0b2b1d520ea3_solutions_04_2x.webp"
@@ -317,8 +317,8 @@ export const industryConfig = {
     subtitle: "Connects to Salesforce, Adobe, Braze, your core banking data, and your compliance archive — no rip-and-replace, no migration, no new governance gaps.",
     columns: [
       {
-        title: "Compress the review cycle without touching the controls",
-        description: "Marketing Intelligence — pre-approved libraries and risk pre-flagging sit in front of your existing approval workflow. Principals keep sign-off; audit trails write themselves; the 5–15 day queue shrinks to the review that actually matters.",
+        title: "Get decision-grade answers without waiting on a data team",
+        description: "Marketing Intelligence — plain-language questions over your campaign data, answered in seconds, with narratives and suggested actions that go through your team's review before they ship.",
         image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp"
       },
       {
@@ -328,7 +328,7 @@ export const industryConfig = {
       },
       {
         title: "Give every banker the context the app already has",
-        description: "Agentic Data Platform — digital intent signals flow into the branch CRM your relationship bankers already use. One customer, one story, on both sides of the counter.",
+        description: "Agentic Data Platform — digital and CRM data connect into one governed customer view your relationship bankers' tools can draw on. One customer, one story, on both sides of the counter.",
         image: "../../brand-assets/WEBP/69fb34a30469825a78728f33_bbf22870ed50f2db542dcc3757717812_solutions_06_2x.webp"
       }
     ]

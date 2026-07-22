@@ -100,7 +100,7 @@ export const industryConfig = {
       feature: "Omni-Channel Media Planner",
       roleLabel: "Built for VP Media & Performance Teams",
       title: "Stop optimizing with last year's channel mix",
-      description: "The Omni-Channel Media Planner models saturation curves against your own campaign data and turns a brief straight into the right targeting setup on Meta, YouTube, The Trade Desk, and DV360. Budget allocation stops being driven by habit and starts being driven by modeled ROAS.",
+      description: "The Omni-Channel Media Planner models saturation curves against your own campaign data and turns a brief straight into platform-ready targeting for Meta, YouTube, The Trade Desk, and DV360. Budget allocation stops being driven by habit and starts being driven by modeled ROAS.",
       icon: "../../brand-assets/SVG/69901757be05292281eee76e_Media Proposal Generation.svg",
       image: "../../brand-assets/WEBP/69fb34a37abc32670956d9d8_22a3b8e403e4a9722e6b5bc578c29054_solutions_01_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc04b820e89c641b48b_solution-bg__1.jpg",
@@ -270,14 +270,14 @@ export const industryConfig = {
     columns: [
       {
         title: "Catch the trend before it hits POS",
-        description: "Cross-reference external signals (analyst reports, Grocery Dive, and Google Trends) against your own scan data automatically. Surface leading indicators 6–10 weeks before movement shows in your numbers.",
+        description: "Cross-reference external signals (analyst reports, Grocery Dive, and Google Trends) against your own scan data automatically. Surface leading indicators well before movement shows in your numbers.",
         linkLabel: "Learn more about Category Intelligence",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a309b57c2ab7a2437c_f3e2b3b11b80faf9ae6c49a500d8353c_solutions_03_2x.webp"
       },
       {
         title: "Run the brief you actually wrote",
-        description: "Build precise audience segments from plain-language briefs, no SQL, no tickets. Monitor every live campaign against the original brief across Meta, YouTube, and The Trade Desk, in real time.",
+        description: "Build precise audience segments from plain-language briefs, no SQL, no tickets. Keep every live segment traceable to the original brief, so targeting never drifts from what you asked for.",
         linkLabel: "Learn more about Audience Builder",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a3693f25a94988df0e_5897b8bc1884f86278bb63a02dc23207_solutions_05_2x.webp"
@@ -310,12 +310,12 @@ export const industryConfig = {
     columns: [
       {
         title: "Unify your customer data without moving a single record",
-        description: "Zero-copy architecture sits on top of Salesforce, Marketo, your data warehouse, and your retailer portals. Kana resolves identities and deduplicates contacts across every system you already use, without migration, duplication, or new governance overhead.",
+        description: "Kana sits on top of Salesforce, Marketo, and your data warehouse, working with the customer data you already have without migration, duplication, or new governance overhead.",
         image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp"
       },
       {
         title: "Launch new markets on data your competitors have never seen before",
-        description: "Audience Builder: when a new SKU or new geography means you have no first-party seed data, Kana builds high-fidelity synthetic audiences from public signals. 80%+ overlap with Acxiom and Experian quality, at a fraction of the cost.",
+        description: "Audience Builder: when a new SKU or new geography means you have no first-party seed data, Kana builds high-fidelity synthetic audiences from public signals, so you can target on day one instead of waiting for first-party data to accumulate.",
         image: "../../brand-assets/WEBP/69fb34a30469825a78728f33_bbf22870ed50f2db542dcc3757717812_solutions_06_2x.webp"
       },
       {

@@ -98,8 +98,8 @@ export const industryConfig = {
     {
       feature: "LLM Command Center",
       roleLabel: "Built for Audience Development & Revenue Leads",
-      title: "See — and shape — how your content appears in AI answers",
-      description: "The LLM Command Center monitors how your content appears in AI-generated responses across major LLMs, identifies coverage and accuracy gaps, and surfaces the opportunities to optimize for AI-era discovery and attribution. The traffic your search team spent two decades winning is being re-decided inside AI answers; this is the instrument panel for winning it there too.",
+      title: "See — and control — who's crawling your content, and on what terms",
+      description: "The LLM Command Center shows you which AI crawlers are pulling your content, lets you set plain-English access policies by content tier, and turns that activity into evidence for licensing conversations. The traffic your search team spent two decades winning is now being harvested by bots instead of read by people; this is the instrument panel for setting the terms of that trade.",
       icon: "../../brand-assets/SVG/69901758dc3503adabece211_Answer Engine Optimization.svg",
       image: "../../brand-assets/WEBP/69fb34a309b57c2ab7a2437c_f3e2b3b11b80faf9ae6c49a500d8353c_solutions_03_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc03bbf9cc8a6b457ff_solution-bg__3.jpg",
@@ -117,7 +117,7 @@ export const industryConfig = {
       feature: "Personalization",
       roleLabel: "Built for Retention & Subscriptions Teams",
       title: "Catch the churn signal before it becomes a cancellation",
-      description: "Personalization monitors subscriber engagement signals in real time, identifies churn-risk indicators early, and triggers tailored retention offers and content experiences before cancellation intent solidifies. Your paywall stack optimizes the conversion moment; this is the layer for everything after it — the engagement cliffs, renewal windows, and content gaps where subscribers quietly decide to leave.",
+      description: "Personalization monitors subscriber engagement signals in real time, identifies churn-risk indicators early, and prepares tailored retention offers and content experiences for your team to approve before cancellation intent solidifies. Your paywall stack optimizes the conversion moment; this is the layer for everything after it — the engagement cliffs, renewal windows, and content gaps where subscribers quietly decide to leave.",
       icon: "../../brand-assets/SVG/699017586c99f26d8f0a4085_Customer Engagement.svg",
       image: "../../brand-assets/WEBP/69fb34a3244de10cf3d7a9a5_5b797b2c34c52d464bce0b2b1d520ea3_solutions_04_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc05e660038226b085c_solution-bg__5.jpg",
@@ -152,11 +152,11 @@ export const industryConfig = {
   faq: [
     {
       q: "How is Personalization different from our paywall and subscription tools?",
-      a: "Paywall platforms optimize the conversion moment — who sees which offer on the way in. Personalization works on everything after: it watches post-subscribe engagement signals in real time, flags churn-risk indicators early, and triggers tailored retention offers and content experiences before cancellation intent solidifies. It complements your existing subscription stack rather than replacing it."
+      a: "Paywall platforms optimize the conversion moment — who sees which offer on the way in. Personalization works on everything after: it watches post-subscribe engagement signals in real time, flags churn-risk indicators early, and prepares tailored retention offers and content experiences for your team to approve before cancellation intent solidifies. It complements your existing subscription stack rather than replacing it."
     },
     {
       q: "What does the LLM Command Center actually monitor?",
-      a: "How your content appears in AI-generated responses across major LLMs — where you're cited, where you're absent, and where the answer misrepresents your reporting. It identifies coverage and accuracy gaps and surfaces concrete opportunities to optimize content for AI-era discovery and attribution, so your response to the search-traffic shift is a managed program instead of a guess."
+      a: "Which AI bots are crawling your content, how often, and what they're taking — training, RAG, search, or research. You set plain-English access policies by content tier and provider, and every crawl becomes evidence you can bring to a licensing conversation, so your response to AI crawlers is a managed program instead of a guess."
     },
     {
       q: "Can Campaign Orchestrator really handle audio and newsletter inventory alongside display?",
@@ -201,7 +201,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "LLM Command Center",
-        description: "Monitors your presence across AI-generated responses, flags coverage and accuracy gaps, and turns AI-era discovery into a discipline your team runs — the way it once ran SEO.",
+        description: "Monitors AI crawler activity across your properties, lets you set access policy by content tier, and turns AI consumption into a discipline your team runs — and a licensing case you can make.",
         linkLabel: "See LLM Command Center",
         linkHref: "#solution-row-1"
       }
@@ -241,7 +241,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Personalization",
-        description: "Real-time engagement monitoring that catches churn-risk indicators early and triggers tailored offers and content experiences before cancellation intent solidifies.",
+        description: "Real-time engagement monitoring that catches churn-risk indicators early and prepares tailored offers and content experiences for your team to approve before cancellation intent solidifies.",
         linkLabel: "See Personalization",
         linkHref: "#solution-row-3"
       }
@@ -281,14 +281,14 @@ export const industryConfig = {
       },
       {
         title: "Save subscribers while they're still subscribers",
-        description: "Engagement signals monitored in real time, churn risk caught early, and tailored retention offers triggered before cancellation intent solidifies — not after the cohort report.",
+        description: "Engagement signals monitored in real time, churn risk caught early, and tailored retention offers prepared for approval before cancellation intent solidifies — not after the cohort report.",
         linkLabel: "Learn more about Personalization",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a3244de10cf3d7a9a5_5b797b2c34c52d464bce0b2b1d520ea3_solutions_04_2x.webp"
       },
       {
-        title: "Win the answer, not just the ranking",
-        description: "Coverage and accuracy across AI-generated responses, monitored and optimized — so the discovery shift becomes a program you manage instead of a chart you dread.",
+        title: "Control the crawl, not just the ranking",
+        description: "AI crawler activity monitored and governed by content tier — so the discovery shift becomes a program you manage instead of a chart you dread.",
         linkLabel: "Learn more about LLM Command Center",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a309b57c2ab7a2437c_f3e2b3b11b80faf9ae6c49a500d8353c_solutions_03_2x.webp"
@@ -325,7 +325,7 @@ export const industryConfig = {
       },
       {
         title: "Put churn interception on top of your subscription stack",
-        description: "Personalization — real-time engagement signals connected to offer triggers, working alongside your paywall, billing, and email platforms instead of replacing them.",
+        description: "Personalization — real-time engagement signals connected to approved retention offers, working alongside your paywall, billing, and email platforms instead of replacing them.",
         image: "../../brand-assets/WEBP/69fb34a3244de10cf3d7a9a5_5b797b2c34c52d464bce0b2b1d520ea3_solutions_04_2x.webp"
       },
       {

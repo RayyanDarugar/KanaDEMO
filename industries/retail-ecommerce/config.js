@@ -338,7 +338,7 @@ export const industryConfig = {
       },
       {
         title: "Launch new stores and markets before the data exists",
-        description: "Audience Builder: when a new region or category means no local first-party seed data, built-in synthetic audiences deliver statistically valid targeting from day one. 80%+ overlap with Acxiom and Experian quality, at a fraction of the cost.",
+        description: "Audience Builder: when a new region or category means no local first-party seed data, built-in synthetic audiences deliver statistically valid targeting from day one, at a fraction of the cost of traditional data providers.",
         image: "../../brand-assets/WEBP/69fb34a30469825a78728f33_bbf22870ed50f2db542dcc3757717812_solutions_06_2x.webp"
       }
     ]

@@ -116,16 +116,16 @@ export const industryConfig = {
       feature: "Campaign Orchestrator",
       roleLabel: "Built for Ad Ops & Campaign Managers",
       title: "Every campaign in flight, visible without the manual effort",
-      description: "Campaign Orchestrator automates campaign pacing, delivery monitoring, and performance reporting across your onsite and offsite campaigns, giving your ops team real-time visibility into every campaign in flight without the manual overhead. The daily pacing check across disconnected dashboards becomes a list of exceptions already caught — which is how one ad ops person scales from ten campaigns to a hundred.",
+      description: "Campaign Orchestrator monitors campaign pacing, delivery, and performance across your onsite and offsite campaigns in real time, giving your ops team the recommendations and visibility to act fast, without the manual overhead of building it by hand. The daily pacing check across disconnected dashboards becomes a list of exceptions already caught — which is how one ad ops person scales from ten campaigns to a hundred.",
       icon: "../../brand-assets/SVG/69901757ec677b2ce290fcb4_Smarter Campaign Management.svg",
       image: "../../brand-assets/WEBP/69fb34a37abc32670956d9d8_22a3b8e403e4a9722e6b5bc578c29054_solutions_01_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc05e660038226b085c_solution-bg__5.jpg",
     },
     {
       feature: "LLM Command Center",
-      roleLabel: "Built for Revenue & Brand-Safety Leads",
-      title: "Brand safety and AI discovery, managed instead of hoped for",
-      description: "Brand advertisers increasingly scrutinize contextual adjacency and how their brands appear in AI answer environments — and AI platforms are on track for $20.9 billion in retail spending in 2026. The LLM Command Center monitors brand-safe inventory signals and tracks how advertiser and publisher brands appear across AI-generated content environments, turning a governance risk into a competitive differentiator you can put in front of buyers.",
+      roleLabel: "Built for Content Ops & Revenue Leads",
+      title: "AI crawlers are already reading your content. Decide what they get.",
+      description: "47+ AI bots crawl your properties around the clock, and today the choice is all-or-nothing — robots.txt either hands them everything or blocks them outright. The LLM Command Center gives you plain-English, per-section policies — full access, summary, highlights, or deny, by bot and by property — plus the consumption reporting you need to bring a licensing conversation to the table instead of giving your content away for free.",
       icon: "../../brand-assets/SVG/69901758dc3503adabece211_Answer Engine Optimization.svg",
       image: "../../brand-assets/WEBP/69fb34a309b57c2ab7a2437c_f3e2b3b11b80faf9ae6c49a500d8353c_solutions_03_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc0a1e61a380ab0e29e_solution-bg__2.jpg",
@@ -220,7 +220,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Campaign Orchestrator",
-        description: "Automated pacing, delivery monitoring, and reporting across every campaign in flight. The team manages exceptions instead of checking everything by hand — the difference between ten campaigns and a hundred.",
+        description: "Pacing risk flagged and explained across every campaign in flight, with reporting handled for you. The team manages exceptions instead of checking everything by hand — the difference between ten campaigns and a hundred.",
         linkLabel: "See Campaign Orchestrator",
         linkHref: "#solution-row-3"
       }
@@ -260,7 +260,7 @@ export const industryConfig = {
       },
       {
         title: "Run a hundred campaigns with the team you have",
-        description: "Pacing, delivery, and reporting handled by agents across onsite and offsite — your ops team reviews exceptions instead of rebuilding the same spreadsheet every morning.",
+        description: "Pacing risk flagged and explained daily across onsite and offsite campaigns, with reporting handled for you — your ops team reviews exceptions instead of rebuilding the same spreadsheet every morning.",
         linkLabel: "Learn more about Campaign Orchestrator",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp"
@@ -294,7 +294,7 @@ export const industryConfig = {
       },
       {
         title: "Get campaign ops out of Excel",
-        description: "Campaign Orchestrator — media planning, pacing, and performance reporting connected to the systems that deliver the campaigns, so co-op budgets and shopper programs stop living in disconnected spreadsheets.",
+        description: "Campaign Orchestrator — pacing risk, delivery monitoring, and performance reporting connected to the systems that deliver your campaigns, so the daily portfolio check stops living in disconnected spreadsheets.",
         image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp"
       },
       {

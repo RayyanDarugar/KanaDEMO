@@ -101,7 +101,7 @@ export const industryConfig = {
       feature: "Campaign Orchestrator",
       roleLabel: "Built for Enrollment Marketing Teams",
       title: "Run AEP at machine scale, not overtime scale",
-      description: "The Campaign Orchestrator orchestrates enrollment season campaigns at scale — dynamically segmenting audiences by plan eligibility and personalizing messaging for each cohort. The 54-day sprint across millions of members and dozens of plan options stops depending on manual content and audience management, in a market where 13 million members switched plans last cycle.",
+      description: "The Campaign Orchestrator keeps enrollment season spend on track at scale — catching performance drift mid-flight and reallocating budget before it's wasted. The 54-day sprint across millions of members and dozens of plan options stops running on gut-feel and weekly reports, in a market where 13 million members switched plans last cycle.",
       icon: "../../brand-assets/SVG/69901757ec677b2ce290fcb4_Smarter Campaign Management.svg",
       image: "../../brand-assets/WEBP/69fb34a37abc32670956d9d8_22a3b8e403e4a9722e6b5bc578c29054_solutions_01_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc04b820e89c641b48b_solution-bg__1.jpg",
@@ -150,7 +150,7 @@ export const industryConfig = {
     },
     {
       q: "How does Kana connect to our healthcare stack?",
-      a: "Via API. Kana sits on top of Salesforce Health Cloud, your member engagement platforms, and your existing data infrastructure — no rip-and-replace, no migration. Kana's solutions team handles setup and works with your privacy and compliance teams throughout, typically going live in 2–4 weeks."
+      a: "Via API. Kana sits on top of Salesforce Health Cloud, your member engagement platforms, and your existing data infrastructure — no rip-and-replace, no migration. Kana's solutions team handles setup and works with your privacy and compliance teams throughout, with most teams live in weeks, not months."
     },
     {
       q: "When will Personalization be available?",
@@ -195,7 +195,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Campaign Orchestrator",
-        description: "Orchestrates enrollment season at scale: audiences dynamically segmented by plan eligibility, messaging personalized per cohort, and the 54-day sprint run on automation instead of overtime.",
+        description: "Orchestrates enrollment season at scale: performance tracked across channels, drift caught before it wastes budget, and the 54-day sprint run on continuous optimization instead of overtime.",
         linkLabel: "See Campaign Orchestrator",
         linkHref: "#solution-row-1"
       }
@@ -275,7 +275,7 @@ export const industryConfig = {
       },
       {
         title: "Make enrollment season a system, not a scramble",
-        description: "Audiences segmented dynamically by plan eligibility, messaging personalized per cohort, and millions of member touchpoints orchestrated through the AEP window.",
+        description: "Spend tracked and reallocated dynamically across channels, drift flagged before it wastes budget, and millions of member touchpoints kept on course through the AEP window.",
         linkLabel: "Learn more about Campaign Orchestrator",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a37abc32670956d9d8_22a3b8e403e4a9722e6b5bc578c29054_solutions_01_2x.webp"
@@ -322,7 +322,7 @@ export const industryConfig = {
       },
       {
         title: "Scale AEP without scaling the war room",
-        description: "Campaign Orchestrator — plan-eligibility segmentation and per-cohort messaging run dynamically through enrollment season, so the annual sprint stops consuming the whole marketing org.",
+        description: "Campaign Orchestrator — spend reallocation and drift detection run dynamically through enrollment season, so the annual sprint stops consuming the whole marketing org.",
         image: "../../brand-assets/WEBP/69fb34a37abc32670956d9d8_22a3b8e403e4a9722e6b5bc578c29054_solutions_01_2x.webp"
       },
       {
