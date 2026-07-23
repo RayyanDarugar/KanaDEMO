@@ -48,8 +48,6 @@ export const industryConfig = {
       "CPG",
       "Retail & E-Commerce",
       "Media & Entertainment",
-      "Manufacturing",
-      "Pharma",
       "Travel & Hospitality",
       "Media Networks",
       "Print / Digital / Audio",
@@ -63,7 +61,7 @@ export const industryConfig = {
   // ── HERO ───────────────────────────────────────────────────
   hero: {
     headline: "Financial Services Marketers Can't Act on <em>the Signals They Already Have</em>",
-    subheadline: "Banks, insurers, and wealth managers are sitting on extraordinarily rich customer data — but compliance constraints, legacy systems, and siloed channels prevent that data from ever powering real-time, relevant marketing. Kana gives you compliance-ready content velocity, propensity-driven cross-sell, and one governed customer view connecting digital intent to the branch.",
+    subheadline: "Banks, insurers, and wealth managers are sitting on extraordinarily rich customer data — but compliance constraints, legacy systems, and siloed channels prevent that data from ever powering real-time, relevant marketing. Kana gives you faster answers on campaign performance, self-serve cross-sell audiences, and one connected view of the customer across digital and branch.",
     primaryCta: { text: "Book a Demo", href: "/demo" },
     secondaryCta: { text: "See how it works", href: "#solutions" },
     image: "../../brand-assets/AVIF/6a073850eee60cd0e1af591d_Solutions.avif",
@@ -100,8 +98,8 @@ export const industryConfig = {
     {
       feature: "Audience Builder",
       roleLabel: "Built for Analytics & Cross-Sell Teams",
-      title: "Cross-sell on propensity, not on rules",
-      description: "Audience Builder applies AI-driven propensity models to identify the right customer, product, channel, and moment for every cross-sell opportunity — replacing the simple behavioral rules most programs still fire on. A customer's third product keeps them nearly seven years instead of eighteen months, and the model that finds that customer no longer waits on a data-science backlog.",
+      title: "Cross-sell audiences in minutes, not sprints",
+      description: "Audience Builder lets your team build precise cross-sell segments — the right customers, filtered by product ownership, behavior, and recency — directly against your CRM, loyalty, and transaction data, with no data-science queue in between. A customer's third product keeps them nearly seven years instead of eighteen months; Audience Builder gets you to that segment the same day you think of it.",
       icon: "../../brand-assets/SVG/6a07370afa74e1a989f5eb11_Audience Manager.svg",
       image: "../../brand-assets/WEBP/69fb34a3693f25a94988df0e_5897b8bc1884f86278bb63a02dc23207_solutions_05_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc05e660038226b085c_solution-bg__5.jpg",
@@ -119,7 +117,7 @@ export const industryConfig = {
     },
     {
       feature: "Personalization",
-      roleLabel: "Coming Soon — Built for Lifecycle & CRM Teams",
+      roleLabel: "Built for Lifecycle & CRM Teams",
       title: "Offers built around the customer, not the calendar",
       description: "Personalization scores every customer's next-best offer — channel, content, timing, frequency — from their real behavior and account activity, with a plain-language reason behind each one, for your team to review and send. The customer who just changed employers or made a large transfer gets matched to a tailored offer within hours of approval — instead of surfacing on the next quarterly campaign list after the moment has passed.",
       icon: "../../brand-assets/SVG/699017586c99f26d8f0a4085_Customer Engagement.svg",
@@ -153,10 +151,6 @@ export const industryConfig = {
       q: "How does Kana handle model risk and AI governance?",
       a: "Kana ships with centralized data governance and AI policy management — every model and agent runs with human oversight, documented logic, and audit-ready controls. That maps to how supervisory guidance treats AI marketing tools under model-risk frameworks like SR 11-7: inventory, validation, and ongoing monitoring, not black boxes."
     },
-    {
-      q: "When will Personalization be available?",
-      a: "Personalization is coming soon. It builds on the same foundation as Audience Builder and the Agentic Data Platform, so institutions deploying those today are positioned to activate life-event offer triggers the moment it ships. Book a demo to see the roadmap and get early access."
-    },
   ],
 
   // ── PERSONAS ───────────────────────────────────────────────
@@ -175,7 +169,7 @@ export const industryConfig = {
         }
       ],
       solution: {
-        name: "Personalization (Coming Soon)",
+        name: "Personalization",
         description: "Scores every customer's next-best offer — content, timing, channel — from behavioral and transactional signals, with a reason behind every decision, for your team to approve and send. Life-event-driven offers reach the customer within hours of approval, not months later on the next quarterly list. Built on the Audience Builder and Agentic Data Platform foundation, so current deployments activate it the moment it ships.",
         linkLabel: "See Personalization",
         linkHref: "#solution-row-3"
@@ -216,7 +210,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Audience Builder",
-        description: "AI-driven propensity models identify the right customer, product, channel, and moment for every cross-sell opportunity — operationalized without a modeling backlog, and traceable from model to campaign to origination.",
+        description: "Precise, self-serve cross-sell segments — built directly against CRM, loyalty, and transaction data in minutes, with no data-science queue in between, and traceable from segment to activated campaign.",
         linkLabel: "See Audience Builder",
         linkHref: "#solution-row-1"
       }
@@ -256,7 +250,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Marketing Intelligence",
-        description: "The platform anchor: compliance-ready velocity, governed AI with human oversight, and marketing performance connected to origination — the story that closes the gap between the data the institution holds and the experiences it ships.",
+        description: "The platform anchor: faster answers on campaign performance, governed AI with human oversight on every decision, and a growing view of marketing's contribution to the business — the story that closes the gap between the data the institution holds and the experiences it ships.",
         linkLabel: "See Marketing Intelligence",
         linkHref: "#solution-row-0"
       }
@@ -275,8 +269,8 @@ export const industryConfig = {
         image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp"
       },
       {
-        title: "Find the third product before the rules do",
-        description: "Propensity models score every customer for the right product, channel, and moment — replacing rule-based triggers with predictions that compound tenure and deposits.",
+        title: "Find the third-product customer in minutes, not sprints",
+        description: "Build precise cross-sell segments directly against CRM, loyalty, and transaction data — no data-science queue — for the audiences that compound tenure and deposits.",
         linkLabel: "Learn more about Audience Builder",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a3693f25a94988df0e_5897b8bc1884f86278bb63a02dc23207_solutions_05_2x.webp"
@@ -322,8 +316,8 @@ export const industryConfig = {
         image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp"
       },
       {
-        title: "Run propensity models without a modeling backlog",
-        description: "Audience Builder — AI-driven propensity scoring on the customer data you already hold, governed with human oversight and documented logic that stands up to model-risk review.",
+        title: "Build cross-sell segments without a modeling backlog",
+        description: "Audience Builder — self-serve segmentation on the CRM, loyalty, and transaction data you already hold, with governance and documentation that stand up to model-risk review.",
         image: "../../brand-assets/WEBP/69fb34a3693f25a94988df0e_5897b8bc1884f86278bb63a02dc23207_solutions_05_2x.webp"
       },
       {

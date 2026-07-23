@@ -48,9 +48,7 @@ export const industryConfig = {
       "CPG",
       "Retail & E-Commerce",
       "Media & Entertainment",
-      "Manufacturing",
       "Financial Services",
-      "Pharma",
       "Travel & Hospitality",
       "Media Networks",
       "Print / Digital / Audio",
@@ -91,7 +89,7 @@ export const industryConfig = {
       feature: "Audience Builder",
       roleLabel: "Built for Quality & Member Marketing Teams",
       title: "Target the open care gap, not the whole roster",
-      description: "Audience Builder enables care-gap–aware segmentation, allowing marketers to precisely target the right members for the right intervention at the right time. The annual wellness campaign stops going to everyone equally and starts reaching the members with overdue screenings and elevated risk profiles — where a completed visit closes 5.5x more gaps and moves the Stars measures your bonus revenue rides on.",
+      description: "Audience Builder enables precise, quality-priority segmentation, allowing marketers to target the right members for the right intervention at the right time. The annual wellness campaign stops going to everyone equally and starts reaching the members who matter most to your Stars measures — where a completed visit closes 5.5x more gaps and moves the bonus revenue that rides on them.",
       icon: "../../brand-assets/SVG/6a07370afa74e1a989f5eb11_Audience Manager.svg",
       image: "../../brand-assets/WEBP/69fb34a3693f25a94988df0e_5897b8bc1884f86278bb63a02dc23207_solutions_05_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc05e660038226b085c_solution-bg__5.jpg",
@@ -118,9 +116,9 @@ export const industryConfig = {
     },
     {
       feature: "Personalization",
-      roleLabel: "Coming Soon — Built for Patient Access & Engagement Teams",
+      roleLabel: "Built for Patient Access & Engagement Teams",
       title: "Reminders tuned to the member, not the template",
-      description: "Personalization tailors reminder frequency, channel, and messaging based on individual member behavior patterns — reducing no-shows and improving care adherence. The member who no-shows afternoon appointments but answers texts gets a different sequence than the one who confirms every email. Coming soon to the Kana platform.",
+      description: "Personalization tailors reminder frequency, channel, and messaging based on individual member behavior patterns — reducing no-shows and improving care adherence. The member who no-shows afternoon appointments but answers texts gets a different sequence than the one who confirms every email.",
       icon: "../../brand-assets/SVG/699017586c99f26d8f0a4085_Customer Engagement.svg",
       image: "../../brand-assets/WEBP/69fb34a3244de10cf3d7a9a5_5b797b2c34c52d464bce0b2b1d520ea3_solutions_04_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc03bbf9cc8a6b457ff_solution-bg__3.jpg",
@@ -152,10 +150,6 @@ export const industryConfig = {
       q: "How does Kana connect to our healthcare stack?",
       a: "Via API. Kana sits on top of Salesforce Health Cloud, your member engagement platforms, and your existing data infrastructure — no rip-and-replace, no migration. Kana's solutions team handles setup and works with your privacy and compliance teams throughout, with most teams live in weeks, not months."
     },
-    {
-      q: "When will Personalization be available?",
-      a: "Personalization is coming soon. It builds on the same foundation as Audience Builder and the Agentic Data Platform, so organizations deploying those today are positioned to activate behavior-based reminder and adherence logic the moment it ships. Book a demo to see the roadmap and get early access."
-    },
   ],
 
   // ── PERSONAS ───────────────────────────────────────────────
@@ -175,7 +169,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Audience Builder",
-        description: "Care-gap–aware segmentation targets the right members for the right intervention at the right time — overdue screenings, elevated risk profiles, and adherence gaps each get their own precisely aimed outreach instead of a share of the annual blast.",
+        description: "Precise, quality-priority segmentation targets the right members for the right intervention at the right time — the members who matter most to each Stars measure get their own aimed outreach instead of a share of the annual blast.",
         linkLabel: "See Audience Builder",
         linkHref: "#solution-row-0"
       }
@@ -234,7 +228,7 @@ export const industryConfig = {
         }
       ],
       solution: {
-        name: "Personalization (Coming Soon)",
+        name: "Personalization",
         description: "Tailors reminder frequency, channel, and messaging to individual member behavior patterns — reducing no-shows and improving care adherence beyond what fixed-cadence sequences can reach.",
         linkLabel: "See Personalization",
         linkHref: "#solution-row-3"
@@ -268,7 +262,7 @@ export const industryConfig = {
     columns: [
       {
         title: "Close the gap, not just the campaign",
-        description: "Care-gap–aware segments aim every intervention at the members who need it — overdue screenings, elevated risk, adherence lapses — and the Stars measures move with them.",
+        description: "Quality-priority segments aim every intervention at the members who need it most, and the Stars measures move with them.",
         linkLabel: "Learn more about Audience Builder",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a3693f25a94988df0e_5897b8bc1884f86278bb63a02dc23207_solutions_05_2x.webp"
@@ -317,7 +311,7 @@ export const industryConfig = {
     columns: [
       {
         title: "Turn the care-gap list into a targeting engine",
-        description: "Audience Builder — the extracts your quality team already produces become precise, care-gap–aware segments, refreshed continuously instead of hand-built per measure.",
+        description: "Audience Builder — the extracts your quality team already produces become precise, quality-priority segments, built once and reused instead of hand-built per measure.",
         image: "../../brand-assets/WEBP/69fb34a3693f25a94988df0e_5897b8bc1884f86278bb63a02dc23207_solutions_05_2x.webp"
       },
       {

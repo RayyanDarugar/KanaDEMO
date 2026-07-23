@@ -48,9 +48,7 @@ export const industryConfig = {
       "CPG",
       "Retail & E-Commerce",
       "Media & Entertainment",
-      "Manufacturing",
       "Financial Services",
-      "Pharma",
       "Travel & Hospitality",
       "QSR",
       "Healthcare",
@@ -61,7 +59,7 @@ export const industryConfig = {
   // ── HERO ───────────────────────────────────────────────────
   hero: {
     headline: "Streaming Platforms Are Caught <em>Between Revenue and Experience</em>",
-    subheadline: "Maximizing ad revenue and subscriber LTV while protecting the viewer experience that keeps subscribers engaged — neither goal is achievable on the batch workflows and manual ops models most platforms still run. Kana closes the gap between the signal and the action, in real time.",
+    subheadline: "Maximizing ad revenue and subscriber LTV while protecting the viewer experience that keeps subscribers engaged — neither goal is achievable on the batch workflows and manual ops models most platforms still run. Kana closes the gap between the signal and the action, without the data-team queue in between.",
     primaryCta: { text: "Book a Demo", href: "/demo" },
     secondaryCta: { text: "See how it works", href: "#solutions" },
     image: "../../brand-assets/AVIF/6a0738509e86699ed6c6bd9e_Solutions-1.avif",
@@ -89,7 +87,7 @@ export const industryConfig = {
       feature: "Personalization",
       roleLabel: "Built for Lifecycle & Retention Teams",
       title: "Retention action at the moment of the churn signal",
-      description: "Personalization flags tailored retention offers and content recommendations the moment behavioral churn signals cross a risk threshold — for your team to approve before the intervention goes out. The gap between your data science team's churn model and your engagement platform's campaign send collapses to a single review-and-approve step: signal in, tailored action ready, same session.",
+      description: "Personalization flags churn risk while there's still time to act and prepares the tailored retention offer or content recommendation for your team to approve — turning a warehouse risk score into a launch-ready intervention before the cancellation happens. The gap between your data science team's churn model and your engagement platform's campaign send closes to a single review-and-approve step, not a batch-export queue.",
       icon: "../../brand-assets/SVG/699017586c99f26d8f0a4085_Customer Engagement.svg",
       image: "../../brand-assets/WEBP/69fb34a3244de10cf3d7a9a5_5b797b2c34c52d464bce0b2b1d520ea3_solutions_04_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc04b820e89c641b48b_solution-bg__1.jpg",
@@ -98,7 +96,7 @@ export const industryConfig = {
       feature: "Campaign Orchestrator",
       roleLabel: "Built for Ad Product & Yield Teams",
       title: "Ad load intelligence instead of fixed rules",
-      description: "Campaign Orchestrator surfaces ad load intelligence in real time, so ops and ad product teams can optimize delivery rules based on engagement signals and yield outcomes — without waiting on manual override cycles through a product backlog. Break frequency, pod structure, and interruption timing become decisions informed by the viewer in front of you, not policies set a quarter ago.",
+      description: "Campaign Orchestrator surfaces delivery risk and revenue-at-risk across your ad operations, so ops and ad product teams catch under-delivery and yield problems before they cost a makegood — without waiting on a stitched spreadsheet or a support ticket. Pacing decisions get made on evidence pulled straight from your ad server, not a quarterly review cycle.",
       icon: "../../brand-assets/SVG/69901757ec677b2ce290fcb4_Smarter Campaign Management.svg",
       image: "../../brand-assets/WEBP/69fb34a37abc32670956d9d8_22a3b8e403e4a9722e6b5bc578c29054_solutions_01_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc03bbf9cc8a6b457ff_solution-bg__3.jpg",
@@ -116,7 +114,7 @@ export const industryConfig = {
       feature: "Audience Builder",
       roleLabel: "Built for Data & Identity Teams",
       title: "One viewer, one profile — across every screen",
-      description: "A single viewer appearing as four different users across mobile, smart TV, laptop, and tablet fragments behavioral signals — making content personalization less relevant and ad targeting less precise and valuable. Audience Builder resolves identity signals across device environments into a unified viewer profile, improving both personalization accuracy and the quality of the audience segments you sell to advertisers.",
+      description: "A single viewer appearing as four different users across mobile, smart TV, laptop, and tablet fragments behavioral signals — making content personalization less relevant and ad targeting less precise and valuable. Audience Builder turns your first-party viewer data into a sized, explorable audience in minutes, so the segments you build and sell to advertisers reflect real engagement instead of a fragmented, half-populated picture.",
       icon: "../../brand-assets/SVG/6a07370afa74e1a989f5eb11_Audience Manager.svg",
       image: "../../brand-assets/WEBP/69fb34a3693f25a94988df0e_5897b8bc1884f86278bb63a02dc23207_solutions_05_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc05e660038226b085c_solution-bg__5.jpg",
@@ -155,11 +153,11 @@ export const industryConfig = {
     },
     {
       q: "Does Campaign Orchestrator replace our ad server?",
-      a: "No — it's the intelligence layer on top of it. Your ad server keeps serving; Campaign Orchestrator surfaces real-time ad load intelligence and lets your ops and ad product teams optimize delivery rules on engagement signals and yield outcomes, instead of changing static configs through manual override cycles."
+      a: "No — it's the intelligence layer on top of it. Your ad server keeps serving; Campaign Orchestrator watches delivery and yield against it, flags what's at risk with the revenue impact quantified, and lets your ops and ad product teams act on evidence instead of a stitched spreadsheet."
     },
     {
       q: "How does the content ROI intelligence actually work?",
-      a: "Campaign Orchestrator synthesizes viewership, subscriber impact, and engagement data into title-level ROI intelligence as it accrues — informing in-flight optimization (what to promote, where) and future investment decisions (what to greenlight or renew). It's the difference between defending a renewal with last quarter's stitched dashboards and deciding with current evidence."
+      a: "Campaign Orchestrator answers content-adjacent delivery and yield questions your team used to wait a quarter for — ask which titles' campaigns are pacing and monetizing well right now, and get a grounded answer with drill-downs instead of a stitched dashboard."
     },
   ],
 
@@ -180,7 +178,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Personalization",
-        description: "Real-time behavioral monitoring with tailored interventions ready to approve — retention offers and content recommendations prepared the moment risk crosses threshold, so your team can launch same-day instead of after the batch job.",
+        description: "Weeks-ahead churn-risk scoring with tailored interventions ready to approve — retention offers and content recommendations prepared the moment risk crosses threshold, so your team launches same-day instead of after the batch job.",
         linkLabel: "See Personalization",
         linkHref: "#solution-row-0"
       }
@@ -200,7 +198,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Campaign Orchestrator",
-        description: "Real-time ad load intelligence that lets the team optimize delivery rules on engagement signals and yield outcomes — maximizing revenue without spending the viewer experience to get it.",
+        description: "Delivery-risk and revenue-at-risk intelligence that lets the team fix pacing and yield problems before they cost a makegood — protecting the viewer experience while they do it.",
         linkLabel: "See Campaign Orchestrator",
         linkHref: "#solution-row-1"
       }
@@ -220,7 +218,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Campaign Orchestrator",
-        description: "Viewership, subscriber impact, and engagement synthesized into content ROI intelligence — current evidence for in-flight optimization and the next greenlight decision.",
+        description: "Delivery and yield evidence pulled straight from your ad server, current as it accrues — a faster answer than a stitched dashboard when the greenlight conversation comes up.",
         linkLabel: "See Campaign Orchestrator",
         linkHref: "#solution-row-2"
       }
@@ -240,7 +238,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Audience Builder",
-        description: "Identity signals resolved across device environments into one unified viewer profile — the substrate that makes personalization accurate and advertiser segments premium.",
+        description: "First-party audience data turned into sized, explorable, traceable segments in minutes — the foundation that makes advertiser segments premium and defensible.",
         linkLabel: "See Audience Builder",
         linkHref: "#solution-row-3"
       }
@@ -260,14 +258,14 @@ export const industryConfig = {
       },
       {
         title: "Price every ad break against the viewer in front of you",
-        description: "Ad load intelligence in real time — engagement signals and yield outcomes steering break frequency and pod structure, instead of static rules and quarterly overrides.",
+        description: "Delivery and yield intelligence, current as of this morning's sync — revenue-at-risk ranked worst-first, instead of static rules and quarterly overrides.",
         linkLabel: "Learn more about Campaign Orchestrator",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a37abc32670956d9d8_22a3b8e403e4a9722e6b5bc578c29054_solutions_01_2x.webp"
       },
       {
         title: "Know what a title is doing for the business — now",
-        description: "Viewership, subscriber impact, and engagement synthesized continuously, so content investment decisions run on evidence instead of quarters-old retrospectives.",
+        description: "Delivery and yield performance synthesized as it accrues, so ad operations decisions run on evidence instead of quarters-old retrospectives.",
         linkLabel: "Learn more about Campaign Orchestrator",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp"
@@ -294,12 +292,12 @@ export const industryConfig = {
       },
       {
         title: "Put intelligence on top of the ad server",
-        description: "Campaign Orchestrator — real-time load, pacing, and yield intelligence over the delivery systems you already run, so optimization stops waiting on override cycles.",
+        description: "Campaign Orchestrator — pacing and yield intelligence over the delivery systems you already run, current as of this morning's sync, so optimization stops waiting on override cycles.",
         image: "../../brand-assets/WEBP/69fb34a37abc32670956d9d8_22a3b8e403e4a9722e6b5bc578c29054_solutions_01_2x.webp"
       },
       {
         title: "Resolve identity once, benefit everywhere",
-        description: "Audience Builder — a unified viewer profile that upgrades recommendations, ad targeting, and advertiser-facing segments from the same foundation.",
+        description: "Audience Builder — one first-party audience foundation that powers recommendations, ad targeting, and advertiser-facing segments alike.",
         image: "../../brand-assets/WEBP/69fb34a30469825a78728f33_bbf22870ed50f2db542dcc3757717812_solutions_06_2x.webp"
       }
     ]

@@ -48,9 +48,7 @@ export const industryConfig = {
       "CPG",
       "Retail & E-Commerce",
       "Media & Entertainment",
-      "Manufacturing",
       "Financial Services",
-      "Pharma",
       "Media Networks",
       "Print / Digital / Audio",
       "Streaming & Video",
@@ -63,7 +61,7 @@ export const industryConfig = {
   // ── HERO ───────────────────────────────────────────────────
   hero: {
     headline: "Travel Marketing Can Finally <em>Move as Fast as Your Pricing</em>",
-    subheadline: "Yield management systems optimize price by the hour, and travel marketing can finally keep pace. Kana gives your team real-time competitive rate alerts, loyalty offers tuned to each member in the moment, and guest outreach timed to when someone's actually ready to book again.",
+    subheadline: "Yield management systems optimize price by the hour, and travel marketing can finally keep pace. Kana gives your team daily competitive rate alerts, loyalty offers calibrated to each member's tier, and guest outreach timed to when they're actually ready to book again.",
     primaryCta: { text: "Book a Demo", href: "/demo" },
     secondaryCta: { text: "See how it works", href: "#solutions" },
     image: "../../brand-assets/AVIF/6a073850eee60cd0e1af591d_Solutions.avif",
@@ -90,8 +88,8 @@ export const industryConfig = {
     {
       feature: "Personalization",
       roleLabel: "Built for Loyalty Teams",
-      title: "Real-time offers for members who earned better than batch",
-      description: "Personalization reads loyalty member activity signals and recommends contextually relevant offers in real time across email, app, and web, for your team to review and send. Your highest-value members stop receiving the same promotional email as new subscribers, and loyalty spend starts producing the incremental revenue the program was built for.",
+      title: "Offers calibrated to members who earned better than batch",
+      description: "Personalization reads loyalty member activity signals and recommends the next offer for each member — channel, content, and timing — for your team to review and send across email, app, and web. Your highest-value members stop receiving the same promotional email as new subscribers, and loyalty spend starts producing the incremental revenue the program was built for.",
       icon: "../../brand-assets/SVG/699017586c99f26d8f0a4085_Customer Engagement.svg",
       image: "../../brand-assets/WEBP/69fb34a3244de10cf3d7a9a5_5b797b2c34c52d464bce0b2b1d520ea3_solutions_04_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc06860bd14e53863fb_solution-bg__7.jpg",
@@ -100,7 +98,7 @@ export const industryConfig = {
       feature: "Category Intelligence",
       roleLabel: "Built for E-Commerce & Digital Strategy Teams",
       title: "Know the competitor's rate move before sales does",
-      description: "Category Intelligence monitors competitive pricing signals continuously and surfaces alerts with the cited evidence behind them. When a competitor drops rates on a key route or destination, marketing gets the alert and the sourced findings, not a secondhand report days later. Your rate shopper watches prices for the revenue team; this watches them for marketers.",
+      description: "Category Intelligence runs a daily watch on competitive pricing signals and alerts you the moment something worth acting on shifts, with the cited evidence behind it. When a competitor drops rates on a key route or destination, marketing gets the alert and the sourced findings, not a secondhand report days later. Your rate shopper watches prices for the revenue team; this watches them for marketers.",
       icon: "../../brand-assets/SVG/6a07370a2e3e29f5d03b13d9_Category Intelligence Hub.svg",
       image: "../../brand-assets/WEBP/69fb34a309b57c2ab7a2437c_f3e2b3b11b80faf9ae6c49a500d8353c_solutions_03_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc03bbf9cc8a6b457ff_solution-bg__3.jpg",
@@ -150,7 +148,7 @@ export const industryConfig = {
     },
     {
       q: "How does Personalization decide which offer to send a loyalty member?",
-      a: "It reads real-time activity signals (browsing, app opens, recent stays, tier status) and matches them against contextually relevant offers, so a top-tier member and a first-time subscriber never get the same email. Every offer runs within your loyalty program's existing rules and approval workflow."
+      a: "It reads recent activity signals (browsing, app opens, recent stays, tier status) and matches them against the offer most likely to earn a response, so a top-tier member and a first-time subscriber never get the same email. Every offer runs within your loyalty program's existing rules and approval workflow."
     },
     {
       q: "How is Personalization different from Audience Builder and Campaign Orchestrator?",
@@ -158,7 +156,7 @@ export const industryConfig = {
     },
     {
       q: "How fast can a travel or hospitality team get live on Kana?",
-      a: "Most travel and hospitality teams see value within the first 30 days. Onboarding starts by connecting your top 3–5 data sources and configuring Personalization and Category Intelligence to your loyalty and rate data. Audience Builder and Campaign Orchestrator layer in once those core connections are stable. Kana's solutions team works with you throughout."
+      a: "Most travel and hospitality teams see value within the first 30 days. Onboarding starts by connecting your top 3–5 data sources, configuring Personalization on your loyalty data and Category Intelligence on the competitive rate topics you want watched. Audience Builder and Campaign Orchestrator layer in once those core connections are stable. Kana's solutions team works with you throughout."
     },
   ],
 
@@ -199,7 +197,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Category Intelligence",
-        description: "Monitors competitive pricing signals continuously and surfaces alerts with the cited evidence behind them, so marketing reacts in the same news cycle as the rate change, not the one after.",
+        description: "Runs a daily watch on competitive pricing signals and surfaces alerts with the cited evidence behind them, so marketing reacts in the same news cycle as the rate change, not the one after.",
         linkLabel: "See Category Intelligence",
         linkHref: "#solution-row-1"
       }
@@ -239,7 +237,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Personalization",
-        description: "Monitors loyalty member activity signals and recommends contextually relevant offers in real time across email, app, and web, for your team to review and send — calibrated to the member, the moment, and the tier. It runs on the CRM and loyalty data you already have connected.",
+        description: "Turns loyalty member activity into a next-best offer for each member — channel, content, and timing calibrated to who they are and where they are in the relationship — routed through your team's approval before it reaches anyone. It runs on the CRM and loyalty data you already have connected.",
         linkLabel: "See Personalization",
         linkHref: "#solution-row-0"
       }
@@ -259,7 +257,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Personalization",
-        description: "The platform anchor: real-time, tier-aware offers that turn the loyalty program's existing guest data into an active growth channel, not a once-a-quarter batch send. 'AI-personalized' becomes something the guest actually experiences, not just a board slide.",
+        description: "The platform anchor: tier-aware offer recommendations that turn the loyalty program's existing guest data into an active growth channel, not a once-a-quarter batch send. 'AI-personalized' becomes something the guest actually experiences, not just a board slide.",
         linkLabel: "See Personalization",
         linkHref: "#solution-row-0"
       }
@@ -272,14 +270,14 @@ export const industryConfig = {
     columns: [
       {
         title: "Offers tuned to the guest, not the segment",
-        description: "Real-time loyalty signals feed straight into the next offer we recommend for a guest, for your team to review and send, so your highest-tier member and a first-time subscriber never get the same email.",
+        description: "Loyalty signals feed straight into the next offer we recommend for a guest, so your highest-tier member and a first-time subscriber never get the same email.",
         linkLabel: "Learn more about Personalization",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a3244de10cf3d7a9a5_5b797b2c34c52d464bce0b2b1d520ea3_solutions_04_2x.webp"
       },
       {
         title: "Answer the rate drop the same day",
-        description: "Continuous competitive-rate monitoring with cited alerts on exactly what moved, so marketing hears it from the signal, not from sales.",
+        description: "Daily competitive-rate monitoring with cited alerts on exactly what moved, so marketing hears it from the signal, not from sales.",
         linkLabel: "Learn more about Category Intelligence",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a309b57c2ab7a2437c_f3e2b3b11b80faf9ae6c49a500d8353c_solutions_03_2x.webp"
@@ -321,12 +319,12 @@ export const industryConfig = {
     columns: [
       {
         title: "Turn the loyalty database into a live channel",
-        description: "Personalization: monitors member activity signals and recommends contextually relevant offers in real time across email, app, and web, for your team to review and send, so your highest-tier members stop receiving the same email as a first-time subscriber.",
+        description: "Personalization: reads member activity signals and recommends the next offer for each member across email, app, and web, for your team to approve and send, so your highest-tier members stop receiving the same email as a first-time subscriber.",
         image: "../../brand-assets/WEBP/69fb34a3244de10cf3d7a9a5_5b797b2c34c52d464bce0b2b1d520ea3_solutions_04_2x.webp"
       },
       {
         title: "Give marketing its own rate shopper",
-        description: "Category Intelligence: continuous competitive-rate monitoring that surfaces the alert and the cited evidence behind it, so marketing acts on the signal instead of waiting for the secondhand version.",
+        description: "Category Intelligence: daily competitive-rate monitoring that surfaces the alert and the cited evidence behind it, so marketing acts on the signal instead of waiting for the secondhand version.",
         image: "../../brand-assets/WEBP/69fb34a309b57c2ab7a2437c_f3e2b3b11b80faf9ae6c49a500d8353c_solutions_03_2x.webp"
       },
       {

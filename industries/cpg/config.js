@@ -46,9 +46,7 @@ export const industryConfig = {
       "CPG",
       "Retail & E-Commerce",
       "Media & Entertainment",
-      "Manufacturing",
       "Financial Services",
-      "Pharma",
       "Travel & Hospitality",
       "Media Networks",
       "Print / Digital / Audio",
@@ -62,7 +60,7 @@ export const industryConfig = {
   // ── HERO ───────────────────────────────────────────────────
   hero: {
     headline: "The AI Marketing Platform <em>Built for CPG Brands</em>",
-    subheadline: "Kana gives CPG teams real-time category intelligence, a clear line from ad spend to shelf lift, and audiences that trace straight back to the brief — turning this week's shelf data into next week's advantage.",
+    subheadline: "Kana gives CPG teams daily category intelligence, a clear line from ad spend to campaign performance leadership can trust, and audiences that trace straight back to the brief — turning this week's market signals into next week's advantage.",
     primaryCta: { text: "Book a Demo", href: "/demo" },
     secondaryCta: { text: "See how it works", href: "#solutions" },
     image: "../../brand-assets/AVIF/6a0738509e86699ed6c6bd9e_Solutions-1.avif",
@@ -72,7 +70,7 @@ export const industryConfig = {
   painPoints: [
     {
       title: "Catch the category shift while you can still act on it",
-      description: "Category Intelligence reads scan data, POS feeds, and category signals as they land, so category managers walk into buyer meetings with this week's numbers instead of last week's export, and spend the saved hours on the calls that actually move share.",
+      description: "Category Intelligence watches category signals across hundreds of public sources as they move, so category managers walk into buyer meetings with this week's numbers instead of last week's export, and spend the saved hours on the calls that actually move share.",
     },
     {
       title: "Put more of every media dollar in front of a shopper",
@@ -90,7 +88,7 @@ export const industryConfig = {
       feature: "Category Intelligence",
       roleLabel: "Built for Category Managers",
       title: "Retailer signals in seconds",
-      description: "Category Intelligence ingests scan data, POS feeds, and category data sources like Nielsen and Circana, and answers category questions in seconds. Category managers stop spending time compiling data and start spending it on the strategic decisions that actually move share.",
+      description: "Category Intelligence researches category questions across hundreds of curated public sources and answers in seconds, citations included. Category managers stop spending time compiling data and start spending it on the strategic decisions that actually move share.",
       icon: "../../brand-assets/SVG/6a07370a2e3e29f5d03b13d9_Category Intelligence Hub.svg",
       image: "../../brand-assets/WEBP/69fb34a309b57c2ab7a2437c_f3e2b3b11b80faf9ae6c49a500d8353c_solutions_03_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc03bbf9cc8a6b457ff_solution-bg__3.jpg",
@@ -120,7 +118,7 @@ export const industryConfig = {
       feature: "Marketing Intelligence",
       roleLabel: "Built for VP Analytics & CMOs",
       title: "See what your ad spend actually sold in stores",
-      description: "Marketing Intelligence connects your ad platforms, retailer portals, and CRM into one live view, so you can query performance in plain language instead of waiting on an analyst. Marketing spends less time defending impressions and more time showing commercial leadership how digital activity tracks with in-store lift.",
+      description: "Marketing Intelligence connects your campaign platforms and CRM into one view, so you can query performance in plain language instead of waiting on an analyst. Marketing spends less time defending impressions and more time giving commercial leadership a performance story backed by evidence, not a proxy metric.",
       icon: "../../brand-assets/SVG/699017579f378c81f5094a40_Analytics.svg",
       image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc0a301e7e98b87934a_solution-bg__4.jpg",
@@ -148,15 +146,15 @@ export const industryConfig = {
   faq: [
     {
       q: "How does Kana connect to our retail media platforms?",
-      a: "Via API. Kana connects to Walmart Connect, Amazon DSP, Kroger Precision Marketing, and other retail media platforms, pulling performance data into one unified view instead of a dozen separate dashboards. Kana's solutions team handles setup, typically in 2–4 weeks depending on how many platforms you're connecting."
+      a: "Via API. Kana connects to your retail media and ad platforms, pulling performance data into one unified view instead of a dozen separate dashboards. Kana's solutions team handles setup, typically in 2–4 weeks depending on how many platforms you're connecting."
     },
     {
       q: "Does Category Intelligence replace our Nielsen or Circana subscription?",
-      a: "No, it sits on top of them. Category Intelligence ingests your existing Nielsen, Circana, and other syndicated data feeds alongside your own POS and scan data, so you keep your current data subscriptions and get a faster, unified way to query across all of them. Most teams don't drop a syndicated data provider when they add Kana, they just stop waiting on the weekly export to ask a question."
+      a: "No. Category Intelligence researches the external market — analyst reports, trend data, and public category signals — so it complements your Nielsen or Circana subscription rather than replacing it. Most teams keep their syndicated data provider and use Kana to catch the signals worth watching between syndicated drops, without waiting on the next scheduled export."
     },
     {
       q: "How fast can a CPG team get live on Kana?",
-      a: "Most CPG teams see value within the first 30 days. Onboarding starts by connecting your top 3–5 data sources and configuring Category Intelligence and Marketing Intelligence to your retailer mix. Audience Builder layers in once those core connections are stable. Kana's solutions team works with you throughout."
+      a: "Most CPG teams see value within the first 30 days. Onboarding starts by connecting your top 3–5 data sources and configuring Marketing Intelligence to your retailer mix, while Category Intelligence is set up around the categories and markets you want to watch. Audience Builder layers in once those core connections are stable. Kana's solutions team works with you throughout."
     },
   ],
 
@@ -177,7 +175,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Category Intelligence",
-        description: "Ingests scan data, POS feeds, and category data sources like Nielsen and Circana. Answers category questions in seconds, not days. Built specifically for VP Category and Senior Category Manager roles at CPG companies.",
+        description: "Researches category questions across hundreds of curated public sources with citations. Answers in seconds, not days. Built specifically for VP Category and Senior Category Manager roles at CPG companies.",
         linkLabel: "See Category Intelligence",
         linkHref: "#solution-row-0"
       }
@@ -237,7 +235,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Marketing Intelligence",
-        description: "Unifies fragmented regional and retailer data into one live view, queryable in plain language. Shows how digital campaign performance tracks with in-store sales lift, giving marketing a defensible answer for commercial leadership instead of a proxy metric.",
+        description: "Unifies fragmented campaign and CRM data into one view, queryable in plain language. Gives marketing a grounded, cited answer for commercial leadership instead of a proxy metric.",
         linkLabel: "See Marketing Intelligence",
         linkHref: "#solution-row-3"
       }
@@ -270,7 +268,7 @@ export const industryConfig = {
     columns: [
       {
         title: "Catch the trend before it hits POS",
-        description: "Cross-reference external signals (analyst reports, Grocery Dive, and Google Trends) against your own scan data automatically. Surface leading indicators well before movement shows in your numbers.",
+        description: "Cross-reference external signals (analyst reports, Grocery Dive, and Google Trends) automatically, so you catch leading indicators before they show up in next month's numbers.",
         linkLabel: "Learn more about Category Intelligence",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a309b57c2ab7a2437c_f3e2b3b11b80faf9ae6c49a500d8353c_solutions_03_2x.webp"
@@ -284,7 +282,7 @@ export const industryConfig = {
       },
       {
         title: "Prove what moved the category",
-        description: "Connect every campaign dollar to POS velocity, volume lift, and share movement, not just digital proxies. Give commercial leadership the attribution proof they've been asking for.",
+        description: "Connect every campaign dollar to a grounded, cited performance answer, not just digital proxies. Give commercial leadership a story backed by evidence, not a guess.",
         linkLabel: "Learn more about Marketing Intelligence",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp"
@@ -306,7 +304,7 @@ export const industryConfig = {
 
   // ── STACK SHOWCASE ─────────────────────────────────────────
   stackShowcase: {
-    subtitle: "By acting as the marketing operating layer, Kana connects to your POS data, retailer portals, CRM, media platforms, and category data sources like Nielsen and Circana, without migration, rip-and-replace, or new governance gaps.",
+    subtitle: "Kana connects to your CRM, media platforms, and data warehouse, without migration, rip-and-replace, or new governance gaps.",
     columns: [
       {
         title: "Unify your customer data without moving a single record",

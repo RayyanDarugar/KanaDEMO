@@ -48,9 +48,7 @@ export const industryConfig = {
       "CPG",
       "Retail & E-Commerce",
       "Media & Entertainment",
-      "Manufacturing",
       "Financial Services",
-      "Pharma",
       "Travel & Hospitality",
       "Media Networks",
       "Print / Digital / Audio",
@@ -63,7 +61,7 @@ export const industryConfig = {
   // ── HERO ───────────────────────────────────────────────────
   hero: {
     headline: "QSR Brands Can't Localize <em>at the Speed of Real Life</em>",
-    subheadline: "With thousands of locations, micro-level demand variation, and app-driven loyalty as the primary growth lever, QSR marketers face a scale problem generic campaign tools weren't built to solve. Kana gives you spend that follows market signal, offers wired to real kitchen conditions, and day-parts that flex with demand.",
+    subheadline: "With thousands of locations, micro-level demand variation, and app-driven loyalty as the primary growth lever, QSR marketers face a scale problem generic campaign tools weren't built to solve. Kana gives you budget that keeps pace with what's converting, offers that respect real kitchen conditions, and targeting that adjusts as demand shifts.",
     primaryCta: { text: "Book a Demo", href: "/demo" },
     secondaryCta: { text: "See how it works", href: "#solutions" },
     image: "../../brand-assets/AVIF/6a0738509e86699ed6c6bd9e_Solutions-1.avif",
@@ -91,7 +89,7 @@ export const industryConfig = {
       feature: "Campaign Orchestrator",
       roleLabel: "Built for Field & Franchise Marketing Teams",
       title: "Spend that follows the market, not the national average",
-      description: "Campaign Orchestrator enables location-aware audience and budget optimization — surfacing where spend should shift by market performance signal, with your team approving every move before it ships. Instead of one national plan applied to thousands of different trade areas, each market's traffic patterns, competitive set, and menu preferences shape where the next dollar goes. The weekly comp readout stops being a record of stores the calendar left behind.",
+      description: "Campaign Orchestrator continuously compares how every channel is performing and recommends where the next dollar should go — with your team approving every move before spend shifts. Instead of a plan set once and left to run, budget keeps pace with what's actually converting. The weekly comp readout stops being a record of decisions made three weeks too late.",
       icon: "../../brand-assets/SVG/69901757ec677b2ce290fcb4_Smarter Campaign Management.svg",
       image: "../../brand-assets/WEBP/69fb34a37abc32670956d9d8_22a3b8e403e4a9722e6b5bc578c29054_solutions_01_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc04b820e89c641b48b_solution-bg__1.jpg",
@@ -118,9 +116,9 @@ export const industryConfig = {
     },
     {
       feature: "Personalization",
-      roleLabel: "Coming Soon — Built for Loyalty Teams",
+      roleLabel: "Built for Loyalty Teams",
       title: "Offer logic built per member, not per program",
-      description: "Personalization builds individualized offer logic per loyalty member — maximizing incremental visits without cannibalizing full-price purchase behavior. Instead of every member getting the same buy-10-get-1 regardless of visit frequency, order history, channel preference, or price sensitivity, each offer is calibrated to add a visit that wasn't already coming. Coming soon to the Kana platform.",
+      description: "Personalization builds individualized offer logic per loyalty member — maximizing incremental visits without cannibalizing full-price purchase behavior. Instead of every member getting the same buy-10-get-1 regardless of visit frequency, order history, channel preference, or price sensitivity, each offer is calibrated to add a visit that wasn't already coming.",
       icon: "../../brand-assets/SVG/699017586c99f26d8f0a4085_Customer Engagement.svg",
       image: "../../brand-assets/WEBP/69fb34a3244de10cf3d7a9a5_5b797b2c34c52d464bce0b2b1d520ea3_solutions_04_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc03bbf9cc8a6b457ff_solution-bg__3.jpg",
@@ -146,15 +144,11 @@ export const industryConfig = {
   faq: [
     {
       q: "How does Kana connect to our restaurant stack?",
-      a: "Via API. Kana sits on top of your POS (Toast, Brink, Oracle Simphony), loyalty platform (Punchh, Paytronix), ordering system (Olo), and ad platforms — no rip-and-replace, no warehouse migration. Kana's solutions team handles setup, with timelines depending on how many systems you're connecting."
+      a: "Via API. Kana connects to your warehouse and the marketing, loyalty, and ordering systems you run today — no rip-and-replace, no data migration. Kana's solutions team scopes the connection list with you and gets you to first usable data fast, with exact timing set per engagement."
     },
     {
       q: "How does the Agentic Data Platform know what's happening in the kitchen?",
       a: "It's built to work from the same operational signals your stores already produce — inventory and 86'd-item status, order volume, kitchen capacity — so offer decisions can reflect current conditions instead of a calendar set weeks ago. Every rule runs with your team's review before an offer goes out."
-    },
-    {
-      q: "When will Personalization be available?",
-      a: "Personalization is coming soon. It builds on the same foundation as Audience Builder and the Agentic Data Platform, so teams deploying those today are set up to activate per-member offer logic the moment it ships. Book a demo to see the roadmap and get early access."
     },
   ],
 
@@ -175,7 +169,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Campaign Orchestrator",
-        description: "Location-aware audience and budget optimization that surfaces where spend should shift by market performance signal, with your team approving every move before it ships. Every store's trade area gets a plan shaped by its own traffic patterns and competitive set — and the franchisee conversation starts from their numbers.",
+        description: "Cross-channel budget optimization that reallocates spend to whatever's converting, with every recommendation reviewed by your team before it ships. Every channel gets a plan shaped by its own performance — and the franchisee conversation starts from real numbers, not the system average.",
         linkLabel: "See Campaign Orchestrator",
         linkHref: "#solution-row-0"
       }
@@ -234,7 +228,7 @@ export const industryConfig = {
         }
       ],
       solution: {
-        name: "Personalization (Coming Soon)",
+        name: "Personalization",
         description: "Individualized offer logic per member — calibrated to maximize incremental visits without cannibalizing full-price purchase behavior. Built on the Audience Builder and Agentic Data Platform foundation, so current deployments activate it the moment it ships.",
         linkLabel: "See Personalization",
         linkHref: "#solution-row-3"
@@ -255,7 +249,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Campaign Orchestrator",
-        description: "The location-aware spending engine behind the whole story: budget follows market performance signal, every market's results trace to the decisions that drove them, and the franchisee council sees their stores in the plan — not just the system average.",
+        description: "The channel-optimization engine behind the whole story: budget follows performance signal, every reallocation traces to the decision that drove it, and the franchisee council sees the reasoning behind the plan — not just the system average.",
         linkLabel: "See Campaign Orchestrator",
         linkHref: "#solution-row-0"
       }
@@ -268,7 +262,7 @@ export const industryConfig = {
     columns: [
       {
         title: "Spend follows the market, not the average",
-        description: "Location-aware budget optimization surfaces where spend should shift by market performance signal, with every reallocation reviewed and approved by your team — so high-variance markets get plans built for their trade area, not the national mean.",
+        description: "Budget optimization surfaces where the next dollar performs best across your channel mix — with every reallocation reviewed by your team before spend moves — so high-variance markets stop running on the national mean.",
         linkLabel: "Learn more about Campaign Orchestrator",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a37abc32670956d9d8_22a3b8e403e4a9722e6b5bc578c29054_solutions_01_2x.webp"
@@ -313,11 +307,11 @@ export const industryConfig = {
       { text: "Salesforce", className: "color-salesforce" },
       { text: "your stack", className: "color-kana" },
     ],
-    subtitle: "Connects to your POS, loyalty platform, ordering system, and ad platforms — Toast, Punchh, Paytronix, Olo, Braze, and more — no rip-and-replace, no new governance gaps.",
+    subtitle: "Connects to your warehouse, loyalty platform, ordering system, and ad platforms — no rip-and-replace, no new governance gaps.",
     columns: [
       {
-        title: "Give every location its own plan without hiring a planner per market",
-        description: "Campaign Orchestrator — market performance signals drive location-aware budget optimization across thousands of trade areas. The stores the pooled fund used to leave behind get plans shaped by their own demand.",
+        title: "Reallocate budget without hiring a planner per channel",
+        description: "Campaign Orchestrator — performance signals drive budget reallocation across your channel mix, with every move reviewed by your team before it ships. The channels the pooled fund used to run on autopilot get plans shaped by what's actually converting.",
         image: "../../brand-assets/WEBP/69fb34a37abc32670956d9d8_22a3b8e403e4a9722e6b5bc578c29054_solutions_01_2x.webp"
       },
       {

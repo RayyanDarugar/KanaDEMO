@@ -48,9 +48,7 @@ export const industryConfig = {
       "CPG",
       "Retail & E-Commerce",
       "Media & Entertainment",
-      "Manufacturing",
       "Financial Services",
-      "Pharma",
       "Travel & Hospitality",
       "QSR",
       "Healthcare",
@@ -88,8 +86,8 @@ export const industryConfig = {
     {
       feature: "Sales Intelligence",
       roleLabel: "Built for Heads of Retail Media & Account Teams",
-      title: "Closed-loop proof your advertisers' analytics teams can't pick apart",
-      description: "Sales Intelligence integrates campaign delivery data with your transaction signals continuously, generating closed-loop attribution reporting your sales and account teams can use to defend and grow brand budgets in real time. Instead of a bespoke SQL join per wrap report, the impression-to-purchase connection is always on — so the ROAS number you present at the QBR is the one that survives the client's methodology questions and grows the JBP instead of shrinking it.",
+      title: "Account intelligence your advertisers' analytics teams can't out-argue",
+      description: "Sales Intelligence arms your account teams with a source-verified brief on every advertiser — spend signals, category context, and prior campaign history — plus a win-likelihood score grounded in your network's own proposal outcomes. Instead of walking into the QBR with a hand-built deck, your team walks in with the account intelligence that defends the budget and sets up the next ask.",
       icon: "../../brand-assets/SVG/699017579f378c81f5094a40_Analytics.svg",
       image: "../../brand-assets/WEBP/69fb34a37abc32670956d9d8_22a3b8e403e4a9722e6b5bc578c29054_solutions_01_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc04b820e89c641b48b_solution-bg__1.jpg",
@@ -107,7 +105,7 @@ export const industryConfig = {
       feature: "Audience Builder",
       roleLabel: "Built for Audience & Data Teams",
       title: "One audience layer across every retail touchpoint",
-      description: "Customer signals from e-commerce, in-store, app, and loyalty programs sit in separate systems, which makes the verified, high-fidelity audience packages brand advertisers demand nearly impossible to build. Audience Builder unifies first-party signals across all of your retail touchpoints into a coherent, activatable audience layer — premium packaging and precision targeting without a data engineering project per deal.",
+      description: "Customer signals from e-commerce, in-store, app, and loyalty programs sit in separate systems, which makes the verified, high-fidelity audience packages brand advertisers demand nearly impossible to build. Audience Builder turns a plain-language brief into a precise, sized, activatable segment in minutes — premium packaging and precision targeting without a data engineering project per deal.",
       icon: "../../brand-assets/SVG/6a07370afa74e1a989f5eb11_Audience Manager.svg",
       image: "../../brand-assets/WEBP/69fb34a3693f25a94988df0e_5897b8bc1884f86278bb63a02dc23207_solutions_05_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc0a301e7e98b87934a_solution-bg__4.jpg",
@@ -116,7 +114,7 @@ export const industryConfig = {
       feature: "Campaign Orchestrator",
       roleLabel: "Built for Ad Ops & Campaign Managers",
       title: "Every campaign in flight, visible without the manual effort",
-      description: "Campaign Orchestrator monitors campaign pacing, delivery, and performance across your onsite and offsite campaigns in real time, giving your ops team the recommendations and visibility to act fast, without the manual overhead of building it by hand. The daily pacing check across disconnected dashboards becomes a list of exceptions already caught — which is how one ad ops person scales from ten campaigns to a hundred.",
+      description: "Campaign Orchestrator monitors delivery pacing across your campaigns and flags what's at risk before it becomes a miss, giving your ops team a daily view of exceptions instead of a portfolio of dashboards to check by hand.",
       icon: "../../brand-assets/SVG/69901757ec677b2ce290fcb4_Smarter Campaign Management.svg",
       image: "../../brand-assets/WEBP/69fb34a37abc32670956d9d8_22a3b8e403e4a9722e6b5bc578c29054_solutions_01_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc05e660038226b085c_solution-bg__5.jpg",
@@ -154,8 +152,8 @@ export const industryConfig = {
       a: "No. Kana is the intelligence layer across the stack you've already built — your retail media platform, CRM, clean room, and DSP keep doing what they do. Each application is configured to your organization's data sources and existing tech stack, so there's no rip-and-replace and no migration project between you and value."
     },
     {
-      q: "How does Sales Intelligence produce closed-loop reporting?",
-      a: "It integrates campaign delivery data with your transaction signals continuously, rather than joining them per campaign in a clean room or SQL project. That means attribution reporting is available in real time across every campaign — the same numbers for your account managers' QBR decks, your sellers' renewal conversations, and your advertisers' analytics teams."
+      q: "How does Sales Intelligence help my team defend budgets at the QBR?",
+      a: "It builds a source-verified brief on every advertiser — spend signals, category context, and history with your network — and scores each opportunity against your own win/loss record. Your account managers walk into the QBR with the same grounded numbers your sellers use in renewal conversations, instead of a deck assembled by hand the night before."
     },
     {
       q: "Our retail media team is five people. Is this built for us?",
@@ -180,7 +178,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Sales Intelligence",
-        description: "Continuous closed-loop attribution that connects delivery to transactions in real time — defensible numbers for every renewal, QBR, and JBP negotiation, without a measurement project per advertiser.",
+        description: "A source-verified advertiser brief and win-likelihood score for every account — defensible intelligence for every renewal, QBR, and JBP negotiation, without a research project per advertiser.",
         linkLabel: "See Sales Intelligence",
         linkHref: "#solution-row-0"
       }
@@ -240,7 +238,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Audience Builder",
-        description: "Unifies first-party signals across all retail touchpoints into one activatable audience layer, so premium audience packages are assembled from a coherent foundation instead of stitched per deal.",
+        description: "Turns a plain-language brief into a precise, sized, activatable segment against your first-party data in minutes, so premium audience packages are assembled without a data-engineering queue instead of stitched per deal.",
         linkLabel: "See Audience Builder",
         linkHref: "#solution-row-2"
       }
@@ -253,21 +251,21 @@ export const industryConfig = {
     columns: [
       {
         title: "Prove it while they're still deciding",
-        description: "Closed-loop attribution that runs continuously across every campaign — so account teams walk into QBRs with numbers that hold up, and renewals grow instead of shrink.",
+        description: "Account intelligence and win-likelihood scoring built from your own proposal history — so account teams walk into QBRs with numbers that hold up, and renewals grow instead of shrink.",
         linkLabel: "Learn more about Sales Intelligence",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a37abc32670956d9d8_22a3b8e403e4a9722e6b5bc578c29054_solutions_01_2x.webp"
       },
       {
         title: "Run a hundred campaigns with the team you have",
-        description: "Pacing risk flagged and explained daily across onsite and offsite campaigns, with reporting handled for you — your ops team reviews exceptions instead of rebuilding the same spreadsheet every morning.",
+        description: "Pacing risk flagged and explained daily, with reporting handled for you — your ops team reviews exceptions instead of rebuilding the same spreadsheet every morning.",
         linkLabel: "Learn more about Campaign Orchestrator",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp"
       },
       {
         title: "Package audiences advertisers can't get anywhere else",
-        description: "Purchase-linked, loyalty-verified segments unified across e-commerce, in-store, and app — the audience quality that justifies premium CPMs, without the data engineering queue.",
+        description: "Purchase-linked, loyalty-verified segments built from your first-party data in minutes, fully traceable back to the brief that shaped them — the audience quality that justifies premium CPMs, without the data engineering queue.",
         linkLabel: "Learn more about Audience Builder",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a3693f25a94988df0e_5897b8bc1884f86278bb63a02dc23207_solutions_05_2x.webp"
@@ -288,8 +286,8 @@ export const industryConfig = {
     subtitle: "Connects to your retail media platform, CRM, clean room, transaction systems, and DSP — no rip-and-replace, no engineering queue, no new governance gaps.",
     columns: [
       {
-        title: "Turn transaction data into a renewal weapon",
-        description: "Sales Intelligence — delivery data joined to purchase signals continuously, not per campaign. Closed-loop reporting becomes something your network is known for, not something your analysts survive.",
+        title: "Turn account intelligence into a renewal weapon",
+        description: "Sales Intelligence — a verified brief and win-likelihood score on every advertiser, built from your own history. Renewal season becomes something your network is known for, not something your analysts survive.",
         image: "../../brand-assets/WEBP/69fb34a37abc32670956d9d8_22a3b8e403e4a9722e6b5bc578c29054_solutions_01_2x.webp"
       },
       {

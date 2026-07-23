@@ -49,9 +49,7 @@ export const industryConfig = {
       "CPG",
       "Retail & E-Commerce",
       "Media & Entertainment",
-      "Manufacturing",
       "Financial Services",
-      "Pharma",
       "Travel & Hospitality",
       "QSR",
       "Healthcare",
@@ -90,7 +88,7 @@ export const industryConfig = {
       feature: "Audience Builder",
       roleLabel: "Built for Data & Audience Teams",
       title: "Turn first-party data into a premium, monetizable asset",
-      description: "Audience Builder helps your team build, enrich, and activate first-party audience data as a product — precise audience packaging for direct-sold campaigns without a data engineering overhaul. Segments are built in plain language and trace from brief to activation, so the deals your data was supposed to close stop waiting in an engineering queue.",
+      description: "Audience Builder helps your team build, enrich, and package first-party audience data as a product — precise audience packaging for direct-sold campaigns without a data engineering overhaul. Segments are built in plain language and trace from brief to proposal, so the deals your data was supposed to close stop waiting in an engineering queue.",
       icon: "../../brand-assets/SVG/6a07370afa74e1a989f5eb11_Audience Manager.svg",
       image: "../../brand-assets/WEBP/69fb34a3693f25a94988df0e_5897b8bc1884f86278bb63a02dc23207_solutions_05_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc04b820e89c641b48b_solution-bg__1.jpg",
@@ -117,7 +115,7 @@ export const industryConfig = {
       feature: "Personalization",
       roleLabel: "Built for Retention & Subscriptions Teams",
       title: "Catch the churn signal before it becomes a cancellation",
-      description: "Personalization monitors subscriber engagement signals in real time, identifies churn-risk indicators early, and prepares tailored retention offers and content experiences for your team to approve before cancellation intent solidifies. Your paywall stack optimizes the conversion moment; this is the layer for everything after it — the engagement cliffs, renewal windows, and content gaps where subscribers quietly decide to leave.",
+      description: "Personalization monitors subscriber engagement signals, identifies churn-risk indicators early, and recommends tailored retention offers and content experiences your team approves before cancellation intent solidifies. Your paywall stack optimizes the conversion moment; this is the layer for everything after it — the engagement cliffs, renewal windows, and content gaps where subscribers quietly decide to leave.",
       icon: "../../brand-assets/SVG/699017586c99f26d8f0a4085_Customer Engagement.svg",
       image: "../../brand-assets/WEBP/69fb34a3244de10cf3d7a9a5_5b797b2c34c52d464bce0b2b1d520ea3_solutions_04_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc05e660038226b085c_solution-bg__5.jpg",
@@ -126,7 +124,7 @@ export const industryConfig = {
       feature: "Campaign Orchestrator",
       roleLabel: "Built for Ad Ops Across Every Format",
       title: "One ops layer across display, native, newsletter, audio, and podcast",
-      description: "Managing delivery, pacing, and performance reporting across five formats simultaneously creates significant ops overhead — and manual errors damage advertiser relationships and renewal rates. Campaign Orchestrator automates campaign monitoring, pacing alerts, and cross-format performance reporting, so the Friday recap deck assembles itself and your team manages exceptions instead of dashboards.",
+      description: "Managing delivery, pacing, and performance reporting across every format creates significant ops overhead — and manual errors damage advertiser relationships and renewal rates. Campaign Orchestrator automates monitoring, pacing alerts, and performance reporting on your Google Ad Manager inventory, so the Friday recap deck assembles itself and your team manages exceptions instead of dashboards.",
       icon: "../../brand-assets/SVG/69901757ec677b2ce290fcb4_Smarter Campaign Management.svg",
       image: "../../brand-assets/WEBP/69fb34a37abc32670956d9d8_22a3b8e403e4a9722e6b5bc578c29054_solutions_01_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc0a1e61a380ab0e29e_solution-bg__2.jpg",
@@ -152,15 +150,15 @@ export const industryConfig = {
   faq: [
     {
       q: "How is Personalization different from our paywall and subscription tools?",
-      a: "Paywall platforms optimize the conversion moment — who sees which offer on the way in. Personalization works on everything after: it watches post-subscribe engagement signals in real time, flags churn-risk indicators early, and prepares tailored retention offers and content experiences for your team to approve before cancellation intent solidifies. It complements your existing subscription stack rather than replacing it."
+      a: "Paywall platforms optimize the conversion moment — who sees which offer on the way in. Personalization works on everything after: it watches post-subscribe engagement signals, flags churn-risk indicators early, and recommends tailored retention offers and content experiences your team approves before cancellation intent solidifies. It complements your existing subscription stack rather than replacing it."
     },
     {
       q: "What does the LLM Command Center actually monitor?",
       a: "Which AI bots are crawling your content, how often, and what they're taking — training, RAG, search, or research. You set plain-English access policies by content tier and provider, and every crawl becomes evidence you can bring to a licensing conversation, so your response to AI crawlers is a managed program instead of a guess."
     },
     {
-      q: "Can Campaign Orchestrator really handle audio and newsletter inventory alongside display?",
-      a: "Yes — that's the point. It automates monitoring, pacing alerts, and performance reporting across display, native, newsletter, audio, and podcast inventory simultaneously, so cross-format sponsorships stop requiring a person to reconcile five dashboards into one recap deck."
+      q: "Does Campaign Orchestrator only work with Google Ad Manager?",
+      a: "Yes. It's built and proven on GAM, automating monitoring, pacing alerts, and performance reporting across your display and native inventory — so your team manages exceptions instead of stitching dashboards together by hand."
     },
   ],
 
@@ -181,7 +179,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Audience Builder",
-        description: "Build, enrich, and activate first-party audiences in plain language — premium packaging for direct-sold campaigns without a data engineering overhaul.",
+        description: "Build, enrich, and package first-party audiences in plain language — premium packaging for direct-sold campaigns without a data engineering overhaul.",
         linkLabel: "See Audience Builder",
         linkHref: "#solution-row-0"
       }
@@ -221,7 +219,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Sales Intelligence",
-        description: "Audience insights, competitive context, and the Media Proposal Generator agent in one workspace — data-backed, tailored proposals in minutes, more deals pursued with the same desk.",
+        description: "Audience insights, category context, and the Media Proposal Generator agent in one workspace — data-backed, tailored proposals in minutes, more deals pursued with the same desk.",
         linkLabel: "See Sales Intelligence",
         linkHref: "#solution-row-2"
       }
@@ -241,7 +239,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Personalization",
-        description: "Real-time engagement monitoring that catches churn-risk indicators early and prepares tailored offers and content experiences for your team to approve before cancellation intent solidifies.",
+        description: "Engagement monitoring that catches churn-risk indicators early and recommends tailored offers and content experiences your team approves before cancellation intent solidifies.",
         linkLabel: "See Personalization",
         linkHref: "#solution-row-3"
       }
@@ -261,7 +259,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Campaign Orchestrator",
-        description: "Automated monitoring, pacing alerts, and cross-format performance reporting — delivery accuracy up, manual burden down, recap decks that build themselves.",
+        description: "Automated monitoring, pacing alerts, and performance reporting on your Google Ad Manager inventory — delivery accuracy up, manual burden down, recap decks that build themselves.",
         linkLabel: "See Campaign Orchestrator",
         linkHref: "#solution-row-4"
       }
@@ -274,14 +272,14 @@ export const industryConfig = {
     columns: [
       {
         title: "Make your data earn like the asset it is",
-        description: "First-party segments packaged and activated for direct-sold campaigns — the premium, post-cookie ad product advertisers are asking for, built without an engineering project.",
+        description: "First-party segments packaged and proposal-ready for direct-sold campaigns — the premium, post-cookie ad product advertisers are asking for, built without an engineering project.",
         linkLabel: "Learn more about Audience Builder",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a3693f25a94988df0e_5897b8bc1884f86278bb63a02dc23207_solutions_05_2x.webp"
       },
       {
         title: "Save subscribers while they're still subscribers",
-        description: "Engagement signals monitored in real time, churn risk caught early, and tailored retention offers prepared for approval before cancellation intent solidifies — not after the cohort report.",
+        description: "Engagement signals monitored, churn risk caught early, and tailored retention offers recommended and approved before cancellation intent solidifies — not after the cohort report.",
         linkLabel: "Learn more about Personalization",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a3244de10cf3d7a9a5_5b797b2c34c52d464bce0b2b1d520ea3_solutions_04_2x.webp"
@@ -316,21 +314,21 @@ export const industryConfig = {
       { text: "Google Analytics", className: "color-ganalytics" },
       { text: "your stack", className: "color-kana" },
     ],
-    subtitle: "Connects to Google Ad Manager, Salesforce, your email and podcast platforms, and your subscription stack — no rip-and-replace, no engineering queue, no new governance gaps.",
+    subtitle: "Connects to Google Ad Manager, Salesforce, your email platforms, and your subscription stack — no rip-and-replace, no engineering queue, no new governance gaps.",
     columns: [
       {
         title: "Monitor five formats without five dashboards",
-        description: "Campaign Orchestrator — monitoring, pacing alerts, and cross-format reporting across display, native, newsletter, audio, and podcast inventory, connected to the platforms that serve them.",
+        description: "Campaign Orchestrator — monitoring, pacing alerts, and performance reporting across your Google Ad Manager inventory, connected to the platforms that serve your display and native campaigns.",
         image: "../../brand-assets/WEBP/69fb34a37abc32670956d9d8_22a3b8e403e4a9722e6b5bc578c29054_solutions_01_2x.webp"
       },
       {
         title: "Put churn interception on top of your subscription stack",
-        description: "Personalization — real-time engagement signals connected to approved retention offers, working alongside your paywall, billing, and email platforms instead of replacing them.",
+        description: "Personalization — engagement signals turned into approved retention offers, working alongside your paywall, billing, and email platforms instead of replacing them.",
         image: "../../brand-assets/WEBP/69fb34a3244de10cf3d7a9a5_5b797b2c34c52d464bce0b2b1d520ea3_solutions_04_2x.webp"
       },
       {
         title: "Give every seller the senior seller's toolkit",
-        description: "Sales Intelligence — audience insights, competitive context, and automated proposal creation grounded in your real inventory and analytics, standardized across the desk.",
+        description: "Sales Intelligence — audience insights, category context, and automated proposal creation grounded in your real inventory and analytics, standardized across the desk.",
         image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp"
       }
     ]
