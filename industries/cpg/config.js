@@ -59,7 +59,7 @@ export const industryConfig = {
 
   // ── HERO ───────────────────────────────────────────────────
   hero: {
-    headline: "The AI Marketing Platform <em>Built for CPG Brands</em>",
+    headline: "See the Category Shift <em>Before It Hits Your Numbers</em>",
     subheadline: "Kana gives CPG teams daily category intelligence, audiences that trace back to the brief, and ad spend tied to real performance. This week's signals, next week's edge.",
     primaryCta: { text: "Book a Demo", href: "/demo" },
     secondaryCta: { text: "See how it works", href: "#solutions" },

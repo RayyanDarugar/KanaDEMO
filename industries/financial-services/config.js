@@ -60,7 +60,7 @@ export const industryConfig = {
 
   // ── HERO ───────────────────────────────────────────────────
   hero: {
-    headline: "Financial Services Marketers Can't Act on <em>the Signals They Already Have</em>",
+    headline: "Act on the Signals <em>You Already Have</em>",
     subheadline: "Kana turns the data banks, insurers, and wealth managers already hold into real-time marketing: faster campaign answers, self-serve cross-sell audiences, and one customer view across digital and branch.",
     primaryCta: { text: "Book a Demo", href: "/demo" },
     secondaryCta: { text: "See how it works", href: "#solutions" },

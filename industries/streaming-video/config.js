@@ -58,7 +58,7 @@ export const industryConfig = {
 
   // ── HERO ───────────────────────────────────────────────────
   hero: {
-    headline: "Streaming Platforms Are Caught <em>Between Revenue and Experience</em>",
+    headline: "Grow Revenue Without <em>Losing the Viewer</em>",
     subheadline: "Kana closes the gap between the churn signal and the retention action, so growing revenue never costs you the viewer experience, and no data-team queue sits in between.",
     primaryCta: { text: "Book a Demo", href: "/demo" },
     secondaryCta: { text: "See how it works", href: "#solutions" },

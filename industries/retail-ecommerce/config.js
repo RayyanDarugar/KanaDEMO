@@ -59,7 +59,7 @@ export const industryConfig = {
 
   // ── HERO ───────────────────────────────────────────────────
   hero: {
-    headline: "The AI Marketing Platform <em>Built for Retail & E-Commerce</em>",
+    headline: "Act on a Customer <em>Before the Report Names One</em>",
     subheadline: "Kana gives retail teams early churn signals, trade answers in seconds, and one honest number for digital spend, so you act before the report can name the customer.",
     primaryCta: { text: "Book a Demo", href: "/demo" },
     secondaryCta: { text: "See how it works", href: "#solutions" },

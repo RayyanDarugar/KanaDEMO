@@ -58,7 +58,7 @@ export const industryConfig = {
 
   // ── HERO ───────────────────────────────────────────────────
   hero: {
-    headline: "Media Networks Are Undermonetizing <em>Their First-Party Advantage</em>",
+    headline: "Monetize the First-Party Advantage <em>Walled Gardens Can't Match</em>",
     subheadline: "Kana is the agentic layer that gives retail media networks walled-garden-grade measurement, audiences, and self-serve, turning the first-party data walled gardens can't replicate into the scale to compete.",
     primaryCta: { text: "Book a Demo", href: "/demo" },
     secondaryCta: { text: "See how it works", href: "#solutions" },
