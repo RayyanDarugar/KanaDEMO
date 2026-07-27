@@ -184,7 +184,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Personalization",
-        description: "Reads behavioral signals (declining purchase frequency, shrinking baskets, fading engagement) and surfaces at-risk cohorts weeks before they lapse, with a clear reason and a recommended next best action. Retention stops being reactive repair and becomes proactive prevention.",
+        description: "Surfaces at-risk cohorts weeks before they lapse, with a clear reason and recommended action, so retention turns proactive instead of reactive.",
         linkLabel: "See Personalization",
         linkHref: "#solution-row-0"
       }
@@ -204,7 +204,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Category Intelligence",
-        description: "Answers category questions in seconds from a cited, monitored view of the external market: category trends, competitor moves, promo benchmarks by event. The weekly trade pack assembles itself, and the meeting gets its time back for actual trading decisions.",
+        description: "Answers category questions in seconds from a cited, monitored view of trends, competitor moves, and promo benchmarks, so the trade pack builds itself.",
         linkLabel: "See Category Intelligence",
         linkHref: "#solution-row-2"
       }
@@ -224,7 +224,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Audience Builder",
-        description: "Plain-language segment building with brief-to-activation traceability and one canonical audience definition, activated by reference across your loyalty and messaging platforms. There's no SQL and no engineering queue, so segments ship inside the promo window, not after it.",
+        description: "Plain-language segment building with one canonical definition, activated across loyalty and messaging platforms. No SQL, no engineering queue, segments ship inside the promo window.",
         linkLabel: "See Audience Builder",
         linkHref: "#solution-row-3"
       }
@@ -244,7 +244,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Omni-Channel Media Planner",
-        description: "Models channel saturation against your own campaign history and scenario-plans budget at -20%, baseline, and +20%. Allocation decisions stop being driven by last year's mix and start being driven by modeled marginal ROAS.",
+        description: "Models channel saturation against your campaign history and scenario-plans budget at -20%, baseline, and +20%, so allocation follows modeled ROAS, not last year's mix.",
         linkLabel: "See Omni-Channel Media Planner",
         linkHref: "#solution-row-4"
       }
@@ -264,7 +264,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Marketing Intelligence",
-        description: "A queryable view across ad platforms, e-commerce analytics, POS, and loyalty, answerable in plain language. The CFO conversation moves from defending impressions to a grounded number everyone in the room trusts.",
+        description: "A queryable view across ad platforms, e-commerce, POS, and loyalty data, answerable in plain language. The CFO conversation gets a grounded number everyone trusts.",
         linkLabel: "See Marketing Intelligence",
         linkHref: "#solution-row-1"
       }

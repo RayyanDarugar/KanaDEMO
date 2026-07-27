@@ -169,7 +169,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Audience Builder",
-        description: "Precise, quality-priority segmentation targets the right members for the right intervention at the right time. The members who matter most to each Stars measure get their own aimed outreach instead of a share of the annual blast.",
+        description: "Audience Builder targets the members who matter most to each Stars measure, giving them aimed outreach instead of a share of the annual blast.",
         linkLabel: "See Audience Builder",
         linkHref: "#solution-row-0"
       }

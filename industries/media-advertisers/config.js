@@ -168,7 +168,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Campaign Orchestrator",
-        description: "Rapid, automated offer testing across subscriber cohorts, and Marketing Intelligence surfaces results in real time. Save offers, pause options, and win-back incentives move from a quarterly test calendar to a standing experiment the retention team runs itself.",
+        description: "Campaign Orchestrator runs automated offer tests across subscriber cohorts with real-time results, turning save offers into a standing experiment the retention team runs itself.",
         linkLabel: "See Campaign Orchestrator",
         linkHref: "#solution-row-2"
       }
@@ -188,7 +188,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Audience Builder",
-        description: "Builds and activates the lapsed-subscriber segment by cohort in minutes, with recent purchasers and opt-outs suppressed automatically, so outreach can go out in the first seven days instead of the second month.",
+        description: "Audience Builder builds and activates the lapsed-subscriber segment in minutes, suppressing recent purchasers and opt-outs, so outreach launches within seven days, not two months.",
         linkLabel: "See Audience Builder",
         linkHref: "#solution-row-1"
       }
@@ -208,7 +208,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Campaign Orchestrator",
-        description: "Rapid, automated offer testing across subscriber cohorts, and Marketing Intelligence surfaces results in real time. Pricing and packaging become a weekly experiment cadence instead of a quarterly project.",
+        description: "Campaign Orchestrator automates offer testing across subscriber cohorts with real-time results, turning pricing and packaging into a weekly cadence instead of a quarterly project.",
         linkLabel: "See Campaign Orchestrator",
         linkHref: "#solution-row-2"
       }
@@ -228,7 +228,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Personalization",
-        description: "Scores churn risk and decides the next offer, channel, and moment from recency-weighted behavioral signals instead of a stale profile, with a reason behind every decision. Built on top of the Audience Builder foundation, so it activates on data teams already have flowing.",
+        description: "Personalization scores churn risk and picks the next offer, channel, and moment from recency-weighted behavioral signals, with a reason behind every call.",
         linkLabel: "See Personalization",
         linkHref: "#solution-row-0"
       }
@@ -248,7 +248,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Personalization",
-        description: "The platform anchor: recency-weighted retention decisions that stay current with what each subscriber is actually doing, not a profile that's months stale. Retention and growth both run through the same signal.",
+        description: "Personalization anchors the platform: recency-weighted decisions on live subscriber behavior, not a profile months stale, so retention and growth share the same signal.",
         linkLabel: "See Personalization",
         linkHref: "#solution-row-0"
       }

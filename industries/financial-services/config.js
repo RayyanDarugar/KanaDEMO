@@ -170,7 +170,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Personalization",
-        description: "Scores every customer's next-best offer (content, timing, channel) from behavioral and transactional signals, with a reason behind every decision, for your team to approve and send. Life-event-driven offers reach the customer within hours of approval, not months later on the next quarterly list. Built on the Audience Builder and Agentic Data Platform foundation, so current deployments activate it the moment it ships.",
+        description: "Scores every customer's next-best offer (content, timing, channel) from behavioral and transactional signals, with a reason. Approved offers reach customers in hours, not next quarter.",
         linkLabel: "See Personalization",
         linkHref: "#solution-row-3"
       }
@@ -190,7 +190,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Marketing Intelligence",
-        description: "Plain-language answers on campaign performance and narratives that go through your team's review before distribution, with no export-and-reconcile cycle. Marketing Ops gets decision-grade reporting in seconds instead of days.",
+        description: "Plain-language answers on campaign performance, reviewed by your team before distribution, with no export-and-reconcile cycle. Decision-grade reporting arrives in seconds, not days.",
         linkLabel: "See Marketing Intelligence",
         linkHref: "#solution-row-0"
       }
@@ -230,7 +230,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Agentic Data Platform",
-        description: "Connects digital channels and CRM into one governed customer view, so the apps your relationship bankers already use can surface what a customer has been exploring instead of a static lead list from last week's export.",
+        description: "Connects digital channels and CRM into one governed customer view, so bankers see what a customer has been exploring, not a stale lead list.",
         linkLabel: "See Agentic Data Platform",
         linkHref: "#solution-row-2"
       }
@@ -250,7 +250,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Marketing Intelligence",
-        description: "The platform anchor: faster answers on campaign performance, governed AI with human oversight on every decision, and a growing view of marketing's contribution to the business. That combination is what closes the gap between the data the institution holds and the experiences it ships.",
+        description: "The platform anchor: faster answers on campaign performance, governed AI with human oversight, and a growing view of marketing's contribution to the business.",
         linkLabel: "See Marketing Intelligence",
         linkHref: "#solution-row-0"
       }

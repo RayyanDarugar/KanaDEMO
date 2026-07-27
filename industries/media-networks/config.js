@@ -218,7 +218,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Campaign Orchestrator",
-        description: "Pacing risk flagged and explained across every campaign in flight, with reporting handled for you. The team manages exceptions instead of checking everything by hand, which is the difference between ten campaigns and a hundred.",
+        description: "Campaign Orchestrator flags pacing risk across every campaign in flight, so managing exceptions is the difference between running ten campaigns and a hundred.",
         linkLabel: "See Campaign Orchestrator",
         linkHref: "#solution-row-3"
       }
@@ -238,7 +238,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Audience Builder",
-        description: "Turns a plain-language brief into a precise, sized, activatable segment against your first-party data in minutes. Premium audience packages come together without a data-engineering queue, instead of getting stitched together deal by deal.",
+        description: "Audience Builder turns a plain-language brief into a precise, activatable segment against your first-party data in minutes, replacing packages built deal by deal.",
         linkLabel: "See Audience Builder",
         linkHref: "#solution-row-2"
       }

@@ -169,7 +169,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Campaign Orchestrator",
-        description: "Cross-channel budget optimization that reallocates spend to whatever's converting, with every recommendation reviewed by your team before it ships. Every channel gets a plan shaped by its own performance, and the franchisee conversation starts from real numbers instead of the system average.",
+        description: "Campaign Orchestrator reallocates budget to whatever's converting, with your team approving every move. The franchisee conversation starts from real numbers, not the system average.",
         linkLabel: "See Campaign Orchestrator",
         linkHref: "#solution-row-0"
       }
@@ -189,7 +189,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Agentic Data Platform",
-        description: "Keeps your campaign tools working from the same operational picture as your stores, so your team can catch and adjust an offer before it sends. The push calendar stops promising what the store can't serve.",
+        description: "Agentic Data Platform syncs campaign tools to store operations, so your team catches and adjusts an offer before it sends. The calendar stops overpromising.",
         linkLabel: "See Agentic Data Platform",
         linkHref: "#solution-row-1"
       }
@@ -209,7 +209,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Audience Builder",
-        description: "Builds sized, suppressed audiences straight from your CRM and loyalty data in minutes instead of weeks, so day-part campaigns launch from a current segment instead of a stale export, market by market.",
+        description: "Audience Builder builds sized, suppressed segments from CRM and loyalty data in minutes, not weeks, so campaigns launch market by market while demand lasts.",
         linkLabel: "See Audience Builder",
         linkHref: "#solution-row-2"
       }
@@ -229,7 +229,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Personalization",
-        description: "Individualized offer logic per member, calibrated to maximize incremental visits without cannibalizing full-price purchase behavior. Built on the Audience Builder and Agentic Data Platform foundation, so current deployments activate it the moment it ships.",
+        description: "Personalization builds individualized offer logic per member, calibrated to maximize incremental visits without cannibalizing full-price purchases. Current deployments get it the moment it ships.",
         linkLabel: "See Personalization",
         linkHref: "#solution-row-3"
       }
@@ -249,7 +249,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Campaign Orchestrator",
-        description: "The channel-optimization engine behind the whole story: budget follows performance signal, every reallocation traces to the decision that drove it, and the franchisee council sees the reasoning behind the plan, not just the system average.",
+        description: "Campaign Orchestrator follows performance signal, tracing every reallocation to the decision behind it. The franchisee council sees the reasoning, not just the system average.",
         linkLabel: "See Campaign Orchestrator",
         linkHref: "#solution-row-0"
       }

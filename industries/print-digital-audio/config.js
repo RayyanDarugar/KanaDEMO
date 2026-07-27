@@ -199,7 +199,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "LLM Command Center",
-        description: "Monitors AI crawler activity across your properties, lets you set access policy by content tier, and turns AI consumption into a discipline your team runs, and a licensing case you can make.",
+        description: "Monitors AI crawler activity across your properties, lets you set access policy by content tier, and builds the evidence for licensing conversations.",
         linkLabel: "See LLM Command Center",
         linkHref: "#solution-row-1"
       }

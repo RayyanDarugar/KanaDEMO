@@ -177,7 +177,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Campaign Orchestrator",
-        description: "Watches your live campaign spend across channels and flags when a channel drifts from the brief or stops earning its keep. It proposes a reallocation for your approval instead of waiting for the weekly report. One system replaces the manual channel-by-channel spend review.",
+        description: "Campaign Orchestrator watches live spend across channels, flags when one drifts from the brief, and proposes a reallocation before the weekly report catches it.",
         linkLabel: "See Campaign Orchestrator",
         linkHref: "#solution-row-3"
       }
@@ -197,7 +197,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Category Intelligence",
-        description: "Runs a daily watch on competitive pricing signals and surfaces alerts with the cited evidence behind them, so marketing reacts in the same news cycle as the rate change instead of the next one.",
+        description: "Category Intelligence runs a daily watch on competitor pricing and surfaces alerts with evidence, so marketing reacts the same day, not days later.",
         linkLabel: "See Category Intelligence",
         linkHref: "#solution-row-1"
       }
@@ -217,7 +217,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Audience Builder",
-        description: "Builds precise, suppressed guest segments from behavioral and loyalty signals, then hands them to Personalization and Campaign Orchestrator to act on. Outreach targets who's actually eligible today, instead of a static scheduled list.",
+        description: "Audience Builder builds precise, suppressed guest segments from behavioral and loyalty signals, so outreach always targets who's actually eligible today, not a static list.",
         linkLabel: "See Audience Builder",
         linkHref: "#solution-row-2"
       }
@@ -237,7 +237,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Personalization",
-        description: "Turns loyalty member activity into a next-best offer for each member: channel, content, and timing calibrated to who they are and where they are in the relationship. Each offer routes through your team's approval before it reaches anyone. It runs on the CRM and loyalty data you already have connected.",
+        description: "Personalization turns member activity into a next-best offer for each guest, channel, content, timing, then routes it through your team's approval before it sends.",
         linkLabel: "See Personalization",
         linkHref: "#solution-row-0"
       }
@@ -257,7 +257,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Personalization",
-        description: "This is the platform anchor: tier-aware offer recommendations that turn the loyalty program's existing guest data into an active growth channel instead of a once-a-quarter batch send. 'AI-personalized' becomes something the guest actually experiences, not just a board slide.",
+        description: "Personalization delivers tier-aware offers that turn guest data into an active growth channel, not a once-a-quarter batch send. 'AI-personalized' becomes real, not a board slide.",
         linkLabel: "See Personalization",
         linkHref: "#solution-row-0"
       }

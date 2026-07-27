@@ -175,7 +175,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Category Intelligence",
-        description: "Researches category questions across hundreds of curated public sources with citations. Answers in seconds, not days. Built specifically for VP Category and Senior Category Manager roles at CPG companies.",
+        description: "Category Intelligence researches category questions across hundreds of curated public sources, with citations, answering in seconds instead of days.",
         linkLabel: "See Category Intelligence",
         linkHref: "#solution-row-0"
       }
@@ -195,7 +195,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Omni-Channel Media Planner",
-        description: "Models saturation curves against your own campaign data. Maps brief targeting parameters to platform-specific configurations across Meta, YouTube, The Trade Desk, and DV360. Allocation decisions move from habit to modeled ROAS.",
+        description: "Omni-Channel Media Planner turns campaign data into saturation-based targeting across Meta, YouTube, The Trade Desk, and DV360, replacing habit with modeled ROAS.",
         linkLabel: "See Omni-Channel Media Planner",
         linkHref: "#solution-row-1"
       }
@@ -215,7 +215,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Audience Builder",
-        description: "Plain-language audience building with brief-to-activation traceability, without SQL or a data engineering queue. Every segment is documented back to the original brief, so post-campaign analysis has a paper trail to work from.",
+        description: "Audience Builder creates segments from plain-language briefs, no SQL or engineering queue required, and documents each one back to the brief for post-campaign analysis.",
         linkLabel: "See Audience Builder",
         linkHref: "#solution-row-2"
       }
@@ -255,7 +255,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Audience Builder",
-        description: "Built-in synthetic audiences create statistically valid models for new SKU launches, new category entries, and new markets, without waiting for first-party data to accumulate. CPG brands stop running broad, inefficient launch campaigns and start targeting on day one.",
+        description: "Audience Builder's synthetic audiences model targeting for new SKU launches, categories, and markets without needing first-party data, so CPG brands target from day one.",
         linkLabel: "See Audience Builder",
         linkHref: "#solution-row-2"
       }

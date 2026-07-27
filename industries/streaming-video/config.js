@@ -178,7 +178,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Personalization",
-        description: "Weeks-ahead churn-risk scoring with tailored interventions ready to approve: retention offers and content recommendations prepared the moment risk crosses threshold, so your team launches same-day instead of after the batch job.",
+        description: "Weeks-ahead churn-risk scoring that preps a tailored retention offer or recommendation for approval, so your team launches same-day instead of after the fact.",
         linkLabel: "See Personalization",
         linkHref: "#solution-row-0"
       }
@@ -218,7 +218,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Campaign Orchestrator",
-        description: "Delivery and yield evidence pulled straight from your ad server, current as it accrues. That's a faster answer than a stitched dashboard when the greenlight conversation comes up.",
+        description: "Delivery and yield evidence from your ad server, current as it accrues, a faster answer than a stitched dashboard when the greenlight conversation arises.",
         linkLabel: "See Campaign Orchestrator",
         linkHref: "#solution-row-2"
       }
