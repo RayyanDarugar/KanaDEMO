@@ -1,5 +1,5 @@
 // ============================================================
-// INDUSTRY CONFIG — CPG
+// INDUSTRY CONFIG: CPG
 // All asset paths are relative to the project root.
 // brand-assets/ folder must be at the root of the repo.
 // To add a vertical: copy this file, rename, swap values, set accent.
@@ -60,7 +60,7 @@ export const industryConfig = {
   // ── HERO ───────────────────────────────────────────────────
   hero: {
     headline: "The AI Marketing Platform <em>Built for CPG Brands</em>",
-    subheadline: "Kana gives CPG teams daily category intelligence, audiences that trace back to the brief, and ad spend tied to real performance — this week's signals, next week's edge.",
+    subheadline: "Kana gives CPG teams daily category intelligence, audiences that trace back to the brief, and ad spend tied to real performance. This week's signals, next week's edge.",
     primaryCta: { text: "Book a Demo", href: "/demo" },
     secondaryCta: { text: "See how it works", href: "#solutions" },
     image: "../../brand-assets/AVIF/6a0738509e86699ed6c6bd9e_Solutions-1.avif",
@@ -82,7 +82,7 @@ export const industryConfig = {
     },
   ],
 
-  // ── SOLUTIONS — 5 CPG-native Kana products ─────────────────
+  // ── SOLUTIONS: 5 CPG-native Kana products ─────────────────
   solutions: [
     {
       feature: "Category Intelligence",
@@ -108,7 +108,7 @@ export const industryConfig = {
       feature: "Audience Builder",
       roleLabel: "Built for Campaign Ops & Marketing Ops",
       title: "Brief to live segment without an engineering ticket",
-      description: "Audience Builder lets campaign teams build and activate segments in plain language, no SQL, no engineering queue, with every segment traceable back to the original brief.",
+      description: "Audience Builder lets campaign teams build and activate segments in plain language, without SQL or an engineering queue, and every segment traces back to the original brief.",
       icon: "../../brand-assets/SVG/6a07370afa74e1a989f5eb11_Audience Manager.svg",
       image: "../../brand-assets/WEBP/69fb34a3693f25a94988df0e_5897b8bc1884f86278bb63a02dc23207_solutions_05_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc05e660038226b085c_solution-bg__5.jpg",
@@ -118,7 +118,7 @@ export const industryConfig = {
       feature: "Marketing Intelligence",
       roleLabel: "Built for VP Analytics & CMOs",
       title: "See what your ad spend actually sold in stores",
-      description: "Marketing Intelligence unifies your campaign and CRM data into one view you can query in plain language, giving leadership a performance story backed by evidence, not a guess.",
+      description: "Marketing Intelligence unifies your campaign and CRM data into one view you can query in plain language, giving leadership a performance story backed by evidence instead of a guess.",
       icon: "../../brand-assets/SVG/699017579f378c81f5094a40_Analytics.svg",
       image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc0a301e7e98b87934a_solution-bg__4.jpg",
@@ -146,7 +146,7 @@ export const industryConfig = {
   faq: [
     {
       q: "How does Kana connect to our retail media platforms?",
-      a: "Via API. Kana connects to your retail media and ad platforms in one unified view — setup typically takes 2–4 weeks."
+      a: "Via API. Kana connects to your retail media and ad platforms in one unified view, and setup typically takes 2–4 weeks."
     },
     {
       q: "Does Category Intelligence replace our Nielsen or Circana subscription?",
@@ -195,7 +195,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Omni-Channel Media Planner",
-        description: "Models saturation curves against your own campaign data. Maps brief targeting parameters to platform-specific configurations across Meta, YouTube, The Trade Desk, and DV360. Allocation decisions stop being driven by habit and start being driven by modeled ROAS.",
+        description: "Models saturation curves against your own campaign data. Maps brief targeting parameters to platform-specific configurations across Meta, YouTube, The Trade Desk, and DV360. Allocation decisions move from habit to modeled ROAS.",
         linkLabel: "See Omni-Channel Media Planner",
         linkHref: "#solution-row-1"
       }
@@ -215,7 +215,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Audience Builder",
-        description: "Plain-language audience building with brief-to-activation traceability. No SQL, no data engineering queue. Every segment is documented back to the original brief, so post-campaign analysis has a paper trail to work from.",
+        description: "Plain-language audience building with brief-to-activation traceability, without SQL or a data engineering queue. Every segment is documented back to the original brief, so post-campaign analysis has a paper trail to work from.",
         linkLabel: "See Audience Builder",
         linkHref: "#solution-row-2"
       }
@@ -275,7 +275,7 @@ export const industryConfig = {
       },
       {
         title: "Run the brief you actually wrote",
-        description: "Build audience segments from plain-language briefs — no SQL, no tickets — and keep targeting traceable to the brief.",
+        description: "Build audience segments from plain-language briefs, with no SQL and no tickets, and keep targeting traceable to the brief.",
         linkLabel: "Learn more about Audience Builder",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a3693f25a94988df0e_5897b8bc1884f86278bb63a02dc23207_solutions_05_2x.webp"
@@ -291,7 +291,7 @@ export const industryConfig = {
   },
 
   // ── FEATURED CONTENT ───────────────────────────────────────
-  // Narrow, contrasting band. Holds one piece — blog, white paper,
+  // Narrow, contrasting band. Holds one piece: blog, white paper,
   // webcast, or case study. Omit this key to hide the section.
   featuredContent: {
     heading: "Read our latest content for CPGs",
@@ -304,21 +304,21 @@ export const industryConfig = {
 
   // ── STACK SHOWCASE ─────────────────────────────────────────
   stackShowcase: {
-    subtitle: "Kana connects to your existing stack — no migration, no rip-and-replace.",
+    subtitle: "Kana connects to your existing stack, with no migration and no rip-and-replace.",
     columns: [
       {
         title: "Unify your customer data without moving a single record",
-        description: "Kana sits on top of Salesforce, Marketo, and your data warehouse — using the data you already have, no migration required.",
+        description: "Kana sits on top of Salesforce, Marketo, and your data warehouse, using the data you already have, with no migration required.",
         image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp"
       },
       {
         title: "Launch new markets before you have first-party data.",
-        description: "Audience Builder creates synthetic audiences from public signals, so new SKUs and markets can target from day one, no first-party data required.",
+        description: "Audience Builder creates synthetic audiences from public signals, so new SKUs and markets can target from day one without first-party data.",
         image: "../../brand-assets/WEBP/69fb34a30469825a78728f33_bbf22870ed50f2db542dcc3757717812_solutions_06_2x.webp"
       },
       {
         title: "Know which channels have hit diminishing returns before you budget.",
-        description: "Omni-Channel Media Planner: saturation curves from your own data, not benchmarks. Plan at -20%, baseline, and +20% so you walk in with a model, not a guess.",
+        description: "Omni-Channel Media Planner models saturation curves from your own data instead of industry benchmarks. Plan at -20%, baseline, and +20% so you walk in with a model instead of a guess.",
         image: "../../brand-assets/WEBP/69fb34a37abc32670956d9d8_22a3b8e403e4a9722e6b5bc578c29054_solutions_01_2x.webp"
       }
     ]

@@ -1,5 +1,5 @@
 // ============================================================
-// INDUSTRY CONFIG — QSR (Quick Service Restaurants)
+// INDUSTRY CONFIG: QSR (Quick Service Restaurants)
 // All asset paths are relative to the project root.
 // brand-assets/ folder must be at the root of the repo.
 // Copy of the CPG template structure; layout reads ONLY from
@@ -61,7 +61,7 @@ export const industryConfig = {
   // ── HERO ───────────────────────────────────────────────────
   hero: {
     headline: "QSR Brands Can't Localize <em>at the Speed of Real Life</em>",
-    subheadline: "Kana gives QSR marketers budget that keeps pace with what's converting, offers that respect real kitchen conditions, and targeting that shifts with demand — at scale, store by store.",
+    subheadline: "Kana gives QSR marketers budget that keeps pace with what's converting, offers that respect real kitchen conditions, and targeting that shifts with demand, at scale, store by store.",
     primaryCta: { text: "Book a Demo", href: "/demo" },
     secondaryCta: { text: "See how it works", href: "#solutions" },
     image: "../../brand-assets/AVIF/6a0738509e86699ed6c6bd9e_Solutions-1.avif",
@@ -71,11 +71,11 @@ export const industryConfig = {
   painPoints: [
     {
       title: "Media spend ignores location-level performance",
-      description: "Campaigns run uniformly, even as traffic and menu mix vary by market — and franchisees can see which stores got left out.",
+      description: "Campaigns run uniformly, even as traffic and menu mix vary by market, and franchisees can see which stores got left out.",
     },
     {
       title: "Engagement triggers ignore store operations",
-      description: "Offers fire on time-of-day rules, not real signals — so they go out for 86'd items, and the guest finds out at the counter.",
+      description: "Offers fire on time-of-day rules, not real signals. They go out for 86'd items, and the guest finds out at the counter.",
     },
     {
       title: "Day-part targeting doesn't adjust dynamically",
@@ -83,7 +83,7 @@ export const industryConfig = {
     },
   ],
 
-  // ── SOLUTIONS — 4 QSR-native Kana products ─────────────────
+  // ── SOLUTIONS: 4 QSR-native Kana products ─────────────────
   solutions: [
     {
       feature: "Campaign Orchestrator",
@@ -98,7 +98,7 @@ export const industryConfig = {
       feature: "Agentic Data Platform",
       roleLabel: "Built for CRM & Lifecycle Teams",
       title: "Offers that check the kitchen before they send",
-      description: "The Agentic Data Platform keeps campaign tools synced to store operations, so an 86'd item's offer gets caught before it sends — not flagged by a guest complaint. Marketing stops promising what operations can't serve.",
+      description: "The Agentic Data Platform keeps campaign tools synced to store operations, so an 86'd item's offer gets caught before it sends, not flagged by a guest complaint. Marketing stops promising what operations can't serve.",
       icon: "../../brand-assets/SVG/69901757d8ab518db4cb3c52_Synthetic Data Generation.svg",
       image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc0a301e7e98b87934a_solution-bg__4.jpg",
@@ -108,7 +108,7 @@ export const industryConfig = {
       feature: "Audience Builder",
       roleLabel: "Built for Media & Campaign Teams",
       title: "Audiences ready the moment demand shifts",
-      description: "Audience Builder builds sized, suppressed segments straight from your CRM and loyalty data — in minutes, not the two-week ticket to the data team. The offer goes out while the moment's still there.",
+      description: "Audience Builder builds sized, suppressed segments straight from your CRM and loyalty data in minutes, not the two-week ticket to the data team. The offer goes out while the moment's still there.",
       icon: "../../brand-assets/SVG/6a07370afa74e1a989f5eb11_Audience Manager.svg",
       image: "../../brand-assets/WEBP/69fb34a3693f25a94988df0e_5897b8bc1884f86278bb63a02dc23207_solutions_05_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc05e660038226b085c_solution-bg__5.jpg",
@@ -118,7 +118,7 @@ export const industryConfig = {
       feature: "Personalization",
       roleLabel: "Built for Loyalty Teams",
       title: "Offer logic built per member, not per program",
-      description: "Personalization builds individualized offer logic per member, so each offer adds a visit that wasn't already coming — not the same buy-10-get-1 for everyone, regardless of how often they visit.",
+      description: "Personalization builds individualized offer logic per member, so each offer adds a visit that wasn't already coming, not the same buy-10-get-1 for everyone regardless of how often they visit.",
       icon: "../../brand-assets/SVG/699017586c99f26d8f0a4085_Customer Engagement.svg",
       image: "../../brand-assets/WEBP/69fb34a3244de10cf3d7a9a5_5b797b2c34c52d464bce0b2b1d520ea3_solutions_04_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc03bbf9cc8a6b457ff_solution-bg__3.jpg",
@@ -127,15 +127,15 @@ export const industryConfig = {
 
   // ── STATS BAR ────────────────────────
   stats: [
-    { number: "30%", label: "of 2025 restaurant visits were deal-driven — the highest rate in 50 years — yet traffic still declined (Facteus)" },
+    { number: "30%", label: "of 2025 restaurant visits were deal-driven, the highest rate in 50 years, yet traffic still declined (Facteus)" },
     { number: "83%", label: "of major QSR brands have lower customer retention than before the value wars began (Facteus)" },
-    { number: "+76%", label: "visit lift when a guest joins a QSR loyalty program — 5.8 to 10.2 visits per year (Restaurant Dive)" },
+    { number: "+76%", label: "visit lift when a guest joins a QSR loyalty program, from 5.8 to 10.2 visits per year (Restaurant Dive)" },
     { number: "17%", label: "traffic lift from weather-triggered local campaigns across 1,700 locations (CleverTap)" },
   ],
 
   // ── SOCIAL PROOF ───────────────────────────────────────────
   testimonial: {
-    quote: "[PLACEHOLDER — Testimonial from a leading QSR brand on localizing campaigns by market signal]",
+    quote: "[PLACEHOLDER: Testimonial from a leading QSR brand on localizing campaigns by market signal]",
     name: "[Name]",
     title: "[Title], [QSR Brand]",
   },
@@ -144,11 +144,11 @@ export const industryConfig = {
   faq: [
     {
       q: "How does Kana connect to our restaurant stack?",
-      a: "Via API. Kana connects to your warehouse, marketing, loyalty, and ordering systems — no rip-and-replace, no data migration. Kana's team scopes the connection list with you and sets timing per engagement."
+      a: "Via API. Kana connects to your warehouse, marketing, loyalty, and ordering systems, with no rip-and-replace and no data migration. Kana's team scopes the connection list with you and sets timing per engagement."
     },
     {
       q: "How does the Agentic Data Platform know what's happening in the kitchen?",
-      a: "It reads the same operational signals your stores already produce — inventory, 86'd-item status, order volume, kitchen capacity — so offers reflect current conditions, not a stale calendar. Your team still reviews every rule first."
+      a: "It reads the same operational signals your stores already produce (inventory, 86'd-item status, order volume, kitchen capacity), so offers reflect current conditions, not a stale calendar. Your team still reviews every rule first."
     },
   ],
 
@@ -158,18 +158,18 @@ export const industryConfig = {
       role: "Field / Franchise Marketing Manager",
       painPoints: [
         {
-          text: "The weekly comp-sales readout shows variance the national calendar ignores — and franchisees can see it too.",
+          text: "The weekly comp-sales readout shows variance the national calendar ignores, and franchisees can see it too.",
         },
         {
           text: "Co-op and DMA budgets are locked quarterly, with no way to shift spend when a market's traffic diverges.",
         },
         {
-          text: "Franchisees contribute 2–7% of gross sales to pooled marketing funds and demand proof it moves their stores — not the system average.",
+          text: "Franchisees contribute 2–7% of gross sales to pooled marketing funds and demand proof it moves their stores, not the system average.",
         }
       ],
       solution: {
         name: "Campaign Orchestrator",
-        description: "Cross-channel budget optimization that reallocates spend to whatever's converting, with every recommendation reviewed by your team before it ships. Every channel gets a plan shaped by its own performance — and the franchisee conversation starts from real numbers, not the system average.",
+        description: "Cross-channel budget optimization that reallocates spend to whatever's converting, with every recommendation reviewed by your team before it ships. Every channel gets a plan shaped by its own performance, and the franchisee conversation starts from real numbers instead of the system average.",
         linkLabel: "See Campaign Orchestrator",
         linkHref: "#solution-row-0"
       }
@@ -181,10 +181,10 @@ export const industryConfig = {
           text: "Push notifications fire on time-of-day rules, whether or not the kitchen can absorb the offer.",
         },
         {
-          text: "Offers drop for items 86'd an hour ago — the guest finds out at the counter.",
+          text: "Offers drop for items that were 86'd an hour ago, and the guest finds out at the counter.",
         },
         {
-          text: "One offer campaign means configuring two disconnected systems — loyalty and messaging — neither of which reads store operations.",
+          text: "One offer campaign means configuring two disconnected systems, loyalty and messaging, neither of which reads store operations.",
         }
       ],
       solution: {
@@ -201,7 +201,7 @@ export const industryConfig = {
           text: "Day-part campaigns run on schedules locked 30+ days out, while weather, events, and competitors shift demand daily.",
         },
         {
-          text: "DMA-level plans deploy once and optimize weekly at best — but most QSR purchases resolve in under 30 minutes.",
+          text: "DMA-level plans deploy once and optimize weekly at best, but most QSR purchases resolve in under 30 minutes.",
         },
         {
           text: "Weather-triggered campaigns show double-digit traffic lifts, but the current stack can't run them at hundreds of locations.",
@@ -209,7 +209,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Audience Builder",
-        description: "Builds sized, suppressed audiences straight from your CRM and loyalty data in minutes instead of weeks — so day-part campaigns launch from a current segment instead of a stale export, market by market.",
+        description: "Builds sized, suppressed audiences straight from your CRM and loyalty data in minutes instead of weeks, so day-part campaigns launch from a current segment instead of a stale export, market by market.",
         linkLabel: "See Audience Builder",
         linkHref: "#solution-row-2"
       }
@@ -229,7 +229,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Personalization",
-        description: "Individualized offer logic per member — calibrated to maximize incremental visits without cannibalizing full-price purchase behavior. Built on the Audience Builder and Agentic Data Platform foundation, so current deployments activate it the moment it ships.",
+        description: "Individualized offer logic per member, calibrated to maximize incremental visits without cannibalizing full-price purchase behavior. Built on the Audience Builder and Agentic Data Platform foundation, so current deployments activate it the moment it ships.",
         linkLabel: "See Personalization",
         linkHref: "#solution-row-3"
       }
@@ -249,7 +249,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Campaign Orchestrator",
-        description: "The channel-optimization engine behind the whole story: budget follows performance signal, every reallocation traces to the decision that drove it, and the franchisee council sees the reasoning behind the plan — not just the system average.",
+        description: "The channel-optimization engine behind the whole story: budget follows performance signal, every reallocation traces to the decision that drove it, and the franchisee council sees the reasoning behind the plan, not just the system average.",
         linkLabel: "See Campaign Orchestrator",
         linkHref: "#solution-row-0"
       }
@@ -262,21 +262,21 @@ export const industryConfig = {
     columns: [
       {
         title: "Spend follows the market, not the average",
-        description: "Budget shifts to whatever's converting, reviewed by your team first — no more high-variance markets stuck on the national mean.",
+        description: "Budget shifts to whatever's converting, reviewed by your team first. High-variance markets stop being stuck on the national mean.",
         linkLabel: "Learn more about Campaign Orchestrator",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a37abc32670956d9d8_22a3b8e403e4a9722e6b5bc578c29054_solutions_01_2x.webp"
       },
       {
         title: "Offers that check the 86 board first",
-        description: "Kana keeps campaign tools synced to store operations, so your team catches a bad offer before the guest does — at the counter.",
+        description: "Kana keeps campaign tools synced to store operations, so your team catches a bad offer before the guest finds out at the counter.",
         linkLabel: "Learn more about the Agentic Data Platform",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp"
       },
       {
         title: "Segments ready before the moment passes",
-        description: "Audiences build in minutes, not weeks, with suppression built in — so campaigns launch while the demand is still there.",
+        description: "Audiences build in minutes, not weeks, with suppression built in, so campaigns launch while the demand is still there.",
         linkLabel: "Learn more about Audience Builder",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a3693f25a94988df0e_5897b8bc1884f86278bb63a02dc23207_solutions_05_2x.webp"
@@ -285,13 +285,13 @@ export const industryConfig = {
   },
 
   // ── FEATURED CONTENT ───────────────────────────────────────
-  // Narrow, contrasting band. Holds one piece — blog, white paper,
+  // Narrow, contrasting band. Holds one piece: blog, white paper,
   // webcast, or case study. Omit this key to hide the section.
   featuredContent: {
     heading: "Read our latest content for QSR teams",
     type: "White Paper",
     title: "Localizing at the speed of real life: the QSR playbook",
-    description: "Discounting is at a 50-year high, yet retention keeps falling. Leading QSR brands are swapping national averages for market signal — and winning traffic back without buying it.",
+    description: "Discounting is at a 50-year high, yet retention keeps falling. Leading QSR brands are swapping national averages for market signal, winning traffic back without buying it.",
     cta: { text: "Read now", href: "/content" },
     image: "../../brand-assets/WEBP/69fb34a37abc32670956d9d8_22a3b8e403e4a9722e6b5bc578c29054_solutions_01_2x.webp",
   },
@@ -307,7 +307,7 @@ export const industryConfig = {
       { text: "Salesforce", className: "color-salesforce" },
       { text: "your stack", className: "color-kana" },
     ],
-    subtitle: "Connects to your warehouse, loyalty platform, ordering system, and ad platforms — no rip-and-replace, no new governance gaps.",
+    subtitle: "Connects to your warehouse, loyalty platform, ordering system, and ad platforms, with no rip-and-replace and no new governance gaps.",
     columns: [
       {
         title: "Reallocate budget without hiring a planner per channel",
@@ -316,12 +316,12 @@ export const industryConfig = {
       },
       {
         title: "Keep campaigns honest about the kitchen",
-        description: "Agentic Data Platform keeps campaign tools synced to store operations, so offers get caught before they go out — not flagged by a guest complaint.",
+        description: "Agentic Data Platform keeps campaign tools synced to store operations, so offers get caught before they go out, not flagged by a guest complaint.",
         image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp"
       },
       {
         title: "Build the segment, not just the demographic",
-        description: "Audience Builder builds sized, suppressed segments from your CRM and loyalty data in minutes — fast enough for campaigns to finally act on it.",
+        description: "Audience Builder builds sized, suppressed segments from your CRM and loyalty data in minutes, fast enough for campaigns to finally act on it.",
         image: "../../brand-assets/WEBP/69fb34a30469825a78728f33_bbf22870ed50f2db542dcc3757717812_solutions_06_2x.webp"
       }
     ]

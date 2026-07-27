@@ -1,5 +1,5 @@
 // ============================================================
-// INDUSTRY CONFIG — Retail & E-Commerce
+// INDUSTRY CONFIG: Retail & E-Commerce
 // All asset paths are relative to the project root.
 // brand-assets/ folder must be at the root of the repo.
 // Copy of the CPG template structure; layout reads ONLY from
@@ -60,7 +60,7 @@ export const industryConfig = {
   // ── HERO ───────────────────────────────────────────────────
   hero: {
     headline: "The AI Marketing Platform <em>Built for Retail & E-Commerce</em>",
-    subheadline: "Kana gives retail teams early churn signals, trade answers in seconds, and one honest number for digital spend — so you act before the report can name the customer.",
+    subheadline: "Kana gives retail teams early churn signals, trade answers in seconds, and one honest number for digital spend, so you act before the report can name the customer.",
     primaryCta: { text: "Book a Demo", href: "/demo" },
     secondaryCta: { text: "See how it works", href: "#solutions" },
     image: "../../brand-assets/AVIF/6a073850eee60cd0e1af591d_Solutions.avif",
@@ -78,11 +78,11 @@ export const industryConfig = {
     },
     {
       title: "Launch inside the promo window, every time",
-      description: "Audience Builder turns a brief into a live segment in minutes, no SQL, no batch delay. Campaigns launch on time.",
+      description: "Audience Builder turns a brief into a live segment in minutes, without SQL or batch delay. Campaigns launch on time.",
     },
   ],
 
-  // ── SOLUTIONS — 5 retail-native Kana products ──────────────
+  // ── SOLUTIONS: 5 retail-native Kana products ──────────────
   solutions: [
     {
       feature: "Personalization",
@@ -118,7 +118,7 @@ export const industryConfig = {
       feature: "Audience Builder",
       roleLabel: "Built for Marketing Ops & Campaign Teams",
       title: "Brief to live segment inside the promo window",
-      description: "Audience Builder lets campaign teams build and activate segments in plain language, no SQL, no engineering queue, with reach estimated across Meta, Google, and TikTok before a dollar goes out.",
+      description: "Audience Builder lets campaign teams build and activate segments in plain language, without SQL or an engineering queue, with reach estimated across Meta, Google, and TikTok before a dollar goes out.",
       icon: "../../brand-assets/SVG/6a07370afa74e1a989f5eb11_Audience Manager.svg",
       image: "../../brand-assets/WEBP/69fb34a3693f25a94988df0e_5897b8bc1884f86278bb63a02dc23207_solutions_05_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc06860bd14e53863fb_solution-bg__7.jpg",
@@ -138,10 +138,10 @@ export const industryConfig = {
 
   // ── STATS BAR ────────────────────────
   stats: [
-    { number: "84%", label: "of retail revenue closes in-store — Kana gives you one grounded view of what happened before and after (US Census Bureau)" },
+    { number: "84%", label: "of retail revenue closes in-store. Kana gives you one grounded view of what happened before and after (US Census Bureau)" },
     { number: "+60%", label: "rise in average e-commerce customer acquisition cost over five years (LoyaltyLion)" },
     { number: "39%", label: "of consumers say they've become more loyal to brands this year (NIQ)" },
-    { number: "52%", label: "more scrutiny on marketing ROI — teams with grounded answers already in hand walk into the room ahead of the ones still reconciling exports (The CMO Survey)" },
+    { number: "52%", label: "more scrutiny on marketing ROI. Teams with grounded answers already in hand walk into the room ahead of the ones still reconciling exports (The CMO Survey)" },
   ],
 
   // ── SOCIAL PROOF ───────────────────────────────────────────
@@ -155,7 +155,7 @@ export const industryConfig = {
   faq: [
     {
       q: "How does Kana connect to our commerce stack?",
-      a: "Via API. Kana sits on top of Shopify, Salesforce, Klaviyo, your POS, and your loyalty platform, zero-copy, no migration. Setup typically takes 2–4 weeks, handled by Kana's solutions team."
+      a: "Via API. Kana sits on top of Shopify, Salesforce, Klaviyo, your POS, and your loyalty platform, with zero-copy access and no migration required. Setup typically takes 2–4 weeks, handled by Kana's solutions team."
     },
     {
       q: "What data does Personalization need to predict churn?",
@@ -224,7 +224,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Audience Builder",
-        description: "Plain-language segment building with brief-to-activation traceability and one canonical audience definition, activated by reference across your loyalty and messaging platforms. No SQL, no engineering queue, segments ship inside the promo window, not after it.",
+        description: "Plain-language segment building with brief-to-activation traceability and one canonical audience definition, activated by reference across your loyalty and messaging platforms. There's no SQL and no engineering queue, so segments ship inside the promo window, not after it.",
         linkLabel: "See Audience Builder",
         linkHref: "#solution-row-3"
       }
@@ -300,7 +300,7 @@ export const industryConfig = {
   },
 
   // ── FEATURED CONTENT ───────────────────────────────────────
-  // Narrow, contrasting band. Holds one piece — blog, white paper,
+  // Narrow, contrasting band. Holds one piece: blog, white paper,
   // webcast, or case study. Omit this key to hide the section.
   featuredContent: {
     heading: "Read our latest content for retail teams",
@@ -322,7 +322,7 @@ export const industryConfig = {
       { text: "BigQuery", className: "color-bigquery" },
       { text: "your stack", className: "color-kana" },
     ],
-    subtitle: "Kana connects to Shopify, Salesforce, Klaviyo, your POS, and your loyalty platform — no migration, no rip-and-replace.",
+    subtitle: "Kana connects to Shopify, Salesforce, Klaviyo, your POS, and your loyalty platform, with no migration and no rip-and-replace.",
     columns: [
       {
         title: "Turn your loyalty data into an early-warning system",
@@ -331,7 +331,7 @@ export const industryConfig = {
       },
       {
         title: "Unify every channel without moving a single record",
-        description: "Marketing Intelligence sits on top of your ad, e-commerce, POS, and loyalty data, zero-copy, no migration — one live view, answered in plain language.",
+        description: "Marketing Intelligence sits on top of your ad, e-commerce, POS, and loyalty data, zero-copy and no migration needed. You get one live view, answered in plain language.",
         image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp"
       },
       {

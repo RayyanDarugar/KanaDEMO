@@ -1,5 +1,5 @@
 // ============================================================
-// INDUSTRY CONFIG — Media & Entertainment
+// INDUSTRY CONFIG: Media & Entertainment
 // (slug kept as media-advertisers for URL stability)
 // All asset paths are relative to the project root.
 // brand-assets/ folder must be at the root of the repo.
@@ -62,7 +62,7 @@ export const industryConfig = {
   // ── HERO ───────────────────────────────────────────────────
   hero: {
     headline: "Your Signals Already Point to <em>Subscription Growth</em>",
-    subheadline: "The best signal for what a subscriber wants next is what they did last night — Kana turns it into sharper recommendations, faster offer tests, and better-timed win-backs.",
+    subheadline: "The best signal for what a subscriber wants next is what they did last night. Kana turns it into sharper recommendations, faster offer tests, and better-timed win-backs.",
     primaryCta: { text: "Book a Demo", href: "/demo" },
     secondaryCta: { text: "See how it works", href: "#solutions" },
     image: "../../brand-assets/AVIF/6a073850eee60cd0e1af591d_Solutions.avif",
@@ -84,7 +84,7 @@ export const industryConfig = {
     },
   ],
 
-  // ── SOLUTIONS — 3 M&E-native Kana products ─────────────────
+  // ── SOLUTIONS: 3 M&E-native Kana products ─────────────────
   solutions: [
     {
       feature: "Personalization",
@@ -119,7 +119,7 @@ export const industryConfig = {
   // ── STATS BAR ────────────────────────
   stats: [
     { number: "4.6%", label: "average monthly churn for premium streaming services (Antenna)" },
-    { number: "77%", label: "of streaming subscribers aren't serial churners — the other 23% are exactly who a sharper win-back and retention motion is built to reach (Antenna)" },
+    { number: "77%", label: "of streaming subscribers aren't serial churners, and the other 23% are exactly who a sharper win-back and retention motion is built to reach (Antenna)" },
     { number: "24%", label: "of consumers cancel and resubscribe to the same service within six months, 40% for Gen Z (Antenna)" },
     { number: "7 days", label: "the win-back window that converts, while typical sequences launch 30–60 days post-churn (industry research)" },
   ],
@@ -135,15 +135,15 @@ export const industryConfig = {
   faq: [
     {
       q: "How does Kana connect to our subscription stack?",
-      a: "Via API. Kana sits on top of your stack — Snowflake, Databricks, Braze, Recurly, Zuora, and more — with no rip-and-replace or migration. Setup takes 2–4 weeks."
+      a: "Via API. Kana sits on top of your stack (Snowflake, Databricks, Braze, Recurly, Zuora, and more) with no rip-and-replace or migration. Setup takes 2–4 weeks."
     },
     {
       q: "Does Personalization replace our lifecycle or retention marketing tools?",
-      a: "No, it strengthens them. Personalization decides the next offer, channel, and send time from a subscriber's most recent behavior, then hands off to your existing platform — catching what a static model misses."
+      a: "No, it strengthens them. Personalization decides the next offer, channel, and send time from a subscriber's most recent behavior, then hands off to your existing platform. It catches what a static model misses."
     },
     {
       q: "How is Personalization different from Audience Builder?",
-      a: "Audience Builder builds the audience: who's lapsed, suppressed, or ready for outreach. Personalization decides what each of them sees next — the offer, channel, and moment most likely to bring them back. Most teams run both together."
+      a: "Audience Builder builds the audience: who's lapsed, suppressed, or ready for outreach. Personalization decides what each of them sees next: the offer, channel, and moment most likely to bring them back. Most teams run both together."
     },
     {
       q: "How fast can a subscription team get live on Kana?",
@@ -168,7 +168,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Campaign Orchestrator",
-        description: "Rapid, automated offer testing across subscriber cohorts, with Marketing Intelligence surfacing results in real time. Save offers, pause options, and win-back incentives move from a quarterly test calendar to a standing experiment the retention team runs itself.",
+        description: "Rapid, automated offer testing across subscriber cohorts, and Marketing Intelligence surfaces results in real time. Save offers, pause options, and win-back incentives move from a quarterly test calendar to a standing experiment the retention team runs itself.",
         linkLabel: "See Campaign Orchestrator",
         linkHref: "#solution-row-2"
       }
@@ -208,7 +208,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Campaign Orchestrator",
-        description: "Rapid, automated offer testing across subscriber cohorts, with Marketing Intelligence surfacing results in real time. Pricing and packaging become a weekly experiment cadence instead of a quarterly project.",
+        description: "Rapid, automated offer testing across subscriber cohorts, and Marketing Intelligence surfaces results in real time. Pricing and packaging become a weekly experiment cadence instead of a quarterly project.",
         linkLabel: "See Campaign Orchestrator",
         linkHref: "#solution-row-2"
       }
@@ -217,7 +217,7 @@ export const industryConfig = {
       role: "Head of Product, Recommendations",
       painPoints: [
         {
-          text: "Recommendation engines run on historical preferences, missing the signals that predict what a subscriber wants next.",
+          text: "Recommendation engines run on historical preferences and miss the signals that predict what a subscriber wants next.",
         },
         {
           text: "Content library exhaustion drives 34% of cancellations; dormant subscribers rarely signal before they lapse.",
@@ -284,7 +284,7 @@ export const industryConfig = {
   },
 
   // ── FEATURED CONTENT ───────────────────────────────────────
-  // Narrow, contrasting band. Holds one piece — blog, white paper,
+  // Narrow, contrasting band. Holds one piece: blog, white paper,
   // webcast, or case study. Omit this key to hide the section.
   featuredContent: {
     heading: "Read our latest content for media & entertainment teams",
@@ -306,7 +306,7 @@ export const industryConfig = {
       { text: "Salesforce", className: "color-salesforce" },
       { text: "your stack", className: "color-kana" },
     ],
-    subtitle: "Kana connects to your stack — Snowflake, Databricks, Braze, Recurly, Zuora, and more — with no rip-and-replace and no migration.",
+    subtitle: "Kana connects to your stack (Snowflake, Databricks, Braze, Recurly, Zuora, and more) with no rip-and-replace and no migration.",
     columns: [
       {
         title: "Make every recommendation current",

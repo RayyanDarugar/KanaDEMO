@@ -1,5 +1,5 @@
 // ============================================================
-// INDUSTRY CONFIG — Retail & Commerce Media Networks (KFP)
+// INDUSTRY CONFIG: Retail & Commerce Media Networks (KFP)
 // All asset paths are relative to the project root.
 // Copy of the CPG template structure; layout reads ONLY from
 // this object. Zero layout edits per vertical.
@@ -59,7 +59,7 @@ export const industryConfig = {
   // ── HERO ───────────────────────────────────────────────────
   hero: {
     headline: "Media Networks Are Undermonetizing <em>Their First-Party Advantage</em>",
-    subheadline: "Kana is the agentic layer that gives retail media networks walled-garden-grade measurement, audiences, and self-serve — turning the first-party data walled gardens can't replicate into the scale to compete.",
+    subheadline: "Kana is the agentic layer that gives retail media networks walled-garden-grade measurement, audiences, and self-serve, turning the first-party data walled gardens can't replicate into the scale to compete.",
     primaryCta: { text: "Book a Demo", href: "/demo" },
     secondaryCta: { text: "See how it works", href: "#solutions" },
     image: "../../brand-assets/AVIF/6a0738509e86699ed6c6bd9e_Solutions-1.avif",
@@ -81,7 +81,7 @@ export const industryConfig = {
     },
   ],
 
-  // ── SOLUTIONS — 5 challenge-mapped Kana applications ───────
+  // ── SOLUTIONS: 5 challenge-mapped Kana applications ───────
   solutions: [
     {
       feature: "Sales Intelligence",
@@ -96,7 +96,7 @@ export const industryConfig = {
       feature: "Media Proposal Generator",
       roleLabel: "Built for Retail Media Sales Teams",
       title: "RFP responses in minutes, not days",
-      description: "Assembling a media package — audience data, benchmarks, formatting — takes sellers days and caps deal volume. The Media Proposal Generator reads the brief and delivers a data-backed proposal inside the response window, so JBP season stops being a throughput problem.",
+      description: "Assembling a media package (audience data, benchmarks, formatting) takes sellers days and caps deal volume. The Media Proposal Generator reads the brief and delivers a data-backed proposal inside the response window, so JBP season stops being a throughput problem.",
       icon: "../../brand-assets/SVG/69901757be05292281eee76e_Media Proposal Generation.svg",
       image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc03bbf9cc8a6b457ff_solution-bg__3.jpg",
@@ -105,7 +105,7 @@ export const industryConfig = {
       feature: "Audience Builder",
       roleLabel: "Built for Audience & Data Teams",
       title: "One audience layer across every retail touchpoint",
-      description: "E-commerce, in-store, app, and loyalty signals sit apart, making premium audience packages hard to build. Audience Builder turns a plain-language brief into a precise, activatable segment in minutes — no data engineering project required.",
+      description: "E-commerce, in-store, app, and loyalty signals sit apart, making premium audience packages hard to build. Audience Builder turns a plain-language brief into a precise, activatable segment in minutes, without a data engineering project.",
       icon: "../../brand-assets/SVG/6a07370afa74e1a989f5eb11_Audience Manager.svg",
       image: "../../brand-assets/WEBP/69fb34a3693f25a94988df0e_5897b8bc1884f86278bb63a02dc23207_solutions_05_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc0a301e7e98b87934a_solution-bg__4.jpg",
@@ -114,7 +114,7 @@ export const industryConfig = {
       feature: "Campaign Orchestrator",
       roleLabel: "Built for Ad Ops & Campaign Managers",
       title: "Every campaign in flight, visible without the manual effort",
-      description: "Campaign Orchestrator flags pacing risk before it becomes a miss — one daily view of exceptions instead of dashboards to check by hand.",
+      description: "Campaign Orchestrator flags pacing risk before it becomes a miss, with one daily view of exceptions instead of dashboards to check by hand.",
       icon: "../../brand-assets/SVG/69901757ec677b2ce290fcb4_Smarter Campaign Management.svg",
       image: "../../brand-assets/WEBP/69fb34a37abc32670956d9d8_22a3b8e403e4a9722e6b5bc578c29054_solutions_01_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc05e660038226b085c_solution-bg__5.jpg",
@@ -140,7 +140,7 @@ export const industryConfig = {
 
   // ── SOCIAL PROOF ───────────────────────────────────────────
   testimonial: {
-    quote: "[PLACEHOLDER — Testimonial from a retail media network leader on growing JBP commitments with closed-loop reporting]",
+    quote: "[PLACEHOLDER: Testimonial from a retail media network leader on growing JBP commitments with closed-loop reporting]",
     name: "[Name]",
     title: "[Title], [Media Network]",
   },
@@ -149,7 +149,7 @@ export const industryConfig = {
   faq: [
     {
       q: "We already run a retail media platform. Does Kana replace it?",
-      a: "No. Kana is the intelligence layer across the stack you've already built — your retail media platform, CRM, clean room, and DSP keep doing their job, each configured to your existing data. No rip-and-replace, no migration project."
+      a: "No. Kana is the intelligence layer across the stack you've already built: your retail media platform, CRM, clean room, and DSP keep doing their job, each configured to your existing data. No rip-and-replace, no migration project."
     },
     {
       q: "How does Sales Intelligence help my team defend budgets at the QBR?",
@@ -157,7 +157,7 @@ export const industryConfig = {
     },
     {
       q: "Our retail media team is five people. Is this built for us?",
-      a: "That's who it's built for — lean teams outside the top two, carrying walled-garden expectations. Kana's agents absorb the work that caps campaign volume, so headcount stops limiting revenue."
+      a: "That's who it's built for: lean teams outside the top two, carrying walled-garden expectations. Kana's agents absorb the work that caps campaign volume, so headcount stops limiting revenue."
     },
   ],
 
@@ -170,7 +170,7 @@ export const industryConfig = {
           text: "94% of advertisers say they don't fully trust the metrics behind your JBP renewals.",
         },
         {
-          text: "19% of brands now call retail media networks 'a money grab' — more than double a year earlier. Proof is what's being bought now.",
+          text: "19% of brands now call retail media networks 'a money grab,' more than double a year earlier. Proof is what's being bought now.",
         },
         {
           text: "Co-op budget tracking lives in Excel, disconnected from the systems that deliver campaigns.",
@@ -178,7 +178,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Sales Intelligence",
-        description: "A source-verified advertiser brief and win-likelihood score for every account — defensible intelligence for every renewal, QBR, and JBP negotiation, without a research project per advertiser.",
+        description: "A source-verified advertiser brief and win-likelihood score for every account: defensible intelligence for every renewal, QBR, and JBP negotiation, without a research project per advertiser.",
         linkLabel: "See Sales Intelligence",
         linkHref: "#solution-row-0"
       }
@@ -187,7 +187,7 @@ export const industryConfig = {
       role: "Retail Media Sales Director",
       painPoints: [
         {
-          text: "Building a media package — audience data, benchmarks, formatting — takes days per RFP.",
+          text: "Building a media package (audience data, benchmarks, formatting) takes days per RFP.",
         },
         {
           text: "It caps deal volume and hands competitors the budget.",
@@ -198,7 +198,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Media Proposal Generator",
-        description: "Reads the brief and produces a data-backed, tailored proposal in minutes, grounded in your real audiences and benchmarks — more opportunities pursued without adding headcount.",
+        description: "Reads the brief and produces a data-backed, tailored proposal in minutes, grounded in your real audiences and benchmarks, so teams pursue more opportunities without adding headcount.",
         linkLabel: "See Media Proposal Generator",
         linkHref: "#solution-row-1"
       }
@@ -207,7 +207,7 @@ export const industryConfig = {
       role: "Ad Operations / Campaign Manager",
       painPoints: [
         {
-          text: "Onsite and offsite pacing is checked by hand — no shared dashboard.",
+          text: "Onsite and offsite pacing gets checked by hand because there's no shared dashboard.",
         },
         {
           text: "The manual CRM-to-ad-server handoff means more campaigns, more chances something slips.",
@@ -218,7 +218,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Campaign Orchestrator",
-        description: "Pacing risk flagged and explained across every campaign in flight, with reporting handled for you. The team manages exceptions instead of checking everything by hand — the difference between ten campaigns and a hundred.",
+        description: "Pacing risk flagged and explained across every campaign in flight, with reporting handled for you. The team manages exceptions instead of checking everything by hand, which is the difference between ten campaigns and a hundred.",
         linkLabel: "See Campaign Orchestrator",
         linkHref: "#solution-row-3"
       }
@@ -230,15 +230,15 @@ export const industryConfig = {
           text: "E-commerce, in-store, app, and loyalty data sit apart, so every audience package is bespoke.",
         },
         {
-          text: "Only 48% of US retail media networks offer clean rooms — and many that do struggle to activate them.",
+          text: "Only 48% of US retail media networks offer clean rooms, and many that do struggle to activate them.",
         },
         {
-          text: "Methodology debates over incrementality burn the week — the same data can swing 6×.",
+          text: "Methodology debates over incrementality burn the week, since the same data can swing 6×.",
         }
       ],
       solution: {
         name: "Audience Builder",
-        description: "Turns a plain-language brief into a precise, sized, activatable segment against your first-party data in minutes, so premium audience packages are assembled without a data-engineering queue instead of stitched per deal.",
+        description: "Turns a plain-language brief into a precise, sized, activatable segment against your first-party data in minutes. Premium audience packages come together without a data-engineering queue, instead of getting stitched together deal by deal.",
         linkLabel: "See Audience Builder",
         linkHref: "#solution-row-2"
       }
@@ -251,21 +251,21 @@ export const industryConfig = {
     columns: [
       {
         title: "Prove it while they're still deciding",
-        description: "Win-likelihood scoring from your own history — numbers that hold up in the QBR, and renewals that grow.",
+        description: "Win-likelihood scoring from your own history: numbers that hold up in the QBR, and renewals that grow.",
         linkLabel: "Learn more about Sales Intelligence",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a37abc32670956d9d8_22a3b8e403e4a9722e6b5bc578c29054_solutions_01_2x.webp"
       },
       {
         title: "Run a hundred campaigns with the team you have",
-        description: "Pacing risk flagged daily — your team reviews exceptions instead of rebuilding a spreadsheet every morning.",
+        description: "Pacing risk flagged daily, so your team reviews exceptions instead of rebuilding a spreadsheet every morning.",
         linkLabel: "Learn more about Campaign Orchestrator",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp"
       },
       {
         title: "Package audiences advertisers can't get anywhere else",
-        description: "Purchase-linked, loyalty-verified segments built from first-party data in minutes — audience quality that justifies premium CPMs, without the data engineering queue.",
+        description: "Purchase-linked, loyalty-verified segments built from first-party data in minutes, with audience quality that justifies premium CPMs and no data engineering queue.",
         linkLabel: "Learn more about Audience Builder",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a3693f25a94988df0e_5897b8bc1884f86278bb63a02dc23207_solutions_05_2x.webp"
@@ -283,16 +283,16 @@ export const industryConfig = {
       { text: "BigQuery", className: "color-bigquery" },
       { text: "your stack", className: "color-kana" },
     ],
-    subtitle: "Connects to your retail media platform, CRM, clean room, transaction systems, and DSP — no rip-and-replace.",
+    subtitle: "Connects to your retail media platform, CRM, clean room, transaction systems, and DSP, with no rip-and-replace.",
     columns: [
       {
         title: "Turn account intelligence into a renewal weapon",
-        description: "Sales Intelligence — a verified brief and win-likelihood score for every advertiser, built from your history, turning renewal season into a strength.",
+        description: "Sales Intelligence: a verified brief and win-likelihood score for every advertiser, built from your history, turning renewal season into a strength.",
         image: "../../brand-assets/WEBP/69fb34a37abc32670956d9d8_22a3b8e403e4a9722e6b5bc578c29054_solutions_01_2x.webp"
       },
       {
         title: "Get campaign ops out of Excel",
-        description: "Campaign Orchestrator connects pacing and reporting to your systems — the portfolio check finally leaves the spreadsheet.",
+        description: "Campaign Orchestrator connects pacing and reporting to your systems, so the portfolio check finally leaves the spreadsheet.",
         image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp"
       },
       {

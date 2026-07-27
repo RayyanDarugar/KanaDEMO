@@ -1,5 +1,5 @@
 // ============================================================
-// INDUSTRY CONFIG — Travel & Hospitality
+// INDUSTRY CONFIG: Travel & Hospitality
 // All asset paths are relative to the project root.
 // brand-assets/ folder must be at the root of the repo.
 // Copy of the CPG template structure; layout reads ONLY from
@@ -61,7 +61,7 @@ export const industryConfig = {
   // ── HERO ───────────────────────────────────────────────────
   hero: {
     headline: "Travel Marketing Can Finally <em>Move as Fast as Your Pricing</em>",
-    subheadline: "Kana gives travel teams rate alerts, loyalty offers matched to each member's tier, and outreach timed to when guests are ready to book — finally keeping pace with pricing.",
+    subheadline: "Kana gives travel teams rate alerts, loyalty offers matched to each member's tier, and outreach timed to when guests are ready to book, finally keeping pace with pricing.",
     primaryCta: { text: "Book a Demo", href: "/demo" },
     secondaryCta: { text: "See how it works", href: "#solutions" },
     image: "../../brand-assets/AVIF/6a073850eee60cd0e1af591d_Solutions.avif",
@@ -71,7 +71,7 @@ export const industryConfig = {
   painPoints: [
     {
       title: "Outreach runs on a calendar, not the guest's window.",
-      description: "Post-stay and win-back messages fire on fixed timers, not when a guest is ready to book again — even though CRM-acquired guests already rebook far more often than OTA-acquired ones.",
+      description: "Post-stay and win-back messages fire on fixed timers, not when a guest is ready to book again. CRM-acquired guests already rebook far more often than OTA-acquired ones.",
     },
     {
       title: "Personalization stuck in batch segments",
@@ -79,11 +79,11 @@ export const industryConfig = {
     },
     {
       title: "Rate changes require manual monitoring",
-      description: "A competitor drops rates and marketing hears about it from sales — days late. The rate shopper alerted revenue at 6am; marketing heard about it Thursday.",
+      description: "A competitor drops rates and marketing hears about it from sales, days late. The rate shopper alerted revenue at 6am; marketing heard about it Thursday.",
     },
   ],
 
-  // ── SOLUTIONS — 4 T&H-native Kana products ─────────────────
+  // ── SOLUTIONS: 4 T&H-native Kana products ─────────────────
   solutions: [
     {
       feature: "Personalization",
@@ -98,7 +98,7 @@ export const industryConfig = {
       feature: "Category Intelligence",
       roleLabel: "Built for E-Commerce & Digital Strategy Teams",
       title: "Know the rate move first",
-      description: "Category Intelligence watches competitive pricing daily and alerts you the moment something shifts, evidence included — not a secondhand report from sales days later. Your rate shopper watches prices for revenue; this watches them for marketing.",
+      description: "Category Intelligence watches competitive pricing daily and alerts you the moment something shifts, evidence included, rather than a secondhand report from sales days later. Your rate shopper watches prices for revenue; this watches them for marketing.",
       icon: "../../brand-assets/SVG/6a07370a2e3e29f5d03b13d9_Category Intelligence Hub.svg",
       image: "../../brand-assets/WEBP/69fb34a309b57c2ab7a2437c_f3e2b3b11b80faf9ae6c49a500d8353c_solutions_03_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc03bbf9cc8a6b457ff_solution-bg__3.jpg",
@@ -108,7 +108,7 @@ export const industryConfig = {
       feature: "Audience Builder",
       roleLabel: "Built for Loyalty & CRM Teams",
       title: "Build the list worth re-engaging",
-      description: "Audience Builder builds precise guest segments — lapsed members, recent cancellations, high-value repeat bookers — from your CRM and loyalty data. Win-back and anniversary lists reflect who's eligible today, not a static export.",
+      description: "Audience Builder builds precise guest segments (lapsed members, recent cancellations, high-value repeat bookers) from your CRM and loyalty data. Win-back and anniversary lists reflect who's eligible today, not a static export.",
       icon: "../../brand-assets/SVG/6a07370afa74e1a989f5eb11_Audience Manager.svg",
       image: "../../brand-assets/WEBP/69fb34a3693f25a94988df0e_5897b8bc1884f86278bb63a02dc23207_solutions_05_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc05e660038226b085c_solution-bg__5.jpg",
@@ -118,7 +118,7 @@ export const industryConfig = {
       feature: "Campaign Orchestrator",
       roleLabel: "Built for Lifecycle & Campaign Teams",
       title: "Catch drift before it costs the flight",
-      description: "Campaign Orchestrator watches live spend, flags channels that drift from the brief, and proposes a reallocation for approval — before the monthly readout catches it two weeks too late.",
+      description: "Campaign Orchestrator watches live spend, flags channels that drift from the brief, and proposes a reallocation for approval, before the monthly readout catches it two weeks too late.",
       icon: "../../brand-assets/SVG/69901757ec677b2ce290fcb4_Smarter Campaign Management.svg",
       image: "../../brand-assets/WEBP/69fb34a37abc32670956d9d8_22a3b8e403e4a9722e6b5bc578c29054_solutions_01_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc0a301e7e98b87934a_solution-bg__4.jpg",
@@ -144,11 +144,11 @@ export const industryConfig = {
   faq: [
     {
       q: "How does Kana connect to our hospitality stack?",
-      a: "Via API. Kana sits on your PMS, RMS, CRS, loyalty platform, and booking engine — Opera, Duetto, IDeaS, Salesforce, and more — no rip-and-replace, no migration. Kana's team handles setup; timelines depend on how many systems you connect."
+      a: "Via API. Kana sits on your PMS, RMS, CRS, loyalty platform, and booking engine (Opera, Duetto, IDeaS, Salesforce, and more) without a rip-and-replace or a migration. Kana's team handles setup; timelines depend on how many systems you connect."
     },
     {
       q: "How does Personalization decide which offer to send a loyalty member?",
-      a: "It reads recent activity — browsing, app opens, stays, tier status — and matches it to the best offer, so a top-tier member and a first-timer never get the same email. Every offer still follows your program's approval rules."
+      a: "It reads recent activity (browsing, app opens, stays, tier status) and matches it to the best offer, so a top-tier member and a first-timer never get the same email. Every offer still follows your program's approval rules."
     },
     {
       q: "How is Personalization different from Audience Builder and Campaign Orchestrator?",
@@ -156,7 +156,7 @@ export const industryConfig = {
     },
     {
       q: "How fast can a travel or hospitality team get live on Kana?",
-      a: "Most teams see value within 30 days. Onboarding starts with your top 3–5 data sources — Personalization on loyalty data, Category Intelligence on the rate topics you want watched. Audience Builder and Campaign Orchestrator layer in once those stabilize, with Kana's team involved throughout."
+      a: "Most teams see value within 30 days. Onboarding starts with your top 3–5 data sources: Personalization on loyalty data, Category Intelligence on the rate topics you want watched. Audience Builder and Campaign Orchestrator layer in once those stabilize, with Kana's team involved throughout."
     },
   ],
 
@@ -177,7 +177,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Campaign Orchestrator",
-        description: "Watches your live campaign spend across channels and flags when a channel drifts from the brief or stops earning its keep, proposing a reallocation for your approval instead of waiting for the weekly report. One system replaces the manual channel-by-channel spend review.",
+        description: "Watches your live campaign spend across channels and flags when a channel drifts from the brief or stops earning its keep. It proposes a reallocation for your approval instead of waiting for the weekly report. One system replaces the manual channel-by-channel spend review.",
         linkLabel: "See Campaign Orchestrator",
         linkHref: "#solution-row-3"
       }
@@ -192,12 +192,12 @@ export const industryConfig = {
           text: "The rate shopper alerts revenue, but marketing has no equivalent.",
         },
         {
-          text: "Every point of direct-booking share is worth 15–25% in avoided OTA commission — the response toolkit is a quarterly calendar.",
+          text: "Every point of direct-booking share is worth 15–25% in avoided OTA commission, and the response toolkit is still a quarterly calendar.",
         }
       ],
       solution: {
         name: "Category Intelligence",
-        description: "Runs a daily watch on competitive pricing signals and surfaces alerts with the cited evidence behind them, so marketing reacts in the same news cycle as the rate change, not the one after.",
+        description: "Runs a daily watch on competitive pricing signals and surfaces alerts with the cited evidence behind them, so marketing reacts in the same news cycle as the rate change instead of the next one.",
         linkLabel: "See Category Intelligence",
         linkHref: "#solution-row-1"
       }
@@ -212,12 +212,12 @@ export const industryConfig = {
           text: "Travel intent and tier signals never reach the campaign logic supposed to act on them.",
         },
         {
-          text: "CRM-acquired guests rebook at several times the rate of OTA-acquired ones — but batch timing wastes that advantage.",
+          text: "CRM-acquired guests rebook at several times the rate of OTA-acquired ones, but batch timing wastes that advantage.",
         }
       ],
       solution: {
         name: "Audience Builder",
-        description: "Builds precise, suppressed guest segments from behavioral and loyalty signals, then hands them to Personalization and Campaign Orchestrator to act on — so outreach targets who's actually eligible today, not a static scheduled list.",
+        description: "Builds precise, suppressed guest segments from behavioral and loyalty signals, then hands them to Personalization and Campaign Orchestrator to act on. Outreach targets who's actually eligible today, instead of a static scheduled list.",
         linkLabel: "See Audience Builder",
         linkHref: "#solution-row-2"
       }
@@ -237,7 +237,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Personalization",
-        description: "Turns loyalty member activity into a next-best offer for each member — channel, content, and timing calibrated to who they are and where they are in the relationship — routed through your team's approval before it reaches anyone. It runs on the CRM and loyalty data you already have connected.",
+        description: "Turns loyalty member activity into a next-best offer for each member: channel, content, and timing calibrated to who they are and where they are in the relationship. Each offer routes through your team's approval before it reaches anyone. It runs on the CRM and loyalty data you already have connected.",
         linkLabel: "See Personalization",
         linkHref: "#solution-row-0"
       }
@@ -246,7 +246,7 @@ export const industryConfig = {
       role: "VP Commercial / Director of Marketing",
       painPoints: [
         {
-          text: "58% of travelers now plan with AI tools, and the board wants an AI-personalization story — loyalty campaigns still run one-size-fits-all (Arival).",
+          text: "58% of travelers now plan with AI tools, and the board wants an AI-personalization story, but loyalty campaigns still run one-size-fits-all (Arival).",
         },
         {
           text: "Guests who redeem a personalized offer are worth more over time, but the stack can only prove it after the campaign.",
@@ -257,7 +257,7 @@ export const industryConfig = {
       ],
       solution: {
         name: "Personalization",
-        description: "The platform anchor: tier-aware offer recommendations that turn the loyalty program's existing guest data into an active growth channel, not a once-a-quarter batch send. 'AI-personalized' becomes something the guest actually experiences, not just a board slide.",
+        description: "This is the platform anchor: tier-aware offer recommendations that turn the loyalty program's existing guest data into an active growth channel instead of a once-a-quarter batch send. 'AI-personalized' becomes something the guest actually experiences, not just a board slide.",
         linkLabel: "See Personalization",
         linkHref: "#solution-row-0"
       }
@@ -284,7 +284,7 @@ export const industryConfig = {
       },
       {
         title: "Build the list that matters",
-        description: "Guest segments build directly from your CRM and loyalty data — lapsed members, cancellations, high-value repeat bookers — so outreach reflects who's actually eligible today.",
+        description: "Guest segments build directly from your CRM and loyalty data (lapsed members, cancellations, high-value repeat bookers), so outreach reflects who's actually eligible today.",
         linkLabel: "Learn more about Audience Builder",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a3693f25a94988df0e_5897b8bc1884f86278bb63a02dc23207_solutions_05_2x.webp"
@@ -293,7 +293,7 @@ export const industryConfig = {
   },
 
   // ── FEATURED CONTENT ───────────────────────────────────────
-  // Narrow, contrasting band. Holds one piece — blog, white paper,
+  // Narrow, contrasting band. Holds one piece: blog, white paper,
   // webcast, or case study. Omit this key to hide the section.
   featuredContent: {
     heading: "Read our latest content for travel & hospitality teams",
@@ -315,7 +315,7 @@ export const industryConfig = {
       { text: "Snowflake", className: "color-snowflake" },
       { text: "your stack", className: "color-kana" },
     ],
-    subtitle: "Kana connects to your PMS, RMS, CRS, loyalty platform, and booking engine — Opera, Duetto, IDeaS, Salesforce, and more — no rip-and-replace, no migration.",
+    subtitle: "Kana connects to your PMS, RMS, CRS, loyalty platform, and booking engine (Opera, Duetto, IDeaS, Salesforce, and more) without a rip-and-replace or a migration.",
     columns: [
       {
         title: "Turn loyalty data into a channel",
@@ -324,7 +324,7 @@ export const industryConfig = {
       },
       {
         title: "Give marketing its own rate shopper",
-        description: "Category Intelligence: daily rate monitoring that hands marketing the alert and evidence directly — no secondhand version.",
+        description: "Category Intelligence: daily rate monitoring that hands marketing the alert and evidence directly, skipping the secondhand version.",
         image: "../../brand-assets/WEBP/69fb34a309b57c2ab7a2437c_f3e2b3b11b80faf9ae6c49a500d8353c_solutions_03_2x.webp"
       },
       {
