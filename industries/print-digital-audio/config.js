@@ -59,7 +59,7 @@ export const industryConfig = {
 
   // ── HERO ───────────────────────────────────────────────────
   hero: {
-    headline: "Publishers Are Navigating a <em>Structural Revenue Shift</em>",
+    headline: "Turn the Revenue Shift <em>Into Your Advantage</em>",
     subheadline: "Kana gives publisher teams the activation, retention, and ops layer their revenue lines are missing, built for cookie loss, softening CPMs, and AI answer engines at once.",
     primaryCta: { text: "Book a Demo", href: "/demo" },
     secondaryCta: { text: "See how it works", href: "#solutions" },

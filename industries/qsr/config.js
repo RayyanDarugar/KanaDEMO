@@ -60,7 +60,7 @@ export const industryConfig = {
 
   // ── HERO ───────────────────────────────────────────────────
   hero: {
-    headline: "QSR Brands Can't Localize <em>at the Speed of Real Life</em>",
+    headline: "Localize Every Offer <em>at the Speed of Real Life</em>",
     subheadline: "Kana gives QSR marketers budget that keeps pace with what's converting, offers that respect real kitchen conditions, and targeting that shifts with demand, at scale, store by store.",
     primaryCta: { text: "Book a Demo", href: "/demo" },
     secondaryCta: { text: "See how it works", href: "#solutions" },
