@@ -61,7 +61,7 @@ export const industryConfig = {
   // ── HERO ───────────────────────────────────────────────────
   hero: {
     headline: "Travel Marketing Can Finally <em>Move as Fast as Your Pricing</em>",
-    subheadline: "Kana keeps rate alerts, loyalty offers, and guest outreach moving as fast as your pricing does.",
+    subheadline: "Kana gives travel teams rate alerts, loyalty offers matched to each member's tier, and outreach timed to when guests are ready to book — finally keeping pace with pricing.",
     primaryCta: { text: "Book a Demo", href: "/demo" },
     secondaryCta: { text: "See how it works", href: "#solutions" },
     image: "../../brand-assets/AVIF/6a073850eee60cd0e1af591d_Solutions.avif",

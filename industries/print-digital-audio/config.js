@@ -60,7 +60,7 @@ export const industryConfig = {
   // ── HERO ───────────────────────────────────────────────────
   hero: {
     headline: "Publishers Are Navigating a <em>Structural Revenue Shift</em>",
-    subheadline: "Kana gives publisher teams the activation, retention, and ops layer their revenue lines are missing — built for the pressures reshaping publishing today.",
+    subheadline: "Kana gives publisher teams the activation, retention, and ops layer their revenue lines are missing — built for cookie loss, softening CPMs, and AI answer engines at once.",
     primaryCta: { text: "Book a Demo", href: "/demo" },
     secondaryCta: { text: "See how it works", href: "#solutions" },
     image: "../../brand-assets/AVIF/6a0738509e86699ed6c6bd9e_Solutions-1.avif",

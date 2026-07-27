@@ -61,7 +61,7 @@ export const industryConfig = {
   // ── HERO ───────────────────────────────────────────────────
   hero: {
     headline: "QSR Brands Can't Localize <em>at the Speed of Real Life</em>",
-    subheadline: "Kana gives QSR marketers budget, offers, and targeting that move as fast as demand does — store by store.",
+    subheadline: "Kana gives QSR marketers budget that keeps pace with what's converting, offers that respect real kitchen conditions, and targeting that shifts with demand — at scale, store by store.",
     primaryCta: { text: "Book a Demo", href: "/demo" },
     secondaryCta: { text: "See how it works", href: "#solutions" },
     image: "../../brand-assets/AVIF/6a0738509e86699ed6c6bd9e_Solutions-1.avif",

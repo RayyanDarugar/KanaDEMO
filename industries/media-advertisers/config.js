@@ -62,7 +62,7 @@ export const industryConfig = {
   // ── HERO ───────────────────────────────────────────────────
   hero: {
     headline: "Your Signals Already Point to <em>Subscription Growth</em>",
-    subheadline: "Kana turns last night's viewing into today's best offer, before the moment passes.",
+    subheadline: "The best signal for what a subscriber wants next is what they did last night — Kana turns it into sharper recommendations, faster offer tests, and better-timed win-backs.",
     primaryCta: { text: "Book a Demo", href: "/demo" },
     secondaryCta: { text: "See how it works", href: "#solutions" },
     image: "../../brand-assets/AVIF/6a073850eee60cd0e1af591d_Solutions.avif",

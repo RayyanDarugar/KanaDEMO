@@ -59,7 +59,7 @@ export const industryConfig = {
   // ── HERO ───────────────────────────────────────────────────
   hero: {
     headline: "Media Networks Are Undermonetizing <em>Their First-Party Advantage</em>",
-    subheadline: "Kana is the agentic layer that turns your first-party data — the asset walled gardens can't replicate — into the scale to compete with Amazon and Walmart.",
+    subheadline: "Kana is the agentic layer that gives retail media networks walled-garden-grade measurement, audiences, and self-serve — turning the first-party data walled gardens can't replicate into the scale to compete.",
     primaryCta: { text: "Book a Demo", href: "/demo" },
     secondaryCta: { text: "See how it works", href: "#solutions" },
     image: "../../brand-assets/AVIF/6a0738509e86699ed6c6bd9e_Solutions-1.avif",

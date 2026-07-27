@@ -61,7 +61,7 @@ export const industryConfig = {
   // ── HERO ───────────────────────────────────────────────────
   hero: {
     headline: "Healthcare Marketers Are Underserving <em>Members at Critical Moments</em>",
-    subheadline: "Kana turns your member data into personalization that works within HIPAA's guardrails, not despite them.",
+    subheadline: "Kana turns the member data health plans and hospital systems already hold into personalization that works within HIPAA's guardrails, not despite them — no fragmented systems, no batch-and-blast.",
     primaryCta: { text: "Book a Demo", href: "/demo" },
     secondaryCta: { text: "See how it works", href: "#solutions" },
     image: "../../brand-assets/AVIF/6a073850eee60cd0e1af591d_Solutions.avif",
