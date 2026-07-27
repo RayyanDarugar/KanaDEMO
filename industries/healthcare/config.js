@@ -60,7 +60,7 @@ export const industryConfig = {
 
   // ── HERO ───────────────────────────────────────────────────
   hero: {
-    headline: "Healthcare Marketers Are Underserving <em>Members at Critical Moments</em>",
+    headline: "Reach Every Member <em>at the Moment That Matters</em>",
     subheadline: "Kana turns the member data health plans and hospital systems already hold into personalization that works within HIPAA's guardrails, not despite them. No fragmented systems, no batch-and-blast.",
     primaryCta: { text: "Book a Demo", href: "/demo" },
     secondaryCta: { text: "See how it works", href: "#solutions" },
