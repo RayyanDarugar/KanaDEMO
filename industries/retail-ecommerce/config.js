@@ -60,7 +60,7 @@ export const industryConfig = {
   // ── HERO ───────────────────────────────────────────────────
   hero: {
     headline: "The AI Marketing Platform <em>Built for Retail & E-Commerce</em>",
-    subheadline: "Kana gives retail teams early churn signals, trade-meeting answers in seconds, and one grounded number for what digital spend is actually doing — so the team is always acting on a customer earlier than the report can name one.",
+    subheadline: "Kana gives retail teams the signal to act on a customer before it ever shows up in a report.",
     primaryCta: { text: "Book a Demo", href: "/demo" },
     secondaryCta: { text: "See how it works", href: "#solutions" },
     image: "../../brand-assets/AVIF/6a073850eee60cd0e1af591d_Solutions.avif",
@@ -70,15 +70,15 @@ export const industryConfig = {
   painPoints: [
     {
       title: "Catch the customer while they're still yours to keep",
-      description: "70–77% of first-time e-commerce customers never come back, and churn typically only surfaces as a lagging line in the monthly cohort report. Personalization reads declining frequency, shrinking baskets, and fading engagement well before the report catches up, so retention teams can act weeks before it would show up as a churn statistic.",
+      description: "Most first-time e-commerce customers never return, and churn usually only surfaces in next month's report. Personalization flags at-risk customers weeks earlier, while retention teams can still act.",
     },
     {
       title: "One number the whole room agrees on",
-      description: "Roughly 84% of US retail sales still close in-store, and every ad platform reports its own conversion count. Marketing Intelligence connects ad platforms, POS, and analytics into a single live view, so the CFO conversation starts from one trusted number instead of three competing ones.",
+      description: "Roughly 84% of US retail sales close in-store, yet every ad platform counts conversions its own way. Marketing Intelligence gives the CFO one number to trust.",
     },
     {
       title: "Launch inside the promo window, every time",
-      description: "Audience Builder turns a plain-language brief into a live segment in minutes, no data-team SQL queue, no multi-day batch refresh. BFCM, back-to-school, and clearance campaigns launch on the list built for that moment.",
+      description: "Audience Builder turns a brief into a live segment in minutes, no SQL, no batch delay. Campaigns launch on time.",
     },
   ],
 
@@ -88,7 +88,7 @@ export const industryConfig = {
       feature: "Personalization",
       roleLabel: "Built for Lifecycle & Retention Teams",
       title: "Catch churn weeks before it reaches the retention report",
-      description: "Personalization connects to the CRM, loyalty, and marketing automation systems you already run and scores every customer's churn risk well ahead of the retention report, reading declining purchase frequency, shrinking baskets, and fading engagement. It explains why each cohort is at risk and recommends the intervention worth making: message, channel, timing, and offer. Retention spend stops subsidizing customers who were coming back anyway and starts saving the ones who weren't.",
+      description: "Personalization scores every customer's churn risk weeks ahead of the retention report and recommends the intervention worth making. Retention spend stops subsidizing customers who were coming back anyway and starts saving the ones who weren't.",
       icon: "../../brand-assets/SVG/699017586c99f26d8f0a4085_Customer Engagement.svg",
       image: "../../brand-assets/WEBP/69fb34a3244de10cf3d7a9a5_5b797b2c34c52d464bce0b2b1d520ea3_solutions_04_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc05e660038226b085c_solution-bg__5.jpg",
@@ -98,7 +98,7 @@ export const industryConfig = {
       feature: "Marketing Intelligence",
       roleLabel: "Built for CMOs & VP Analytics",
       title: "Connect digital spend to register revenue",
-      description: "Marketing Intelligence unifies your ad platforms, e-commerce analytics, POS, and loyalty data so you can ask in plain language instead of reconciling numbers from a dozen tools for hours every week. You walk into the board meeting with the answer already grounded in your own data, not a dashboard full of platform-reported guesses.",
+      description: "Marketing Intelligence unifies your ad, e-commerce, POS, and loyalty data, so plain-language questions replace hours of reconciling numbers. You walk into the meeting with an answer grounded in your own data.",
       icon: "../../brand-assets/SVG/699017579f378c81f5094a40_Analytics.svg",
       image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc0a301e7e98b87934a_solution-bg__4.jpg",
@@ -108,7 +108,7 @@ export const industryConfig = {
       feature: "Category Intelligence",
       roleLabel: "Built for Category Managers & Merchants",
       title: "Walk into the Monday trade meeting with answers, not exports",
-      description: "Category Intelligence watches the external category signals that shape the Monday trade meeting — competitor moves, category trends, promo benchmarks — and answers merchant questions in seconds with a cited, dated record. The weekly trade pack stops being an hours-long spreadsheet marathon, and markdown and allocation decisions stop waiting for the numbers to be assembled.",
+      description: "Category Intelligence tracks competitor moves, category trends, and promo benchmarks, and answers merchant questions in seconds with a cited, dated record. The weekly trade pack builds itself.",
       icon: "../../brand-assets/SVG/6a07370a2e3e29f5d03b13d9_Category Intelligence Hub.svg",
       image: "../../brand-assets/WEBP/69fb34a309b57c2ab7a2437c_f3e2b3b11b80faf9ae6c49a500d8353c_solutions_03_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc03bbf9cc8a6b457ff_solution-bg__3.jpg",
@@ -118,7 +118,7 @@ export const industryConfig = {
       feature: "Audience Builder",
       roleLabel: "Built for Marketing Ops & Campaign Teams",
       title: "Brief to live segment inside the promo window",
-      description: "Audience Builder lets campaign teams build, validate, and activate segments in plain language, no SQL, no data engineering queue, with one canonical audience definition and reach estimated across Meta, Google, and TikTok before a dollar goes out the door. Synthetic audiences help you target new store regions and categories ahead of first-party data, and every segment traces back to the brief it came from.",
+      description: "Audience Builder lets campaign teams build and activate segments in plain language, no SQL, no engineering queue, with reach estimated across Meta, Google, and TikTok before a dollar goes out.",
       icon: "../../brand-assets/SVG/6a07370afa74e1a989f5eb11_Audience Manager.svg",
       image: "../../brand-assets/WEBP/69fb34a3693f25a94988df0e_5897b8bc1884f86278bb63a02dc23207_solutions_05_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc06860bd14e53863fb_solution-bg__7.jpg",
@@ -128,7 +128,7 @@ export const industryConfig = {
       feature: "Omni-Channel Media Planner",
       roleLabel: "Built for VP E-Commerce & Growth",
       title: "Reallocate on modeled ROAS, not platform self-grades",
-      description: "The Omni-Channel Media Planner models saturation curves against your own campaign history and turns a brief straight into the right targeting setup across Meta, YouTube, The Trade Desk, and DV360. With CAC up 60% in five years, budget stops following last year's channel mix and starts following modeled marginal return, including scenario plans at -20%, baseline, and +20% spend.",
+      description: "The Omni-Channel Media Planner models saturation curves against your own campaign history across Meta, YouTube, The Trade Desk, and DV360. With CAC up 60% in five years, budget follows modeled marginal return, not last year's channel mix.",
       icon: "../../brand-assets/SVG/69901757be05292281eee76e_Media Proposal Generation.svg",
       image: "../../brand-assets/WEBP/69fb34a37abc32670956d9d8_22a3b8e403e4a9722e6b5bc578c29054_solutions_01_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc04b820e89c641b48b_solution-bg__1.jpg",
@@ -155,15 +155,15 @@ export const industryConfig = {
   faq: [
     {
       q: "How does Kana connect to our commerce stack?",
-      a: "Via API. Kana sits on top of Shopify, Salesforce, Klaviyo, your POS, and your loyalty platform (zero-copy, no warehouse migration, no rip-and-replace). Kana's solutions team handles setup, typically in 2–4 weeks depending on how many systems you're connecting."
+      a: "Via API. Kana sits on top of Shopify, Salesforce, Klaviyo, your POS, and your loyalty platform, zero-copy, no migration. Setup typically takes 2–4 weeks, handled by Kana's solutions team."
     },
     {
       q: "What data does Personalization need to predict churn?",
-      a: "It works from the systems you already run: CRM, loyalty, and marketing automation. Kana reads lifecycle patterns like activation, purchase frequency, and spend to score churn risk, surfacing at-risk cohorts weeks before they lapse. Every recommended intervention goes through your team's review and approval."
+      a: "It reads the CRM, loyalty, and marketing automation data you already have, tracking purchase frequency and spend to flag at-risk cohorts weeks before they lapse. Every recommendation goes through your team's approval."
     },
     {
       q: "How fast can a retail team get live on Kana?",
-      a: "Most retail teams see value within the first 30 days. Onboarding starts by connecting your top 3–5 data sources and configuring Personalization and Marketing Intelligence to your channel mix. Audience Builder layers in once those core connections are stable. Kana's solutions team works with you throughout."
+      a: "Most retail teams see value within 30 days: onboarding connects your top 3–5 data sources, configures Personalization and Marketing Intelligence, then layers in Audience Builder once those connections are stable. Kana's solutions team works with you throughout."
     },
   ],
 
@@ -179,7 +179,7 @@ export const industryConfig = {
           text: "Win-back defaults to blanket discounts that burn margin on shoppers who would have returned at full price anyway.",
         },
         {
-          text: "89% of executives believe loyalty is up while only 39% of consumers agree, and the cohort data sides with the consumers (NIQ).",
+          text: "89% of executives believe loyalty is up; only 39% of consumers agree (NIQ).",
         }
       ],
       solution: {
@@ -277,7 +277,7 @@ export const industryConfig = {
     columns: [
       {
         title: "Save the customer before the lapse",
-        description: "Churn risk scores from the loyalty and CRM data you already own. See which cohorts are slipping, why, and which intervention is worth the margin, weeks before the retention report says it's too late.",
+        description: "See which cohorts are slipping, and which intervention is worth the margin, weeks before the retention report catches on.",
         linkLabel: "Learn more about Personalization",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a3244de10cf3d7a9a5_5b797b2c34c52d464bce0b2b1d520ea3_solutions_04_2x.webp"
@@ -322,21 +322,21 @@ export const industryConfig = {
       { text: "BigQuery", className: "color-bigquery" },
       { text: "your stack", className: "color-kana" },
     ],
-    subtitle: "By acting as the marketing operating layer, Kana connects to Shopify, Salesforce, Klaviyo, your POS, and your loyalty platform, no migration, no rip-and-replace, no new governance gaps.",
+    subtitle: "Kana connects to Shopify, Salesforce, Klaviyo, your POS, and your loyalty platform — no migration, no rip-and-replace.",
     columns: [
       {
         title: "Turn your loyalty data into an early-warning system",
-        description: "Personalization: plugs into the CRM, loyalty, and automation systems you already run, scores churn risk well before it shows up in the monthly report, and routes every recommended intervention through your team's approval. Retention becomes a compounding learning loop, not a monthly report.",
+        description: "Personalization scores churn risk weeks ahead of the monthly report, and every recommendation goes through your team's approval. Retention becomes a compounding advantage.",
         image: "../../brand-assets/WEBP/69fb34a3244de10cf3d7a9a5_5b797b2c34c52d464bce0b2b1d520ea3_solutions_04_2x.webp"
       },
       {
         title: "Unify every channel without moving a single record",
-        description: "Marketing Intelligence: zero-copy architecture sits on top of your ad platforms, e-commerce analytics, POS, and loyalty data. One customer definition, one live view, plain-language questions, no warehouse migration, no analyst queue.",
+        description: "Marketing Intelligence sits on top of your ad, e-commerce, POS, and loyalty data, zero-copy, no migration — one live view, answered in plain language.",
         image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp"
       },
       {
         title: "Launch new stores and markets before the data exists",
-        description: "Audience Builder: when a new region or category means no local first-party seed data, synthetic audiences give you a statistically sound starting point on day one, refined as real signal comes in.",
+        description: "Audience Builder: synthetic audiences give new regions and categories a sound starting point on day one, refined as real signal comes in.",
         image: "../../brand-assets/WEBP/69fb34a30469825a78728f33_bbf22870ed50f2db542dcc3757717812_solutions_06_2x.webp"
       }
     ]

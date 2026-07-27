@@ -59,7 +59,7 @@ export const industryConfig = {
   // ── HERO ───────────────────────────────────────────────────
   hero: {
     headline: "Streaming Platforms Are Caught <em>Between Revenue and Experience</em>",
-    subheadline: "Maximizing ad revenue and subscriber LTV while protecting the viewer experience that keeps subscribers engaged — neither goal is achievable on the batch workflows and manual ops models most platforms still run. Kana closes the gap between the signal and the action, without the data-team queue in between.",
+    subheadline: "Kana closes the gap between the churn signal and the retention action, so growing revenue never costs you the viewer experience — no data-team queue in between.",
     primaryCta: { text: "Book a Demo", href: "/demo" },
     secondaryCta: { text: "See how it works", href: "#solutions" },
     image: "../../brand-assets/AVIF/6a0738509e86699ed6c6bd9e_Solutions-1.avif",
@@ -68,16 +68,16 @@ export const industryConfig = {
   // ── PAIN POINTS ─────────────────────
   painPoints: [
     {
-      title: "Your churn model scored them at risk on Tuesday. They cancelled Wednesday. The campaign went out Friday.",
-      description: "Churn models exist at every serious platform — but by the time risk scores travel from the warehouse through a batch export into a campaign, at-risk subscribers have often already cancelled. Intervention needs to happen at the behavioral signal, not days later.",
+      title: "The churn model flagged them Tuesday. They cancelled before the campaign shipped Friday.",
+      description: "A risk score that takes days to reach a campaign is already too late — the subscriber's usually gone. Act on the signal, not after it.",
     },
     {
-      title: "Your ad load policy is a retention policy, whether you treat it that way or not",
-      description: "Ad break frequency, pod length, and interruption timing are set as static rules — not adjusted for viewer engagement, content type, session depth, or real-time yield. Meanwhile, cancellations citing excessive ads now account for 4% of all US paid streaming churn, and rose 8% in a single quarter.",
+      title: "Your ad load policy doubles as a retention policy.",
+      description: "Ad breaks still run on static rules — and cancellations citing excessive ads already drive 4% of US paid-streaming churn, a share that's climbing fast.",
     },
     {
-      title: "Content ROI is opaque until long after the greenlight mattered",
-      description: "Greenlight and renewal decisions rely on incomplete visibility into how titles actually drive subscriber acquisition, retention uplift, and long-term engagement. The evidence arrives quarters after release — which forces instinct to fill the gap while the biggest cost line on the P&L is decided.",
+      title: "Content ROI stays opaque past the greenlight.",
+      description: "Greenlight and renewal calls run on incomplete visibility into what a title drives. Evidence lands quarters after release — after the P&L's biggest line is decided.",
     },
   ],
 
@@ -86,8 +86,8 @@ export const industryConfig = {
     {
       feature: "Personalization",
       roleLabel: "Built for Lifecycle & Retention Teams",
-      title: "Retention action at the moment of the churn signal",
-      description: "Personalization flags churn risk while there's still time to act and prepares the tailored retention offer or content recommendation for your team to approve — turning a warehouse risk score into a launch-ready intervention before the cancellation happens. The gap between your data science team's churn model and your engagement platform's campaign send closes to a single review-and-approve step, not a batch-export queue.",
+      title: "Retention action at the churn signal",
+      description: "Personalization flags churn risk while there's still time to act, and prepares a tailored offer or recommendation for your team to approve — turning a risk score into a launch-ready intervention before the subscriber cancels.",
       icon: "../../brand-assets/SVG/699017586c99f26d8f0a4085_Customer Engagement.svg",
       image: "../../brand-assets/WEBP/69fb34a3244de10cf3d7a9a5_5b797b2c34c52d464bce0b2b1d520ea3_solutions_04_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc04b820e89c641b48b_solution-bg__1.jpg",
@@ -95,8 +95,8 @@ export const industryConfig = {
     {
       feature: "Campaign Orchestrator",
       roleLabel: "Built for Ad Product & Yield Teams",
-      title: "Ad load intelligence instead of fixed rules",
-      description: "Campaign Orchestrator surfaces delivery risk and revenue-at-risk across your ad operations, so ops and ad product teams catch under-delivery and yield problems before they cost a makegood — without waiting on a stitched spreadsheet or a support ticket. Pacing decisions get made on evidence pulled straight from your ad server, not a quarterly review cycle.",
+      title: "Ad load intelligence over fixed rules",
+      description: "Campaign Orchestrator surfaces delivery risk and revenue-at-risk before they cost a makegood. Pacing decisions run on evidence straight from your ad server, not a quarterly review.",
       icon: "../../brand-assets/SVG/69901757ec677b2ce290fcb4_Smarter Campaign Management.svg",
       image: "../../brand-assets/WEBP/69fb34a37abc32670956d9d8_22a3b8e403e4a9722e6b5bc578c29054_solutions_01_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc03bbf9cc8a6b457ff_solution-bg__3.jpg",
@@ -104,8 +104,8 @@ export const industryConfig = {
     {
       feature: "Campaign Orchestrator",
       roleLabel: "Built for Content Strategy & Insights Teams",
-      title: "Content ROI evidence while the flight is still in the air",
-      description: "Campaign Orchestrator synthesizes viewership, subscriber impact, and engagement data into content ROI intelligence that informs both in-flight optimization and future investment decisions. Instead of assembling the title's acquisition and retention story quarters after release, your insights team walks into the greenlight committee with evidence that's current — completion, engagement, and subscriber impact as it accrues.",
+      title: "Content ROI, while it's still actionable",
+      description: "Campaign Orchestrator turns viewership, subscriber impact, and engagement data into content ROI intelligence — current for in-flight optimization and the next greenlight, not stitched together quarters after release.",
       icon: "../../brand-assets/SVG/699017579f378c81f5094a40_Analytics.svg",
       image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc0a301e7e98b87934a_solution-bg__4.jpg",
@@ -149,15 +149,15 @@ export const industryConfig = {
   faq: [
     {
       q: "We already have churn models. What does Personalization add?",
-      a: "The action layer. Most platforms' churn scores land in a warehouse table and wait for a batch export before marketing can respond — and by then, at-risk subscribers have often already cancelled. Personalization connects the behavioral signal directly to a ready-to-send intervention: the moment a risk threshold is crossed, the tailored offer or content recommendation is drafted and waiting for your team to approve and launch."
+      a: "The action layer. Most churn scores wait for a batch export before reaching marketing — by then, at-risk subscribers have often cancelled. Personalization connects the signal directly to a ready-to-send intervention, drafted the moment risk crosses threshold and waiting on your approval."
     },
     {
       q: "Does Campaign Orchestrator replace our ad server?",
-      a: "No — it's the intelligence layer on top of it. Your ad server keeps serving; Campaign Orchestrator watches delivery and yield against it, flags what's at risk with the revenue impact quantified, and lets your ops and ad product teams act on evidence instead of a stitched spreadsheet."
+      a: "No — it's the intelligence layer on top. Campaign Orchestrator watches delivery and yield, flags what's at risk with revenue impact quantified, so your team acts on evidence instead of a stitched spreadsheet."
     },
     {
       q: "How does the content ROI intelligence actually work?",
-      a: "Campaign Orchestrator answers content-adjacent delivery and yield questions your team used to wait a quarter for — ask which titles' campaigns are pacing and monetizing well right now, and get a grounded answer with drill-downs instead of a stitched dashboard."
+      a: "Campaign Orchestrator answers delivery and yield questions your team used to wait a quarter for — which titles are pacing and monetizing well right now, with a grounded answer and drill-downs."
     },
   ],
 
@@ -167,13 +167,13 @@ export const industryConfig = {
       role: "Lifecycle / Retention Marketing Lead",
       painPoints: [
         {
-          text: "Churn risk scores reach the marketing layer through batch exports — the intervention arrives days after the signal.",
+          text: "By the time a churn score reaches marketing, the signal is days old.",
         },
         {
-          text: "Cancel-save flows are static decision trees, refreshed manually after each experiment readout.",
+          text: "Cancel-save flows are static trees, updated manually after each test.",
         },
         {
-          text: "Serial churners cancel and return constantly — 42% have cancelled a premium service five or more times in two years — and generic offers don't move them.",
+          text: "42% of serial churners have cancelled a premium service five or more times in two years — generic offers don't move them.",
         }
       ],
       solution: {
@@ -187,13 +187,13 @@ export const industryConfig = {
       role: "Ad Product / Yield Manager",
       painPoints: [
         {
-          text: "Ad break frequency, pod length, and interruption timing are static rules — blind to engagement, content type, and session depth.",
+          text: "Ad breaks run on static rules, blind to engagement and content.",
         },
         {
-          text: "Ad-volume complaints are now a measurable churn line: 4% of all US paid streaming cancellations, and climbing.",
+          text: "Ad-volume complaints are a measurable churn line — 4% of all US paid streaming cancellations, and climbing.",
         },
         {
-          text: "Every load or pod change routes through a product cycle, so yield opportunities expire before the rule ships.",
+          text: "Load changes route through a product cycle; yield opportunities expire before the rule ships.",
         }
       ],
       solution: {
@@ -207,13 +207,13 @@ export const industryConfig = {
       role: "Director, Content Strategy & Insights",
       painPoints: [
         {
-          text: "Greenlight and renewal decisions rely on incomplete visibility into how titles drive acquisition, retention uplift, and long-term engagement.",
+          text: "Greenlight and renewal decisions rely on incomplete visibility into what a title drives.",
         },
         {
-          text: "Title performance stories are stitched together from dashboards quarters after release.",
+          text: "Title performance stories are stitched from dashboards, quarters after release.",
         },
         {
-          text: "The board wants ROI gates on the biggest cost line on the P&L, and instinct is what's filling the evidence gap.",
+          text: "The board wants ROI gates on the biggest line on the P&L — instinct fills the gap.",
         }
       ],
       solution: {
@@ -227,13 +227,13 @@ export const industryConfig = {
       role: "Data & Identity Lead",
       painPoints: [
         {
-          text: "One viewer appears as four different users across mobile, smart TV, laptop, and tablet.",
+          text: "One viewer appears as four users across mobile, smart TV, laptop, and tablet.",
         },
         {
-          text: "Every device platform runs its own identifier scheme, so the graphs never reconcile on their own.",
+          text: "Every device runs its own identifier scheme; the graphs never reconcile on their own.",
         },
         {
-          text: "Fragmented identity degrades everything downstream at once — recommendation relevance, ad targeting precision, and the audience segments sales can command a premium for.",
+          text: "Fragmented identity degrades recommendation relevance, targeting precision, and the premium sales can command.",
         }
       ],
       solution: {
@@ -247,25 +247,25 @@ export const industryConfig = {
 
   // ── INTERACTIVE SHOWCASE ──────────────────────────────────
   showcase: {
-    headline: "Revenue and experience aren't a tradeoff.<br>They're one real-time optimization.",
+    headline: "Revenue and experience, one real-time optimization.",
     columns: [
       {
-        title: "Intervene before the cancellation, not after",
-        description: "Behavioral churn signals surface tailored offers and recommendations ready to approve — the retention infrastructure your churn model has been waiting for.",
+        title: "Intervene before the cancellation",
+        description: "Churn signals surface a ready-to-approve offer — the retention layer that was missing.",
         linkLabel: "Learn more about Personalization",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a3244de10cf3d7a9a5_5b797b2c34c52d464bce0b2b1d520ea3_solutions_04_2x.webp"
       },
       {
-        title: "Price every ad break against the viewer in front of you",
-        description: "Delivery and yield intelligence, current as of this morning's sync — revenue-at-risk ranked worst-first, instead of static rules and quarterly overrides.",
+        title: "Price every ad break to the viewer.",
+        description: "Delivery and yield intelligence, current as of this morning — revenue-at-risk ranked worst-first.",
         linkLabel: "Learn more about Campaign Orchestrator",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a37abc32670956d9d8_22a3b8e403e4a9722e6b5bc578c29054_solutions_01_2x.webp"
       },
       {
-        title: "Know what a title is doing for the business — now",
-        description: "Delivery and yield performance synthesized as it accrues, so ad operations decisions run on evidence instead of quarters-old retrospectives.",
+        title: "Know a title's business impact — now.",
+        description: "Delivery and yield, current as it accrues — not a quarters-old retrospective.",
         linkLabel: "Learn more about Campaign Orchestrator",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp"
@@ -283,21 +283,21 @@ export const industryConfig = {
       { text: "BigQuery", className: "color-bigquery" },
       { text: "your stack", className: "color-kana" },
     ],
-    subtitle: "Connects to your ad server, engagement platform, data warehouse, and identity stack — no rip-and-replace, no engineering queue, no new governance gaps.",
+    subtitle: "Connects to your ad server, engagement platform, warehouse, and identity stack — no rip-and-replace.",
     columns: [
       {
         title: "Close the signal-to-action gap",
-        description: "Personalization — churn-model outputs connected directly to intervention triggers, working with your existing engagement platform and warehouse instead of around them.",
+        description: "Personalization — churn-model outputs wired to intervention triggers, on the stack you already run.",
         image: "../../brand-assets/WEBP/69fb34a3244de10cf3d7a9a5_5b797b2c34c52d464bce0b2b1d520ea3_solutions_04_2x.webp"
       },
       {
-        title: "Put intelligence on top of the ad server",
-        description: "Campaign Orchestrator — pacing and yield intelligence over the delivery systems you already run, current as of this morning's sync, so optimization stops waiting on override cycles.",
+        title: "Intelligence layered on your ad server.",
+        description: "Campaign Orchestrator — pacing and yield intelligence over your existing ad server, current as of this morning's sync.",
         image: "../../brand-assets/WEBP/69fb34a37abc32670956d9d8_22a3b8e403e4a9722e6b5bc578c29054_solutions_01_2x.webp"
       },
       {
         title: "Resolve identity once, benefit everywhere",
-        description: "Audience Builder — one first-party audience foundation that powers recommendations, ad targeting, and advertiser-facing segments alike.",
+        description: "Audience Builder — one first-party foundation powering recommendations, ad targeting, and advertiser segments alike.",
         image: "../../brand-assets/WEBP/69fb34a30469825a78728f33_bbf22870ed50f2db542dcc3757717812_solutions_06_2x.webp"
       }
     ]
@@ -305,7 +305,7 @@ export const industryConfig = {
 
   // ── FINAL CTA ──────────────────────────────────────────────
   finalCta: {
-    headline: "Stop choosing between the ad revenue and the viewer.",
+    headline: "Grow ad revenue and keep the viewer.",
     cta: { text: "Book a Demo", href: "/demo" },
   },
 };

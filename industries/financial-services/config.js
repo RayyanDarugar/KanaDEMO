@@ -61,7 +61,7 @@ export const industryConfig = {
   // ── HERO ───────────────────────────────────────────────────
   hero: {
     headline: "Financial Services Marketers Can't Act on <em>the Signals They Already Have</em>",
-    subheadline: "Banks, insurers, and wealth managers are sitting on extraordinarily rich customer data — but compliance constraints, legacy systems, and siloed channels prevent that data from ever powering real-time, relevant marketing. Kana gives you faster answers on campaign performance, self-serve cross-sell audiences, and one connected view of the customer across digital and branch.",
+    subheadline: "Kana turns the rich customer data banks, insurers, and wealth managers already hold into real-time, relevant marketing.",
     primaryCta: { text: "Book a Demo", href: "/demo" },
     secondaryCta: { text: "See how it works", href: "#solutions" },
     image: "../../brand-assets/AVIF/6a073850eee60cd0e1af591d_Solutions.avif",
@@ -70,16 +70,16 @@ export const industryConfig = {
   // ── PAIN POINTS ─────────────────────
   painPoints: [
     {
-      title: "Product offers aren't timed to life events or behavioral signals",
-      description: "A customer who just got married, changed employers, or made a large transfer should trigger a tailored offer within hours — not appear on a quarterly campaign list. Trigger-based programs return 5x+ what batch calendars do, but the calendar survives because nothing faster clears review.",
+      title: "Offers aren't timed to life events",
+      description: "A marriage, new job, or large transfer should trigger an offer within hours, not the next quarterly campaign. Trigger-based offers return 5x+ what batch campaigns do.",
     },
     {
-      title: "Compliance review slows campaign velocity to a crawl",
-      description: "Every campaign variant, audience segment, and triggered message requires compliance sign-off — creating multi-week bottlenecks that kill the timeliness personalization requires. The average review cycle runs 5–15 business days per asset.",
+      title: "Compliance review stalls campaign velocity",
+      description: "Every campaign variant needs compliance sign-off — a cycle that runs 5–15 business days per asset.",
     },
     {
-      title: "Branch and digital channels operate independently",
-      description: "A customer's digital browsing behavior — researching a mortgage, exploring investment products — never reaches the branch associate before the next appointment. The banker works from a static CRM record while the customer wonders why the app knew and the branch didn't.",
+      title: "Branch and digital never sync",
+      description: "A customer's mortgage research never reaches the branch before the next appointment — the banker works from a static record while the app already knows.",
     },
   ],
 
@@ -88,8 +88,8 @@ export const industryConfig = {
     {
       feature: "Marketing Intelligence",
       roleLabel: "Built for Marketing Ops & Compliance Teams",
-      title: "Turn campaign performance into answers your team can act on",
-      description: "Marketing Intelligence lets marketing ops ask plain-language questions about campaign performance and get grounded answers in seconds, plus weekly narratives your team reviews and approves before they go out. Every suggested action comes with the evidence behind it, and nothing ships without a human sign-off — insight-to-action drops from weeks to hours.",
+      title: "Campaign answers your team can act on",
+      description: "Marketing Intelligence answers plain-language questions about campaign performance in seconds, with weekly narratives your team reviews before they ship — every suggestion backed by evidence, nothing without human sign-off.",
       icon: "../../brand-assets/SVG/699017579f378c81f5094a40_Analytics.svg",
       image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc0a301e7e98b87934a_solution-bg__4.jpg",
@@ -99,7 +99,7 @@ export const industryConfig = {
       feature: "Audience Builder",
       roleLabel: "Built for Analytics & Cross-Sell Teams",
       title: "Cross-sell audiences in minutes, not sprints",
-      description: "Audience Builder lets your team build precise cross-sell segments — the right customers, filtered by product ownership, behavior, and recency — directly against your CRM, loyalty, and transaction data, with no data-science queue in between. A customer's third product keeps them nearly seven years instead of eighteen months; Audience Builder gets you to that segment the same day you think of it.",
+      description: "Audience Builder builds precise cross-sell segments directly against your CRM, loyalty, and transaction data — no data-science queue, ready the same day. A third product keeps a customer nearly seven years, versus eighteen months with one.",
       icon: "../../brand-assets/SVG/6a07370afa74e1a989f5eb11_Audience Manager.svg",
       image: "../../brand-assets/WEBP/69fb34a3693f25a94988df0e_5897b8bc1884f86278bb63a02dc23207_solutions_05_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc05e660038226b085c_solution-bg__5.jpg",
@@ -109,7 +109,7 @@ export const industryConfig = {
       feature: "Agentic Data Platform",
       roleLabel: "Built for Retail Network & Branch Experience Teams",
       title: "The mortgage they researched Tuesday reaches the banker by Wednesday",
-      description: "The Agentic Data Platform connects your digital channels and CRM into one governed customer view, so the apps your teams already use can surface what a customer has been exploring — instead of relationship bankers working from a lead list that's already out of date.",
+      description: "The Agentic Data Platform connects digital and CRM data into one governed customer view, so bankers see what a customer's been exploring instead of an outdated lead list.",
       icon: "../../brand-assets/SVG/69901757d8ab518db4cb3c52_Synthetic Data Generation.svg",
       image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc04b820e89c641b48b_solution-bg__1.jpg",
@@ -119,7 +119,7 @@ export const industryConfig = {
       feature: "Personalization",
       roleLabel: "Built for Lifecycle & CRM Teams",
       title: "Offers built around the customer, not the calendar",
-      description: "Personalization scores every customer's next-best offer — channel, content, timing, frequency — from their real behavior and account activity, with a plain-language reason behind each one, for your team to review and send. The customer who just changed employers or made a large transfer gets matched to a tailored offer within hours of approval — instead of surfacing on the next quarterly campaign list after the moment has passed.",
+      description: "Personalization scores every customer's next-best offer — channel, content, timing — from real behavior, with a plain-language reason your team reviews first. A customer who just changed jobs or moved money gets a tailored offer within hours, not on the next quarterly list.",
       icon: "../../brand-assets/SVG/699017586c99f26d8f0a4085_Customer Engagement.svg",
       image: "../../brand-assets/WEBP/69fb34a3244de10cf3d7a9a5_5b797b2c34c52d464bce0b2b1d520ea3_solutions_04_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc03bbf9cc8a6b457ff_solution-bg__3.jpg",
@@ -145,11 +145,11 @@ export const industryConfig = {
   faq: [
     {
       q: "How does Kana fit into our compliance review process?",
-      a: "Marketing Intelligence doesn't sit inside your compliance workflow today — it sits upstream, giving marketing ops plain-language answers on campaign performance and narratives that go through your team's review and approval before anyone sees them."
+      a: "Marketing Intelligence sits upstream of compliance — it gives marketing ops plain-language answers on campaign performance, with narratives reviewed and approved by your team before anyone sees them."
     },
     {
       q: "How does Kana handle model risk and AI governance?",
-      a: "Kana ships with centralized data governance and AI policy management — every model and agent runs with human oversight, documented logic, and audit-ready controls. That maps to how supervisory guidance treats AI marketing tools under model-risk frameworks like SR 11-7: inventory, validation, and ongoing monitoring, not black boxes."
+      a: "Kana ships with centralized data governance and AI policy management — every model and agent runs with human oversight, documented logic, and audit-ready controls, matching how supervisory guidance like SR 11-7 treats AI marketing tools: inventory, validation, and ongoing monitoring, not black boxes."
     },
   ],
 
@@ -159,13 +159,13 @@ export const industryConfig = {
       role: "Director of Lifecycle & CRM Marketing",
       painPoints: [
         {
-          text: "Offers ship on the quarterly campaign calendar while the life events that should trigger them — marriage, job change, large transfer — pass unanswered.",
+          text: "Life events — marriage, job change, large transfer — pass unanswered while offers wait for the quarterly calendar.",
         },
         {
-          text: "Trigger-based programs return 5x+ what batch campaigns do, but every triggered variant needs its own compliance sign-off, so the calendar survives.",
+          text: "Trigger-based programs return 5x+ what batch campaigns do, but the calendar survives anyway.",
         },
         {
-          text: "Journeys run on time-of-quarter logic in a legacy automation platform, not on the behavioral and transactional signals the institution already holds.",
+          text: "Journeys run on time-of-quarter logic, not on the behavioral and transactional signals the institution already holds.",
         }
       ],
       solution: {
@@ -179,13 +179,13 @@ export const industryConfig = {
       role: "Marketing Operations Manager",
       painPoints: [
         {
-          text: "Every campaign variant and audience segment enters a 5–15 business day compliance review cycle before it can ship.",
+          text: "Every campaign and audience segment sits in a 5–15 business day compliance review before it ships.",
         },
         {
-          text: "Revision tracking across marketing, compliance, and legal is the documented bottleneck — and the audit trail is assembled by hand.",
+          text: "Tracking revisions across marketing, compliance, and legal is the bottleneck — the audit trail is built by hand.",
         },
         {
-          text: "Regulators ask for review turnaround, rework rates, and time-to-archive — metrics the current email-thread workflow can't produce.",
+          text: "Regulators ask for review turnaround, rework rates, and time-to-archive — metrics an email-thread workflow can't produce.",
         }
       ],
       solution: {
@@ -199,13 +199,13 @@ export const industryConfig = {
       role: "Director of Marketing Analytics",
       painPoints: [
         {
-          text: "Cross-sell programs fire on simple behavioral rules instead of models that predict propensity, timing, and channel preference simultaneously.",
+          text: "Cross-sell programs fire on simple rules instead of models that predict propensity, timing, and channel together.",
         },
         {
-          text: "Propensity models still run on demographics and campaign response; the transaction-level models that actually predict need data-science capacity the team doesn't have.",
+          text: "Propensity models run on demographics, not transaction data — building that takes data-science capacity the team lacks.",
         },
         {
-          text: "The products-per-customer report is the profit metric that matters — a three-product customer stays 6.8 years — and the current triggers barely move it.",
+          text: "Products-per-customer is the profit metric that matters — a three-product customer stays 6.8 years — and current triggers barely move it.",
         }
       ],
       solution: {
@@ -219,10 +219,10 @@ export const industryConfig = {
       role: "Head of Retail Network",
       painPoints: [
         {
-          text: "Relationship bankers prepare for appointments from static CRM lead lists that lack depth and context.",
+          text: "Bankers prepare for appointments from static, shallow CRM lead lists.",
         },
         {
-          text: "A customer's digital browsing — mortgage research, investment product pages — never reaches the branch before the conversation happens.",
+          text: "A customer's mortgage research or investment browsing never reaches the branch before the conversation happens.",
         },
         {
           text: "Customers experience the institution as two businesses: an app that knows them and a branch that doesn't.",
@@ -239,13 +239,13 @@ export const industryConfig = {
       role: "CMO / Head of Retail Marketing",
       painPoints: [
         {
-          text: "72% of customers say personalization influences where they bank; only 3% use the personalization tools the institution offers.",
+          text: "72% of customers say personalization decides where they bank; only 3% use the tools offered.",
         },
         {
-          text: "Fintechs lead incumbents 47% to 30% in advanced AI adoption — shipping in hours what takes the institution three weeks.",
+          text: "Fintechs lead 47% to 30% in advanced AI adoption, shipping in hours what takes incumbents weeks.",
         },
         {
-          text: "The board expects an AI answer that survives model-risk review, while 78% of banks remain stuck in tactical genAI pilots.",
+          text: "The board wants an AI answer that survives model-risk review; 78% of banks are stuck in tactical pilots.",
         }
       ],
       solution: {
@@ -263,21 +263,21 @@ export const industryConfig = {
     columns: [
       {
         title: "Get answers in seconds, not days",
-        description: "Plain-language questions over your campaign data get grounded answers in seconds, with narratives your team reviews and approves before anyone else sees them.",
+        description: "Ask plain-language questions, get grounded answers in seconds — reviewed by your team first.",
         linkLabel: "Learn more about Marketing Intelligence",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp"
       },
       {
-        title: "Find the third-product customer in minutes, not sprints",
-        description: "Build precise cross-sell segments directly against CRM, loyalty, and transaction data — no data-science queue — for the audiences that compound tenure and deposits.",
+        title: "Find the third-product customer in minutes",
+        description: "Build precise cross-sell segments directly against your customer data — no data-science queue, no waiting.",
         linkLabel: "Learn more about Audience Builder",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a3693f25a94988df0e_5897b8bc1884f86278bb63a02dc23207_solutions_05_2x.webp"
       },
       {
         title: "Give the branch what the app already knows",
-        description: "Digital and CRM data connect into one governed customer view, so the tools your branch teams use can start the conversation where the customer's research left off.",
+        description: "One connected view lets branch teams pick up where the customer's research left off.",
         linkLabel: "Learn more about the Agentic Data Platform",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a3244de10cf3d7a9a5_5b797b2c34c52d464bce0b2b1d520ea3_solutions_04_2x.webp"
@@ -292,7 +292,7 @@ export const industryConfig = {
     heading: "Read our latest content for financial services teams",
     type: "White Paper",
     title: "Acting on the signals you already have",
-    description: "Banks hold the richest first-party data in any industry and ship the slowest campaigns. How leading institutions are compressing compliance cycles and turning life events into offers — without loosening a single control.",
+    description: "Banks hold the richest data and ship the slowest campaigns — how leading institutions compress compliance cycles without loosening a single control.",
     cta: { text: "Read now", href: "/content" },
     image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp",
   },
@@ -308,21 +308,21 @@ export const industryConfig = {
       { text: "BigQuery", className: "color-bigquery" },
       { text: "your stack", className: "color-kana" },
     ],
-    subtitle: "Connects to Salesforce, Adobe, Braze, your core banking data, and your compliance archive — no rip-and-replace, no migration, no new governance gaps.",
+    subtitle: "Connects to Salesforce, Adobe, Braze, your core banking data, and compliance archive — no rip-and-replace, no new governance gaps.",
     columns: [
       {
-        title: "Get decision-grade answers without waiting on a data team",
-        description: "Marketing Intelligence — plain-language questions over your campaign data, answered in seconds, with narratives and suggested actions that go through your team's review before they ship.",
+        title: "Get decision-grade answers without a data team",
+        description: "Marketing Intelligence — plain-language answers on campaign data in seconds, reviewed by your team before they ship.",
         image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp"
       },
       {
-        title: "Build cross-sell segments without a modeling backlog",
-        description: "Audience Builder — self-serve segmentation on the CRM, loyalty, and transaction data you already hold, with governance and documentation that stand up to model-risk review.",
+        title: "Cross-sell segments without a modeling backlog",
+        description: "Audience Builder — self-serve segmentation on data you already hold, backed by governance that stands up to model-risk review.",
         image: "../../brand-assets/WEBP/69fb34a3693f25a94988df0e_5897b8bc1884f86278bb63a02dc23207_solutions_05_2x.webp"
       },
       {
-        title: "Give every banker the context the app already has",
-        description: "Agentic Data Platform — digital and CRM data connect into one governed customer view your relationship bankers' tools can draw on. One customer, one story, on both sides of the counter.",
+        title: "Give every banker the app's context",
+        description: "Agentic Data Platform — digital and CRM data connect into one governed view for your bankers' tools. One customer, one story, on both sides of the counter.",
         image: "../../brand-assets/WEBP/69fb34a30469825a78728f33_bbf22870ed50f2db542dcc3757717812_solutions_06_2x.webp"
       }
     ]

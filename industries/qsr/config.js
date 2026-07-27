@@ -61,7 +61,7 @@ export const industryConfig = {
   // ── HERO ───────────────────────────────────────────────────
   hero: {
     headline: "QSR Brands Can't Localize <em>at the Speed of Real Life</em>",
-    subheadline: "With thousands of locations, micro-level demand variation, and app-driven loyalty as the primary growth lever, QSR marketers face a scale problem generic campaign tools weren't built to solve. Kana gives you budget that keeps pace with what's converting, offers that respect real kitchen conditions, and targeting that adjusts as demand shifts.",
+    subheadline: "Kana gives QSR marketers budget, offers, and targeting that move as fast as demand does — store by store.",
     primaryCta: { text: "Book a Demo", href: "/demo" },
     secondaryCta: { text: "See how it works", href: "#solutions" },
     image: "../../brand-assets/AVIF/6a0738509e86699ed6c6bd9e_Solutions-1.avif",
@@ -70,16 +70,16 @@ export const industryConfig = {
   // ── PAIN POINTS ─────────────────────
   painPoints: [
     {
-      title: "Location-level performance variance isn't informing media spend",
-      description: "National campaigns get applied uniformly even when individual markets have radically different traffic patterns, competitive sets, and menu preferences. Your franchisees fund the ad dollars — and they can see which stores the national calendar left behind.",
+      title: "Media spend ignores location-level performance",
+      description: "Campaigns run uniformly, even as traffic and menu mix vary by market — and franchisees can see which stores got left out.",
     },
     {
-      title: "App engagement triggers are disconnected from operations",
-      description: "Push notifications go out based on time-of-day rules, not real signals — causing offers to drop when an item is 86'd or kitchen capacity is overwhelmed. The guest finds out at the counter, and the store wears the miss.",
+      title: "Engagement triggers ignore store operations",
+      description: "Offers fire on time-of-day rules, not real signals — so they go out for 86'd items, and the guest finds out at the counter.",
     },
     {
       title: "Day-part targeting doesn't adjust dynamically",
-      description: "Breakfast, lunch, and dinner campaigns run on calendar schedules — unresponsive to weather, events, traffic, or competitive promotions that shift customer demand in real time. Most QSR purchases resolve in under 30 minutes; media locked 30 days ago can't be present in that moment.",
+      description: "Day-part campaigns run on a fixed calendar, blind to weather, events, and competitor moves. When most QSR purchases resolve in minutes, a plan locked weeks out can't keep pace.",
     },
   ],
 
@@ -89,7 +89,7 @@ export const industryConfig = {
       feature: "Campaign Orchestrator",
       roleLabel: "Built for Field & Franchise Marketing Teams",
       title: "Spend that follows the market, not the national average",
-      description: "Campaign Orchestrator continuously compares how every channel is performing and recommends where the next dollar should go — with your team approving every move before spend shifts. Instead of a plan set once and left to run, budget keeps pace with what's actually converting. The weekly comp readout stops being a record of decisions made three weeks too late.",
+      description: "Campaign Orchestrator shifts budget to whatever channel is converting right now, with your team approving every move. The weekly comp readout stops being a record of decisions made three weeks too late.",
       icon: "../../brand-assets/SVG/69901757ec677b2ce290fcb4_Smarter Campaign Management.svg",
       image: "../../brand-assets/WEBP/69fb34a37abc32670956d9d8_22a3b8e403e4a9722e6b5bc578c29054_solutions_01_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc04b820e89c641b48b_solution-bg__1.jpg",
@@ -98,7 +98,7 @@ export const industryConfig = {
       feature: "Agentic Data Platform",
       roleLabel: "Built for CRM & Lifecycle Teams",
       title: "Offers that check the kitchen before they send",
-      description: "The Agentic Data Platform keeps your campaign tools working from the same operational picture as your stores — so when an item gets 86'd or the line is at capacity, your team can catch and adjust the offer that would have promoted it before it goes out, instead of finding out from a guest complaint. Marketing stops promising what operations can't serve.",
+      description: "The Agentic Data Platform keeps campaign tools synced to store operations, so an 86'd item's offer gets caught before it sends — not flagged by a guest complaint. Marketing stops promising what operations can't serve.",
       icon: "../../brand-assets/SVG/69901757d8ab518db4cb3c52_Synthetic Data Generation.svg",
       image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc0a301e7e98b87934a_solution-bg__4.jpg",
@@ -107,8 +107,8 @@ export const industryConfig = {
     {
       feature: "Audience Builder",
       roleLabel: "Built for Media & Campaign Teams",
-      title: "Audiences that are ready the moment demand shifts",
-      description: "Audience Builder builds precise, sized segments straight from your CRM and loyalty data — with suppression logic built in, so recent purchasers and opt-outs are automatically excluded. Instead of a two-week ticket to the data team, breakfast, lunch, and dinner segments are ready in minutes, so the offer goes out while the moment is still there.",
+      title: "Audiences ready the moment demand shifts",
+      description: "Audience Builder builds sized, suppressed segments straight from your CRM and loyalty data — in minutes, not the two-week ticket to the data team. The offer goes out while the moment's still there.",
       icon: "../../brand-assets/SVG/6a07370afa74e1a989f5eb11_Audience Manager.svg",
       image: "../../brand-assets/WEBP/69fb34a3693f25a94988df0e_5897b8bc1884f86278bb63a02dc23207_solutions_05_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc05e660038226b085c_solution-bg__5.jpg",
@@ -118,7 +118,7 @@ export const industryConfig = {
       feature: "Personalization",
       roleLabel: "Built for Loyalty Teams",
       title: "Offer logic built per member, not per program",
-      description: "Personalization builds individualized offer logic per loyalty member — maximizing incremental visits without cannibalizing full-price purchase behavior. Instead of every member getting the same buy-10-get-1 regardless of visit frequency, order history, channel preference, or price sensitivity, each offer is calibrated to add a visit that wasn't already coming.",
+      description: "Personalization builds individualized offer logic per member, so each offer adds a visit that wasn't already coming — not the same buy-10-get-1 for everyone, regardless of how often they visit.",
       icon: "../../brand-assets/SVG/699017586c99f26d8f0a4085_Customer Engagement.svg",
       image: "../../brand-assets/WEBP/69fb34a3244de10cf3d7a9a5_5b797b2c34c52d464bce0b2b1d520ea3_solutions_04_2x.webp",
       bg: "../../brand-assets/JPG/6a073cc03bbf9cc8a6b457ff_solution-bg__3.jpg",
@@ -144,11 +144,11 @@ export const industryConfig = {
   faq: [
     {
       q: "How does Kana connect to our restaurant stack?",
-      a: "Via API. Kana connects to your warehouse and the marketing, loyalty, and ordering systems you run today — no rip-and-replace, no data migration. Kana's solutions team scopes the connection list with you and gets you to first usable data fast, with exact timing set per engagement."
+      a: "Via API. Kana connects to your warehouse, marketing, loyalty, and ordering systems — no rip-and-replace, no data migration. Kana's team scopes the connection list with you and sets timing per engagement."
     },
     {
       q: "How does the Agentic Data Platform know what's happening in the kitchen?",
-      a: "It's built to work from the same operational signals your stores already produce — inventory and 86'd-item status, order volume, kitchen capacity — so offer decisions can reflect current conditions instead of a calendar set weeks ago. Every rule runs with your team's review before an offer goes out."
+      a: "It reads the same operational signals your stores already produce — inventory, 86'd-item status, order volume, kitchen capacity — so offers reflect current conditions, not a stale calendar. Your team still reviews every rule first."
     },
   ],
 
@@ -158,10 +158,10 @@ export const industryConfig = {
       role: "Field / Franchise Marketing Manager",
       painPoints: [
         {
-          text: "The weekly comp-sales readout shows store-level variance the national calendar ignores — and the operators funding the ad fund can see it too.",
+          text: "The weekly comp-sales readout shows variance the national calendar ignores — and franchisees can see it too.",
         },
         {
-          text: "Co-op and DMA budget allocations are set quarterly in spreadsheets, with no mechanism to shift spend when one market's traffic diverges.",
+          text: "Co-op and DMA budgets are locked quarterly, with no way to shift spend when a market's traffic diverges.",
         },
         {
           text: "Franchisees contribute 2–7% of gross sales to pooled marketing funds and demand proof it moves their stores — not the system average.",
@@ -178,13 +178,13 @@ export const industryConfig = {
       role: "Director of CRM & Lifecycle",
       painPoints: [
         {
-          text: "Push notifications fire on time-of-day rules — the offer goes out whether or not the kitchen can absorb it.",
+          text: "Push notifications fire on time-of-day rules, whether or not the kitchen can absorb the offer.",
         },
         {
-          text: "Offers drop for items that got 86'd an hour ago, and the guest finds out at the counter.",
+          text: "Offers drop for items 86'd an hour ago — the guest finds out at the counter.",
         },
         {
-          text: "Setting up one offer campaign means configuring two disconnected systems — the loyalty platform and the messaging platform — neither of which reads store operations.",
+          text: "One offer campaign means configuring two disconnected systems — loyalty and messaging — neither of which reads store operations.",
         }
       ],
       solution: {
@@ -198,13 +198,13 @@ export const industryConfig = {
       role: "Director of Media",
       painPoints: [
         {
-          text: "Day-part campaigns run on calendar schedules locked 30+ days out, while weather, events, and competitor promotions shift demand daily.",
+          text: "Day-part campaigns run on schedules locked 30+ days out, while weather, events, and competitors shift demand daily.",
         },
         {
-          text: "DMA-level plans are deployed once and optimized weekly at best — but most QSR purchase decisions resolve in under 30 minutes.",
+          text: "DMA-level plans deploy once and optimize weekly at best — but most QSR purchases resolve in under 30 minutes.",
         },
         {
-          text: "Weather-triggered local campaigns show double-digit traffic lifts, but the current stack has no way to run them at hundreds of locations.",
+          text: "Weather-triggered campaigns show double-digit traffic lifts, but the current stack can't run them at hundreds of locations.",
         }
       ],
       solution: {
@@ -218,10 +218,10 @@ export const industryConfig = {
       role: "Director of Loyalty",
       painPoints: [
         {
-          text: "Every loyalty member gets the same buy-10-get-1 offer, regardless of visit frequency, order history, channel preference, or price sensitivity.",
+          text: "Every loyalty member gets the same buy-10-get-1, regardless of how often they visit or what they buy.",
         },
         {
-          text: "Blanket offers subsidize visits that were already coming — discount spend cannibalizes full-price behavior instead of adding traffic.",
+          text: "Blanket offers subsidize visits that were already coming, cannibalizing full-price behavior instead of adding traffic.",
         },
         {
           text: "Loyalty members visit 76% more often than non-members, but the program treats its heaviest and lightest users identically.",
@@ -238,13 +238,13 @@ export const industryConfig = {
       role: "VP Restaurant Marketing / CMO",
       painPoints: [
         {
-          text: "The industry is discounting harder than any time in 50 years — 30% of visits are deal-driven — and traffic is still declining.",
+          text: "Discounting is at a 50-year high — 30% of visits are deal-driven — and traffic keeps declining anyway.",
         },
         {
           text: "83% of major QSR brands have worse retention than when the value wars started; discounts bought visits, not loyalty.",
         },
         {
-          text: "The quarterly ad-fund ROI review with the franchisee council runs on manually stitched POS lift and media reports.",
+          text: "The quarterly ad-fund review with the franchisee council runs on manually stitched POS and media reports.",
         }
       ],
       solution: {
@@ -262,21 +262,21 @@ export const industryConfig = {
     columns: [
       {
         title: "Spend follows the market, not the average",
-        description: "Budget optimization surfaces where the next dollar performs best across your channel mix — with every reallocation reviewed by your team before spend moves — so high-variance markets stop running on the national mean.",
+        description: "Budget shifts to whatever's converting, reviewed by your team first — no more high-variance markets stuck on the national mean.",
         linkLabel: "Learn more about Campaign Orchestrator",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a37abc32670956d9d8_22a3b8e403e4a9722e6b5bc578c29054_solutions_01_2x.webp"
       },
       {
         title: "Offers that check the 86 board first",
-        description: "Kana keeps your campaign tools working from the same operational picture as your stores, so your team can catch and adjust an offer before it goes out — before the guest finds out at the counter.",
+        description: "Kana keeps campaign tools synced to store operations, so your team catches a bad offer before the guest does — at the counter.",
         linkLabel: "Learn more about the Agentic Data Platform",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp"
       },
       {
-        title: "Segments that are ready before the moment passes",
-        description: "Audiences build straight from your CRM and loyalty data in minutes, not weeks — with suppression built in — so day-part campaigns launch from a current segment while the demand is still there.",
+        title: "Segments ready before the moment passes",
+        description: "Audiences build in minutes, not weeks, with suppression built in — so campaigns launch while the demand is still there.",
         linkLabel: "Learn more about Audience Builder",
         linkHref: "#solutions",
         image: "../../brand-assets/WEBP/69fb34a3693f25a94988df0e_5897b8bc1884f86278bb63a02dc23207_solutions_05_2x.webp"
@@ -291,7 +291,7 @@ export const industryConfig = {
     heading: "Read our latest content for QSR teams",
     type: "White Paper",
     title: "Localizing at the speed of real life: the QSR playbook",
-    description: "The industry is discounting harder than any time in 50 years and retention is still falling. How leading QSR brands are replacing national averages with market-level signal — and winning back traffic without buying it.",
+    description: "Discounting is at a 50-year high, yet retention keeps falling. Leading QSR brands are swapping national averages for market signal — and winning traffic back without buying it.",
     cta: { text: "Read now", href: "/content" },
     image: "../../brand-assets/WEBP/69fb34a37abc32670956d9d8_22a3b8e403e4a9722e6b5bc578c29054_solutions_01_2x.webp",
   },
@@ -311,17 +311,17 @@ export const industryConfig = {
     columns: [
       {
         title: "Reallocate budget without hiring a planner per channel",
-        description: "Campaign Orchestrator — performance signals drive budget reallocation across your channel mix, with every move reviewed by your team before it ships. The channels the pooled fund used to run on autopilot get plans shaped by what's actually converting.",
+        description: "Campaign Orchestrator moves budget to whatever's converting, reviewed by your team first. Channels that used to run on autopilot finally get a real plan.",
         image: "../../brand-assets/WEBP/69fb34a37abc32670956d9d8_22a3b8e403e4a9722e6b5bc578c29054_solutions_01_2x.webp"
       },
       {
-        title: "Keep campaigns honest about what the kitchen can deliver",
-        description: "Agentic Data Platform — keeps your campaign tools working from the same operational picture as your stores, so offers can be caught and adjusted before they go out. Marketing and operations stop finding out about each other from guest complaints.",
+        title: "Keep campaigns honest about the kitchen",
+        description: "Agentic Data Platform keeps campaign tools synced to store operations, so offers get caught before they go out — not flagged by a guest complaint.",
         image: "../../brand-assets/WEBP/69fb34a31a129b5fca1a3a28_5bbb99b43fa1d364ae8f85634209f73a_solutions_02_2x.webp"
       },
       {
         title: "Build the segment, not just the demographic",
-        description: "Audience Builder — sized, suppressed segments build straight from your CRM and loyalty data in minutes. Proximity, trade area, and visit timing live in your data; your campaigns finally act on it fast enough to matter.",
+        description: "Audience Builder builds sized, suppressed segments from your CRM and loyalty data in minutes — fast enough for campaigns to finally act on it.",
         image: "../../brand-assets/WEBP/69fb34a30469825a78728f33_bbf22870ed50f2db542dcc3757717812_solutions_06_2x.webp"
       }
     ]
