@@ -230,7 +230,7 @@ export const industryConfig = {
           text: "E-commerce, in-store, app, and loyalty data sit apart, so every audience package is bespoke.",
         },
         {
-          text: "Only 48% of US retail media networks offer clean-room capabilities, and 39% of clean-room users struggle to activate them.",
+          text: "Only 48% of US retail media networks offer clean rooms — and many that do struggle to activate them.",
         },
         {
           text: "Methodology debates over incrementality burn the week — the same data can swing 6×.",

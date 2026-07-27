@@ -179,7 +179,7 @@ export const industryConfig = {
           text: "Win-back defaults to blanket discounts that burn margin on shoppers who would have returned at full price anyway.",
         },
         {
-          text: "89% of executives believe loyalty is up; only 39% of consumers agree (NIQ).",
+          text: "Executives are convinced loyalty is climbing; consumers and the cohort data say otherwise (NIQ).",
         }
       ],
       solution: {

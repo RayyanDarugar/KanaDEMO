@@ -161,7 +161,7 @@ export const industryConfig = {
           text: "Gap-closure campaigns reach all members equally while HEDIS becomes the heaviest-weighted Stars category — 26% of the rating.",
         },
         {
-          text: "A half-star drop is real money: one plan lost $12M in revenue moving from 4 to 3.5 stars.",
+          text: "A half-star drop is real money: one plan lost $12M in revenue from a single rating downgrade.",
         },
         {
           text: "Care-gap lists arrive late; outreach stays hand-built per measure.",
@@ -221,7 +221,7 @@ export const industryConfig = {
           text: "Reminder sequences ignore a member's no-show history and channel preference.",
         },
         {
-          text: "Automated reminders cut no-shows 30–60% — and then plateau: four in ten medical groups have seen rates rise anyway.",
+          text: "Automated reminders cut no-shows at first, then plateau — four in ten medical groups have seen rates climb back anyway.",
         },
         {
           text: "Every empty slot costs roughly $200, and the monthly no-show report only explains it after the revenue is gone.",
@@ -238,10 +238,10 @@ export const industryConfig = {
       role: "CMO / VP Marketing",
       painPoints: [
         {
-          text: "68% of healthcare CMOs face budget cuts and 52% face staff reductions — while members expect retail- and banking-level personalization.",
+          text: "68% of healthcare CMOs face budget cuts, many alongside staff reductions — while members expect retail- and banking-level personalization.",
         },
         {
-          text: "Member engagement is the #1 payer AI use case, but executive confidence runs 10x ahead of the teams executing it.",
+          text: "Member engagement is a top payer AI use case, but executive confidence runs 10x ahead of the teams executing it.",
         },
         {
           text: "The board wants an AI story that survives both the privacy office and the front page.",

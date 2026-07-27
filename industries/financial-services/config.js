@@ -239,10 +239,10 @@ export const industryConfig = {
       role: "CMO / Head of Retail Marketing",
       painPoints: [
         {
-          text: "72% of customers say personalization decides where they bank; only 3% use the tools offered.",
+          text: "72% of customers say personalization decides where they bank — yet almost none use the tools on offer.",
         },
         {
-          text: "Fintechs lead 47% to 30% in advanced AI adoption, shipping in hours what takes incumbents weeks.",
+          text: "Fintechs are out-adopting incumbents on advanced AI, shipping in hours what takes them weeks.",
         },
         {
           text: "The board wants an AI answer that survives model-risk review; 78% of banks are stuck in tactical pilots.",

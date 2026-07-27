@@ -191,7 +191,7 @@ export const industryConfig = {
           text: "AI-powered search tools answer user queries directly, without sending the traffic that built the audience.",
         },
         {
-          text: "Zero-click searches rose from 56% to 69% in a year; publisher organic traffic dropped by over a quarter.",
+          text: "Zero-click searches rose from 56% to 69% in a year, and publisher organic traffic fell with them.",
         },
         {
           text: "There's no visibility into how, where, or how accurately content appears inside AI answers.",

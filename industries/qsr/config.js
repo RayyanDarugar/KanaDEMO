@@ -238,7 +238,7 @@ export const industryConfig = {
       role: "VP Restaurant Marketing / CMO",
       painPoints: [
         {
-          text: "Discounting is at a 50-year high — 30% of visits are deal-driven — and traffic keeps declining anyway.",
+          text: "Discounting is at a 50-year high, and traffic keeps declining anyway.",
         },
         {
           text: "83% of major QSR brands have worse retention than when the value wars started; discounts bought visits, not loyalty.",

@@ -212,7 +212,7 @@ export const industryConfig = {
           text: "Travel intent and tier signals never reach the campaign logic supposed to act on them.",
         },
         {
-          text: "CRM-acquired guests rebook at 33% versus 6% for OTA-acquired — the timing wastes that advantage.",
+          text: "CRM-acquired guests rebook at several times the rate of OTA-acquired ones — but batch timing wastes that advantage.",
         }
       ],
       solution: {
@@ -229,7 +229,7 @@ export const industryConfig = {
           text: "High-value members get the same email as new subscribers.",
         },
         {
-          text: "Program costs grew 53.6% since 2022 while room revenue grew 44.1%; batch segments can't prove incrementality.",
+          text: "Loyalty-program costs are outgrowing room revenue, and batch segments can't prove incrementality.",
         },
         {
           text: "AI-personalization adopters report 23% more loyalty-attributed revenue; the current stack has no path there.",
